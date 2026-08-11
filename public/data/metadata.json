@@ -1,9 +1,9 @@
 {
   "checkedAt": "2026-08-11",
-  "totalRows": 2635,
-  "excludedRows": 176,
+  "totalRows": 2772,
+  "excludedRows": 175,
   "exclusions": {
-    "Ekipman/aksesuar": 42,
+    "Ekipman/aksesuar": 41,
     "Çikolata/şekerleme": 49,
     "Çay ve içecek tozu": 20,
     "Gıda dışı ürün": 3,
@@ -12,8 +12,8 @@
     "Diğer gıda": 33,
     "Ürün olmayan sayfa": 1
   },
-  "businesses": 174,
-  "namedProducts": 2568,
+  "businesses": 182,
+  "namedProducts": 2705,
   "trackingRecords": 67,
-  "origins": 66
+  "origins": 67
 }

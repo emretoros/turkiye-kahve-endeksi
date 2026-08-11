@@ -1,0 +1,64 @@
+[
+  {
+    "business": "Troika Roasting Co.",
+    "source": "https://troikaroasting.co/products.xml",
+    "candidateUrls": 35,
+    "errors": 0,
+    "errorUrls": [],
+    "recovered": 19
+  },
+  {
+    "business": "Olwen Coffee Company",
+    "source": "https://olwen.com.tr/products.xml",
+    "candidateUrls": 35,
+    "errors": 0,
+    "errorUrls": [],
+    "recovered": 29
+  },
+  {
+    "business": "C.R.E.A.M. Coffee Roastery",
+    "source": "https://creamcoff.com/products.xml",
+    "candidateUrls": 29,
+    "errors": 0,
+    "errorUrls": [],
+    "recovered": 12
+  },
+  {
+    "business": "Savène Coffee Co.",
+    "source": "https://savenecoffee.shop/sitemap.xml",
+    "candidateUrls": 96,
+    "errors": 0,
+    "errorUrls": [],
+    "recovered": 6
+  },
+  {
+    "business": "Must Coffee & Roastery",
+    "source": "https://www.mustco.com.tr/store-products-sitemap.xml",
+    "candidateUrls": 15,
+    "errors": 0,
+    "errorUrls": [],
+    "recovered": 16
+  },
+  {
+    "business": "FUA Coffee",
+    "source": "https://www.shopier.com/ShowProductNew/storefront.php?shop=fuacoffee",
+    "candidateUrls": 10,
+    "errors": 0,
+    "recovered": 4
+  },
+  {
+    "business": "Pacamara Coffee",
+    "source": "https://online.erishelva.com.tr/kategori/turk-kahvesi?marka=pacamara",
+    "candidateUrls": 9,
+    "errors": 0,
+    "errorUrls": [],
+    "recovered": 18
+  },
+  {
+    "business": "Flores Roastery",
+    "source": "https://floresroastery.com/wp-json/wc/store/v1/products?per_page=100",
+    "candidateUrls": 19,
+    "errors": 0,
+    "recovered": 33
+  }
+]

@@ -1,8 +1,10 @@
 ---
 import '../styles/global.css';
 import '../styles/fancy.css';
+import metadata from '../../public/data/metadata.json';
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+const number = new Intl.NumberFormat('tr-TR');
 ---
 <!doctype html>
 <html lang="tr">
@@ -18,7 +20,7 @@ const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
         <a class="brand" href={base} aria-label="Çekirdek Bul ana sayfa">
           <span class="brand-mark">ÇB</span><span>Çekirdek Bul</span>
         </a>
-        <span class="nav-count" id="nav-count">Kavurucu ve ürün verileri yükleniyor</span>
+        <span class="nav-count" id="nav-count">{number.format(metadata.businesses)} kavurucu · {number.format(metadata.namedProducts)} ürün</span>
       </nav>
       <div class="hero-content shell">
         <p class="eyebrow">Türkiye'nin bağımsız çekirdek radarı</p>
@@ -28,9 +30,9 @@ const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
           <a class="button primary" href="#urunler">Çekirdeğini bul <span>↓</span></a>
         </div>
         <div class="stats" aria-label="Veri tabanı özeti">
-          <div><strong id="stat-businesses">151</strong><span>işletme</span></div>
-          <div><strong id="stat-products">—</strong><span>doğrulanmış ürün</span></div>
-          <div><strong id="stat-origins">65</strong><span>menşe sınıfı</span></div>
+          <div><strong id="stat-businesses">{number.format(metadata.businesses)}</strong><span>işletme</span></div>
+          <div><strong id="stat-products">{number.format(metadata.namedProducts)}</strong><span>doğrulanmış ürün</span></div>
+          <div><strong id="stat-origins">{number.format(metadata.origins)}</strong><span>menşe sınıfı</span></div>
           <div><strong>11.08.2026</strong><span>son kontrol</span></div>
         </div>
       </div>
