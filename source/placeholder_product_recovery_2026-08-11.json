@@ -1,0 +1,100 @@
+[
+  {
+    "business": "Cup of Joy",
+    "base": "https://cupofjoy.com.tr",
+    "platform": "shopify",
+    "productsRecovered": 11,
+    "status": "Ürün eklendi"
+  },
+  {
+    "business": "CoffeeNutz",
+    "base": "https://www.coffeenutz.net",
+    "platform": "shopify",
+    "productsRecovered": 121,
+    "status": "Ürün eklendi"
+  },
+  {
+    "business": "Benesso Coffee",
+    "base": "https://benessocoffee.com",
+    "platform": "shopify",
+    "productsRecovered": 33,
+    "status": "Ürün eklendi"
+  },
+  {
+    "business": "Homestead Coffee",
+    "base": "https://homestead.coffee",
+    "platform": "shopify",
+    "productsRecovered": 21,
+    "status": "Ürün eklendi"
+  },
+  {
+    "business": "Mocaco Coffee",
+    "base": "https://mocacocoffee.com",
+    "platform": "shopify",
+    "productsRecovered": 42,
+    "status": "Ürün eklendi"
+  },
+  {
+    "business": "Rumo Coffee",
+    "base": "https://rumo.com.tr",
+    "platform": "shopify",
+    "productsRecovered": 45,
+    "status": "Ürün eklendi"
+  },
+  {
+    "business": "Selamlique İstanbul",
+    "base": "https://selamlique.com",
+    "platform": "shopify",
+    "productsRecovered": 47,
+    "status": "Ürün eklendi"
+  },
+  {
+    "business": "Shazel",
+    "base": "https://shazel.com.tr",
+    "platform": "shopify",
+    "productsRecovered": 265,
+    "status": "Ürün eklendi"
+  },
+  {
+    "business": "Taft Coffee",
+    "base": "https://taftcoffee.com",
+    "platform": "shopify",
+    "productsRecovered": 24,
+    "status": "Ürün eklendi"
+  },
+  {
+    "business": "Clean Cup Coffee",
+    "base": "https://cleancup.coffee",
+    "platform": "woo",
+    "productsRecovered": 10,
+    "status": "Ürün eklendi"
+  },
+  {
+    "business": "Daphne Coffee Co.",
+    "base": "https://daphnecoffee.co",
+    "platform": "woo",
+    "productsRecovered": 5,
+    "status": "Ürün eklendi"
+  },
+  {
+    "business": "Fam Coffee",
+    "base": "https://fam.coffee",
+    "platform": "woo",
+    "productsRecovered": 9,
+    "status": "Ürün eklendi"
+  },
+  {
+    "business": "Grano Coffee",
+    "base": "https://grano.com.tr",
+    "platform": "woo",
+    "productsRecovered": 2,
+    "status": "Ürün eklendi"
+  },
+  {
+    "business": "Kilin Coffee",
+    "base": "https://kilincoffee.com",
+    "platform": "woo",
+    "productsRecovered": 9,
+    "status": "Ürün eklendi"
+  }
+]

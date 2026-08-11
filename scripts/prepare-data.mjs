@@ -21,6 +21,7 @@ const nonCoffeeRules = [
   ['Şurup', /\b(surup|surub|syrup)/],
   ['Çikolata/şekerleme', /\b(cikolata bari?|bean to bar|madlen|draje|lokum|sekerleme|bonte|roche|cookie|kurabiye|granola)\b/],
   ['Gıda dışı ürün', /\b(kolonya|sabun|t-shirt|tisort|canta)/],
+  ['Eğitim/hizmet', /\b(egitim|course|sertifikasyon|workshop|q grader|sensory skills|kahve hasadi turu|barista egitimi)/],
   ['Diğer gıda', /\b(hindistan cevizi|pirinc|chia|corekotu|hibiskus|tuz|kakule|karabiber|karanfil|karbonat|karabugday|keten tohumu|kimyon|kinoa|nar eksisi|nohut unu|tarcin|zencefil|zerdecal)\b/]
 ];
 
@@ -48,7 +49,18 @@ const excluded = products
   .map((row) => ({ ...row, exclusionReason: exclusionReason(row) }))
   .filter((row) => row.exclusionReason);
 
-const coffeeProducts = products.filter((row) => !exclusionReason(row));
+const placeholderBusinesses = new Set();
+const coffeeProducts = products.filter((row) => {
+  if (exclusionReason(row)) return false;
+
+  if (row.catalogStatus === 'Katalog takip kaydı') {
+    const businessKey = normalize(row.business);
+    if (placeholderBusinesses.has(businessKey)) return false;
+    placeholderBusinesses.add(businessKey);
+  }
+
+  return true;
+});
 
 const cleaned = coffeeProducts.map((row, index) => ({
   id: index + 1,

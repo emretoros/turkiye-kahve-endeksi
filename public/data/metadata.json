@@ -1,17 +1,18 @@
 {
   "checkedAt": "2026-08-11",
-  "totalRows": 1629,
-  "excludedRows": 154,
+  "totalRows": 2372,
+  "excludedRows": 175,
   "exclusions": {
-    "Ekipman/aksesuar": 38,
-    "Çikolata/şekerleme": 48,
-    "Çay ve içecek tozu": 19,
+    "Ekipman/aksesuar": 41,
+    "Çikolata/şekerleme": 49,
+    "Çay ve içecek tozu": 20,
     "Gıda dışı ürün": 3,
     "Şurup": 15,
-    "Diğer gıda": 30,
+    "Eğitim/hizmet": 13,
+    "Diğer gıda": 33,
     "Ürün olmayan sayfa": 1
   },
-  "businesses": 150,
-  "namedProducts": 1552,
+  "businesses": 149,
+  "namedProducts": 2318,
   "origins": 66
 }

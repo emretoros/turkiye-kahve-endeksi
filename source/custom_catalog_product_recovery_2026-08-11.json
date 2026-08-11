@@ -1,0 +1,58 @@
+[
+  {
+    "business": "A4 Kahve",
+    "category": "https://a4kahve.com/kahve-cekirdekleri",
+    "productLinks": 8,
+    "recovered": 12,
+    "errors": 1
+  },
+  {
+    "business": "Calibre Coffee",
+    "category": "https://coffeecalibre.com/cekirdek-kahve",
+    "productLinks": 25,
+    "recovered": 51,
+    "errors": 0
+  },
+  {
+    "business": "Federal Coffee",
+    "category": "https://federal.coffee/urunler",
+    "productLinks": 36,
+    "recovered": 19,
+    "errors": 0
+  },
+  {
+    "business": "Gourme Coffee",
+    "category": "https://gourmecoffee.com/kahveler",
+    "productLinks": 31,
+    "recovered": 19,
+    "errors": 0
+  },
+  {
+    "business": "MOC Coffee Roastery",
+    "category": "https://moc.com.tr/cekirdek-kahveler",
+    "productLinks": 19,
+    "recovered": 7,
+    "errors": 0
+  },
+  {
+    "business": "Nitka Coffee",
+    "category": "https://nitkacoffee.com/pages/cekirdek-kahveler",
+    "productLinks": 13,
+    "recovered": 16,
+    "errors": 0
+  },
+  {
+    "business": "Hound Coffee",
+    "category": "https://houndcoffee.com/kahveler",
+    "productLinks": 12,
+    "recovered": 11,
+    "errors": 0
+  },
+  {
+    "business": "Kafein Kültür",
+    "category": "https://www.kafeinkultur.com/nitelikli-kahve",
+    "productLinks": 17,
+    "recovered": 16,
+    "errors": 0
+  }
+]
