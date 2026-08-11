@@ -1,0 +1,80 @@
+---
+import '../styles/global.css';
+const base = import.meta.env.BASE_URL;
+---
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Türkiye'de tüketiciye doğrudan satış yapan kahve kavurucularının ürün, menşe ve fiyat endeksi." />
+    <title>Türkiye Kahve Endeksi</title>
+  </head>
+  <body data-base={base}>
+    <header class="hero">
+      <nav class="nav shell">
+        <a class="brand" href={base} aria-label="Türkiye Kahve Endeksi ana sayfa">
+          <span class="brand-mark">TK</span><span>Türkiye Kahve Endeksi</span>
+        </a>
+        <div class="nav-links">
+          <a href="#urunler">Ürünler</a><a href="#isletmeler">İşletmeler</a><a href="#metodoloji">Metodoloji</a>
+        </div>
+      </nav>
+      <div class="hero-content shell">
+        <p class="eyebrow">Bağımsız ve kaynak bağlantılı veri tabanı</p>
+        <h1>Türkiye'nin kahve çekirdeği<br/><em>keşif endeksi.</em></h1>
+        <p class="hero-copy">Kavurucuları, çekirdekleri ve menşeleri tek yerde inceleyin. Fiyatları karşılaştırın; kaynağa doğrudan gidin.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#urunler">Endeksi keşfet</a>
+          <a class="button ghost" href={`${base}downloads/kahve-endeksi.xlsx`} download>Excel'i indir</a>
+        </div>
+        <div class="stats" aria-label="Veri tabanı özeti">
+          <div><strong id="stat-businesses">151</strong><span>işletme</span></div>
+          <div><strong id="stat-products">1.629</strong><span>ürün kaydı</span></div>
+          <div><strong id="stat-origins">65</strong><span>menşe sınıfı</span></div>
+          <div><strong>11.08.2026</strong><span>son kontrol</span></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="explorer shell" id="urunler">
+        <div class="section-heading">
+          <div><p class="eyebrow dark">Canlı veri görünümü</p><h2>Çekirdekleri keşfedin</h2></div>
+          <p id="result-summary">Veriler hazırlanıyor…</p>
+        </div>
+        <div class="filters">
+          <label class="search-field"><span>Arama</span><input id="search" type="search" placeholder="Ürün veya işletme ara…" /></label>
+          <label><span>Menşe</span><select id="origin"><option value="">Tüm menşeler</option></select></label>
+          <label><span>İşletme</span><select id="business"><option value="">Tüm işletmeler</option></select></label>
+          <label><span>Veri durumu</span><select id="data-status"><option value="">Tüm kayıtlar</option><option value="complete">Fiyat ve gramaj var</option><option value="price">Fiyat var</option><option value="weight">Gramaj var</option><option value="missing">Eksik alan var</option></select></label>
+          <label><span>Sıralama</span><select id="sort"><option value="business">İşletme A–Z</option><option value="price-asc">Fiyat artan</option><option value="kg-asc">TL/kg artan</option><option value="kg-desc">TL/kg azalan</option></select></label>
+        </div>
+        <div class="active-bar"><button id="clear" type="button">Filtreleri temizle</button><span>Her fiyat, ilgili kaynakta görülen kontrol tarihli değerdir.</span></div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>İşletme</th><th>Ürün</th><th>Menşe</th><th>Gramaj</th><th>Fiyat</th><th>TL/kg</th><th>Kaynak</th></tr></thead>
+            <tbody id="product-rows"><tr><td colspan="7" class="loading">Veri yükleniyor…</td></tr></tbody>
+          </table>
+        </div>
+        <div class="pagination"><button id="prev" type="button">← Önceki</button><span id="page-label">1 / 1</span><button id="next" type="button">Sonraki →</button></div>
+      </section>
+
+      <section class="business-section" id="isletmeler">
+        <div class="shell"><div class="section-heading light"><div><p class="eyebrow">Kavurucu dizini</p><h2>İşletmeler</h2></div><p>Her işletmenin endeksteki ürün kapsamı.</p></div><div class="business-grid" id="business-grid"></div></div>
+      </section>
+
+      <section class="method shell" id="metodoloji">
+        <div><p class="eyebrow dark">Nasıl hazırlanıyor?</p><h2>Şeffaf bir başlangıç noktası</h2></div>
+        <div class="method-grid">
+          <article><span>01</span><h3>Kaynak bağlantılı</h3><p>Her kayıt ürün, mağaza veya katalog bağlantısını korur. Ziyaretçi veriyi kaynağından kontrol edebilir.</p></article>
+          <article><span>02</span><h3>Eksik veri saklanmaz</h3><p>Fiyat veya gramaj bulunamadığında ürün dışlanmaz; ilgili alan açıkça “Erişilemedi” olarak gösterilir.</p></article>
+          <article><span>03</span><h3>Anlık fotoğraf</h3><p>Fiyat ve stok bilgileri kontrol tarihine aittir. Satın alma kararı öncesinde kaynak sayfanın kontrol edilmesi gerekir.</p></article>
+        </div>
+        <div class="download-card"><div><h3>Verinin tamamını indirin</h3><p>Analiz veya doğrulama için Excel ve CSV sürümlerine erişin.</p></div><div><a class="button primary" href={`${base}downloads/kahve-endeksi.xlsx`} download>Excel</a><a class="button outline" href={`${base}downloads/kahve-endeksi.csv`} download>CSV</a></div></div>
+      </section>
+    </main>
+    <footer><div class="shell"><span>Türkiye Kahve Endeksi</span><span>Son kontrol: 11 Ağustos 2026</span></div></footer>
+    <script src={`${base}app.js`} defer></script>
+  </body>
+</html>
