@@ -9,7 +9,48 @@ const downloads = path.join(root, 'public', 'downloads');
 await fs.mkdir(publicData, { recursive: true });
 await fs.mkdir(downloads, { recursive: true });
 
-const cleaned = products.map((row, index) => ({
+const normalize = (value) => String(value || '')
+  .toLocaleLowerCase('tr-TR')
+  .normalize('NFKD')
+  .replace(/[\u0300-\u036f]/g, '')
+  .replace(/ı/g, 'i');
+
+const nonCoffeeRules = [
+  ['Ekipman/aksesuar', /\b(server|dripper|chemex|aeropress|v60|phin filtre|filtre kagidi|filter paper|degirmen|ogutucu|tarti|scale|kettle|tamper|tamper mati|pitcher|demleme seti|demleyici|olcu kasigi|kahve torbasi|seramik kupa|kahve kupasi|termos)/],
+  ['Çay ve içecek tozu', /\b(adacay|cay|tea|matcha|salep|sahlep|frappe|smoothie)/],
+  ['Şurup', /\b(surup|surub|syrup)/],
+  ['Çikolata/şekerleme', /\b(cikolata bari?|bean to bar|madlen|draje|lokum|sekerleme|bonte|roche|cookie|kurabiye|granola)\b/],
+  ['Gıda dışı ürün', /\b(kolonya|sabun|t-shirt|tisort|canta)/],
+  ['Diğer gıda', /\b(hindistan cevizi|pirinc|chia|corekotu|hibiskus|tuz|kakule|karabiber|karanfil|karbonat|karabugday|keten tohumu|kimyon|kinoa|nar eksisi|nohut unu|tarcin|zencefil|zerdecal)\b/]
+];
+
+const exclusionReason = (row) => {
+  const haystack = normalize(`${row.product} ${row.url || ''}`);
+
+  // “Çikolatalı kahve” bir kahve ürünüdür; çikolata barı ve sıcak çikolata değildir.
+  if (/\b(sicak cikolata|cikolata kalibi|paper chocolate)\b/.test(haystack)) {
+    return 'Çikolata/şekerleme';
+  }
+  if (/\bcikolata\b/.test(haystack) && !/\b(kahve|filtre|turk|dibek|aromali|espresso)\b/.test(haystack)) {
+    return 'Çikolata/şekerleme';
+  }
+
+  for (const [reason, pattern] of nonCoffeeRules) {
+    if (pattern.test(haystack)) return reason;
+  }
+
+  // Katalog taramasına ürün yerine haber/kurumsal sayfa karışmış kayıtlar.
+  if (/basarisini kalite oduluyle percinledi/.test(haystack)) return 'Ürün olmayan sayfa';
+  return null;
+};
+
+const excluded = products
+  .map((row) => ({ ...row, exclusionReason: exclusionReason(row) }))
+  .filter((row) => row.exclusionReason);
+
+const coffeeProducts = products.filter((row) => !exclusionReason(row));
+
+const cleaned = coffeeProducts.map((row, index) => ({
   id: index + 1,
   business: row.business,
   city: row.city || null,
@@ -35,6 +76,11 @@ const businesses = [...new Set(cleaned.map((row) => row.business))].sort((a, b) 
 const metadata = {
   checkedAt: '2026-08-11',
   totalRows: cleaned.length,
+  excludedRows: excluded.length,
+  exclusions: excluded.reduce((counts, row) => {
+    counts[row.exclusionReason] = (counts[row.exclusionReason] || 0) + 1;
+    return counts;
+  }, {}),
   businesses: businesses.length,
   namedProducts: cleaned.filter((row) => row.catalogStatus === 'Ürün kaydı').length,
   origins: new Set(cleaned.map((row) => row.origin)).size

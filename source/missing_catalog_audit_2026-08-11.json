@@ -1,0 +1,104 @@
+[
+  {
+    "business": "Akademi Kahve",
+    "url": "https://academyroastery.com/tr",
+    "status": "503 — canlı katalog alınamadı",
+    "productsAdded": 0
+  },
+  {
+    "business": "Arabica Coffee House",
+    "url": "https://arabicacoffee.com.tr/urun/cekirdek-kahveler",
+    "status": "Menü sayfası açılıyor; paket gramajı ve çevrim içi satış varyantı doğrulanamadı",
+    "productsAdded": 0
+  },
+  {
+    "business": "Baristas Roastery",
+    "url": "https://www.baristasroastery.com/catalog/kahve-cesitleri",
+    "status": "Hedefli HTML çıkarımı",
+    "productsAdded": 11
+  },
+  {
+    "business": "Coffee Sapiens",
+    "url": "https://www.coffeesapiens.com/",
+    "status": "Bağlantı sıfırlandı — canlı katalog alınamadı",
+    "productsAdded": 0
+  },
+  {
+    "business": "Coffeeizim Coffee Roastery",
+    "url": "https://www.shopier.com/Coffeeizim",
+    "status": "Shopier mağazası üzerinden hedefli HTML çıkarımı",
+    "productsAdded": 23
+  },
+  {
+    "business": "der Röster",
+    "url": "http://derroster.com/",
+    "status": "Alan adının süresi dolmuş",
+    "productsAdded": 0
+  },
+  {
+    "business": "Espressolab",
+    "url": "https://espressolab.com/alisveris",
+    "status": "403 — otomatik erişim engeli",
+    "productsAdded": 0
+  },
+  {
+    "business": "Gönül Kahvesi",
+    "url": "https://www.gonulkahve.com/",
+    "status": "Ana sayfadaki doğrulanmış ürün kartları",
+    "productsAdded": 2
+  },
+  {
+    "business": "Kafeingo",
+    "url": "https://kafeingo.com/",
+    "status": "İstemci tarafı kabuk; ürün kataloğu HTML içinde yok",
+    "productsAdded": 0
+  },
+  {
+    "business": "Kahve Fabrikası",
+    "url": "https://www.kahvefabrikasi.com/kahve",
+    "status": "Hedefli HTML çıkarımı",
+    "productsAdded": 23
+  },
+  {
+    "business": "Kronotrop",
+    "url": "https://www.kronotrop.com.tr/alisveris/kategori/kahveler",
+    "status": "Hedefli HTML çıkarımı",
+    "productsAdded": 18
+  },
+  {
+    "business": "MeetLab Coffee",
+    "url": "https://www.meetlabcoffee.com/",
+    "status": "Bağlantı sıfırlandı — canlı katalog alınamadı",
+    "productsAdded": 0
+  },
+  {
+    "business": "People of Coffee",
+    "url": "https://shop.peopleofcoffee.com.tr/",
+    "status": "Mağaza 500 yanıtı veriyor",
+    "productsAdded": 0
+  },
+  {
+    "business": "RoasterLab",
+    "url": "https://roasterlab.com.tr/",
+    "status": "Alan adı DNS üzerinde çözümlenmiyor",
+    "productsAdded": 0
+  },
+  {
+    "business": "Sedirkent Coffee",
+    "url": "https://www.sedirkent.com.tr/kategori/kahve-cesitleri",
+    "status": "Kategori açılıyor; sunucu HTML’sinde doğrulanabilir ürün bağlantısı yok",
+    "productsAdded": 0
+  },
+  {
+    "business": "Octagon Coffee",
+    "url": "https://octagonroastery.com/",
+    "status": "Ürün kataloğu bulunmayan boş açılış sayfası",
+    "productsAdded": 0
+  },
+  {
+    "business": "Punctum Coffee",
+    "url": "https://punctumcoffee.com/",
+    "status": "Başka marka olan puntacoffee.com alanına yönleniyor; veri eklenmedi",
+    "productsAdded": 0
+  }
+]
