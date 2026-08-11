@@ -1,7 +1,7 @@
 const base = document.body.dataset.base || '/';
 const money = new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'TRY', maximumFractionDigits: 2 });
 const number = new Intl.NumberFormat('tr-TR');
-const els = Object.fromEntries(['search','origin','business','data-status','sort','product-rows','result-summary','business-grid','prev','next','page-label','clear'].map(id => [id, document.getElementById(id)]));
+const els = Object.fromEntries(['search','origin','business','data-status','sort','product-rows','result-summary','prev','next','page-label','clear'].map(id => [id, document.getElementById(id)]));
 let all = [], filtered = [], page = 1;
 const pageSize = 30;
 
@@ -34,17 +34,11 @@ function render() {
   els.prev.disabled = page === 1; els.next.disabled = page === pages;
 }
 
-function renderBusinesses() {
-  const counts = new Map(); all.forEach(row => counts.set(row.business, (counts.get(row.business)||0)+1));
-  els['business-grid'].innerHTML = [...counts].sort((a,b) => b[1]-a[1]).slice(0,12).map(([name,count],i) => `<button class="business-card" data-business="${esc(name)}"><span>${String(i+1).padStart(2,'0')}</span><div><strong>${esc(name)}</strong><small>${number.format(count)} kayıt</small></div><b>→</b></button>`).join('');
-  els['business-grid'].querySelectorAll('button').forEach(button => button.addEventListener('click', () => { els.business.value = button.dataset.business; applyFilters(); document.getElementById('urunler').scrollIntoView({behavior:'smooth'}); }));
-}
-
 Promise.all([fetch(`${base}data/products.json`).then(r=>r.json()), fetch(`${base}data/metadata.json`).then(r=>r.json())]).then(([products, meta]) => {
   all = products; filtered = products;
   fillSelect(els.origin, [...new Set(all.map(r=>r.origin))]); fillSelect(els.business, [...new Set(all.map(r=>r.business))]);
   document.getElementById('stat-businesses').textContent = number.format(meta.businesses); document.getElementById('stat-products').textContent = number.format(meta.namedProducts); document.getElementById('stat-origins').textContent = number.format(meta.origins);
-  render(); renderBusinesses();
+  render();
 }).catch(() => { els['product-rows'].innerHTML = '<tr><td colspan="7" class="loading">Veri yüklenemedi.</td></tr>'; });
 
 ['search','origin','business','data-status','sort'].forEach(id => els[id].addEventListener(id === 'search' ? 'input' : 'change', applyFilters));

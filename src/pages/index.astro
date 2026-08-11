@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import '../styles/fancy.css';
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 ---
@@ -17,17 +18,14 @@ const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
         <a class="brand" href={base} aria-label="Çekirdek Bul ana sayfa">
           <span class="brand-mark">ÇB</span><span>Çekirdek Bul</span>
         </a>
-        <div class="nav-links">
-          <a href="#urunler">Ürünler</a><a href="#isletmeler">İşletmeler</a><a href="#metodoloji">Metodoloji</a>
-        </div>
+        <span class="nav-count">151 kavurucu · 1.711 kayıt</span>
       </nav>
       <div class="hero-content shell">
-        <p class="eyebrow">Bağımsız ve kaynak bağlantılı veri tabanı</p>
-        <h1>Türkiye'nin kahve çekirdeği<br/><em>keşif endeksi.</em></h1>
-        <p class="hero-copy">Kavurucuları, çekirdekleri ve menşeleri tek yerde inceleyin. Fiyatları karşılaştırın; kaynağa doğrudan gidin.</p>
+        <p class="eyebrow">Türkiye'nin bağımsız çekirdek radarı</p>
+        <h1>İyi kahve<br/><em>tesadüf değil.</em></h1>
+        <p class="hero-copy">151 kavurucunun çekirdeklerini tek yerde keşfedin. Menşeyi seçin, fiyatı karşılaştırın, doğru çekirdeğe doğrudan ulaşın.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#urunler">Endeksi keşfet</a>
-          <a class="button ghost" href="#metodoloji">Nasıl hazırlanıyor?</a>
+          <a class="button primary" href="#urunler">Çekirdeğini bul <span>↓</span></a>
         </div>
         <div class="stats" aria-label="Veri tabanı özeti">
           <div><strong id="stat-businesses">151</strong><span>işletme</span></div>
@@ -61,18 +59,6 @@ const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
         <div class="pagination"><button id="prev" type="button">← Önceki</button><span id="page-label">1 / 1</span><button id="next" type="button">Sonraki →</button></div>
       </section>
 
-      <section class="business-section" id="isletmeler">
-        <div class="shell"><div class="section-heading light"><div><p class="eyebrow">Kavurucu dizini</p><h2>İşletmeler</h2></div><p>Her işletmenin endeksteki ürün kapsamı.</p></div><div class="business-grid" id="business-grid"></div></div>
-      </section>
-
-      <section class="method shell" id="metodoloji">
-        <div><p class="eyebrow dark">Nasıl hazırlanıyor?</p><h2>Şeffaf bir başlangıç noktası</h2></div>
-        <div class="method-grid">
-          <article><span>01</span><h3>Kaynak bağlantılı</h3><p>Her kayıt ürün, mağaza veya katalog bağlantısını korur. Ziyaretçi veriyi kaynağından kontrol edebilir.</p></article>
-          <article><span>02</span><h3>Eksik veri saklanmaz</h3><p>Fiyat veya gramaj bulunamadığında ürün dışlanmaz; ilgili alan açıkça “Erişilemedi” olarak gösterilir.</p></article>
-          <article><span>03</span><h3>Anlık fotoğraf</h3><p>Fiyat ve stok bilgileri kontrol tarihine aittir. Satın alma kararı öncesinde kaynak sayfanın kontrol edilmesi gerekir.</p></article>
-        </div>
-      </section>
     </main>
     <footer><div class="shell"><span>Çekirdek Bul</span><span>Son kontrol: 11 Ağustos 2026</span></div></footer>
     <script src={`${base}app.js`} defer></script>
