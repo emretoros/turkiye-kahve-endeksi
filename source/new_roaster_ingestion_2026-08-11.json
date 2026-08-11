@@ -1,0 +1,165 @@
+[
+  {
+    "business": "Wayta Coffee",
+    "base": "https://waytacoffee.com/",
+    "platform": "woo",
+    "status": "Ürünler eklendi",
+    "products": 32
+  },
+  {
+    "business": "Niji Coffee Co.",
+    "base": "https://nijicoffeeco.net/",
+    "status": "Resmî site doğrulandı; otomatik ürün akışı bulunamadı",
+    "products": 0
+  },
+  {
+    "business": "Shady Coffee Roastery",
+    "base": "https://shady.com.tr/",
+    "platform": "woo",
+    "status": "Ürünler eklendi",
+    "products": 14
+  },
+  {
+    "business": "Tone Coffee Roastery Co.",
+    "base": "https://tonecoffeeroastery.co/",
+    "platform": "shopify",
+    "status": "Ürünler eklendi",
+    "products": 50
+  },
+  {
+    "business": "Rawtown Coffee Roastery",
+    "base": "https://rawtowncoffee.com/",
+    "platform": "shopify",
+    "status": "Ürünler eklendi",
+    "products": 54
+  },
+  {
+    "business": "Kruen Roastery",
+    "base": "https://kruenroastery.com/",
+    "platform": "shopify",
+    "status": "Ürünler eklendi",
+    "products": 18
+  },
+  {
+    "business": "Récolte Coffee Roastery",
+    "base": "https://recoltecoffee.com/",
+    "status": "Resmî site doğrulandı; otomatik ürün akışı bulunamadı",
+    "products": 0
+  },
+  {
+    "business": "Gordion Coffee Roastery",
+    "base": "https://gordioncoffee.com/",
+    "status": "Resmî site doğrulandı; otomatik ürün akışı bulunamadı",
+    "products": 0
+  },
+  {
+    "business": "Buegros Coffee Roastery",
+    "base": "https://buegros.com/",
+    "platform": "woo",
+    "status": "Ürünler eklendi",
+    "products": 8
+  },
+  {
+    "business": "Ultra Coffee Roastery",
+    "base": "http://ultracoffeeroastery.com/",
+    "status": "Resmî site doğrulandı; otomatik ürün akışı bulunamadı",
+    "products": 0
+  },
+  {
+    "business": "Grizzly Coffee Roasters",
+    "base": "https://espressoperfetto.com/",
+    "status": "Resmî site doğrulandı; otomatik ürün akışı bulunamadı",
+    "products": 0
+  },
+  {
+    "business": "Con Tu Coffee Roastery",
+    "base": "https://contucoffee.com/",
+    "platform": "woo",
+    "status": "Ürünler eklendi",
+    "products": 13
+  },
+  {
+    "business": "Trophy Coffee Roastery",
+    "base": "https://trophycoffee.com.tr/",
+    "platform": "woo",
+    "status": "Ürünler eklendi",
+    "products": 7
+  },
+  {
+    "business": "Lot Coffee Roastery",
+    "base": "https://lotcoffeeroastery.com/",
+    "status": "Resmî site doğrulandı; otomatik ürün akışı bulunamadı",
+    "products": 0
+  },
+  {
+    "business": "Zümrüt Karaca Coffee Roastery",
+    "base": "https://zumrutkaraca.com/",
+    "platform": "shopify",
+    "status": "Ürünler eklendi",
+    "products": 11
+  },
+  {
+    "business": "Vitus Coffee & Roastery",
+    "base": "https://vituscoffee.com/",
+    "status": "Resmî site doğrulandı; otomatik ürün akışı bulunamadı",
+    "products": 0
+  },
+  {
+    "business": "3 Cores Coffee & Roastery",
+    "base": "https://3coresroastery.com/",
+    "status": "Resmî site doğrulandı; otomatik ürün akışı bulunamadı",
+    "products": 0
+  },
+  {
+    "business": "Terazi Coffee & Roastery",
+    "base": "https://terazicoffee.com.tr/",
+    "platform": "woo",
+    "status": "Akışta uygun kahve ürünü bulunamadı",
+    "products": 0
+  },
+  {
+    "business": "Kungpow Coffee",
+    "base": "https://kungpowcoffee.com/",
+    "status": "Resmî site doğrulandı; otomatik ürün akışı bulunamadı",
+    "products": 0
+  },
+  {
+    "business": "Strong Coffee Beans",
+    "base": "https://strongcoffeebeans.com/",
+    "status": "Resmî site doğrulandı; otomatik ürün akışı bulunamadı",
+    "products": 0
+  },
+  {
+    "business": "Caffé Di Toeé",
+    "base": "https://caffeditoee.com/",
+    "status": "Resmî site doğrulandı; otomatik ürün akışı bulunamadı",
+    "products": 0
+  },
+  {
+    "business": "Logra Coffee Roastery",
+    "base": "https://logra.com.tr/",
+    "status": "Resmî site doğrulandı; otomatik ürün akışı bulunamadı",
+    "products": 0
+  },
+  {
+    "business": "Fabriek Coffee",
+    "base": "https://fabriekcoffee.com/",
+    "platform": "shopify",
+    "status": "Ürünler eklendi",
+    "products": 19
+  },
+  {
+    "business": "Fil Coffee Roaster",
+    "base": "https://filcoffee.com/",
+    "platform": "woo",
+    "status": "Ürünler eklendi",
+    "products": 21
+  },
+  {
+    "business": "Specific Coffee",
+    "base": "https://specific.coffee/",
+    "platform": "woo",
+    "status": "Ürünler eklendi",
+    "products": 4
+  }
+]

@@ -95,6 +95,7 @@ const metadata = {
   }, {}),
   businesses: businesses.length,
   namedProducts: cleaned.filter((row) => row.catalogStatus === 'Ürün kaydı').length,
+  trackingRecords: cleaned.filter((row) => row.catalogStatus === 'Katalog takip kaydı').length,
   origins: new Set(cleaned.map((row) => row.origin)).size
 };
 
