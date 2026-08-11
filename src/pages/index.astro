@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import '../styles/fancy.css';
+import '../styles/access.css';
 import metadata from '../../public/data/metadata.json';
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
@@ -14,7 +15,24 @@ const number = new Intl.NumberFormat('tr-TR');
     <meta name="description" content="Türkiye'deki kahve kavurucularını ve satıştaki çekirdekleri keşfedin; menşe, gramaj ve fiyat bilgilerini karşılaştırın." />
     <title>Çekirdek Bul</title>
   </head>
-  <body data-base={base}>
+  <body class="is-locked" data-base={base}>
+    <div class="access-gate" id="access-gate">
+      <section class="access-card" role="dialog" aria-modal="true" aria-labelledby="access-title">
+        <div class="access-brand"><span class="brand-mark">ÇB</span><span>Çekirdek Bul</span></div>
+        <p class="access-eyebrow">Özel erişim</p>
+        <h2 id="access-title">İstediğiniz kahveyi<br/><em>bulmak zor değil</em></h2>
+        <p class="access-copy">Devam etmek için giriş şifresini yazın.</p>
+        <form class="access-form" id="access-form" novalidate>
+          <label for="access-password">Şifre</label>
+          <div class="access-field">
+            <input id="access-password" name="password" type="password" autocomplete="current-password" aria-describedby="access-error" required />
+            <button type="submit">Giriş yap</button>
+          </div>
+          <p class="access-error" id="access-error" role="alert" aria-live="polite"></p>
+        </form>
+        <noscript><p class="access-noscript">Giriş ekranı için tarayıcınızda JavaScript'i etkinleştirmeniz gerekir.</p></noscript>
+      </section>
+    </div>
     <header class="hero">
       <nav class="nav shell">
         <a class="brand" href={base} aria-label="Çekirdek Bul ana sayfa">
@@ -24,7 +42,7 @@ const number = new Intl.NumberFormat('tr-TR');
       </nav>
       <div class="hero-content shell">
         <p class="eyebrow">Türkiye'nin bağımsız çekirdek radarı</p>
-        <h1>İstediğiniz kahveyi<br/><em>bulmak zor değil</em></h1>
+        <h1 id="site-title" tabindex="-1">İstediğiniz kahveyi<br/><em>bulmak zor değil</em></h1>
         <p class="hero-copy" id="hero-copy">Türkiye'deki kavurucuların çekirdeklerini tek yerde keşfedin. Menşeyi seçin, fiyatı karşılaştırın, doğru çekirdeğe doğrudan ulaşın.</p>
         <div class="hero-actions">
           <a class="button primary" href="#urunler">Çekirdeğini bul <span>↓</span></a>
@@ -63,6 +81,6 @@ const number = new Intl.NumberFormat('tr-TR');
 
     </main>
     <footer><div class="shell"><span>Çekirdek Bul</span><span>Son kontrol: 11 Ağustos 2026</span></div></footer>
-    <script src={`${base}app.js`} defer></script>
+    <script src={`${base}access.js`} defer></script>
   </body>
 </html>
