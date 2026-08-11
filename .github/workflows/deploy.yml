@@ -22,9 +22,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: corepack enable
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm run build
+      - run: npm install --no-audit --no-fund
+      - run: npm run build
         env:
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
       - uses: actions/configure-pages@v5
