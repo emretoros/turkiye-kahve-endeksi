@@ -1,4 +1,4 @@
-# Türkiye Kahve Endeksi
+# Çekirdek Bul
 
 Türkiye'de tüketiciye doğrudan kahve satan işletmelerin ürün, menşe, gramaj ve fiyat kayıtlarını keşfetmek için hazırlanmış statik web sitesi.
 
@@ -16,7 +16,7 @@ pnpm dev
 pnpm build
 ```
 
-`source/` klasöründeki kaynaklar güncellendiğinde `pnpm build`, web verilerini, CSV dosyasını ve indirilebilir Excel dosyasını yeniden üretir.
+`source/` klasöründeki kaynaklar güncellendiğinde `pnpm build`, web verilerini ve indirilebilir CSV dosyasını yeniden üretir.
 
 ## GitHub Pages
 

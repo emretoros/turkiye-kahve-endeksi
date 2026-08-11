@@ -48,9 +48,4 @@ const quote = (value) => `"${String(value ?? 'Erişilemedi').replaceAll('"', '""
 const csv = [headers, ...cleaned.map((row) => [row.business,row.businessStatus,row.product,row.origin,row.grams,row.price,row.pricePerKg,row.stock,row.url,row.checkedAt])]
   .map((row) => row.map(quote).join(';')).join('\n');
 await fs.writeFile(path.join(downloads, 'kahve-endeksi.csv'), `\uFEFF${csv}`);
-await fs.copyFile(
-  path.join(sourceRoot, 'turkiye_151_isletme_filtresiz_kahve_urun_endeksi.xlsx'),
-  path.join(downloads, 'kahve-endeksi.xlsx')
-);
-
 console.log(JSON.stringify(metadata));

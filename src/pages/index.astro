@@ -1,20 +1,21 @@
 ---
 import '../styles/global.css';
-const base = import.meta.env.BASE_URL;
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 ---
 <!doctype html>
 <html lang="tr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="description" content="Türkiye'de tüketiciye doğrudan satış yapan kahve kavurucularının ürün, menşe ve fiyat endeksi." />
-    <title>Türkiye Kahve Endeksi</title>
+    <meta name="description" content="Türkiye'deki kahve kavurucularını ve satıştaki çekirdekleri keşfedin; menşe, gramaj ve fiyat bilgilerini karşılaştırın." />
+    <title>Çekirdek Bul</title>
   </head>
   <body data-base={base}>
     <header class="hero">
       <nav class="nav shell">
-        <a class="brand" href={base} aria-label="Türkiye Kahve Endeksi ana sayfa">
-          <span class="brand-mark">TK</span><span>Türkiye Kahve Endeksi</span>
+        <a class="brand" href={base} aria-label="Çekirdek Bul ana sayfa">
+          <span class="brand-mark">ÇB</span><span>Çekirdek Bul</span>
         </a>
         <div class="nav-links">
           <a href="#urunler">Ürünler</a><a href="#isletmeler">İşletmeler</a><a href="#metodoloji">Metodoloji</a>
@@ -26,7 +27,7 @@ const base = import.meta.env.BASE_URL;
         <p class="hero-copy">Kavurucuları, çekirdekleri ve menşeleri tek yerde inceleyin. Fiyatları karşılaştırın; kaynağa doğrudan gidin.</p>
         <div class="hero-actions">
           <a class="button primary" href="#urunler">Endeksi keşfet</a>
-          <a class="button ghost" href={`${base}downloads/kahve-endeksi.xlsx`} download>Excel'i indir</a>
+          <a class="button ghost" href="#metodoloji">Nasıl hazırlanıyor?</a>
         </div>
         <div class="stats" aria-label="Veri tabanı özeti">
           <div><strong id="stat-businesses">151</strong><span>işletme</span></div>
@@ -71,10 +72,10 @@ const base = import.meta.env.BASE_URL;
           <article><span>02</span><h3>Eksik veri saklanmaz</h3><p>Fiyat veya gramaj bulunamadığında ürün dışlanmaz; ilgili alan açıkça “Erişilemedi” olarak gösterilir.</p></article>
           <article><span>03</span><h3>Anlık fotoğraf</h3><p>Fiyat ve stok bilgileri kontrol tarihine aittir. Satın alma kararı öncesinde kaynak sayfanın kontrol edilmesi gerekir.</p></article>
         </div>
-        <div class="download-card"><div><h3>Verinin tamamını indirin</h3><p>Analiz veya doğrulama için Excel ve CSV sürümlerine erişin.</p></div><div><a class="button primary" href={`${base}downloads/kahve-endeksi.xlsx`} download>Excel</a><a class="button outline" href={`${base}downloads/kahve-endeksi.csv`} download>CSV</a></div></div>
+        <div class="download-card"><div><h3>Veriyi incelemek için indirin</h3><p>Kaynak bağlantılarını içeren CSV sürümüne erişin.</p></div><div><a class="button primary" href={`${base}downloads/kahve-endeksi.csv`} download>CSV'yi indir</a></div></div>
       </section>
     </main>
-    <footer><div class="shell"><span>Türkiye Kahve Endeksi</span><span>Son kontrol: 11 Ağustos 2026</span></div></footer>
+    <footer><div class="shell"><span>Çekirdek Bul</span><span>Son kontrol: 11 Ağustos 2026</span></div></footer>
     <script src={`${base}app.js`} defer></script>
   </body>
 </html>
