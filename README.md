@@ -16,7 +16,7 @@ pnpm dev
 pnpm build
 ```
 
-`source/` klasöründeki kaynaklar güncellendiğinde `pnpm build`, web verilerini ve indirilebilir CSV dosyasını yeniden üretir.
+`source/` klasöründeki kaynaklar güncellendiğinde `pnpm build`, web sitesinin kullandığı veri dosyalarını yeniden üretir.
 
 ## GitHub Pages
 

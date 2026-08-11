@@ -43,9 +43,4 @@ const metadata = {
 await fs.writeFile(path.join(publicData, 'products.json'), JSON.stringify(cleaned));
 await fs.writeFile(path.join(publicData, 'metadata.json'), JSON.stringify(metadata, null, 2));
 
-const headers = ['İşletme','Doğrulama','Ürün','Menşe','Gramaj (g)','Fiyat (TL)','TL/kg','Stok','Kaynak bağlantısı','Kontrol tarihi'];
-const quote = (value) => `"${String(value ?? 'Erişilemedi').replaceAll('"', '""')}"`;
-const csv = [headers, ...cleaned.map((row) => [row.business,row.businessStatus,row.product,row.origin,row.grams,row.price,row.pricePerKg,row.stock,row.url,row.checkedAt])]
-  .map((row) => row.map(quote).join(';')).join('\n');
-await fs.writeFile(path.join(downloads, 'kahve-endeksi.csv'), `\uFEFF${csv}`);
 console.log(JSON.stringify(metadata));
