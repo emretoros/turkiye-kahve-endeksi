@@ -26945,106 +26945,6 @@
     "availabilityNote": "Gramaj ve fiyat erişilemedi"
   },
   {
-    "business": "Tetra N Roastery",
-    "city": "Ankara",
-    "businessStatus": "Kısmi doğrulama",
-    "product": "Hario V60 Buzlu Kahve Demleyici",
-    "origin": "Menşe belirtilmemiş",
-    "grams": null,
-    "price": 900,
-    "stock": "Belirsiz",
-    "productType": "Kahve ürünü",
-    "url": "https://tetranroastery.com/hario-v60-buzlu-kahve-demleyici",
-    "sourceMethod": "Site haritası ürün sayfası",
-    "confidence": "Düşük",
-    "note": "Ürün kimliği korundu; eksik alanlar erişilemedi olarak işaretlenecek.",
-    "catalogStatus": "Ürün kaydı",
-    "availabilityNote": "Gramaj erişilemedi",
-    "aliases": [
-      "tetrancoffee",
-      "tetran coffee",
-      "tetranroastery",
-      "tetra n coffee"
-    ],
-    "instagram": "https://www.instagram.com/tetranroastery/",
-    "checkedAt": "2026-08-12"
-  },
-  {
-    "business": "Tetra N Roastery",
-    "city": "Ankara",
-    "businessStatus": "Kısmi doğrulama",
-    "product": "Hario V60 Kahve Demleme Seti",
-    "origin": "Menşe belirtilmemiş",
-    "grams": null,
-    "price": 900,
-    "stock": "Belirsiz",
-    "productType": "Kahve ürünü",
-    "url": "https://tetranroastery.com/hario-v60-kahve-demleme-seti",
-    "sourceMethod": "Site haritası ürün sayfası",
-    "confidence": "Düşük",
-    "note": "Ürün kimliği korundu; eksik alanlar erişilemedi olarak işaretlenecek.",
-    "catalogStatus": "Ürün kaydı",
-    "availabilityNote": "Gramaj erişilemedi",
-    "aliases": [
-      "tetrancoffee",
-      "tetran coffee",
-      "tetranroastery",
-      "tetra n coffee"
-    ],
-    "instagram": "https://www.instagram.com/tetranroastery/",
-    "checkedAt": "2026-08-12"
-  },
-  {
-    "business": "Tetra N Roastery",
-    "city": "Ankara",
-    "businessStatus": "Kısmi doğrulama",
-    "product": "MESAİ KAHVESİ",
-    "origin": "Etiyopya",
-    "grams": null,
-    "price": 900,
-    "stock": "Belirsiz",
-    "productType": "Kahve ürünü",
-    "url": "https://tetranroastery.com/mesai-kahvesi",
-    "sourceMethod": "Site haritası ürün sayfası",
-    "confidence": "Düşük",
-    "note": "Ürün kimliği korundu; eksik alanlar erişilemedi olarak işaretlenecek.",
-    "catalogStatus": "Ürün kaydı",
-    "availabilityNote": "Gramaj erişilemedi",
-    "aliases": [
-      "tetrancoffee",
-      "tetran coffee",
-      "tetranroastery",
-      "tetra n coffee"
-    ],
-    "instagram": "https://www.instagram.com/tetranroastery/",
-    "checkedAt": "2026-08-12"
-  },
-  {
-    "business": "Tetra N Roastery",
-    "city": "Ankara",
-    "businessStatus": "Kısmi doğrulama",
-    "product": "Orcamp Barista Kahve İbriği",
-    "origin": "Menşe belirtilmemiş",
-    "grams": null,
-    "price": 900,
-    "stock": "Belirsiz",
-    "productType": "Kahve ürünü",
-    "url": "https://tetranroastery.com/barista-kahve-ibrigi",
-    "sourceMethod": "Site haritası ürün sayfası",
-    "confidence": "Düşük",
-    "note": "Ürün kimliği korundu; eksik alanlar erişilemedi olarak işaretlenecek.",
-    "catalogStatus": "Ürün kaydı",
-    "availabilityNote": "Gramaj erişilemedi",
-    "aliases": [
-      "tetrancoffee",
-      "tetran coffee",
-      "tetranroastery",
-      "tetra n coffee"
-    ],
-    "instagram": "https://www.instagram.com/tetranroastery/",
-    "checkedAt": "2026-08-12"
-  },
-  {
     "business": "The Doors Coffee Roasting Co.",
     "city": "",
     "businessStatus": "Kısmi doğrulama",
@@ -56381,6 +56281,790 @@
       "thewhirl"
     ],
     "instagram": "https://www.instagram.com/thewhirl/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "ALL-DAY BLEND",
+    "origin": "Çoklu menşe",
+    "grams": 250,
+    "price": 460,
+    "stock": "Stokta",
+    "productType": "Harman",
+    "url": "https://tetranroastery.com/all-day-blend?vid=87bfe823-d055-4960-8edb-95363723cfbe",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "ALL-DAY BLEND",
+    "origin": "Çoklu menşe",
+    "grams": 1000,
+    "price": 1380,
+    "stock": "Stokta",
+    "productType": "Harman",
+    "url": "https://tetranroastery.com/all-day-blend?vid=ce94010b-2d3c-44d1-82d4-cfbdfb1c742b",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "DULCE FAZENDA",
+    "origin": "Brezilya",
+    "grams": 250,
+    "price": 520,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/dulce-fazenda?vid=3a80c135-9afd-4d1a-b235-628a91bb0ed5",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "DULCE FAZENDA",
+    "origin": "Brezilya",
+    "grams": 1000,
+    "price": 1560,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/dulce-fazenda?vid=904ebfa3-2817-441c-b5db-5e8aad38d5b9",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "EL MANGO",
+    "origin": "Kosta Rika",
+    "grams": 250,
+    "price": 805,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/el-mango?vid=6449966e-eb0b-4ed2-aca7-33acab46904f",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "EL MANGO",
+    "origin": "Kosta Rika",
+    "grams": 1000,
+    "price": 2415,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/el-mango?vid=0d326a6d-2e9e-4a26-804b-a66ed9385ea1",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "ESPERANZA",
+    "origin": "Kolombiya",
+    "grams": 250,
+    "price": 455,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/esperanza?vid=434c390d-d856-499e-bbc4-6519841d3f4d",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "ESPERANZA",
+    "origin": "Kolombiya",
+    "grams": 1000,
+    "price": 1365,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/esperanza?vid=c4a5131f-a910-4923-9d34-19b7090c92ed",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "HUEHUETENANGO",
+    "origin": "Menşe belirtilmemiş",
+    "grams": 250,
+    "price": 555,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/huehuetenango?vid=e85f5d8b-8d92-40cc-93c5-26ed9d951d98",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "HUEHUETENANGO",
+    "origin": "Menşe belirtilmemiş",
+    "grams": 1000,
+    "price": 1665,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/huehuetenango?vid=c2a80b55-5a92-42eb-9586-c077c0f158ca",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "KONGA",
+    "origin": "Etiyopya",
+    "grams": 250,
+    "price": 560,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/konga-yirgacheffe?vid=1eef57ee-f8f2-4ea7-8eed-96a71529ccf4",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "KONGA",
+    "origin": "Etiyopya",
+    "grams": 1000,
+    "price": 1680,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/konga-yirgacheffe?vid=7aa993f6-718c-43ac-bf2c-2f8726762553",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "LAS TORRES",
+    "origin": "Menşe belirtilmemiş",
+    "grams": 250,
+    "price": 805,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/las-torres?vid=d3314cc3-3fb0-4686-a399-1a04aaf531cd",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "LAS TORRES",
+    "origin": "Menşe belirtilmemiş",
+    "grams": 1000,
+    "price": 2415,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/las-torres?vid=2610a42e-cd7f-407d-83a0-9cee9bdf5148",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "MESAİ KAHVESİ",
+    "origin": "Etiyopya",
+    "grams": 1000,
+    "price": 1050,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/mesai-kahvesi?vid=346f08fb-a969-4118-b396-35ffe4a6984f",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "MESAİ KAHVESİ",
+    "origin": "Etiyopya",
+    "grams": 3000,
+    "price": 2860,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/mesai-kahvesi?vid=cdb119ea-55c8-45d9-b028-3769b2c1e13e",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "MESAİ KAHVESİ",
+    "origin": "Etiyopya",
+    "grams": 5000,
+    "price": 4240,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/mesai-kahvesi?vid=4ebe09ec-6b47-4701-a145-c2f5366c082a",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "MORNING BLEND",
+    "origin": "Etiyopya",
+    "grams": 250,
+    "price": 395,
+    "stock": "Stokta",
+    "productType": "Harman",
+    "url": "https://tetranroastery.com/morning-blend?vid=df2d2808-2cb6-4611-8167-fac7c75c7dca",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "MORNING BLEND",
+    "origin": "Etiyopya",
+    "grams": 1000,
+    "price": 1185,
+    "stock": "Stokta",
+    "productType": "Harman",
+    "url": "https://tetranroastery.com/morning-blend?vid=11aa1288-d79a-4b25-8351-1ac0f9b33167",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "POPAYAN",
+    "origin": "Menşe belirtilmemiş",
+    "grams": 250,
+    "price": 555,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/popayan?vid=e2e1ff78-dda7-44ba-9282-15f1c7726071",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "SAGA",
+    "origin": "Menşe belirtilmemiş",
+    "grams": 250,
+    "price": 500,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/saga?vid=7a2f9820-0a57-472c-96f3-9b02c07ce568",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "SAGA",
+    "origin": "Menşe belirtilmemiş",
+    "grams": 1000,
+    "price": 1500,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/saga?vid=5fab79a3-51b9-425a-bb45-85fcbfcb980a",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "VALPARAISO",
+    "origin": "Kolombiya",
+    "grams": 250,
+    "price": 675,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/valparaiso?vid=28379af4-de18-49c8-8003-6e5793c9d0a5",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "MERA MERDA",
+    "origin": "Endonezya",
+    "grams": 250,
+    "price": 1200,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/mera-merdaa?vid=f3747e4c-8eeb-49af-9216-1b448ed9a6c2",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "BOLEDU",
+    "origin": "Etiyopya",
+    "grams": 250,
+    "price": 700,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/boledu?vid=9fbb7eb7-16bd-4020-891a-cdc256af54f6",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "BOLEDU",
+    "origin": "Etiyopya",
+    "grams": 1000,
+    "price": 2100,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/boledu?vid=77ce3024-cd99-43d5-b9ee-a470be0b4cfc",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "CARAMBOLO",
+    "origin": "Kolombiya",
+    "grams": 250,
+    "price": 835,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/carambolo?vid=759bccac-3320-42d6-9e96-9d9153af4239",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
+    "discoveryChannels": [
+      "Instagram kullanıcı bildirimi",
+      "Resmî web mağazası"
+    ],
+    "checkedAt": "2026-08-12"
+  },
+  {
+    "business": "Tetra N Roastery",
+    "city": "Ankara",
+    "businessStatus": "Doğrulandı",
+    "product": "CARAMBOLO",
+    "origin": "Kolombiya",
+    "grams": 1000,
+    "price": 2505,
+    "stock": "Stokta",
+    "productType": "Tek köken/ürün",
+    "url": "https://tetranroastery.com/carambolo?vid=078cdf02-7f90-4658-8dc4-5b9d96cc46f4",
+    "sourceMethod": "ikas canlı ürün varyantı — Instagram keşfi",
+    "confidence": "Yüksek",
+    "note": "Resmî mağazanın canlı ürün kataloğundan çıkarıldı; kahve dışı ürünler elendi.",
+    "catalogStatus": "Ürün kaydı",
+    "aliases": [
+      "tetrancoffee",
+      "tetran coffee",
+      "tetranroastery",
+      "tetra n coffee"
+    ],
+    "instagram": "https://www.instagram.com/tetranroastery/",
     "discoveryChannels": [
       "Instagram kullanıcı bildirimi",
       "Resmî web mağazası"

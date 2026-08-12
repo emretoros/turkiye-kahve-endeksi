@@ -17,10 +17,11 @@ const businesses = [
   { business: 'Tenebrew', city: null, aliases: ['tenebrew', 'tenebrew coffee'], instagram: 'https://www.instagram.com/tenebrew/', base: 'https://tenebrew.com/', platform: 'ikas', sitemap: 'https://tenebrew.com/products.xml' },
   { business: 'Fluxus Coffee Roastery', city: 'Sakarya', aliases: ['fluxus coffee', 'fluxuscoffee'], instagram: 'https://www.instagram.com/fluxuscoffee/', base: 'https://fluxuscoffee.com/', platform: 'shopify' },
   { business: 'The Whirl Roastery', city: 'İstanbul', aliases: ['whirl coffee', 'the whirl coffee', 'thewhirl'], instagram: 'https://www.instagram.com/thewhirl/', base: 'https://shop.thewhirl.com.tr/', platform: 'whirl-sitemap', sitemap: 'https://shop.thewhirl.com.tr/sitemap.xml' },
+  { business: 'Tetra N Roastery', city: 'Ankara', aliases: ['tetrancoffee', 'tetran coffee', 'tetranroastery', 'tetra n coffee'], instagram: 'https://www.instagram.com/tetranroastery/', base: 'https://tetranroastery.com/', platform: 'ikas', sitemap: 'https://tetranroastery.com/products.xml' },
   { business: 'Main Coffee', city: 'Ankara', aliases: ['maincoffee', 'main coffee', 'maincoffee.co'], instagram: 'https://www.instagram.com/maincoffee.co/', base: 'https://www.instagram.com/maincoffee.co/', platform: 'tracking', trackingStatus: 'Ankara’daki kafe doğrulandı; kendi kavurduğu paket kahvenin doğrudan B2C kataloğu henüz doğrulanamadı.', pendingScope: true }
 ];
 
-const tetraAliases = ['tetrancoffee', 'tetran coffee', 'tetranroastery', 'tetra n coffee'];
+const canonicalBusinessesAdded = businesses.filter(({ business }) => business !== 'Tetra N Roastery').length;
 const coffeeSignal = /kahve|coffee|espresso|filtre|çekirdek|cekirdek|bean|decaf|blend|harman|ethiopia|etiyopya|colombia|kolombiya|brazil|brasil|brezilya|guatemala|kenya|peru|honduras|costa rica|kosta rika|el salvador|rwanda|ruanda|burundi|sumatra|indonesia|endonezya|nicaragua|panama|mexico|meksika|bolivia|bolivya/i;
 const excluded = /ekipman|equipment|dripper|server|kupa|mug|fincan|cezve|ibrik|termos|tumbler|değirmen|ogutucu|öğütücü|grinder|filtre kağıdı|filtre kagidi|filter paper|aeropress|chemex|hario|kettle|tamper|bardak|matcha|çay|tea|çikolata|chocolate|lokum|draje|şurup|syrup|salep|frappe|milkshake|smoothie|püre|puree|sos|sauce|hibiskus|hibiscus|cool lime|kurabiye|cookie|granola|sabun|kolonya|mum|candle|t-shirt|tişört|tisort|hoodie|çanta|canta|şapka|sapka|\bpin\b|aksesuar|deri|lifestyle|sandviç|sandvic|pasta|kruvasan|croissant|eğitim|egitim|training|workshop|kahve turu|bookeasy|danışmanlık|danismanlik|yeşil çekirdek|yesil cekirdek|yeşil kahve|yesil kahve|green coffee|hindiba|chicory|promosyon kahve|kahve makinesi|coffee machine|makinesi|kağıdı|kagidi|pitcher|süt potu|sut potu|tartı|tarti|moka pot|syphon|sifon|ajanda|not defteri|kaşık|kasik|cupping|refraktometre|analizör|analizor|hardtank|difluid/i;
 const headers = { 'user-agent': 'Mozilla/5.0 (compatible; CekirdekBul/1.0)' };
@@ -452,11 +453,7 @@ for (const meta of businesses) {
 const unique = [...new Map(collected.map((item) => [`${item.business}|${item.url}|${item.grams}|${item.price}`, item])).values()];
 const newNames = new Set(businesses.map(({ business }) => business));
 const replacedBusinessNames = new Set([...newNames, 'ARC CO Coffee', 'Fluxus Coffee', 'Main Coffee Co.']);
-const preserved = existing
-  .filter((item) => !replacedBusinessNames.has(item.business))
-  .map((item) => item.business === 'Tetra N Roastery'
-    ? { ...item, aliases: [...new Set([...(item.aliases || []), ...tetraAliases])], instagram: 'https://www.instagram.com/tetranroastery/', checkedAt }
-    : item);
+const preserved = existing.filter((item) => !replacedBusinessNames.has(item.business));
 
 for (const meta of businesses) {
   if (!unique.some((item) => item.business === meta.business)) throw new Error(`${meta.business} için kayıt üretilmedi.`);
@@ -469,13 +466,13 @@ const auditResults = audit.map((result) => ({
   trackingRecords: unique.filter((item) => item.business === result.business && item.catalogStatus === 'Katalog takip kaydı').length
 }));
 
-await fs.writeFile(auditPath, JSON.stringify({ checkedAt, reportedNames: 11, canonicalBusinessesAdded: businesses.length, existingAliasUpdated: 'Tetra N Roastery', results: auditResults }, null, 2), 'utf8');
+await fs.writeFile(auditPath, JSON.stringify({ checkedAt, reportedNames: 11, canonicalBusinessesAdded, existingBusinessRefreshed: 'Tetra N Roastery', results: auditResults }, null, 2), 'utf8');
 
 console.log(JSON.stringify({
   checkedAt,
   reportedNames: 11,
-  canonicalBusinessesAdded: businesses.length,
-  existingAliasUpdated: 'Tetra N Roastery',
+  canonicalBusinessesAdded,
+  existingBusinessRefreshed: 'Tetra N Roastery',
   productsAdded: unique.filter((item) => item.catalogStatus === 'Ürün kaydı').length,
   trackingRecordsAdded: unique.filter((item) => item.catalogStatus === 'Katalog takip kaydı').length,
   byBusiness: Object.fromEntries(businesses.map(({ business }) => [business, unique.filter((item) => item.business === business).length]))

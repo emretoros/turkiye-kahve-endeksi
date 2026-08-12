@@ -2,7 +2,7 @@
   "checkedAt": "2026-08-12",
   "reportedNames": 11,
   "canonicalBusinessesAdded": 10,
-  "existingAliasUpdated": "Tetra N Roastery",
+  "existingBusinessRefreshed": "Tetra N Roastery",
   "results": [
     {
       "business": "ARC CO",
@@ -99,6 +99,17 @@
       "status": "Ürünler eklendi",
       "products": 35,
       "candidateUrls": 51,
+      "errors": 0,
+      "errorUrls": [],
+      "trackingRecords": 0
+    },
+    {
+      "business": "Tetra N Roastery",
+      "platform": "ikas",
+      "source": "https://tetranroastery.com/products.xml",
+      "status": "Ürünler eklendi",
+      "products": 28,
+      "candidateUrls": 34,
       "errors": 0,
       "errorUrls": [],
       "trackingRecords": 0
