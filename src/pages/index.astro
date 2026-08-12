@@ -6,6 +6,9 @@ import metadata from '../../public/data/metadata.json';
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 const number = new Intl.NumberFormat('tr-TR');
+const checkedDate = new Date(`${metadata.checkedAt}T12:00:00+03:00`);
+const checkedShort = new Intl.DateTimeFormat('tr-TR').format(checkedDate);
+const checkedLong = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' }).format(checkedDate);
 ---
 <!doctype html>
 <html lang="tr">
@@ -51,7 +54,7 @@ const number = new Intl.NumberFormat('tr-TR');
           <div><strong id="stat-businesses">{number.format(metadata.businesses)}</strong><span>işletme</span></div>
           <div><strong id="stat-products">{number.format(metadata.namedProducts)}</strong><span>doğrulanmış ürün</span></div>
           <div><strong id="stat-origins">{number.format(metadata.origins)}</strong><span>menşe sınıfı</span></div>
-          <div><strong>11.08.2026</strong><span>son kontrol</span></div>
+          <div><strong>{checkedShort}</strong><span>son güncelleme</span></div>
         </div>
       </div>
     </header>
@@ -80,7 +83,7 @@ const number = new Intl.NumberFormat('tr-TR');
       </section>
 
     </main>
-    <footer><div class="shell"><span>Çekirdek Bul</span><span>Son kontrol: 11 Ağustos 2026</span></div></footer>
+    <footer><div class="shell"><span>Çekirdek Bul</span><span>Son güncelleme: {checkedLong}</span></div></footer>
     <script src={`${base}access.js`} defer></script>
   </body>
 </html>

@@ -16,12 +16,14 @@ const normalize = (value) => String(value || '')
   .replace(/ı/g, 'i');
 
 const nonCoffeeRules = [
-  ['Ekipman/aksesuar', /\b(server|dripper|chemex|aeropress|v60|phin filtre|filtre kagidi|filter paper|degirmen|ogutucu|tarti|scale|kettle|tamper|tamper mati|pitcher|demleme seti|demleyici|olcu kasigi|kahve torbasi|seramik kupa|kahve kupasi|termos)/],
-  ['Çay ve içecek tozu', /\b(adacay|cay|tea|matcha|salep|sahlep|frappe|smoothie)/],
+  ['Ekipman/aksesuar', /\b(server|dripper|chemex|aeropress|v60|phin filtre|filtre kagidi|filter paper|degirmen|ogutucu|tarti|scale|kettle|tamper|tamper mati|pitcher|ibrik|ibrigi|demleme seti|demleyici|olcu kasigi|kahve torbasi|seramik kupa|kahve kupasi|termos|difluid|refraktometre|analizor|pin\b)/],
+  ['Çay ve içecek tozu', /\b(adacay|cay|tea|matcha|salep|sahlep|frappe|smoothie|milkshake|hindiba|chicory)/],
   ['Şurup', /\b(surup|surub|syrup)/],
   ['Çikolata/şekerleme', /\b(cikolata bari?|bean to bar|madlen|draje|lokum|sekerleme|bonte|roche|cookie|kurabiye|granola)\b/],
   ['Gıda dışı ürün', /\b(kolonya|sabun|t-shirt|tisort|canta)/],
-  ['Eğitim/hizmet', /\b(egitim|course|sertifikasyon|workshop|q grader|sensory skills|kahve hasadi turu|barista egitimi)/],
+  ['Eğitim/hizmet', /\b(egitim|course|sertifikasyon|workshop|q grader|sensory skills|kahve hasadi turu|kahve turu|bookeasy|barista egitimi|promosyon kahve)/],
+  ['Kavrulmamış kahve', /\b(yesil kahve|yesil kahve cekirdegi|yesil cekirdek|green coffee)/],
+  ['Sos/püre', /\b(pure|puree|sos|cool lime)/],
   ['Diğer gıda', /\b(hindistan cevizi|pirinc|chia|corekotu|hibiskus|tuz|kakule|karabiber|karanfil|karbonat|karabugday|keten tohumu|kimyon|kinoa|nar eksisi|nohut unu|tarcin|zencefil|zerdecal)\b/]
 ];
 
@@ -81,12 +83,16 @@ const cleaned = coffeeProducts.map((row, index) => ({
   confidence: row.confidence,
   catalogStatus: row.catalogStatus,
   note: row.note,
-  checkedAt: '2026-08-11'
+  aliases: Array.isArray(row.aliases) ? row.aliases : [],
+  instagram: row.instagram || null,
+  discoveryChannels: Array.isArray(row.discoveryChannels) ? row.discoveryChannels : [],
+  checkedAt: row.checkedAt || '2026-08-11'
 }));
 
 const businesses = [...new Set(cleaned.map((row) => row.business))].sort((a, b) => a.localeCompare(b, 'tr'));
+const checkedAt = cleaned.map((row) => row.checkedAt).sort().at(-1) || '2026-08-11';
 const metadata = {
-  checkedAt: '2026-08-11',
+  checkedAt,
   totalRows: cleaned.length,
   excludedRows: excluded.length,
   exclusions: excluded.reduce((counts, row) => {

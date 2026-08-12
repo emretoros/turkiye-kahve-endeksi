@@ -15,7 +15,7 @@ function fillSelect(select, values) {
 function applyFilters() {
   const q = els.search.value.trim().toLocaleLowerCase('tr');
   filtered = all.filter(row => {
-    const text = `${row.business} ${row.product} ${row.origin}`.toLocaleLowerCase('tr');
+    const text = `${row.business} ${row.product} ${row.origin} ${(row.aliases || []).join(' ')} ${row.instagram || ''}`.toLocaleLowerCase('tr');
     const state = els['data-status'].value;
     return (!q || text.includes(q)) && (!els.origin.value || row.origin === els.origin.value) && (!els.business.value || row.business === els.business.value)
       && (!state || (state === 'complete' && row.price && row.grams) || (state === 'price' && row.price) || (state === 'weight' && row.grams) || (state === 'missing' && (!row.price || !row.grams)));

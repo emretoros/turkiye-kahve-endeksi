@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-08-12",
+  "reportedNames": 11,
+  "canonicalBusinessesAdded": 10,
+  "existingAliasUpdated": "Tetra N Roastery",
+  "results": [
+    {
+      "business": "ARC CO",
+      "platform": "jsonld-sitemap",
+      "source": "https://www.arccoffee.co/sitemap.xml",
+      "status": "Ürünler eklendi",
+      "products": 20,
+      "candidateUrls": 39,
+      "errors": 0,
+      "errorUrls": [],
+      "trackingRecords": 0
+    },
+    {
+      "business": "Coffee Haus",
+      "platform": "shopify",
+      "source": "https://coffeehaus.com.tr/",
+      "status": "Ürünler eklendi",
+      "products": 32,
+      "candidateUrls": 1,
+      "errors": 0,
+      "errorUrls": [],
+      "trackingRecords": 0
+    },
+    {
+      "business": "Atölye Kuban",
+      "platform": "ikas",
+      "source": "https://atolyekuban.com/products.xml",
+      "status": "Ürünler eklendi",
+      "products": 24,
+      "candidateUrls": 32,
+      "errors": 0,
+      "errorUrls": [],
+      "trackingRecords": 0
+    },
+    {
+      "business": "The Flavour Coffee",
+      "platform": "ikas",
+      "source": "https://theflavour.com.tr/products.xml",
+      "status": "Ürünler eklendi",
+      "products": 67,
+      "candidateUrls": 123,
+      "errors": 0,
+      "errorUrls": [],
+      "trackingRecords": 0
+    },
+    {
+      "business": "Anisah Coffee",
+      "platform": "shopify",
+      "source": "https://anisahcoffee.com/",
+      "status": "Ürünler eklendi",
+      "products": 34,
+      "candidateUrls": 1,
+      "errors": 0,
+      "errorUrls": [],
+      "trackingRecords": 0
+    },
+    {
+      "business": "Bentz Coffee & Roastery",
+      "platform": "ikas",
+      "source": "https://bentz.com.tr/products.xml",
+      "status": "Ürünler eklendi",
+      "products": 38,
+      "candidateUrls": 30,
+      "errors": 0,
+      "errorUrls": [],
+      "trackingRecords": 0
+    },
+    {
+      "business": "Tenebrew",
+      "platform": "ikas",
+      "source": "https://tenebrew.com/products.xml",
+      "status": "Ürünler eklendi",
+      "products": 14,
+      "candidateUrls": 14,
+      "errors": 0,
+      "errorUrls": [],
+      "trackingRecords": 0
+    },
+    {
+      "business": "Fluxus Coffee Roastery",
+      "platform": "shopify",
+      "source": "https://fluxuscoffee.com/",
+      "status": "Ürünler eklendi",
+      "products": 19,
+      "candidateUrls": 1,
+      "errors": 0,
+      "errorUrls": [],
+      "trackingRecords": 0
+    },
+    {
+      "business": "The Whirl Roastery",
+      "platform": "whirl-sitemap",
+      "source": "https://shop.thewhirl.com.tr/sitemap.xml",
+      "status": "Ürünler eklendi",
+      "products": 35,
+      "candidateUrls": 51,
+      "errors": 0,
+      "errorUrls": [],
+      "trackingRecords": 0
+    },
+    {
+      "business": "Main Coffee",
+      "platform": "tracking",
+      "source": "https://www.instagram.com/maincoffee.co/",
+      "status": "Ankara’daki kafe doğrulandı; kendi kavurduğu paket kahvenin doğrudan B2C kataloğu henüz doğrulanamadı.",
+      "products": 0,
+      "trackingRecords": 1
+    }
+  ]
+}
