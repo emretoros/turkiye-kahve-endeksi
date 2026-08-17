@@ -73,6 +73,7 @@ const cleaned = coffeeProducts.map((row, index) => ({
   origin: row.origin || 'Menşe belirtilmemiş',
   grams: Number.isFinite(row.grams) && row.grams > 0 ? row.grams : null,
   price: Number.isFinite(row.price) && row.price > 0 ? row.price : null,
+  previousPrice: Number.isFinite(row.previousPrice) && row.previousPrice > 0 ? row.previousPrice : null,
   pricePerKg: Number.isFinite(row.grams) && row.grams > 0 && Number.isFinite(row.price) && row.price > 0
     ? Math.round((row.price / row.grams) * 100000) / 100
     : null,
@@ -90,9 +91,21 @@ const cleaned = coffeeProducts.map((row, index) => ({
 }));
 
 const businesses = [...new Set(cleaned.map((row) => row.business))].sort((a, b) => a.localeCompare(b, 'tr'));
-const checkedAt = cleaned.map((row) => row.checkedAt).sort().at(-1) || '2026-08-11';
+const checkedAt = cleaned.filter((row) => row.previousPrice === null).map((row) => row.checkedAt).sort().at(-1)
+  || cleaned.map((row) => row.checkedAt).sort().at(-1)
+  || '2026-08-11';
+const priceCompared = cleaned.filter((row) => row.previousPrice !== null);
+const priceChanges = priceCompared.reduce((counts, row) => {
+  const status = row.price > row.previousPrice ? 'up' : row.price < row.previousPrice ? 'down' : 'same';
+  counts[status] += 1;
+  return counts;
+}, { up: 0, same: 0, down: 0 });
 const metadata = {
   checkedAt,
+  priceComparisonCheckedAt: priceCompared.map((row) => row.checkedAt).sort().at(-1) || null,
+  priceComparedRows: priceCompared.length,
+  priceComparedBusinesses: new Set(priceCompared.map((row) => row.business)).size,
+  priceChanges,
   totalRows: cleaned.length,
   excludedRows: excluded.length,
   exclusions: excluded.reduce((counts, row) => {

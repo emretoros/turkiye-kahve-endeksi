@@ -54,7 +54,7 @@ const checkedLong = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'l
           <div><strong id="stat-businesses">{number.format(metadata.businesses)}</strong><span>işletme</span></div>
           <div><strong id="stat-products">{number.format(metadata.namedProducts)}</strong><span>doğrulanmış ürün</span></div>
           <div><strong id="stat-origins">{number.format(metadata.origins)}</strong><span>menşe sınıfı</span></div>
-          <div><strong>{checkedShort}</strong><span>son güncelleme</span></div>
+          <div><strong id="stat-last-control">{checkedShort}</strong><span>son tam kontrol</span></div>
         </div>
       </div>
     </header>
@@ -70,20 +70,21 @@ const checkedLong = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'l
           <label><span>Menşe</span><select id="origin"><option value="">Tüm menşeler</option></select></label>
           <label><span>İşletme</span><select id="business"><option value="">Tüm işletmeler</option></select></label>
           <label><span>Veri durumu</span><select id="data-status"><option value="">Tüm kayıtlar</option><option value="complete">Fiyat ve gramaj var</option><option value="price">Fiyat var</option><option value="weight">Gramaj var</option><option value="missing">Eksik alan var</option></select></label>
+          <label><span>Fiyat değişimi</span><select id="price-change"><option value="">Tüm değişimler</option><option value="up">😟 Fiyatı arttı</option><option value="same">😐 Aynı kaldı</option><option value="down">😊 Fiyatı düştü</option><option value="unknown">Önceki fiyat yok</option></select></label>
           <label><span>Sıralama</span><select id="sort"><option value="business">İşletme A–Z</option><option value="price-asc">Fiyat artan</option><option value="kg-asc">TL/kg artan</option><option value="kg-desc">TL/kg azalan</option></select></label>
         </div>
-        <div class="active-bar"><button id="clear" type="button">Filtreleri temizle</button><span>Her fiyat, ilgili kaynakta görülen kontrol tarihli değerdir.</span></div>
+        <div class="active-bar"><button id="clear" type="button">Filtreleri temizle</button><span id="price-update-summary">Her fiyat, ilgili kaynakta görülen kontrol tarihli değerdir.</span></div>
         <div class="table-wrap">
           <table>
-            <thead><tr><th>İşletme</th><th>Ürün</th><th>Menşe</th><th>Gramaj</th><th>Fiyat</th><th>TL/kg</th><th>Kaynak</th></tr></thead>
-            <tbody id="product-rows"><tr><td colspan="7" class="loading">Veri yükleniyor…</td></tr></tbody>
+            <thead><tr><th>İşletme</th><th>Ürün</th><th>Menşe</th><th>Gramaj</th><th>Güncel fiyat</th><th>Bir önceki fiyat</th><th class="change-heading">Değişim</th><th>TL/kg</th><th>Kaynak</th></tr></thead>
+            <tbody id="product-rows"><tr><td colspan="9" class="loading">Veri yükleniyor…</td></tr></tbody>
           </table>
         </div>
         <div class="pagination"><button id="prev" type="button">← Önceki</button><span id="page-label">1 / 1</span><button id="next" type="button">Sonraki →</button></div>
       </section>
 
     </main>
-    <footer><div class="shell"><span>Çekirdek Bul</span><span>Son güncelleme: {checkedLong}</span></div></footer>
+    <footer><div class="shell"><span>Çekirdek Bul</span><span id="footer-update">Son tam kontrol: {checkedLong}</span></div></footer>
     <script src={`${base}access.js`} defer></script>
   </body>
 </html>

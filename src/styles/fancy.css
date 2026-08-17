@@ -39,3 +39,13 @@ tbody tr:hover{background:#fff7ef}
 footer{background:#171612;padding:34px 0}
 @media(max-width:900px){.hero{min-height:780px}.nav-count{display:none}.stats div:nth-child(2){border-right:0}.filters{border-radius:14px}.active-bar{border-radius:0 0 14px 14px}.table-wrap{margin-top:14px;border-radius:14px}}
 @media(max-width:560px){.hero{min-height:790px}.hero h1{font-size:58px}.hero:after{right:-350px}.stats strong{font-size:25px}.stats div{padding-left:12px}.explorer{padding-top:65px}.section-heading>p{font-size:12px}.filters{display:grid}.active-bar{padding-top:13px}}
+
+table{min-width:1180px}
+.change-heading,.change-cell{text-align:center}
+.price-change{display:inline-grid;place-items:center;min-width:34px;min-height:34px;border-radius:50%;font-size:21px;line-height:1}
+.price-change--up{background:#f9e1dc}
+.price-change--same{background:#eee9df}
+.price-change--down{background:#dfeee5}
+.price-change--unknown{background:#eeeae3;color:var(--muted);font-size:16px}
+
+@media(min-width:901px){.filters{grid-template-columns:1.6fr repeat(5,minmax(0,1fr))}}
