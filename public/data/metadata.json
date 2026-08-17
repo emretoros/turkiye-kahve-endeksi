@@ -1,5 +1,13 @@
 {
   "checkedAt": "2026-08-12",
+  "priceComparisonCheckedAt": "2026-08-17",
+  "priceComparedRows": 74,
+  "priceComparedBusinesses": 4,
+  "priceChanges": {
+    "up": 2,
+    "same": 53,
+    "down": 19
+  },
   "totalRows": 3057,
   "excludedRows": 198,
   "exclusions": {
