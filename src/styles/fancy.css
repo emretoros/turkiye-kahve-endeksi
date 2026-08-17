@@ -48,4 +48,4 @@ table{min-width:1180px}
 .price-change--down{background:#dfeee5}
 .price-change--unknown{background:#eeeae3;color:var(--muted);font-size:16px}
 
-@media(min-width:901px){.filters{grid-template-columns:1.6fr repeat(5,minmax(0,1fr))}}
+@media(min-width:901px){.filters{grid-template-columns:1.6fr repeat(5,minmax(0,1fr))}.filters .search-field{grid-column:auto}}

@@ -8,7 +8,8 @@
     "same": 53,
     "down": 19
   },
-  "totalRows": 3057,
+  "duplicateRowsRemoved": 29,
+  "totalRows": 3028,
   "excludedRows": 198,
   "exclusions": {
     "Ekipman/aksesuar": 39,
@@ -22,7 +23,7 @@
     "Ürün olmayan sayfa": 1
   },
   "businesses": 192,
-  "namedProducts": 2989,
+  "namedProducts": 2960,
   "trackingRecords": 68,
   "origins": 67
 }

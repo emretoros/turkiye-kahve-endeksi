@@ -64,7 +64,43 @@ const coffeeProducts = products.filter((row) => {
   return true;
 });
 
-const cleaned = coffeeProducts.map((row, index) => ({
+const canonicalUrl = (value) => {
+  try {
+    const url = new URL(value);
+    return `${url.hostname.replace(/^www\./, '')}${url.pathname.replace(/\/+$/, '')}`.toLocaleLowerCase('tr-TR');
+  } catch {
+    return normalize(value);
+  }
+};
+
+const sourcePriority = (row) => {
+  const method = row.sourceMethod || '';
+  if (/Shopify|WooCommerce/i.test(method)) return 100;
+  if (/JSON-LD/i.test(method)) return 95;
+  if (/canlı ürün|kategori HTML|Ana sayfa ürün kartı|HTML ürün kartı|Özel katalog|manuel\/API/i.test(method)) return 90;
+  if (/Site haritası ürün sayfası/i.test(method)) return 10;
+  if (row.confidence === 'Yüksek') return 80;
+  if (row.confidence === 'Orta') return 60;
+  return 40;
+};
+
+const identityGroups = new Map();
+for (const row of coffeeProducts) {
+  const key = [normalize(row.business), normalize(row.product), row.grams ?? '', canonicalUrl(row.url)].join('|');
+  if (!identityGroups.has(key)) identityGroups.set(key, []);
+  identityGroups.get(key).push(row);
+}
+
+const dedupedCoffeeProducts = [...identityGroups.values()].flatMap((group) => {
+  const bestPriority = Math.max(...group.map(sourcePriority));
+  const strongest = group.filter((row) => sourcePriority(row) === bestPriority);
+  return [...new Map(strongest.map((row) => [
+    [row.sourceMethod, row.price ?? '', row.previousPrice ?? '', row.stock ?? ''].join('|'),
+    row
+  ])).values()];
+});
+
+const cleaned = dedupedCoffeeProducts.map((row, index) => ({
   id: index + 1,
   business: row.business,
   city: row.city || null,
@@ -106,6 +142,7 @@ const metadata = {
   priceComparedRows: priceCompared.length,
   priceComparedBusinesses: new Set(priceCompared.map((row) => row.business)).size,
   priceChanges,
+  duplicateRowsRemoved: coffeeProducts.length - dedupedCoffeeProducts.length,
   totalRows: cleaned.length,
   excludedRows: excluded.length,
   exclusions: excluded.reduce((counts, row) => {

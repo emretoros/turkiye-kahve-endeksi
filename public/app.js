@@ -3,7 +3,7 @@ const money = new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'TRY
 const number = new Intl.NumberFormat('tr-TR');
 const date = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
 const shortDate = new Intl.DateTimeFormat('tr-TR');
-const els = Object.fromEntries(['search','origin','business','data-status','price-change','sort','product-rows','result-summary','prev','next','page-label','clear','stat-last-control','price-update-summary','footer-update'].map(id => [id, document.getElementById(id)]));
+const els = Object.fromEntries(['search','origin','business','price-change','weight-range','sort','product-rows','result-summary','prev','next','page-label','clear','stat-last-control','price-update-summary','footer-update'].map(id => [id, document.getElementById(id)]));
 let all = [], filtered = [], page = 1;
 const pageSize = 30;
 
@@ -33,25 +33,35 @@ function fillSelect(select, values) {
   values.sort((a,b) => a.localeCompare(b, 'tr')).forEach(value => select.insertAdjacentHTML('beforeend', `<option value="${esc(value)}">${esc(value)}</option>`));
 }
 
+function weightMatches(row, range) {
+  if (!range) return true;
+  if (range === 'unknown') return row.grams == null;
+  if (row.grams == null) return false;
+  if (range === 'lt250') return row.grams < 250;
+  if (range === 'eq250') return row.grams === 250;
+  if (range === 'gt250') return row.grams > 250;
+  return true;
+}
+
 function applyFilters() {
   const q = els.search.value.trim().toLocaleLowerCase('tr');
   filtered = all.filter(row => {
     const text = `${row.business} ${row.product} ${row.origin} ${(row.aliases || []).join(' ')} ${row.instagram || ''}`.toLocaleLowerCase('tr');
-    const state = els['data-status'].value;
     const change = els['price-change'].value;
+    const weightRange = els['weight-range'].value;
     return (!q || text.includes(q)) && (!els.origin.value || row.origin === els.origin.value) && (!els.business.value || row.business === els.business.value)
-      && (!state || (state === 'complete' && row.price && row.grams) || (state === 'price' && row.price) || (state === 'weight' && row.grams) || (state === 'missing' && (!row.price || !row.grams)))
-      && (!change || priceChangeStatus(row) === change);
+      && (!change || priceChangeStatus(row) === change)
+      && weightMatches(row, weightRange);
   });
   const sort = els.sort.value;
-  filtered.sort((a,b) => sort === 'price-asc' ? (a.price ?? Infinity) - (b.price ?? Infinity) : sort === 'kg-asc' ? (a.pricePerKg ?? Infinity) - (b.pricePerKg ?? Infinity) : sort === 'kg-desc' ? (b.pricePerKg ?? -1) - (a.pricePerKg ?? -1) : a.business.localeCompare(b.business, 'tr'));
+  filtered.sort((a,b) => sort === 'price-asc' ? (a.price ?? Infinity) - (b.price ?? Infinity) : a.business.localeCompare(b.business, 'tr'));
   page = 1; render();
 }
 
 function render() {
   const pages = Math.max(1, Math.ceil(filtered.length / pageSize)); page = Math.min(page, pages);
   const rows = filtered.slice((page-1)*pageSize, page*pageSize);
-  els['product-rows'].innerHTML = rows.length ? rows.map(row => `<tr><td><strong>${esc(row.business)}</strong><small>${esc(row.businessStatus)}</small></td><td>${esc(row.product)}</td><td><span class="origin-pill">${esc(row.origin)}</span></td><td>${available(row.grams, v => `${number.format(v)} g`)}</td><td>${available(row.price, money.format)}</td><td>${previousPrice(row.previousPrice)}</td><td class="change-cell">${priceChange(row)}</td><td>${available(row.pricePerKg, money.format)}</td><td>${row.url ? `<a class="source-link" href="${esc(row.url)}" target="_blank" rel="noopener">Sayfaya git ↗</a>` : '<span class="missing">Erişilemedi</span>'}</td></tr>`).join('') : '<tr><td colspan="9" class="loading">Bu filtrelerle eşleşen kayıt bulunamadı.</td></tr>';
+  els['product-rows'].innerHTML = rows.length ? rows.map(row => `<tr><td><strong>${esc(row.business)}</strong><small>${esc(row.businessStatus)}</small></td><td>${esc(row.product)}</td><td><span class="origin-pill">${esc(row.origin)}</span></td><td>${available(row.grams, v => `${number.format(v)} g`)}</td><td>${available(row.price, money.format)}</td><td>${previousPrice(row.previousPrice)}</td><td class="change-cell">${priceChange(row)}</td><td>${row.url ? `<a class="source-link" href="${esc(row.url)}" target="_blank" rel="noopener">Sayfaya git ↗</a>` : '<span class="missing">Erişilemedi</span>'}</td></tr>`).join('') : '<tr><td colspan="8" class="loading">Bu filtrelerle eşleşen kayıt bulunamadı.</td></tr>';
   const products = filtered.filter(row => row.catalogStatus === 'Ürün kaydı').length;
   const tracking = filtered.length - products;
   els['result-summary'].textContent = `${number.format(filtered.length)} toplam kayıt: ${number.format(products)} ürün + ${number.format(tracking)} takip kaydı`;
@@ -72,8 +82,8 @@ Promise.all([fetch(`${base}data/products.json`).then(r=>r.json()), fetch(`${base
     els['footer-update'].textContent = `Son tam kontrol: ${date.format(asDate(meta.checkedAt))} · Fiyat karşılaştırması: ${comparisonDate}`;
   }
   render();
-}).catch(() => { els['product-rows'].innerHTML = '<tr><td colspan="9" class="loading">Veri yüklenemedi.</td></tr>'; });
+}).catch(() => { els['product-rows'].innerHTML = '<tr><td colspan="8" class="loading">Veri yüklenemedi.</td></tr>'; });
 
-['search','origin','business','data-status','price-change','sort'].forEach(id => els[id].addEventListener(id === 'search' ? 'input' : 'change', applyFilters));
+['search','origin','business','price-change','weight-range','sort'].forEach(id => els[id].addEventListener(id === 'search' ? 'input' : 'change', applyFilters));
 els.prev.addEventListener('click', () => { page--; render(); }); els.next.addEventListener('click', () => { page++; render(); });
-els.clear.addEventListener('click', () => { ['search','origin','business','data-status','price-change'].forEach(id => els[id].value=''); els.sort.value='business'; applyFilters(); });
+els.clear.addEventListener('click', () => { ['search','origin','business','price-change','weight-range'].forEach(id => els[id].value=''); els.sort.value='business'; applyFilters(); });
