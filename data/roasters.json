@@ -9,7 +9,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 2,
@@ -21,7 +23,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 3,
@@ -33,7 +37,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 4,
@@ -45,7 +51,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 5,
@@ -57,7 +65,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 6,
@@ -69,7 +79,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 503 Service Unavailable | ikas: 404 Not Found"
   },
   {
     "id": 7,
@@ -81,7 +93,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme)"
   },
   {
     "id": 8,
@@ -93,7 +107,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 9,
@@ -105,7 +121,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 10,
@@ -117,7 +135,9 @@
     "instagram": null,
     "platform": "jsonld",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 11,
@@ -129,7 +149,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 12,
@@ -141,7 +163,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 13,
@@ -153,7 +177,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 14,
@@ -165,7 +191,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 15,
@@ -177,7 +205,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 16,
@@ -189,7 +219,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 17,
@@ -201,7 +233,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 18,
@@ -213,7 +247,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 19,
@@ -225,7 +261,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 20,
@@ -237,7 +275,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 21,
@@ -249,7 +289,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 22,
@@ -261,7 +303,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 23,
@@ -273,7 +317,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 24,
@@ -285,7 +331,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 25,
@@ -297,7 +345,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 26,
@@ -309,7 +359,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 27,
@@ -321,7 +373,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 28,
@@ -333,7 +387,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 29,
@@ -345,7 +401,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 30,
@@ -357,7 +415,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 31,
@@ -369,7 +429,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 32,
@@ -381,7 +443,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 33,
@@ -393,7 +457,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 34,
@@ -405,7 +471,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 35,
@@ -417,7 +485,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 36,
@@ -429,7 +499,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 37,
@@ -441,7 +513,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 38,
@@ -453,7 +527,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 39,
@@ -465,7 +541,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 40,
@@ -477,7 +555,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 41,
@@ -489,7 +569,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 42,
@@ -501,7 +583,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 43,
@@ -513,7 +597,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 44,
@@ -525,7 +611,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 45,
@@ -537,7 +625,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 46,
@@ -549,7 +639,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 47,
@@ -561,7 +653,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 48,
@@ -573,7 +667,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 49,
@@ -585,7 +681,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_website",
+    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
   },
   {
     "id": 50,
@@ -597,7 +695,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 51,
@@ -609,7 +709,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 52,
@@ -621,7 +723,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 53,
@@ -633,7 +737,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 54,
@@ -645,7 +751,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 55,
@@ -657,7 +765,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 56,
@@ -669,7 +779,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 57,
@@ -681,7 +793,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 58,
@@ -693,7 +807,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 59,
@@ -705,7 +821,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 60,
@@ -717,7 +835,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 61,
@@ -729,7 +849,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden"
   },
   {
     "id": 62,
@@ -741,7 +863,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 63,
@@ -753,7 +877,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 64,
@@ -765,7 +891,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 65,
@@ -777,7 +905,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed"
   },
   {
     "id": 66,
@@ -789,7 +919,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme)"
   },
   {
     "id": 67,
@@ -801,7 +933,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 68,
@@ -811,9 +945,11 @@
     "status": "Doğrulandı",
     "website": "https://espressolab.com",
     "instagram": null,
-    "platform": null,
+    "platform": "jsonld",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 69,
@@ -825,7 +961,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 70,
@@ -837,7 +975,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 71,
@@ -849,7 +989,9 @@
     "instagram": null,
     "platform": "jsonld",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 72,
@@ -861,7 +1003,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 73,
@@ -873,7 +1017,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 74,
@@ -885,7 +1031,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 75,
@@ -897,7 +1045,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 76,
@@ -909,7 +1059,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme)"
   },
   {
     "id": 77,
@@ -921,7 +1073,9 @@
     "instagram": null,
     "platform": "jsonld",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 78,
@@ -933,7 +1087,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 79,
@@ -945,7 +1101,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 80,
@@ -957,7 +1115,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 81,
@@ -969,7 +1129,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 82,
@@ -981,7 +1143,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 83,
@@ -993,7 +1157,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 84,
@@ -1005,7 +1171,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 85,
@@ -1017,7 +1185,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found"
   },
   {
     "id": 86,
@@ -1029,7 +1199,9 @@
     "instagram": null,
     "platform": "jsonld",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 87,
@@ -1041,7 +1213,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 88,
@@ -1053,7 +1227,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 89,
@@ -1065,7 +1241,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 90,
@@ -1077,7 +1255,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 91,
@@ -1089,7 +1269,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found"
   },
   {
     "id": 92,
@@ -1101,7 +1283,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 93,
@@ -1113,7 +1297,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 94,
@@ -1125,7 +1311,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 95,
@@ -1137,7 +1325,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 429 Too Many Requests | woocommerce: 429 Too Many Requests | ikas: 429 Too Many Requests"
   },
   {
     "id": 96,
@@ -1149,7 +1339,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 97,
@@ -1161,7 +1353,9 @@
     "instagram": null,
     "platform": "jsonld",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 98,
@@ -1173,7 +1367,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
   },
   {
     "id": 99,
@@ -1185,7 +1381,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 100,
@@ -1197,7 +1395,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 101,
@@ -1209,7 +1409,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 102,
@@ -1221,7 +1423,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 103,
@@ -1233,7 +1437,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 104,
@@ -1245,7 +1451,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 105,
@@ -1257,7 +1465,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 106,
@@ -1269,7 +1479,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed"
   },
   {
     "id": 107,
@@ -1281,7 +1493,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 108,
@@ -1293,7 +1507,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found"
   },
   {
     "id": 109,
@@ -1305,7 +1521,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 110,
@@ -1317,7 +1535,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden"
   },
   {
     "id": 111,
@@ -1329,7 +1549,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 112,
@@ -1341,7 +1563,9 @@
     "instagram": null,
     "platform": "jsonld",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 113,
@@ -1353,7 +1577,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found"
   },
   {
     "id": 114,
@@ -1365,7 +1591,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 115,
@@ -1377,7 +1605,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 116,
@@ -1389,7 +1619,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 117,
@@ -1401,7 +1633,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
   },
   {
     "id": 118,
@@ -1413,7 +1647,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 404 Not Found"
   },
   {
     "id": 119,
@@ -1425,7 +1661,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 120,
@@ -1437,7 +1675,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 121,
@@ -1449,7 +1689,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden"
   },
   {
     "id": 122,
@@ -1461,7 +1703,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden"
   },
   {
     "id": 123,
@@ -1473,7 +1717,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 124,
@@ -1485,7 +1731,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 125,
@@ -1497,7 +1745,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 126,
@@ -1509,7 +1759,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 127,
@@ -1521,7 +1773,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 128,
@@ -1533,7 +1787,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 129,
@@ -1545,7 +1801,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 130,
@@ -1557,7 +1815,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 131,
@@ -1569,7 +1829,9 @@
     "instagram": null,
     "platform": "jsonld",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 132,
@@ -1581,7 +1843,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 133,
@@ -1593,7 +1857,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 134,
@@ -1605,7 +1871,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 135,
@@ -1617,7 +1885,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found"
   },
   {
     "id": 136,
@@ -1629,7 +1899,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 137,
@@ -1641,7 +1913,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 138,
@@ -1653,7 +1927,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 139,
@@ -1665,7 +1941,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 140,
@@ -1677,7 +1955,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 141,
@@ -1689,7 +1969,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
   },
   {
     "id": 142,
@@ -1701,7 +1983,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 143,
@@ -1713,7 +1997,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 144,
@@ -1725,7 +2011,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 145,
@@ -1737,7 +2025,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 146,
@@ -1749,7 +2039,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 147,
@@ -1761,7 +2053,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 148,
@@ -1773,7 +2067,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 149,
@@ -1785,7 +2081,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 150,
@@ -1797,7 +2095,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 151,
@@ -1809,7 +2109,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 152,
@@ -1821,7 +2123,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 153,
@@ -1833,7 +2137,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 154,
@@ -1845,7 +2151,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 155,
@@ -1857,7 +2165,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 156,
@@ -1869,7 +2179,9 @@
     "instagram": null,
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 157,
@@ -1881,7 +2193,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 158,
@@ -1893,7 +2207,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 500 Internal Server Error | woocommerce: 500 Internal Server Error | ikas: 500 Internal Server Error"
   },
   {
     "id": 159,
@@ -1905,7 +2221,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed"
   },
   {
     "id": 160,
@@ -1917,7 +2235,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 161,
@@ -1929,7 +2249,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 162,
@@ -1941,7 +2263,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found"
   },
   {
     "id": 163,
@@ -1953,7 +2277,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
   },
   {
     "id": 164,
@@ -1965,7 +2291,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 429 Too Many Requests | woocommerce: 429 Too Many Requests | ikas: 429 Too Many Requests"
   },
   {
     "id": 165,
@@ -1977,7 +2305,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
   },
   {
     "id": 166,
@@ -1989,7 +2319,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
   },
   {
     "id": 167,
@@ -2001,7 +2333,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 168,
@@ -2013,7 +2347,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 169,
@@ -2025,7 +2361,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
   },
   {
     "id": 170,
@@ -2037,7 +2375,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 171,
@@ -2049,7 +2389,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 172,
@@ -2061,7 +2403,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 173,
@@ -2073,7 +2417,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
   },
   {
     "id": 174,
@@ -2085,7 +2431,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden"
   },
   {
     "id": 175,
@@ -2097,7 +2445,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 176,
@@ -2109,7 +2459,9 @@
     "instagram": null,
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 177,
@@ -2121,7 +2473,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 178,
@@ -2133,7 +2487,9 @@
     "instagram": "https://www.instagram.com/coffee_haus/",
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 179,
@@ -2145,7 +2501,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
   },
   {
     "id": 180,
@@ -2157,7 +2515,9 @@
     "instagram": "https://www.instagram.com/arccoffee.co/",
     "platform": "jsonld",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 181,
@@ -2169,7 +2529,9 @@
     "instagram": "https://www.instagram.com/anisahcoffee/",
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 182,
@@ -2181,7 +2543,9 @@
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found"
   },
   {
     "id": 183,
@@ -2193,7 +2557,9 @@
     "instagram": null,
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 184,
@@ -2205,7 +2571,9 @@
     "instagram": "https://www.instagram.com/fluxuscoffee/",
     "platform": "shopify",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 185,
@@ -2217,7 +2585,9 @@
     "instagram": "https://www.instagram.com/thewhirl/",
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 186,
@@ -2229,7 +2599,9 @@
     "instagram": "https://www.instagram.com/tenebrew/",
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 187,
@@ -2241,7 +2613,9 @@
     "instagram": "https://www.instagram.com/maincoffee.co/",
     "platform": null,
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: 404 Not Found"
   },
   {
     "id": 188,
@@ -2253,7 +2627,9 @@
     "instagram": "https://www.instagram.com/bentzroastery/",
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 189,
@@ -2265,7 +2641,9 @@
     "instagram": "https://www.instagram.com/atolyekuban/",
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 190,
@@ -2277,7 +2655,9 @@
     "instagram": "https://www.instagram.com/tetranroastery/",
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 191,
@@ -2289,7 +2669,9 @@
     "instagram": "https://www.instagram.com/theflavourcoffee/",
     "platform": "ikas",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 192,
@@ -2301,6 +2683,8 @@
     "instagram": null,
     "platform": "jsonld",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-19"
+    "lastSeen": "2026-08-19",
+    "dataStatus": "active",
+    "dataStatusNote": null
   }
 ]
