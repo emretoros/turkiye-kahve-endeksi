@@ -36,11 +36,26 @@ const normalize = (value) => String(value || '')
   .replace(/[̀-ͯ]/g, '')
   .replace(/ı/g, 'i');
 
-/** prepare-data.mjs'in eleme listesinden sızan ekipman kalıpları. */
-const EQUIPMENT = /\b(hario|v60|chemex|aeropress|kalita|fellow|comandante|timemore|origami|surahi|olcu kasigi|dripper|server|kettle|tamper|tarti|terazi|cezve|ibrik|french press|moka pot|filtre kagidi|kupa|mug|termos|cuval|stanley|barista aparat)\b/;
+/**
+ * prepare-data.mjs'in eleme listesinden sızan ekipman kalıpları.
+ *
+ * "makine|makinesi|grinder|degirmen" BİLEREK genel tutuldu: La Marzocco,
+ * Jura, Astoria gibi marka+model isimleri (ör. "La Marzocco Linea Micra")
+ * hiçbir ekipman kelimesi İÇERMEYEBİLİR — bu yüzden marka listesi kovalamak
+ * yerine aşağıdaki UNGRAMMED_PRICE_MAX sayısal eşiği asıl güvenlik ağı.
+ */
+const EQUIPMENT = /\b(hario|v60|chemex|aeropress|kalita|fellow|comandante|timemore|origami|surahi|olcu kasigi|dripper|server|kettle|tamper|tarti|terazi|cezve|ibrik|french press|moka pot|filtre kagidi|kupa|mug|termos|cuval|stanley|barista aparat|makine|makinesi|grinder|degirmen)\b/;
 
-/** Abonelikler kahve ürünüdür ama birim fiyatı ürün fiyatıyla kıyaslanamaz. */
-const SUBSCRIPTION = /\b(abonelik|abone|subscription)\b/;
+/**
+ * Abonelikler kahve ürünüdür ama birim fiyatı ürün fiyatıyla kıyaslanamaz.
+ * "abone" kökü BİLEREK sondan sınırsız (\b yalnızca baştan): Türkçe ünsüz
+ * yumuşaması "abonelik" → "aboneliği" gibi çekimlerde kökü değiştirir
+ * (k→ğ), "abonelik" sabit dizesi bu çekimleri YAKALAMAZ.
+ */
+const SUBSCRIPTION = /\babone|\bsubscription\b/;
+
+/** Palet/toptan satış birimleri — gerçek kahve ama tek tüketici paketiyle kıyaslanamaz. */
+const WHOLESALE = /\bpalet\b|\btoptan\b|\bwholesale\b/;
 
 /** Kargo eşiği olarak sık kullanılan yuvarlak tutarlar. */
 const SHIPPING_THRESHOLDS = new Set([250, 300, 350, 400, 450, 500, 600, 750, 800, 1000, 1250, 1500, 2000, 2500]);
@@ -51,6 +66,15 @@ export const ROUND_REPEAT_THRESHOLD = 2;
 
 /** Önceki gözleme göre bu orandan büyük sıçrama manuel incelemeye düşer. */
 export const JUMP_RATIO = 0.6;
+
+/**
+ * Gramajı belirlenemeyen (parseGrams boşa çıkan) bir üründe bu tutarın
+ * üzerindeki fiyat, ekipman/marka-model isimli ürün (ör. "La Marzocco Linea
+ * Micra" — hiçbir ekipman kelimesi içermez) ya da toptan/palet fiyatı
+ * sızıntısıdır. Anahtar kelime listesi kovalamak yerine sayısal bir
+ * güvenlik ağı: gramajsız hiçbir perakende kahve paketi bu kadar tutmaz.
+ */
+export const UNGRAMMED_PRICE_MAX = 15000;
 
 const pricePerKg = (row) =>
   Number.isFinite(row.price) && row.price > 0 && Number.isFinite(row.grams) && row.grams > 0
@@ -115,10 +139,24 @@ export function applyPriceRules(rows) {
       flags.push({ rule: 'SUBSCRIPTION', severity: 'quarantine', detail: 'abonelik ürünü, birim fiyat kıyaslanamaz' });
     }
 
+    // R11 — palet/toptan: gerçek kahve ama tek paket fiyatıyla kıyaslanamaz.
+    if (WHOLESALE.test(haystack)) {
+      flags.push({ rule: 'WHOLESALE', severity: 'quarantine', detail: 'palet/toptan satış birimi' });
+    }
+
     if (price !== null) {
       // R5 — mutlak alt sınır. "8 TL kahve" diye bir şey yok.
       if (price < ABSOLUTE_MIN_PRICE) {
         flags.push({ rule: 'ABSOLUTE_MIN', severity: 'quarantine', detail: `${price} TL < ${ABSOLUTE_MIN_PRICE} TL` });
+      }
+
+      // R10 — gramajsız + aşırı yüksek fiyat: ekipman/marka-model ya da yanlış birim.
+      if (!gramsPlausible && price > UNGRAMMED_PRICE_MAX) {
+        flags.push({
+          rule: 'HIGH_PRICE_NO_GRAMS',
+          severity: 'quarantine',
+          detail: `${price} TL, gramaj yok/belirsiz — ${UNGRAMMED_PRICE_MAX} TL eşiğinin üstünde`
+        });
       }
 
       // R1 — aynı işletmede aynı fiyatın çok sayıda farklı üründe tekrar etmesi.

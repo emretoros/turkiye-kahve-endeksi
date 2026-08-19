@@ -276,9 +276,19 @@ export async function collectJsonLdSite(origin, { maxPages = 150, concurrency = 
       try {
         const html = await request(pageUrl, { type: 'html' });
         const products = productNodesFrom(extractJsonLdNodes(html));
-        for (const product of products) {
-          const name = clean(product.name);
-          if (!name) continue;
+
+        // Bir ürün sayfasında BİRDEN FAZLA JSON-LD Product bloğu bulunabilir:
+        // asıl ürün + "benzer ürünler / birlikte alınır" widget'ı. İkincisini
+        // de işlemek gerçek bir hataya yol açtı — savenecoffee.shop'ta bir
+        // sayfadaki widget öğesi ana ürünle AYNI jenerik SKU'yu ("SKU-KAHVE-
+        // MAKINESI") paylaşıyordu, ikisi tek kimliğe çöküp fiyat gözlemi
+        // 19000 ↔ 2739 arasında zıplayan sahte bir seri üretti. Sayfadaki
+        // İLK Product bloğunu asıl ürün kabul edip gerisini atlıyoruz — aynı
+        // ikas düzeltmesindeki mantık. Widget'taki ürün gerçekse zaten
+        // kendi sayfasında, sitemap taramasıyla ayrıca ziyaret edilecek.
+        const product = products[0];
+        const name = product ? clean(product.name) : '';
+        if (product && name) {
           const offers = offersOf(product);
           const platformProductId = product.sku || product.productID || product.mpn || null;
           const description = clean(product.description);
