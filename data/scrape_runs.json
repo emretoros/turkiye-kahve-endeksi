@@ -1,0 +1,20 @@
+[
+  {
+    "runId": "run-2026-08-19T16-22-01-373Z",
+    "startedAt": "2026-08-19T16:22:14.968Z",
+    "finishedAt": "2026-08-19T16:22:21.468Z",
+    "businesses": 7,
+    "totalRows": 941,
+    "totalChanged": 941,
+    "errors": 2
+  },
+  {
+    "runId": "run-2026-08-19T16-30-48-689Z",
+    "startedAt": "2026-08-19T16:32:37.675Z",
+    "finishedAt": "2026-08-19T16:37:07.342Z",
+    "businesses": 151,
+    "totalRows": 13999,
+    "totalChanged": 12976,
+    "errors": 53
+  }
+]

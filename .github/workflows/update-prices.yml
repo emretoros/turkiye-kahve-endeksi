@@ -1,0 +1,60 @@
+name: Fiyat verisini güncelle
+
+# Haftalık koşuyor — günlük değil, çünkü JSON-LD sitemap fallback'i her koşuda
+# bazı işletmelerde onlarca ürün sayfasını tek tek çekiyor; her gün yapmak
+# küçük sitelerin sunucusuna gereksiz yük bindirir. Daha sık istersen cron'u
+# "0 5 * * *" yap (her gün 05:00 UTC = 08:00 TR).
+on:
+  schedule:
+    - cron: '0 5 * * 1' # her Pazartesi 05:00 UTC = 08:00 TR
+  workflow_dispatch: {} # "Run workflow" butonuyla elle de tetiklenebilir
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-prices
+  cancel-in-progress: false # bir koşu sürerken ikincisi kuyruğa girsin, iptal olmasın
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Bu script'in npm bağımlılığı yok (yalnızca Node yerleşikleri), install gerekmiyor.
+      - name: Kimlik + fiyat toplama koşusu
+        id: collect
+        run: node scripts/collect-identity.mjs
+        continue-on-error: true # önce commit'i atalım, başarısızlığı ondan SONRA bildirelim
+
+      - name: Koşu özetini iş özetine yaz
+        if: always()
+        run: |
+          if [ -f data/run_report_latest.json ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            node -e "console.log(JSON.stringify(JSON.parse(require('fs').readFileSync('data/run_report_latest.json','utf8')).summary, null, 2))" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Değişiklikleri commit'le
+        run: |
+          git config user.name "kahve-endeksi-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok, commit atlanıyor."
+          else
+            git commit -m "veri: haftalık fiyat toplama koşusu ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Toplama başarısızsa iş'i başarısız işaretle
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo "collect-identity.mjs sıfırdan farklı çıkış koduyla bitti — sağlık kontrolü tetiklenmiş olabilir."
+          exit 1

@@ -1,0 +1,106 @@
+{
+  "summary": {
+    "runId": "run-2026-08-19T16-22-01-373Z",
+    "taranan": 7,
+    "toplamSatir": 941,
+    "toplamDegisim": 941,
+    "toplamKarantina": 20,
+    "hatali": 2,
+    "bayrakli": 2,
+    "depo": {
+      "roasters": 10,
+      "products": 311,
+      "variants": 941
+    }
+  },
+  "results": [
+    {
+      "business": "A Roasting Lab",
+      "website": "https://aroastinglab.com",
+      "platform": "shopify",
+      "rows": 494,
+      "changed": 494,
+      "quarantined": 4,
+      "seconds": 1,
+      "error": null
+    },
+    {
+      "business": "Ben Coffee Co.",
+      "website": "https://bencoffee.co",
+      "platform": "shopify",
+      "rows": 263,
+      "changed": 263,
+      "quarantined": 7,
+      "seconds": 0,
+      "error": null
+    },
+    {
+      "business": "Akademi Kahve",
+      "website": "https://academyroastery.com",
+      "platform": null,
+      "rows": 0,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 1,
+      "error": "shopify: 404  | woocommerce: 503  | ikas: 404 "
+    },
+    {
+      "business": "Arabica Coffee House",
+      "website": "https://arabicacoffee.com.tr",
+      "platform": null,
+      "rows": 0,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 1,
+      "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme)"
+    },
+    {
+      "business": "1978 Coffee Roastery",
+      "website": "https://1978coffee.com",
+      "platform": "ikas",
+      "rows": 20,
+      "changed": 20,
+      "quarantined": 7,
+      "seconds": 5,
+      "error": null
+    },
+    {
+      "business": "Baristocrat",
+      "website": "https://baristocrat.com",
+      "platform": "woocommerce",
+      "rows": 14,
+      "changed": 14,
+      "quarantined": 1,
+      "seconds": 11,
+      "error": null
+    },
+    {
+      "business": "Artukbey Kahve",
+      "website": "https://artukbey.com",
+      "platform": "jsonld",
+      "rows": 150,
+      "changed": 150,
+      "quarantined": 1,
+      "seconds": 20,
+      "error": null
+    }
+  ],
+  "flagged": [
+    {
+      "runId": "run-2026-08-19T16-22-01-373Z",
+      "roasterSlug": "Akademi Kahve",
+      "rows": 0,
+      "deltaPct": null,
+      "flagged": true,
+      "error": "shopify: 404  | woocommerce: 503  | ikas: 404 "
+    },
+    {
+      "runId": "run-2026-08-19T16-22-01-373Z",
+      "roasterSlug": "Arabica Coffee House",
+      "rows": 0,
+      "deltaPct": null,
+      "flagged": true,
+      "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme)"
+    }
+  ]
+}
