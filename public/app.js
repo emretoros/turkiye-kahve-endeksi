@@ -176,7 +176,7 @@ function openHistoryModal(row, trigger) {
       chartWrap.innerHTML = `${chart.svg}<div class="history-tooltip" role="status" aria-live="polite"></div>`;
       attachHistoryInteraction(chartWrap, chart);
     } else {
-      chartWrap.innerHTML = '<p class="history-empty">Henüz yalnızca 1 gözlem var — her Pazartesi otomatik güncellemeyle geçmiş birikmeye devam edecek.</p>';
+      chartWrap.innerHTML = '<p class="history-empty">Henüz yalnızca 1 gözlem var — her gün otomatik güncellemeyle geçmiş birikmeye devam edecek.</p>';
     }
 
     listEl.innerHTML = '';
@@ -234,7 +234,7 @@ function historyCell(row) {
 function render() {
   const pages = Math.max(1, Math.ceil(filtered.length / pageSize)); page = Math.min(page, pages);
   const rows = filtered.slice((page-1)*pageSize, page*pageSize);
-  els['product-rows'].innerHTML = rows.length ? rows.map(row => `<tr><td><strong>${esc(row.business)}</strong><small>${esc(row.businessStatus)}</small></td><td>${esc(row.product)}</td><td><span class="origin-pill">${esc(row.origin)}</span></td><td>${available(row.grams, v => `${number.format(v)} g`)}</td><td>${available(row.price, money.format)}</td><td>${previousPrice(row.previousPrice)}</td><td class="change-cell">${priceChange(row)}</td><td>${row.url ? `<a class="source-link" href="${esc(row.url)}" target="_blank" rel="noopener">Sayfaya git ↗</a>` : '<span class="missing">Erişilemedi</span>'}</td><td class="history-cell">${historyCell(row)}</td></tr>`).join('') : '<tr><td colspan="9" class="loading">Bu filtrelerle eşleşen kayıt bulunamadı.</td></tr>';
+  els['product-rows'].innerHTML = rows.length ? rows.map(row => `<tr><td><strong>${esc(row.business)}</strong><small>${esc(row.businessStatus)}</small></td><td>${esc(row.product)}</td><td><span class="origin-pill">${esc(row.origin)}</span></td><td>${available(row.grams, v => `${number.format(v)} g`)}</td><td>${available(row.price, money.format)}</td><td>${previousPrice(row.previousPrice)}</td><td class="change-cell">${priceChange(row)}</td><td class="history-cell">${historyCell(row)}</td><td>${row.url ? `<a class="source-link" href="${esc(row.url)}" target="_blank" rel="noopener">Sayfaya git ↗</a>` : '<span class="missing">Erişilemedi</span>'}</td></tr>`).join('') : '<tr><td colspan="9" class="loading">Bu filtrelerle eşleşen kayıt bulunamadı.</td></tr>';
   const products = filtered.filter(row => row.catalogStatus === 'Ürün kaydı').length;
   const tracking = filtered.length - products;
   els['result-summary'].textContent = `${number.format(filtered.length)} toplam kayıt: ${number.format(products)} ürün + ${number.format(tracking)} takip kaydı`;
