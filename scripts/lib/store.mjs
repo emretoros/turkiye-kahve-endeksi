@@ -108,6 +108,15 @@ export function openStore(dataDir) {
     } else {
       variant.lastSeen = today();
       variant.isActive = true;
+      // Ayrıştırıcı sonradan iyileştirildiğinde önceden boş kalmış sabit
+      // kimlikli varyant alanlarını zenginleştir. Kimlik ve fiyat geçmişi
+      // korunur; yalnızca eksik metadata, yeni taramadaki doğrulanmış değerle
+      // doldurulur (gerçek vaka: Zümrüt Karaca Shopify variant.grams).
+      if (variant.grams == null && Number.isFinite(record.grams) && record.grams > 0) {
+        variant.grams = record.grams;
+      }
+      if (!variant.optionSignature && record.optionSignature) variant.optionSignature = record.optionSignature;
+      if (!variant.label && record.variantTitle) variant.label = record.variantTitle;
     }
     return variant;
   }

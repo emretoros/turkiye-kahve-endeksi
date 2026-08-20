@@ -45,6 +45,27 @@ test('varyant kimliği iki koşu arasında sabit kalır', () => {
   assert.equal(r1.roaster.id, r2.roaster.id);
 });
 
+test('sonraki koşu önceden boş kalan gramajı kimliği değiştirmeden doldurur', () => {
+  const dir = tmpDir();
+  const roasterInput = { business: 'Eksik Gramaj', website: 'https://eksik.com' };
+  const record = {
+    platform: 'shopify', host: 'eksik.com', platformProductId: '1', platformVariantId: '2',
+    urlPath: '/products/x', productName: 'Ruanda', variantTitle: 'Çekirdek',
+    grams: null, price: 925, inStock: true
+  };
+
+  const store1 = openStore(dir);
+  const first = ingest(store1, roasterInput, record, 'run-1');
+  store1.save();
+
+  const store2 = openStore(dir);
+  const second = ingest(store2, roasterInput, { ...record, grams: 250 }, 'run-2');
+  store2.save();
+
+  assert.equal(second.variant.id, first.variant.id);
+  assert.equal(second.variant.grams, 250);
+});
+
 test('fiyat değişmezse ikinci koşuda observation eklenmez', () => {
   const dir = tmpDir();
   const roasterInput = { business: 'Sabit Fiyat', website: 'https://sabit.com' };

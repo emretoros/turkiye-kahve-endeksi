@@ -15,6 +15,7 @@ on:
       - 'scripts/lib/collectors.mjs'
       - 'scripts/lib/jsonld.mjs'
       - 'scripts/lib/identity.mjs'
+      - 'scripts/lib/store.mjs'
       - 'scripts/lib/catalog.mjs'
       - 'scripts/lib/price-rules.mjs'
       - 'data/manual_roasters.json'
