@@ -93,18 +93,33 @@ export async function collectShopify(origin, { maxPages = 20 } = {}) {
 
 /* -------------------------------------------------------------- WooCommerce */
 
-export async function collectWoo(origin, { maxPages = 20 } = {}) {
+const wooPrice = (prices, value) => {
+  const minor = Number(prices?.currency_minor_unit ?? 2);
+  return value === undefined || value === null || value === '' ? null : Number(value) / (10 ** minor);
+};
+
+export async function collectWoo(origin, { maxPages = 20, variationConcurrency = 5 } = {}) {
   const host = hostOf(origin);
   const records = [];
+
   for (let page = 1; page <= maxPages; page += 1) {
     const payload = await request(`${origin}/wp-json/wc/store/v1/products?per_page=100&page=${page}`);
     if (!Array.isArray(payload) || !payload.length) break;
 
-    for (const product of payload) {
-      const minor = Number(product.prices?.currency_minor_unit ?? 2);
-      const toPrice = (value) => value === undefined || value === null || value === ''
-        ? null
-        : Number(value) / (10 ** minor);
+    // Değişken (variable) ürünlerde gramaj/öğütme gibi seçenekler WooCommerce
+    // "attribute" sisteminde tutulur, ürün ADINDA DEĞİL — ana listedeki kayıt
+    // bu yüzden grams'ı hiç içermeyebilir. Gerçek vaka: bir kavurucunun 14
+    // gerçek kahve ürününün TAMAMI "Miktar: 250 Gr / 1000 Gr" seçeneğiyle
+    // satılıyordu ama parseGrams(product.name) hep null dönüyor, ürünler o
+    // yüzden sitede hiç görünmüyordu (bkz. GRAMS_MIN/MAX — ana listede grams
+    // yoksa varyant sessizce dışarıda kalıyordu). Değişken ürünün HER
+    // varyasyonunu kendi fiyatı + gramaj etiketiyle ayrı ayrı çekiyoruz;
+    // Store API varyasyonları da normal bir "product" kaynağı gibi sunuyor
+    // (GET /products/{varyasyonId}), o yüzden ekstra bir uç nokta gerekmiyor.
+    const variableProducts = payload.filter((p) => p.type === 'variable' && Array.isArray(p.variations) && p.variations.length);
+    const otherProducts = payload.filter((p) => !variableProducts.includes(p));
+
+    for (const product of otherProducts) {
       const context = `${product.name} ${(product.categories || []).map((c) => c.name).join(' ')}`;
       records.push({
         platform: 'woocommerce',
@@ -117,15 +132,47 @@ export async function collectWoo(origin, { maxPages = 20 } = {}) {
         variantTitle: '',
         grams: parseGrams(product.name),
         optionSignature: optionSignature(context),
-        price: toPrice(product.prices?.price),
-        listPrice: toPrice(product.prices?.regular_price),
+        price: wooPrice(product.prices, product.prices?.price),
+        listPrice: wooPrice(product.prices, product.prices?.regular_price),
         inStock: product.is_in_stock !== false,
         currency: product.prices?.currency_code || 'TRY',
         productType: (product.categories || []).map((c) => c.name).join(' / ') || null,
-        descriptionText: clean(product.short_description || product.description).slice(0, 400),
-        variationIds: (product.variations || []).map((v) => String(v.id ?? v))
+        descriptionText: clean(product.short_description || product.description).slice(0, 400)
       });
     }
+
+    const variationTasks = variableProducts.flatMap((product) => product.variations.map((v) => ({ product, variationId: v.id })));
+    let cursor = 0;
+    await Promise.all(Array.from({ length: variationConcurrency }, async () => {
+      while (cursor < variationTasks.length) {
+        const { product, variationId } = variationTasks[cursor];
+        cursor += 1;
+        try {
+          const v = await request(`${origin}/wp-json/wc/store/v1/products/${variationId}`);
+          const label = v.variation || ''; // ör. "Miktar: 250 Gr" — WooCommerce'in hazır insan-okunur özeti
+          const context = `${label} ${product.name} ${(product.categories || []).map((c) => c.name).join(' ')}`;
+          records.push({
+            platform: 'woocommerce',
+            host,
+            platformProductId: String(product.id),
+            platformVariantId: String(variationId),
+            urlPath: pathOf(product.permalink),
+            url: v.permalink || product.permalink,
+            productName: clean(product.name),
+            variantTitle: clean(label),
+            grams: parseGrams(`${label} ${product.name}`),
+            optionSignature: optionSignature(context),
+            price: wooPrice(v.prices, v.prices?.price),
+            listPrice: wooPrice(v.prices, v.prices?.regular_price),
+            inStock: v.is_in_stock !== false,
+            currency: v.prices?.currency_code || 'TRY',
+            productType: (product.categories || []).map((c) => c.name).join(' / ') || null,
+            descriptionText: clean(product.short_description || product.description).slice(0, 400)
+          });
+        } catch { /* varyasyon çekilemedi (kaldırılmış/erişilemez olabilir) — atla */ }
+      }
+    }));
+
     if (payload.length < 100) break;
   }
   return records;
