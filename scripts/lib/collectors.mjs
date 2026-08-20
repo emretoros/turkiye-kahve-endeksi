@@ -48,6 +48,14 @@ const num = (value) => {
   return Number.isFinite(parsed) && parsed > 0 ? parsed : null;
 };
 
+const packageGrams = (text) => {
+  const unitGrams = parseGrams(text);
+  const bundle = String(text || '').match(/\b(\d+)\s*\+\s*(\d+)\b/);
+  const total = bundle && unitGrams
+    ? (Number(bundle[1]) + Number(bundle[2])) * unitGrams : unitGrams;
+  return total && total <= 6000 ? total : unitGrams;
+};
+
 const sitemapLocs = (xml) => [...String(xml || '').matchAll(/<loc>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/loc>/gi)]
   .map((match) => match[1].replace(/&amp;/g, '&').trim())
   .filter(Boolean);
@@ -158,16 +166,12 @@ export function productFromHtmlMeta(html, pageUrl) {
     `\\\\?"slug(?:Tr|En)?\\\\?":\\\\?"${escapedSlug}\\\\?"[\\s\\S]{0,8000}?\\\\?"gram\\\\?":\\\\?"([^"\\\\]+)`, 'i'
   ))?.[1] || '';
   const weightOptions = `${attributeWeights} ${embeddedWeight}`;
-  const unitGrams = parseGrams(`${name} ${description} ${weightOptions}`);
-  const bundle = name.match(/\b(\d+)\s*\+\s*(\d+)\b/);
-  const bundledGrams = bundle && unitGrams
-    ? (Number(bundle[1]) + Number(bundle[2])) * unitGrams : unitGrams;
   return {
     platform: 'html-meta', host: hostOf(pageUrl),
     platformProductId: metaContent(html, 'product:retailer_item_id') || null,
     platformVariantId: null, urlPath: pathOf(pageUrl), url: pageUrl,
     productName: name, variantTitle: '',
-    grams: bundledGrams && bundledGrams <= 6000 ? bundledGrams : unitGrams,
+    grams: packageGrams(`${name} ${description} ${weightOptions}`),
     optionSignature: optionSignature(`${name} ${weightOptions}`),
     price, listPrice: null,
     inStock: availabilityToBool(metaContent(html, 'product:availability')),
@@ -464,7 +468,7 @@ export async function collectJsonLdSite(origin, { maxPages = 150, concurrency = 
               url: pageUrl,
               productName: name,
               variantTitle: '',
-              grams: parseGrams(`${name} ${description}`),
+              grams: packageGrams(`${name} ${description}`),
               optionSignature: optionSignature(name),
               price,
               listPrice: null,
