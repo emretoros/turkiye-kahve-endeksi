@@ -8,5 +8,15 @@
     "business": "Punctum Coffee",
     "website": "https://puntacoffee.com",
     "note": "Marka/alan adı 'puntacoffee.com'a değişmiş, eski punctumcoffee.com yönlendirmesi WooCommerce Store API yolunu korumuyor — 2026-08-20 doğrulandı."
+  },
+  {
+    "business": "Coffy",
+    "website": "https://coffy.com.tr",
+    "note": "Resmî kurumsal site doğrulandı; hazır içecek/şube ve uygulama odaklı, karşılaştırılabilir paket çekirdek kataloğu henüz bulunmadı — 2026-08-20."
+  },
+  {
+    "business": "Backfield Roasting Co.",
+    "website": "https://www.shopier.com/BackfieldRoastingCo",
+    "note": "Resmî Shopier mağazası doğrulandı; mağaza satışa geçici olarak ara vermiş ve görünen 5 TL tutarlar güncel perakende fiyatı olarak kullanılamaz — 2026-08-20."
   }
 ]
