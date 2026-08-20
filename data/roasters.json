@@ -81,7 +81,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
     "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 503 Service Unavailable | ikas: 404 Not Found | ticimax: 503 Service Unavailable"
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 503 Service Unavailable | ikas: 404 Not Found | ticimax: 503 Service Unavailable | wix: 503 Service Unavailable"
   },
   {
     "id": 7,
@@ -851,7 +851,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
     "dataStatus": "blocked",
-    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden"
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden"
   },
   {
     "id": 62,
@@ -907,7 +907,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
     "dataStatus": "unreachable",
-    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed"
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed"
   },
   {
     "id": 66,
@@ -1537,7 +1537,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
     "dataStatus": "blocked",
-    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden"
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden"
   },
   {
     "id": 111,
@@ -1705,7 +1705,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
     "dataStatus": "blocked",
-    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden"
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden"
   },
   {
     "id": 123,
@@ -1967,11 +1967,11 @@
     "status": "Doğrulandı",
     "website": "https://meetlabcoffee.com",
     "instagram": null,
-    "platform": null,
+    "platform": "wix",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request | ticimax: Ticimax imzası bulunamadı"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 142,
@@ -2209,7 +2209,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
     "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: The operation was aborted due to timeout | woocommerce: The operation was aborted due to timeout | ikas: The operation was aborted due to timeout | ticimax: The operation was aborted due to timeout"
+    "dataStatusNote": "shopify: 500 Internal Server Error | woocommerce: 500 Internal Server Error | ikas: 500 Internal Server Error | ticimax: Ticimax imzası bulunamadı"
   },
   {
     "id": 159,
@@ -2223,7 +2223,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
     "dataStatus": "unreachable",
-    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed"
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed"
   },
   {
     "id": 160,
@@ -2433,7 +2433,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
     "dataStatus": "blocked",
-    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden"
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden"
   },
   {
     "id": 175,
@@ -2544,8 +2544,8 @@
     "platform": "html-meta",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "blocked",
-    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 183,
