@@ -48,6 +48,134 @@ const num = (value) => {
   return Number.isFinite(parsed) && parsed > 0 ? parsed : null;
 };
 
+const sitemapLocs = (xml) => [...String(xml || '').matchAll(/<loc>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/loc>/gi)]
+  .map((match) => match[1].replace(/&amp;/g, '&').trim())
+  .filter(Boolean);
+
+const PRODUCT_SITEMAP = /product|urun|store|shop|catalog|kahve/i;
+const PRODUCT_PAGE = /\/(?:products?|urun(?:ler)?|magaza|shop|kahve(?:ler)?|coffee)(?:\/|[-_])/i;
+const COFFEE_PAGE = /kahve|coffee|espresso|filtre|filter|ethiopia|etiyopya|colombia|kolombiya|kenya|brazil|brezilya/i;
+const EQUIPMENT_PAGE = /ekipman|equipment|bardak|kupa|mug|dripper|tarti|scale|kettle|server|aksesuar|accessor/i;
+
+/** Ürün olma ihtimali yüksek URL'leri sitemap sırasından önce değerlendirir. */
+export function rankCatalogUrls(urls) {
+  const unique = [...new Set(urls)];
+  const hasTurkishLocale = unique.some((url) => {
+    try { return /^\/tr(?:\/|$)/i.test(new URL(url).pathname); } catch { return false; }
+  });
+  return unique
+    .filter((url) => {
+      if (!hasTurkishLocale) return true;
+      try { return !/^\/en(?:\/|$)/i.test(new URL(url).pathname); } catch { return false; }
+    })
+    .filter((url) => !NON_PRODUCT_PATH.test(url) && !NON_PAGE_EXT.test(url))
+    .map((url, index) => {
+      try {
+        const pathname = new URL(url).pathname;
+        const score = (PRODUCT_PAGE.test(pathname) ? 2 : 0)
+          + (COFFEE_PAGE.test(pathname) ? 2 : 0)
+          - (EQUIPMENT_PAGE.test(pathname) ? 2 : 0);
+        return { url, index, score };
+      }
+      catch { return null; }
+    })
+    .filter(Boolean)
+    .sort((a, b) => b.score - a.score || a.index - b.index)
+    .map(({ url }) => url);
+}
+
+async function discoverCatalogUrls(origin, { maxSitemaps = 12 } = {}) {
+  const discovered = [];
+  for (const sitemapPath of ['/sitemap.xml', '/sitemap_index.xml', '/wp-sitemap.xml']) {
+    try {
+      const xml = await request(`${origin}${sitemapPath}`, { type: 'html' });
+      const locs = sitemapLocs(xml);
+      if (!/<sitemapindex/i.test(xml)) {
+        discovered.push(...locs);
+        if (locs.length) break;
+        continue;
+      }
+
+      const likely = locs.filter((url) => PRODUCT_SITEMAP.test(url));
+      const children = (likely.length ? likely : locs).slice(0, maxSitemaps);
+      const urls = [];
+      for (const child of children) {
+        try {
+          urls.push(...sitemapLocs(await request(child, { type: 'html' })));
+        } catch { /* bozuk/engelli alt sitemap atlandı */ }
+      }
+      if (urls.length) {
+        discovered.push(...urls);
+        break;
+      }
+    } catch { /* bu sitemap yolu yok, sıradakini dene */ }
+  }
+
+  // Bazı özel mağazalar ürün sitemap'i yayınlamıyor ama ana sayfada ürün
+  // kartlarının gerçek bağlantıları bulunuyor. Yalnızca aynı host içindeki
+  // bağlantılar eklenir; dış reklam/sosyal medya URL'leri taranmaz.
+  try {
+    const homepage = await request(origin, { type: 'html' });
+    const host = hostOf(origin);
+    for (const match of homepage.matchAll(/href=["']([^"'#]+)["']/gi)) {
+      try {
+        const url = new URL(match[1].replace(/&amp;/g, '&'), origin).href;
+        if (hostOf(url) === host) discovered.push(url);
+      } catch { /* geçersiz href */ }
+    }
+  } catch { /* sitemap çalışıyorsa ana sayfa hatası kritik değil */ }
+
+  return rankCatalogUrls(discovered);
+}
+
+const metaContent = (html, key) => {
+  const escaped = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const first = new RegExp(`<meta[^>]+(?:property|name|itemprop)=["']${escaped}["'][^>]+content=["']([^"']+)["']`, 'i');
+  const reversed = new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name|itemprop)=["']${escaped}["']`, 'i');
+  return clean(html.match(first)?.[1] || html.match(reversed)?.[1] || '');
+};
+
+/**
+ * JSON-LD sunmayan mağazalarda schema.org mikroveri / OpenGraph ürün
+ * meta alanlarını okur. Fiyat yalnızca açıkça ürün fiyatı olarak etiketli
+ * alandan alınır; HTML gövdesindeki rastgele TL sayıları asla kullanılmaz.
+ */
+export function productFromHtmlMeta(html, pageUrl) {
+  const price = toNumber(metaContent(html, 'product:price:amount') || metaContent(html, 'price'));
+  if (price === null) return null;
+  const name = metaContent(html, 'og:title')
+    || clean(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1]);
+  if (!name) return null;
+  const description = metaContent(html, 'og:description') || metaContent(html, 'description');
+  const attributeWeights = [...String(html).matchAll(/(?:value|data-value|aria-label)=["']([^"']*(?:\d{2,4}\s*(?:g|gr|gram)|\d+(?:[.,]\d+)?\s*kg)[^"']*)["']/gi)]
+    .map((match) => match[1]).join(' ');
+  // Next/React mağazaları varyantı HTML özniteliği yerine sayfaya gömülü
+  // JSON içinde tutabiliyor. Yalnızca mevcut URL slug'ına ait ürün nesnesinin
+  // yakınındaki gram alanı okunur; global öneri listesindeki ağırlıklar alınmaz.
+  const slug = pathOf(pageUrl).split('/').filter(Boolean).pop() || '';
+  const escapedSlug = slug.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const embeddedWeight = String(html).match(new RegExp(
+    `\\\\?"slug(?:Tr|En)?\\\\?":\\\\?"${escapedSlug}\\\\?"[\\s\\S]{0,8000}?\\\\?"gram\\\\?":\\\\?"([^"\\\\]+)`, 'i'
+  ))?.[1] || '';
+  const weightOptions = `${attributeWeights} ${embeddedWeight}`;
+  const unitGrams = parseGrams(`${name} ${description} ${weightOptions}`);
+  const bundle = name.match(/\b(\d+)\s*\+\s*(\d+)\b/);
+  const bundledGrams = bundle && unitGrams
+    ? (Number(bundle[1]) + Number(bundle[2])) * unitGrams : unitGrams;
+  return {
+    platform: 'html-meta', host: hostOf(pageUrl),
+    platformProductId: metaContent(html, 'product:retailer_item_id') || null,
+    platformVariantId: null, urlPath: pathOf(pageUrl), url: pageUrl,
+    productName: name, variantTitle: '',
+    grams: bundledGrams && bundledGrams <= 6000 ? bundledGrams : unitGrams,
+    optionSignature: optionSignature(`${name} ${weightOptions}`),
+    price, listPrice: null,
+    inStock: availabilityToBool(metaContent(html, 'product:availability')),
+    currency: metaContent(html, 'product:price:currency') || 'TRY',
+    productType: null, descriptionText: description.slice(0, 400)
+  };
+}
+
 /* ------------------------------------------------------------------ Shopify */
 
 export async function collectShopify(origin, { maxPages = 20 } = {}) {
@@ -295,32 +423,7 @@ export async function collectIkas(origin, { maxProducts = 400 } = {}) {
  */
 export async function collectJsonLdSite(origin, { maxPages = 150, concurrency = 5 } = {}) {
   const host = hostOf(origin);
-  let urls = [];
-
-  for (const sitemapPath of ['/sitemap.xml', '/sitemap_index.xml', '/wp-sitemap.xml']) {
-    try {
-      const xml = await request(`${origin}${sitemapPath}`, { type: 'html' });
-      const locs = [...xml.matchAll(/<loc>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/loc>/gi)]
-        .map((match) => match[1].replace(/&amp;/g, '&'));
-      if (/<sitemapindex/i.test(xml)) {
-        const children = locs.filter((url) => /product|urun|post/i.test(url)).slice(0, 4);
-        for (const child of children) {
-          try {
-            const childXml = await request(child, { type: 'html' });
-            urls.push(...[...childXml.matchAll(/<loc>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/loc>/gi)]
-              .map((match) => match[1].replace(/&amp;/g, '&')));
-          } catch { /* alt sitemap atlandı */ }
-        }
-      } else {
-        urls.push(...locs);
-      }
-      if (urls.length) break;
-    } catch { /* bu sitemap yolu yok, sıradakini dene */ }
-  }
-
-  urls = [...new Set(urls)]
-    .filter((url) => !NON_PRODUCT_PATH.test(url) && !NON_PAGE_EXT.test(url))
-    .slice(0, maxPages);
+  const urls = (await discoverCatalogUrls(origin)).slice(0, maxPages);
 
   const records = [];
   let cursor = 0;
@@ -379,6 +482,22 @@ export async function collectJsonLdSite(origin, { maxPages = 150, concurrency = 
   return records;
 }
 
+export async function collectHtmlMetaSite(origin, { maxPages = 150, concurrency = 5 } = {}) {
+  const urls = (await discoverCatalogUrls(origin)).slice(0, maxPages);
+  const records = [];
+  let cursor = 0;
+  await Promise.all(Array.from({ length: concurrency }, async () => {
+    while (cursor < urls.length) {
+      const pageUrl = urls[cursor++];
+      try {
+        const record = productFromHtmlMeta(await request(pageUrl, { type: 'html' }), pageUrl);
+        if (record) records.push(record);
+      } catch { /* tek sayfa hatası tüm kataloğu bozmamalı */ }
+    }
+  }));
+  return records;
+}
+
 /* ------------------------------------------------------------- otomatik seçim */
 
 /** Siteyi yoklar, hangi platformda olduğunu tespit eder ve uygun toplayıcıyı çalıştırır. */
@@ -387,7 +506,8 @@ export async function collectSite(origin) {
     ['shopify', () => collectShopify(origin)],
     ['woocommerce', () => collectWoo(origin)],
     ['ikas', () => collectIkas(origin)],
-    ['jsonld', () => collectJsonLdSite(origin)]
+    ['jsonld', () => collectJsonLdSite(origin)],
+    ['html-meta', () => collectHtmlMetaSite(origin)]
   ];
   const errors = [];
   for (const [platform, run] of attempts) {

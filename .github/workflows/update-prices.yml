@@ -7,6 +7,19 @@ name: Fiyat verisini güncelle
 on:
   schedule:
     - cron: '0 5 * * 1' # her Pazartesi 05:00 UTC = 08:00 TR
+  # Toplayıcı/ayrıştırma kodu iyileştirildiğinde haftalık günü bekleme:
+  # main'e gelen ilgili kod değişikliği tam veri koşusunu otomatik başlatır.
+  # Botun yalnızca data/ dosyalarına yaptığı push bu filtreye uymadığı için
+  # yeniden tetiklenme döngüsü oluşmaz.
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/lib/collectors.mjs'
+      - 'scripts/lib/jsonld.mjs'
+      - 'scripts/lib/identity.mjs'
+      - 'scripts/lib/catalog.mjs'
+      - 'scripts/lib/price-rules.mjs'
+      - 'data/manual_roasters.json'
   workflow_dispatch: {} # "Run workflow" butonuyla elle de tetiklenebilir
 
 permissions:

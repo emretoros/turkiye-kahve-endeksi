@@ -1,6 +1,52 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { collectWoo } from './collectors.mjs';
+import { collectWoo, productFromHtmlMeta, rankCatalogUrls } from './collectors.mjs';
+
+test('sitemap URL sıralaması ürün sayfalarını ilk sıraya taşır', () => {
+  const urls = [
+    'https://example.com/',
+    'https://example.com/hakkimizda',
+    'https://example.com/urun/etiyopya-250g',
+    'https://example.com/products/kenya'
+  ];
+  assert.deepEqual(rankCatalogUrls(urls).slice(0, 2), [urls[2], urls[3]]);
+});
+
+test('HTML meta ürün çıkarımı yalnızca etiketlenmiş fiyatı kabul eder', () => {
+  const html = `
+    <meta property="og:title" content="Etiyopya Halo Beriti 250 g">
+    <meta property="product:price:amount" content="725.00">
+    <meta property="product:price:currency" content="TRY">
+    <meta property="product:availability" content="in stock">
+    <div>Kargo 1500 TL üzeri ücretsiz</div>`;
+  const record = productFromHtmlMeta(html, 'https://example.com/urun/halo-beriti');
+  assert.equal(record.productName, 'Etiyopya Halo Beriti 250 g');
+  assert.equal(record.price, 725);
+  assert.equal(record.grams, 250);
+  assert.equal(record.inStock, true);
+});
+
+test('etiketlenmiş ürün fiyatı yoksa HTML gövdesindeki tutar kullanılmaz', () => {
+  const html = '<h1>Kenya 250 g</h1><div>Fiyat 650 TL — Kargo 1500 TL üzeri ücretsiz</div>';
+  assert.equal(productFromHtmlMeta(html, 'https://example.com/urun/kenya'), null);
+});
+
+test('Next gömülü ürün kaydındaki gramaj mevcut sayfanın slugından okunur', () => {
+  const html = `
+    <meta property="og:title" content="Brezilya Mogiana">
+    <meta property="product:price:amount" content="470">
+    <script>self.__next_f.push([1,"\\\"slugTr\\\":\\\"brezilya-mogiana\\\",\\\"gram\\\":\\\"250g\\\""])</script>`;
+  const record = productFromHtmlMeta(html, 'https://example.com/tr/urun/brezilya-mogiana');
+  assert.equal(record.grams, 250);
+});
+
+test('5+1 gibi kahve paketlerinde toplam gramaj hesaplanır', () => {
+  const html = `
+    <meta property="og:title" content="5+1 Filtre Kahve Sepeti 1000 g">
+    <meta property="product:price:amount" content="4199">`;
+  const record = productFromHtmlMeta(html, 'https://example.com/product-page/5-1-filtre-kahve-sepeti');
+  assert.equal(record.grams, 6000);
+});
 
 // Bu sabitler baristocrat.com'un gerçek WooCommerce Store API yanıtından
 // birebir alındı (20 Ağustos 2026, WebFetch ile doğrulandı) — "değişken

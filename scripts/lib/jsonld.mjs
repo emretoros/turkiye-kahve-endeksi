@@ -56,8 +56,8 @@ export function toNumber(value) {
 
 export function availabilityToBool(value) {
   const text = String(value || '');
-  if (/outofstock|soldout|discontinued/i.test(text)) return false;
-  if (/instock|limitedavailability|preorder|backorder/i.test(text)) return true;
+  if (/out\s*of\s*stock|sold\s*out|discontinued/i.test(text)) return false;
+  if (/in\s*stock|limitedavailability|preorder|backorder/i.test(text)) return true;
   return null; // bilinmiyor — false varsaymak yanlış olur
 }
 

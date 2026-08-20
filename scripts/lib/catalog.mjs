@@ -26,7 +26,7 @@ const nonCoffeeRules = [
   // isimleri (ör. "La Marzocco Linea Micra") hiçbir ekipman kelimesi içermeyebilir
   // — bu durumları prepare-data.mjs'teki sayısal fiyat eşiği (UNGRAMMED_PRICE_MAX
   // mantığının aynısı) yakalar, bu liste yalnızca isimle yakalanabilenler içindir.
-  ['Ekipman/aksesuar', /\b(server|dripper|chemex|aeropress|v60|phin filtre|filtre kagidi|filter paper|degirmen|ogutucu|grinder|makine|makinesi|tarti|scale|kettle|tamper|tamper mati|pitcher|ibrik|ibrigi|demleme seti|demleyici|olcu kasigi|kahve torbasi|seramik kupa|kahve kupasi|termos|difluid|refraktometre|analizor|pin\b)/],
+  ['Ekipman/aksesuar', /\b(server|dripper|chemex|aeropress|v60|phin filtre|filtre kagidi|filter paper|degirmen|ogutucu|grinder|makine|makinesi|ekipman|equipment|aksesuar|accessory|bardak|glass set|mug|fellow|tarti|scale|kettle|tamper|tamper mati|pitcher|ibrik|ibrigi|demleme seti|demleyici|olcu kasigi|kahve torbasi|seramik kupa|kahve kupasi|termos|difluid|refraktometre|analizor|pin\b)/],
   ['Çay ve içecek tozu', /\b(adacay|cay|tea|matcha|salep|sahlep|frappe|smoothie|milkshake|hindiba|chicory)/],
   ['Şurup', /\b(surup|surub|syrup)/],
   ['Çikolata/şekerleme', /\b(cikolata bari?|bean to bar|madlen|draje|lokum|sekerleme|bonte|roche|cookie|kurabiye|granola)\b/],
