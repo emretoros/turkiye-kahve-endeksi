@@ -299,13 +299,13 @@
     "name": "Khaldi Coffee",
     "city": "İstanbul",
     "status": "Kısmi doğrulama",
-    "website": null,
+    "website": "https://khaldi.com",
     "instagram": null,
-    "platform": null,
+    "platform": "ikas",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_website",
-    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 23,
@@ -341,13 +341,13 @@
     "name": "Lagetom Coffee",
     "city": "Ankara",
     "status": "Kısmi doğrulama",
-    "website": null,
+    "website": "https://lagetomcoffee.com",
     "instagram": null,
-    "platform": null,
+    "platform": "jsonld",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_website",
-    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 26,
@@ -397,13 +397,13 @@
     "name": "Mona Coffee",
     "city": "Ankara",
     "status": "Kısmi doğrulama",
-    "website": null,
+    "website": "https://monacoffeeshop.com.tr",
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_website",
-    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
   },
   {
     "id": 30,
@@ -1691,7 +1691,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
     "dataStatus": "blocked",
-    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: Ticimax imzası bulunamadı"
+    "dataStatusNote": "shopify: fetch failed | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: Ticimax imzası bulunamadı"
   },
   {
     "id": 122,
@@ -2544,8 +2544,8 @@
     "platform": "html-meta",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "active",
-    "dataStatusNote": null
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
   },
   {
     "id": 183,
@@ -2614,8 +2614,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 429 Too Many Requests | woocommerce: 404 Not Found | ikas: 429 Too Many Requests | ticimax: Ticimax imzası bulunamadı"
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
   },
   {
     "id": 188,
