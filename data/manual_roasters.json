@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "business": "People of Coffee",
+    "website": "https://shop.peopleofcoffee.com.tr",
+    "note": "Mağaza ayrı bir alt alan adında (shop.), ana sitedeki broad_products.json kaydı yanlış host içeriyordu — 2026-08-20 doğrulandı."
+  },
+  {
+    "business": "Punctum Coffee",
+    "website": "https://puntacoffee.com",
+    "note": "Marka/alan adı 'puntacoffee.com'a değişmiş, eski punctumcoffee.com yönlendirmesi WooCommerce Store API yolunu korumuyor — 2026-08-20 doğrulandı."
+  }
+]
