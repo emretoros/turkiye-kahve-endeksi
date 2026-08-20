@@ -78,6 +78,33 @@ export function parseGrams(text, { min = 50, max = 6000 } = {}) {
   return Math.max(...candidates);
 }
 
+const WEIGHT_ATTRIBUTE_NAME = /gramaj|miktar|weight|a[gğ]irlik/i;
+
+/**
+ * Bazı WooCommerce mağazaları gramajı "Gramaj: 1000" gibi BİRİMSİZ bir sayı
+ * olarak saklıyor (birim, öznitelik adının kendisinde ima ediliyor — "Gramaj"
+ * = ağırlık). parseGrams() birim arayan bir regex kullandığı için bu değeri
+ * kaçırıyor ve ürün "gramaj bilgisi yok" diye elenip görünmez oluyordu
+ * (gerçek vaka: filcoffee.com, "TÜRK KAHVESİ ÇİFTE KAVRULMUŞ" ürünü).
+ *
+ * Bu fonksiyon, ürünün ham WooCommerce `attributes` dizisinde ("ör.
+ * [{name:'Gramaj', value:'500'}]") ağırlıkla ilgili bir öznitelik adı bulur;
+ * değeri zaten birim içeriyorsa parseGrams'a bırakır, birimsiz düz bir sayıysa
+ * (ve makul bir ambalaj aralığındaysa) doğrudan gram olarak kabul eder.
+ */
+export function gramsFromWeightAttribute(attributes, { min = 50, max = 2000 } = {}) {
+  if (!Array.isArray(attributes)) return null;
+  for (const attr of attributes) {
+    if (!attr || !WEIGHT_ATTRIBUTE_NAME.test(attr.name || '')) continue;
+    const value = String(attr.value ?? '');
+    const viaUnit = parseGrams(value, { min, max });
+    if (viaUnit) return viaUnit;
+    const bare = Number(value.replace(',', '.').trim());
+    if (Number.isFinite(bare) && bare >= min && bare <= max) return Math.round(bare);
+  }
+  return null;
+}
+
 const GRIND = [
   ['cekirdek', /(cekirdek|ogutulmemis|whole bean|tane)/],
   ['french-press', /(french press|frenc)/],

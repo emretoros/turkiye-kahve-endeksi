@@ -74,6 +74,61 @@ test('sabit (simple) ürünler eskisi gibi ada göre gramaj çıkarır', async (
   assert.equal(records[0].platformVariantId, null);
 });
 
+// filcoffee.com'un gerçek Store API yanıtından birebir alındı (20 Ağustos
+// 2026, WebFetch ile doğrulandı) — "Gramaj" özniteliği BİRİMSİZ bir sayı
+// ("1000"), WooCommerce'in hazır "variation" etiketi de aynı şekilde
+// birimsiz ("Gramaj: 1000") — parseGrams(label) bunu kaçırıyordu, ürün
+// sitede "gramaj bilgisi yok" diye elenip kayboluyordu.
+const FIL_PARENT_LIST = [{
+  id: 11773, name: 'HİNDİSTAN', type: 'variable', parent: 0,
+  permalink: 'https://filcoffee.com/dukkan/hindistan/',
+  short_description: '', description: '',
+  prices: { price: '50000', regular_price: '50000', currency_minor_unit: 2, currency_code: 'TRY' },
+  categories: [{ id: 12, name: 'Tek Köken' }],
+  attributes: [{ id: 3, name: 'Gramaj', taxonomy: 'pa_gramaj', terms: [{ id: 72, name: '1000', slug: '1000' }, { id: 74, name: '500', slug: '500' }] }],
+  variations: [
+    { id: 11775, attributes: [{ name: 'Gramaj', value: '500' }] },
+    { id: 11776, attributes: [{ name: 'Gramaj', value: '1000' }] }
+  ],
+  is_in_stock: true
+}];
+
+const FIL_VARIATION_11775 = {
+  id: 11775, name: 'HİNDİSTAN', parent: 11773, type: 'variation',
+  variation: 'Gramaj: 500', // birim yok
+  permalink: 'https://filcoffee.com/dukkan/hindistan/?attribute_pa_gramaj=500',
+  attributes: [], // Store API tekil varyasyon uç noktası özniteliği tekrar etmiyor
+  prices: { price: '50000', regular_price: '50000', currency_minor_unit: 2, currency_code: 'TRY' },
+  is_in_stock: true
+};
+
+const FIL_VARIATION_11776 = {
+  id: 11776, name: 'HİNDİSTAN', parent: 11773, type: 'variation',
+  variation: 'Gramaj: 1000',
+  permalink: 'https://filcoffee.com/dukkan/hindistan/?attribute_pa_gramaj=1000',
+  attributes: [],
+  prices: { price: '90000', regular_price: '90000', currency_minor_unit: 2, currency_code: 'TRY' },
+  is_in_stock: true
+};
+
+test('birimsiz "Gramaj" özniteliği taşıyan varyasyonlar (filcoffee.com, gerçek vaka)', async (t) => {
+  const originalFetch = global.fetch;
+  global.fetch = fakeFetch({
+    '/products?per_page=100&page=1': FIL_PARENT_LIST,
+    '/products?per_page=100&page=2': [],
+    '/products/11775': FIL_VARIATION_11775,
+    '/products/11776': FIL_VARIATION_11776
+  });
+  t.after(() => { global.fetch = originalFetch; });
+
+  const records = await collectWoo('https://filcoffee.com');
+
+  assert.equal(records.length, 2);
+  const byGrams = Object.fromEntries(records.map((r) => [r.platformVariantId, r.grams]));
+  assert.equal(byGrams['11775'], 500, 'birimsiz "Gramaj: 500" -> 500 gram olarak okunmalı');
+  assert.equal(byGrams['11776'], 1000, 'birimsiz "Gramaj: 1000" -> 1000 gram olarak okunmalı');
+});
+
 test('çekilemeyen bir varyasyon diğerlerini bozmadan atlanır', async (t) => {
   const originalFetch = global.fetch;
   global.fetch = fakeFetch({

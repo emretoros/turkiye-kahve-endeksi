@@ -7,7 +7,7 @@
  */
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { parseGrams, optionSignature, variantKey, productKey } from './identity.mjs';
+import { parseGrams, optionSignature, variantKey, productKey, gramsFromWeightAttribute } from './identity.mjs';
 
 test('gramaj: normal ambalajlar', () => {
   assert.equal(parseGrams('250 gr'), 250);
@@ -37,6 +37,34 @@ test('gramaj: birden fazla aday varsa ambalaj olanı seçilir', () => {
 test('gramaj: yanlış birim yakalanmaz', () => {
   assert.equal(parseGrams('Geisha 250 ml şişe'), null);
   assert.equal(parseGrams('Kahve Kupası 350ml'), null);
+});
+
+test('gramaj: birimsiz "Gramaj" özniteliğinden çıkarım (filcoffee.com, gerçek vaka)', () => {
+  // 20 Ağustos 2026'da filcoffee.com'un Store API'sinden birebir alındı:
+  // varyasyon etiketi "Gramaj: 1000" — birim yok, parseGrams bunu kaçırıyordu.
+  assert.equal(gramsFromWeightAttribute([{ name: 'Gramaj', value: '1000' }]), 1000);
+  assert.equal(gramsFromWeightAttribute([{ name: 'Gramaj', value: '500' }]), 500);
+});
+
+test('gramaj: özniteliğin değeri zaten birim içeriyorsa yine doğru okunur', () => {
+  assert.equal(gramsFromWeightAttribute([{ name: 'Miktar', value: '250gr' }]), 250);
+  assert.equal(gramsFromWeightAttribute([{ name: 'Miktar', value: '1kg' }]), 1000);
+});
+
+test('gramaj: ağırlıkla ilgisiz öznitelikler yok sayılır', () => {
+  assert.equal(gramsFromWeightAttribute([{ name: 'Öğütülme Şekli', value: 'Espresso' }]), null);
+  assert.equal(gramsFromWeightAttribute([{ name: 'Renk', value: '12' }]), null, 'ad ağırlıkla eşleşmiyorsa sayı gramaj sayılmamalı');
+});
+
+test('gramaj: makul aralık dışındaki bir "Gramaj" değeri reddedilir', () => {
+  assert.equal(gramsFromWeightAttribute([{ name: 'Gramaj', value: '3' }]), null, '3 gram gerçekçi bir paket değil');
+  assert.equal(gramsFromWeightAttribute([{ name: 'Gramaj', value: '50000' }]), null);
+});
+
+test('gramaj: boş/eksik öznitelik listesi güvenle null döner', () => {
+  assert.equal(gramsFromWeightAttribute([]), null);
+  assert.equal(gramsFromWeightAttribute(null), null);
+  assert.equal(gramsFromWeightAttribute(undefined), null);
 });
 
 test('öğütüm imzası', () => {

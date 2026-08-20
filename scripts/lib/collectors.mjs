@@ -8,7 +8,7 @@
  *   3. Stokta olmayan varyantlar ATILMIYOR, `inStock:false` olarak kaydediliyor.
  *      Stok çıkışı fiyat geçmişinin bir parçasıdır; satırı silmek geçmişi bozar.
  */
-import { hostOf, pathOf, parseGrams, optionSignature } from './identity.mjs';
+import { hostOf, pathOf, parseGrams, optionSignature, gramsFromWeightAttribute } from './identity.mjs';
 import { extractJsonLdNodes, productNodesFrom, offersOf, toNumber, availabilityToBool, NON_PRODUCT_PATH, NON_PAGE_EXT } from './jsonld.mjs';
 
 const USER_AGENT = process.env.SCRAPER_UA
@@ -141,16 +141,25 @@ export async function collectWoo(origin, { maxPages = 20, variationConcurrency =
       });
     }
 
-    const variationTasks = variableProducts.flatMap((product) => product.variations.map((v) => ({ product, variationId: v.id })));
+    // Her varyasyonun ham `attributes` dizisi (ör. [{name:'Gramaj', value:'500'}])
+    // ana ürünün listesindeki `variations[]` girdisinde geliyor — tekil
+    // varyasyon uç noktası (`/products/{id}`) bunu boş döndürüyor, o yüzden
+    // burada, listeden, yanımıza alıyoruz.
+    const variationTasks = variableProducts.flatMap((product) => product.variations.map((v) => ({ product, variationId: v.id, rawAttributes: v.attributes })));
     let cursor = 0;
     await Promise.all(Array.from({ length: variationConcurrency }, async () => {
       while (cursor < variationTasks.length) {
-        const { product, variationId } = variationTasks[cursor];
+        const { product, variationId, rawAttributes } = variationTasks[cursor];
         cursor += 1;
         try {
           const v = await request(`${origin}/wp-json/wc/store/v1/products/${variationId}`);
           const label = v.variation || ''; // ör. "Miktar: 250 Gr" — WooCommerce'in hazır insan-okunur özeti
           const context = `${label} ${product.name} ${(product.categories || []).map((c) => c.name).join(' ')}`;
+          // Bazı mağazalar gramajı birimsiz saklıyor (ör. "Gramaj: 1000") —
+          // parseGrams birim arayan bir regex kullandığı için bunu kaçırır;
+          // bu durumda ham özniteliğe (ör. [{name:'Gramaj', value:'1000'}])
+          // düşüyoruz (bkz. gramsFromWeightAttribute).
+          const grams = parseGrams(`${label} ${product.name}`) ?? gramsFromWeightAttribute(rawAttributes);
           records.push({
             platform: 'woocommerce',
             host,
@@ -160,7 +169,7 @@ export async function collectWoo(origin, { maxPages = 20, variationConcurrency =
             url: v.permalink || product.permalink,
             productName: clean(product.name),
             variantTitle: clean(label),
-            grams: parseGrams(`${label} ${product.name}`),
+            grams,
             optionSignature: optionSignature(context),
             price: wooPrice(v.prices, v.prices?.price),
             listPrice: wooPrice(v.prices, v.prices?.regular_price),
