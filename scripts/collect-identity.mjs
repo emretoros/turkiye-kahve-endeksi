@@ -7,7 +7,8 @@
  *   node scripts/collect-identity.mjs --concurrency=4  # varsayılan 6
  *
  * Ne yapar:
- *   1. source/broad_products.json'dan işletme + temsilci URL listesi çıkarır
+ *   1. source/broad_products.json'dan + data/manual_roasters.json'dan (insan
+ *      onaylı yeni eklemeler) birleşik işletme listesi çıkarır
  *      (business_audit.json eski/eksik olduğu için ARTIK kaynak bu değil).
  *   2. Her işletmeyi collectSite ile tarar (Shopify/Woo/ikas otomatik seçim).
  *   3. Sonuçları data/ altındaki kalıcı depoya (store.mjs) yazar — kimlikler
@@ -25,7 +26,7 @@ import path from 'node:path';
 import { collectSite } from './lib/collectors.mjs';
 import { applyPriceRules } from './lib/price-rules.mjs';
 import { openStore } from './lib/store.mjs';
-import { hostOf } from './lib/identity.mjs';
+import { buildBusinessList } from './lib/roster.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const dataDir = path.join(root, 'data');
@@ -52,27 +53,14 @@ function classifyOutcome(rowCount, errorText) {
 /* --------------------------------------------------------- işletme listesi */
 
 const rows = JSON.parse(await fs.readFile(path.join(root, 'source', 'broad_products.json'), 'utf8'));
-const byBusiness = new Map();
-for (const row of rows) {
-  if (!byBusiness.has(row.business)) {
-    byBusiness.set(row.business, {
-      business: row.business, city: row.city, businessStatus: row.businessStatus,
-      instagram: row.instagram, hostCounts: new Map()
-    });
-  }
-  if (row.url) {
-    const host = hostOf(row.url);
-    if (host) {
-      const entry = byBusiness.get(row.business);
-      entry.hostCounts.set(host, (entry.hostCounts.get(host) || 0) + 1);
-    }
-  }
+let manualEntries = [];
+try {
+  manualEntries = JSON.parse(await fs.readFile(path.join(dataDir, 'manual_roasters.json'), 'utf8'));
+} catch {
+  // dosya yoksa (ör. eski bir checkout) boş liste ile devam — yeni bir gereksinim değil.
 }
 
-const businesses = [...byBusiness.values()].map((entry) => {
-  const topHost = [...entry.hostCounts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] || null;
-  return { ...entry, website: topHost ? `https://${topHost}` : null };
-}).slice(0, onlyN);
+const businesses = buildBusinessList(rows, manualEntries).slice(0, onlyN);
 
 const withWebsite = businesses.filter((b) => b.website);
 const withoutWebsite = businesses.filter((b) => !b.website);
