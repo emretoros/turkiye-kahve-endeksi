@@ -18,8 +18,9 @@
  *     tahmini scripts/lib/catalog.mjs'e taşındı.
  *
  * Çıktı şeması (public/data/products.json alanları) BİLEREK eskiyle aynı
- * tutuldu — app.js ve index.astro değişmeden çalışsın diye. Ekipman kısmı
- * (kavurucu/menşe sayfaları, fiyat geçmişi grafiği) ayrı bir adımda gelecek.
+ * tutuldu, üstüne yalnızca `variantId` eklendi — app.js bu alanla fiyat
+ * geçmişini `public/data/price_history.json`'dan eşleştiriyor (bkz. altta).
+ * Kavurucu/menşe detay sayfaları hâlâ ayrı bir adımda gelecek.
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -130,7 +131,7 @@ function pushPlaceholder(roaster, note) {
     business: roaster.name, city: roaster.city || null, businessStatus: roaster.status,
     product: 'Ürün kataloğu — ayrıntılı ürün verisine erişilemedi',
     origin: 'Erişilemedi', grams: null, price: null, previousPrice: null, pricePerKg: null,
-    stock: 'Erişilemedi', productType: 'Katalog/takip kaydı',
+    stock: 'Erişilemedi', productType: 'Katalog/takip kaydı', variantId: null,
     url: roaster.website || null,
     sourceMethod: 'Otomatik tarama — yapısal veri yok',
     confidence: 'Takip gerekli', catalogStatus: 'Katalog takip kaydı',
@@ -190,7 +191,7 @@ for (const roaster of roasters) {
         product: label, origin, grams, price, previousPrice,
         pricePerKg: grams && price ? Math.round((price / grams) * 100000) / 100 : null,
         stock: variant.lastInStock === true ? 'Stokta' : variant.lastInStock === false ? 'Tükendi' : 'Belirsiz',
-        productType, url,
+        productType, variantId: variant.id, url,
         sourceMethod: SOURCE_LABEL[product.platform] || product.platform || 'Bilinmiyor',
         confidence: CONFIDENCE_BY_PLATFORM[product.platform] || 'Orta',
         catalogStatus: 'Ürün kaydı', note: null,
@@ -244,4 +245,22 @@ const metadata = {
 await fs.writeFile(path.join(publicData, 'products.json'), JSON.stringify(cleaned));
 await fs.writeFile(path.join(publicData, 'metadata.json'), JSON.stringify(metadata, null, 2));
 
+/* ------------------------------------------------------------ fiyat geçmişi */
+
+// Yalnızca yayında GÖRÜNEN varyantlar için geçmiş üretiliyor (elenen/karantina
+// ürünler için geçmiş yayınlamanın anlamı yok). Kompakt [tarih, fiyat] çiftleri
+// — obje anahtarları tekrar tekrar yazılmasın diye. Karantinaya alınmış/negatif
+// fiyatlı gözlemler zaten price:null olarak yazıldığından burada elenir.
+const priceHistory = {};
+for (const row of cleaned) {
+  if (row.variantId == null) continue;
+  const history = historyByVariant.get(row.variantId) || [];
+  const points = history
+    .filter((obs) => Number.isFinite(obs.price) && obs.price > 0)
+    .map((obs) => [obs.observedAt, obs.price]);
+  if (points.length) priceHistory[row.variantId] = points;
+}
+await fs.writeFile(path.join(publicData, 'price_history.json'), JSON.stringify(priceHistory));
+
 console.log(JSON.stringify(metadata, null, 2));
+console.log(`Fiyat geçmişi: ${Object.keys(priceHistory).length} varyant için kayıt var.`);
