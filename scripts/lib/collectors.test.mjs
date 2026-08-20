@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
   collectWoo, extractTicimaxModel, extractWixProducts, productFromHtmlMeta,
-  rankCatalogUrls, ticimaxRecordsFromModel, wixRecordsFromProducts
+  rankCatalogUrls, ticimaxRecordsFromModel, wixRecordsFromProducts, enjekteRecordsFromHtml
 } from './collectors.mjs';
 
 test('sitemap URL sıralaması ürün sayfalarını ilk sıraya taşır', () => {
@@ -115,6 +115,22 @@ test('Wix warmup verisindeki gramaj varyantları ayrıştırılır ve öğütüm
   assert.equal(records.find((r) => r.grams === 250).platformVariantId, 'bean-250');
   assert.equal(records.find((r) => r.grams === 1000).price, 3750);
   assert.equal(records.find((r) => r.grams === 1000).listPrice, 4000);
+});
+
+test('Enjekte kartında varyant kimliği gramaj ve doğru fiyatla eşleşir', () => {
+  const html = `<div class="products-lists"><div class="list">
+    <a class="image" href="/etiyopya"><div class="name">Etiyopya Doğal</div></a>
+    <div class="variantprices variantprices2445">
+      <div class="variantprice active" id="variantprice652"><div class="price"><small>₺</small><span>745.</span><samp>00</samp></div></div>
+      <div class="variantprice" id="variantprice653"><div class="price"><small>₺</small><span>2850.</span><samp>50</samp></div></div>
+    </div><select><option value="652">250gr Öğütülmemiş</option><option value="653">1kg Öğütülmemiş</option></select>
+  </div></div>`;
+  const records = enjekteRecordsFromHtml(html, 'https://example.com/kahve');
+  assert.deepEqual(records.map(({ platformProductId, platformVariantId, grams, price }) =>
+    ({ platformProductId, platformVariantId, grams, price })), [
+    { platformProductId: '2445', platformVariantId: '652', grams: 250, price: 745 },
+    { platformProductId: '2445', platformVariantId: '653', grams: 1000, price: 2850.5 }
+  ]);
 });
 
 // Bu sabitler baristocrat.com'un gerçek WooCommerce Store API yanıtından

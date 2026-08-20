@@ -736,6 +736,57 @@ export async function collectWix(origin) {
   return wixRecordsFromProducts([...byId.values()], origin);
 }
 
+/* -------------------------------------------------------------- Enjekte */
+
+/** Enjekte mağaza kategori HTML'indeki ürün/varyant kartlarını ayrıştırır. */
+export function enjekteRecordsFromHtml(html, pageUrl) {
+  const host = hostOf(pageUrl);
+  const chunks = String(html || '').split(/<div class=["']products-lists["']>/i).slice(1);
+  const records = [];
+
+  for (const chunk of chunks) {
+    const productId = chunk.match(/class=["']variantprices\s+variantprices(\d+)["']/i)?.[1];
+    const href = chunk.match(/<a[^>]+class=["']image["'][^>]+href=["']([^"']+)["']/i)?.[1];
+    const name = clean(chunk.match(/<div class=["']name["']>([\s\S]*?)<\/div>/i)?.[1]);
+    if (!productId || !href || !name) continue;
+
+    const url = new URL(href.replace(/&amp;/g, '&'), pageUrl).href;
+    const priceByVariant = new Map();
+    for (const match of chunk.matchAll(/<div class=["']variantprice(?:\s+active)?["'][^>]*id=["']variantprice(\d+)["'][^>]*>[\s\S]*?<div class=["']price["']>[\s\S]*?<span>([^<]+)<\/span>[\s\S]*?<samp>([^<]+)<\/samp>/gi)) {
+      const major = num(match[2]);
+      const cents = Number(clean(match[3]));
+      const price = major && Number.isFinite(cents) ? major + cents / 100 : major;
+      if (price > 0) priceByVariant.set(match[1], price);
+    }
+
+    const options = [...chunk.matchAll(/<option[^>]+value=["']?(\d+)["']?[^>]*>([\s\S]*?)<\/option>/gi)]
+      .map((match) => ({ id: match[1], label: clean(match[2]) }));
+    for (const option of options) {
+      const price = priceByVariant.get(option.id);
+      const grams = packageGrams(option.label);
+      if (!price || !grams) continue;
+      records.push({
+        platform: 'enjekte', host,
+        platformProductId: productId, platformVariantId: option.id,
+        urlPath: pathOf(url), url, productName: name, variantTitle: option.label,
+        grams, optionSignature: optionSignature(option.label), price, listPrice: null,
+        inStock: true, currency: 'TRY', productType: null, descriptionText: ''
+      });
+    }
+  }
+  return records;
+}
+
+export async function collectEnjekte(origin) {
+  for (const url of [`${origin}/kahve`, origin]) {
+    const html = await request(url, { type: 'html' });
+    if (!/products-lists|variantprices\d+/i.test(html)) continue;
+    const records = enjekteRecordsFromHtml(html, url);
+    if (records.length) return records;
+  }
+  return [];
+}
+
 /* ------------------------------------------------------------- otomatik seçim */
 
 /** Siteyi yoklar, hangi platformda olduğunu tespit eder ve uygun toplayıcıyı çalıştırır. */
@@ -746,6 +797,7 @@ export async function collectSite(origin) {
     ['ikas', () => collectIkas(origin)],
     ['ticimax', () => collectTicimax(origin)],
     ['wix', () => collectWix(origin)],
+    ['enjekte', () => collectEnjekte(origin)],
     ['jsonld', () => collectJsonLdSite(origin)],
     ['html-meta', () => collectHtmlMetaSite(origin)]
   ];

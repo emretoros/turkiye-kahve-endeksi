@@ -105,6 +105,7 @@ for (const variant of variants) {
 const SOURCE_LABEL = {
   shopify: 'Shopify ürün akışı', woocommerce: 'WooCommerce Store API',
   ikas: 'ikas canlı ürün varyantı', ticimax: 'Ticimax ürün modeli', wix: 'Wix canlı ürün modeli',
+  enjekte: 'Enjekte mağaza ürün kartı',
   jsonld: 'JSON-LD (schema.org)',
   'html-meta': 'HTML ürün mikroverisi (schema.org/OpenGraph)'
 };
@@ -113,6 +114,7 @@ const SOURCE_LABEL = {
 // koddan giderildi ama yapısal API kadar sağlam değil).
 const CONFIDENCE_BY_PLATFORM = {
   shopify: 'Yüksek', woocommerce: 'Yüksek', ikas: 'Yüksek', ticimax: 'Yüksek', wix: 'Yüksek',
+  enjekte: 'Yüksek',
   jsonld: 'Orta', 'html-meta': 'Orta'
 };
 
