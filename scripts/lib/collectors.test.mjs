@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  collectWoo, extractTicimaxModel, extractWixProducts, productFromHtmlMeta,
+  collectShopify, collectWoo, extractTicimaxModel, extractWixProducts, productFromHtmlMeta,
   rankCatalogUrls, ticimaxRecordsFromModel, wixRecordsFromProducts, enjekteRecordsFromHtml
 } from './collectors.mjs';
 
@@ -131,6 +131,22 @@ test('Enjekte kartında varyant kimliği gramaj ve doğru fiyatla eşleşir', ()
     { platformProductId: '2445', platformVariantId: '652', grams: 250, price: 745 },
     { platformProductId: '2445', platformVariantId: '653', grams: 1000, price: 2850.5 }
   ]);
+});
+
+test('Shopify gramajı başlıkta yoksa standart variant.grams alanından okunur', async (t) => {
+  const originalFetch = global.fetch;
+  global.fetch = fakeFetch({
+    '/products.json?limit=250&page=1': { products: [{
+      id: 9186682470626, title: 'Ruanda - Baho Anaerobic', handle: 'ruanda-baho',
+      product_type: 'Kahve', tags: [], body_html: '',
+      variants: [{ id: 47760128082146, title: 'Çekirdek', grams: 250, price: '925.00', available: true }]
+    }] }
+  });
+  t.after(() => { global.fetch = originalFetch; });
+
+  const records = await collectShopify('https://example.com');
+  assert.equal(records.length, 1);
+  assert.equal(records[0].grams, 250);
 });
 
 // Bu sabitler baristocrat.com'un gerçek WooCommerce Store API yanıtından

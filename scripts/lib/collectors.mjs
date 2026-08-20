@@ -297,6 +297,14 @@ export async function collectShopify(origin, { maxPages = 20 } = {}) {
 
       for (const variant of variants) {
         const variantTitle = variant?.title && variant.title !== 'Default Title' ? variant.title : '';
+        // Shopify `grams` alanını gram cinsinden standartlaştırır. Bazı
+        // mağazalarda paket ağırlığı ürün/varyant adında hiç yazmaz (gerçek
+        // vaka: Zümrüt Karaca — varyant adı yalnızca "Çekirdek", ağırlık 250
+        // ise sadece variant.grams alanında). Başlıktaki açık gramaj öncelikli
+        // kalır; böylece hatalı kargo ağırlığı, ör. adı "1 kg" olan ürünü
+        // yanlışlıkla 250 g yapamaz.
+        const titleGrams = parseGrams(`${variantTitle} ${product.title}`);
+        const shopifyGrams = Number(variant?.grams);
         records.push({
           platform: 'shopify',
           host,
@@ -306,7 +314,8 @@ export async function collectShopify(origin, { maxPages = 20 } = {}) {
           url,
           productName: clean(product.title),
           variantTitle: clean(variantTitle),
-          grams: parseGrams(`${variantTitle} ${product.title}`),
+          grams: titleGrams ?? (Number.isFinite(shopifyGrams) && shopifyGrams >= 50 && shopifyGrams <= 6000
+            ? Math.round(shopifyGrams) : null),
           optionSignature: optionSignature(`${variantTitle} ${context}`),
           price: variant ? num(variant.price) : null,
           listPrice: variant ? num(variant.compare_at_price) : null,
