@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # deploy.yml'i elle tetikleyebilmek için (bkz. "Yayını tetikle" adımı)
 
 concurrency:
   group: update-prices
@@ -42,16 +43,32 @@ jobs:
           fi
 
       - name: Değişiklikleri commit'le
+        id: commit
         run: |
           git config user.name "kahve-endeksi-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/
           if git diff --cached --quiet; then
             echo "Değişiklik yok, commit atlanıyor."
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "veri: haftalık fiyat toplama koşusu ($(date -u +%Y-%m-%d))"
             git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # ÖNEMLİ: Bu iş kendi varsayılan GITHUB_TOKEN'ıyla push ettiği için GitHub
+      # bu push'u "GitHub Pages'a yayınla" (deploy.yml) iş akışını otomatik
+      # tetiklemek için KULLANMAZ (sonsuz döngüyü önlemek için GITHUB_TOKEN'lı
+      # push'lar başka push-tetiklemeli iş akışlarını başlatmaz — bilinen bir
+      # GitHub Actions kısıtı). Bu yüzden yayını burada AÇIKÇA tetikliyoruz;
+      # aksi halde veri güncellenir ama site günlerce eski veriyi göstermeye
+      # devam eder.
+      - name: Yayını tetikle
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
 
       - name: Toplama başarısızsa iş'i başarısız işaretle
         if: steps.collect.outcome == 'failure'
