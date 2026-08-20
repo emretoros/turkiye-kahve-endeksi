@@ -43,5 +43,15 @@
     "business": "Mona Coffee",
     "website": "https://monacoffeeshop.com.tr",
     "note": "Resmî kurumsal site doğrulandı; çevrimiçi karşılaştırılabilir paket kahve kataloğu bulunmadı — 2026-08-20."
+  },
+  {
+    "business": "Pangea Coffee",
+    "website": "https://www.pangeacoffee.co",
+    "note": "Resmî WooCommerce mağazası doğrulandı; canlı testte 88 karşılaştırılabilir ürün/varyant alındı — 2026-08-20."
+  },
+  {
+    "business": "Tahmis Kahvesi",
+    "website": "https://www.tahmis.com.tr",
+    "note": "Resmî mağaza doğrulandı; canlı JSON-LD testinde 45 karşılaştırılabilir ürün/varyant alındı — 2026-08-20."
   }
 ]
