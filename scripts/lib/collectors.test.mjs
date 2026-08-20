@@ -1,6 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { collectWoo, productFromHtmlMeta, rankCatalogUrls } from './collectors.mjs';
+import {
+  collectWoo, extractTicimaxModel, productFromHtmlMeta,
+  rankCatalogUrls, ticimaxRecordsFromModel
+} from './collectors.mjs';
 
 test('sitemap URL sıralaması ürün sayfalarını ilk sıraya taşır', () => {
   const urls = [
@@ -46,6 +49,48 @@ test('5+1 gibi kahve paketlerinde toplam gramaj hesaplanır', () => {
     <meta property="product:price:amount" content="4199">`;
   const record = productFromHtmlMeta(html, 'https://example.com/product-page/5-1-filtre-kahve-sepeti');
   assert.equal(record.grams, 6000);
+});
+
+test('4 adet 100 gr gibi tadım setlerinde toplam gramaj hesaplanır', () => {
+  const html = `
+    <meta property="og:title" content="Kahve Tadım Seti">
+    <meta property="og:description" content="4 adet 100 gr kahve">
+    <meta property="product:price:amount" content="1691.70">`;
+  const record = productFromHtmlMeta(html, 'https://example.com/urun/tadim-seti');
+  assert.equal(record.grams, 400);
+});
+
+test('Ticimax gömülü modeli dengeli JSON olarak ayrıştırılır', () => {
+  const html = '<script>var productDetailModel = {"productId":3,"productName":"El Salvador {La Majada}","products":[]}; var next = true;</script>';
+  const model = extractTicimaxModel(html);
+  assert.equal(model.productId, 3);
+  assert.equal(model.productName, 'El Salvador {La Majada}');
+});
+
+test('Ticimax varyantları gramaj/fiyata göre tekilleştirilir ve çekirdek tercih edilir', () => {
+  const model = {
+    productId: 3, productName: 'El Salvador, La Majada', productType: 'Kahve',
+    productShortDescription: 'Yıkanmış kahve',
+    productVariantData: [
+      { urunID: 30, ekSecenekTipiTanim: 'Miktar', tanim: '250 gr' },
+      { urunID: 30, ekSecenekTipiTanim: 'Öğütülme Tipi', tanim: 'Çekirdek' },
+      { urunID: 31, ekSecenekTipiTanim: 'Miktar', tanim: '250 gr' },
+      { urunID: 31, ekSecenekTipiTanim: 'Öğütülme Tipi', tanim: 'V60' },
+      { urunID: 40, ekSecenekTipiTanim: 'Miktar', tanim: '1 KG' },
+      { urunID: 40, ekSecenekTipiTanim: 'Öğütülme Tipi', tanim: 'Çekirdek' }
+    ],
+    products: [
+      { id: 31, aktif: true, stokKodu: 'lamajada-250gr-v60', stokAdedi: 5, urunSepetFiyatiStr: '₺802,59', satisFiyatiStr: '₺802,59', paraBirimiKodu: 'TRY' },
+      { id: 30, aktif: true, stokKodu: 'lamajada-250gr-cekirdek', stokAdedi: 8, urunSepetFiyatiStr: '₺802,59', satisFiyatiStr: '₺802,59', paraBirimiKodu: 'TRY' },
+      { id: 40, aktif: true, stokKodu: 'lamajada-1000gr-cekirdek', stokAdedi: 3, urunSepetFiyatiStr: '₺2.887,50', satisFiyatiStr: '₺3.208,70', paraBirimiKodu: 'TRY' }
+    ]
+  };
+  const records = ticimaxRecordsFromModel(model, 'https://example.com/urunlerimiz/la-majada');
+  assert.equal(records.length, 2);
+  assert.deepEqual(records.map((r) => r.grams).sort((a, b) => a - b), [250, 1000]);
+  assert.equal(records.find((r) => r.grams === 250).platformVariantId, '30');
+  assert.equal(records.find((r) => r.grams === 1000).price, 2887.5);
+  assert.equal(records.find((r) => r.grams === 1000).listPrice, 3208.7);
 });
 
 // Bu sabitler baristocrat.com'un gerçek WooCommerce Store API yanıtından

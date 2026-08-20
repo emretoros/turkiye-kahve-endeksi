@@ -104,14 +104,15 @@ for (const variant of variants) {
 
 const SOURCE_LABEL = {
   shopify: 'Shopify ürün akışı', woocommerce: 'WooCommerce Store API',
-  ikas: 'ikas canlı ürün varyantı', jsonld: 'JSON-LD (schema.org)',
+  ikas: 'ikas canlı ürün varyantı', ticimax: 'Ticimax ürün modeli',
+  jsonld: 'JSON-LD (schema.org)',
   'html-meta': 'HTML ürün mikroverisi (schema.org/OpenGraph)'
 };
 // jsonld sayfa-taramasıyla geldiği için Shopify/Woo/ikas API'sine göre bir
 // tık daha az güvenilir sayılıyor (widget/related-ürün karışması riski
 // koddan giderildi ama yapısal API kadar sağlam değil).
 const CONFIDENCE_BY_PLATFORM = {
-  shopify: 'Yüksek', woocommerce: 'Yüksek', ikas: 'Yüksek',
+  shopify: 'Yüksek', woocommerce: 'Yüksek', ikas: 'Yüksek', ticimax: 'Yüksek',
   jsonld: 'Orta', 'html-meta': 'Orta'
 };
 

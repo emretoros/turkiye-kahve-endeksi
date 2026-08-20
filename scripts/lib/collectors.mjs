@@ -50,9 +50,13 @@ const num = (value) => {
 
 const packageGrams = (text) => {
   const unitGrams = parseGrams(text);
-  const bundle = String(text || '').match(/\b(\d+)\s*\+\s*(\d+)\b/);
-  const total = bundle && unitGrams
-    ? (Number(bundle[1]) + Number(bundle[2])) * unitGrams : unitGrams;
+  const value = String(text || '');
+  const plusBundle = value.match(/\b(\d+)\s*\+\s*(\d+)\b/);
+  const countBundle = value.match(/\b(\d+)\s*(?:adet|x|×)\s*\d+(?:[.,]\d+)?\s*(?:kg|kilo|g|gr|gram)\b/i);
+  const multiplier = plusBundle
+    ? Number(plusBundle[1]) + Number(plusBundle[2])
+    : countBundle ? Number(countBundle[1]) : 1;
+  const total = unitGrams ? multiplier * unitGrams : unitGrams;
   return total && total <= 6000 ? total : unitGrams;
 };
 
@@ -178,6 +182,101 @@ export function productFromHtmlMeta(html, pageUrl) {
     currency: metaContent(html, 'product:price:currency') || 'TRY',
     productType: null, descriptionText: description.slice(0, 400)
   };
+}
+
+/* ------------------------------------------------------------------ Ticimax */
+
+/** Sayfadaki `var productDetailModel = {...}` nesnesini güvenle ayırır. */
+export function extractTicimaxModel(html) {
+  const source = String(html || '');
+  const marker = 'var productDetailModel = ';
+  const start = source.indexOf(marker);
+  if (start < 0) return null;
+  const jsonStart = start + marker.length;
+  let depth = 0;
+  let quoted = false;
+  let escaped = false;
+  for (let i = jsonStart; i < source.length; i += 1) {
+    const char = source[i];
+    if (quoted) {
+      if (escaped) escaped = false;
+      else if (char === '\\') escaped = true;
+      else if (char === '"') quoted = false;
+      continue;
+    }
+    if (char === '"') quoted = true;
+    else if (char === '{') depth += 1;
+    else if (char === '}' && --depth === 0) {
+      try { return JSON.parse(source.slice(jsonStart, i + 1)); } catch { return null; }
+    }
+  }
+  return null;
+}
+
+export function ticimaxRecordsFromModel(model, pageUrl) {
+  if (!model?.productId || !model?.productName || !Array.isArray(model.products)) return [];
+  const attributesByVariant = new Map();
+  for (const attribute of model.productVariantData || []) {
+    if (!attribute?.urunID) continue;
+    if (!attributesByVariant.has(attribute.urunID)) attributesByVariant.set(attribute.urunID, []);
+    attributesByVariant.get(attribute.urunID).push(attribute);
+  }
+
+  const candidates = model.products
+    .filter((variant) => variant?.aktif !== false)
+    .map((variant) => {
+      const attributes = attributesByVariant.get(variant.id) || [];
+      const weight = attributes.find((item) => /gramaj|miktar|weight|a[gğ]ırlık/i.test(item.ekSecenekTipiTanim || ''));
+      const grind = attributes.find((item) => /öğüt|ogut|grind/i.test(item.ekSecenekTipiTanim || ''));
+      const grams = packageGrams(`${weight?.tanim || ''} ${variant.stokKodu || ''} ${model.productName}`);
+      const price = num(variant.urunSepetFiyatiStr || variant.urunFiyatiOrjinalStr)
+        || (num(variant.urunSepetFiyati) && Math.round(num(variant.urunSepetFiyati) * (1 + Number(variant.kdvOrani || 0) / 100) * 100) / 100);
+      const listPrice = num(variant.satisFiyatiStr);
+      const grindLabel = clean(grind?.tanim || '');
+      return {
+        platform: 'ticimax', host: hostOf(pageUrl),
+        platformProductId: String(model.productId), platformVariantId: String(variant.id),
+        urlPath: pathOf(pageUrl), url: pageUrl,
+        productName: clean(model.productName),
+        variantTitle: clean([weight?.tanim, grindLabel].filter(Boolean).join(' — ')),
+        grams, optionSignature: optionSignature(grindLabel),
+        price, listPrice: listPrice && price && listPrice > price ? listPrice : null,
+        inStock: Number(variant.stokAdedi) > 0,
+        currency: variant.paraBirimiKodu || variant.paraBirimi || 'TRY',
+        productType: model.productType || null,
+        descriptionText: clean(model.productShortDescription).slice(0, 400),
+        representativeScore: /çekirdek|cekirdek|whole bean/i.test(grindLabel) ? 1 : 0
+      };
+    })
+    .filter((record) => record.price !== null);
+
+  // Öğütme fiyatı değiştirmiyorsa aynı gramaj/fiyat için onlarca eş kayıt
+  // üretme. Varsa çekirdek varyantı, yoksa ilk aktif varyant temsilci olur.
+  const byOffer = new Map();
+  for (const record of candidates) {
+    const key = `${record.grams ?? ''}|${record.price}`;
+    const previous = byOffer.get(key);
+    if (!previous || record.representativeScore > previous.representativeScore) byOffer.set(key, record);
+  }
+  return [...byOffer.values()].map(({ representativeScore, ...record }) => record);
+}
+
+export async function collectTicimax(origin, { maxPages = 250, concurrency = 6 } = {}) {
+  const homepage = await request(origin, { type: 'html' });
+  if (!/ticimax/i.test(homepage)) throw new Error('Ticimax imzası bulunamadı');
+  const urls = (await discoverCatalogUrls(origin)).slice(0, maxPages);
+  const records = [];
+  let cursor = 0;
+  await Promise.all(Array.from({ length: concurrency }, async () => {
+    while (cursor < urls.length) {
+      const pageUrl = urls[cursor++];
+      try {
+        const model = extractTicimaxModel(await request(pageUrl, { type: 'html' }));
+        records.push(...ticimaxRecordsFromModel(model, pageUrl));
+      } catch { /* tek ürün sayfası kataloğu bozmamalı */ }
+    }
+  }));
+  return records;
 }
 
 /* ------------------------------------------------------------------ Shopify */
@@ -510,6 +609,7 @@ export async function collectSite(origin) {
     ['shopify', () => collectShopify(origin)],
     ['woocommerce', () => collectWoo(origin)],
     ['ikas', () => collectIkas(origin)],
+    ['ticimax', () => collectTicimax(origin)],
     ['jsonld', () => collectJsonLdSite(origin)],
     ['html-meta', () => collectHtmlMetaSite(origin)]
   ];
