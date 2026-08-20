@@ -81598,5 +81598,53 @@
     "firstSeen": "2026-08-20",
     "lastSeen": "2026-08-20",
     "status": "active"
+  },
+  {
+    "id": 6801,
+    "roasterId": 85,
+    "identityKey": "p2:kahve.com/urun/moliendo-ravello-espresso-blend-kahve",
+    "platform": "html-meta",
+    "platformProductId": null,
+    "urlPath": "/urun/moliendo-ravello-espresso-blend-kahve",
+    "name": "Moliendo Ravello Espresso Blend Kahve",
+    "firstSeen": "2026-08-20",
+    "lastSeen": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": 6802,
+    "roasterId": 165,
+    "identityKey": "p2:recoltecoffee.com/product-page/fleur-south-america-4-x-150g",
+    "platform": "jsonld",
+    "platformProductId": null,
+    "urlPath": "/product-page/fleur-south-america-4-x-150g",
+    "name": "Fleur South America 4 x 150g",
+    "firstSeen": "2026-08-20",
+    "lastSeen": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": 6803,
+    "roasterId": 162,
+    "identityKey": "p2:espressoperfetto.com/urun/eureka-atlas-kahve-ogutucusu-beyaz",
+    "platform": "html-meta",
+    "platformProductId": null,
+    "urlPath": "/urun/eureka-atlas-kahve-ogutucusu-beyaz",
+    "name": "Eureka Atlas Kahve Öğütücüsü Beyaz",
+    "firstSeen": "2026-08-20",
+    "lastSeen": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": 6804,
+    "roasterId": 182,
+    "identityKey": "p2:online.erishelva.com.tr/urun/260-g-tepsili-met-helva",
+    "platform": "html-meta",
+    "platformProductId": null,
+    "urlPath": "/urun/260-g-tepsili-met-helva",
+    "name": "Tepsili Met Helva | Eriş Helva",
+    "firstSeen": "2026-08-20",
+    "lastSeen": "2026-08-20",
+    "status": "active"
   }
 ]
