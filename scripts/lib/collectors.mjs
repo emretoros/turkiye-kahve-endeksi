@@ -601,6 +601,141 @@ export async function collectHtmlMetaSite(origin, { maxPages = 150, concurrency 
   return records;
 }
 
+/* ------------------------------------------------------------------- Wix */
+
+/** Wix'in SSR sırasında sayfaya koyduğu mağaza ürünlerini bulur. */
+export function extractWixProducts(html) {
+  const match = String(html || '').match(/<script[^>]*id=["']wix-warmup-data["'][^>]*>([\s\S]*?)<\/script>/i);
+  if (!match) return [];
+  try {
+    const root = JSON.parse(match[1]);
+    const stack = [root];
+    const visited = new Set();
+    const products = [];
+    while (stack.length) {
+      const value = stack.pop();
+      if (!value || typeof value !== 'object' || visited.has(value)) continue;
+      visited.add(value);
+      if (value.id && value.name && Array.isArray(value.options)
+        && Array.isArray(value.productItems) && Number.isFinite(Number(value.price))) {
+        products.push(value);
+      }
+      stack.push(...Object.values(value));
+    }
+    return products;
+  } catch {
+    return [];
+  }
+}
+
+export function wixRecordsFromProducts(products, origin) {
+  const host = hostOf(origin);
+  const records = [];
+  for (const product of products) {
+    if (product.isInStock === false) continue;
+    const name = clean(product.name);
+    if (!name) continue;
+    const weightOption = product.options.find((option) =>
+      /ağırlık|agirlik|gramaj|paket|size|weight/i.test(`${option.title || ''} ${option.key || ''}`));
+    const weightBySelection = new Map((weightOption?.selections || [])
+      .map((selection) => [String(selection.id), packageGrams(selection.value || selection.description || selection.key || '')])
+      .filter(([, grams]) => grams));
+    const urlPart = clean(product.urlPart || product.slug || '');
+    const url = urlPart ? new URL(`/product-page/${urlPart}`, origin).href : origin;
+    const base = {
+      platform: 'wix', host,
+      platformProductId: String(product.id),
+      urlPath: pathOf(url), url,
+      productName: name,
+      productType: product.productType || null,
+      descriptionText: clean(product.description).slice(0, 400),
+      currency: product.currency || 'TRY'
+    };
+
+    // Wix her öğütüm biçimi için ayrı varyant üretir. Aynı gramaj/fiyattan
+    // yalnızca bir kayıt tutup mümkünse çekirdek seçeneğini tercih ediyoruz.
+    const grouped = new Map();
+    for (const item of product.productItems) {
+      if (item.isVisible === false || item.inventory?.status === 'out_of_stock') continue;
+      const selections = (item.optionsSelections || []).map(String);
+      const weightId = selections.find((id) => weightBySelection.has(id));
+      const grams = weightBySelection.get(weightId);
+      const price = num(item.price);
+      if (!grams || !price) continue;
+      const optionValues = product.options.flatMap((option) => (option.selections || [])
+        .filter((selection) => selections.includes(String(selection.id)))
+        .map((selection) => clean(selection.value || selection.description || selection.key)));
+      const variantTitle = optionValues.join(' / ');
+      const score = /çekirdek|cekirdek|whole bean/i.test(variantTitle) ? 2 : 1;
+      const key = `${grams}|${price}`;
+      if (!grouped.has(key) || grouped.get(key).score < score) {
+        grouped.set(key, { score, record: {
+          ...base,
+          platformVariantId: String(item.id),
+          variantTitle,
+          grams,
+          optionSignature: optionSignature(variantTitle),
+          price,
+          listPrice: num(item.comparePrice) > price ? num(item.comparePrice) : null,
+          inStock: item.inventory?.status !== 'out_of_stock'
+        } });
+      }
+    }
+    records.push(...[...grouped.values()].map(({ record }) => record));
+
+    // Wix kategori modelinde seçili/varsayılan varyant bazen productItems'tan
+    // çıkarılıp yalnızca ana product.price olarak veriliyor. Bu, MeetLab'de
+    // 250 g varsayılanı listeden kaybederken 1 kg varyantını bırakıyordu.
+    // Ana fiyatı yalnızca ilk gramaj seçimi henüz üretilmediyse ekliyoruz.
+    const firstWeight = [...weightBySelection.entries()][0];
+    const representedGrams = new Set([...grouped.values()].map(({ record }) => record.grams));
+    if (firstWeight && !representedGrams.has(firstWeight[1])) {
+      const [selectionId, grams] = firstWeight;
+      const price = num(product.price);
+      if (grams && price) records.push({
+        ...base, platformVariantId: `base-${selectionId}`, variantTitle: '', grams,
+        optionSignature: optionSignature(name), price,
+        listPrice: num(product.comparePrice) > price ? num(product.comparePrice) : null,
+        inStock: product.isInStock !== false
+      });
+    }
+  }
+  return records;
+}
+
+export async function collectWix(origin) {
+  const homepage = await request(origin, { type: 'html' });
+  const candidates = new Set([origin]);
+  for (const match of homepage.matchAll(/href=["']([^"'#]+)["']/gi)) {
+    try {
+      const url = new URL(match[1].replace(/&amp;/g, '&'), origin);
+      if (hostOf(url.href) === hostOf(origin)
+        && /kahve|coffee|shop|store|magaza|mağaza|products?|urun|ürün/i.test(url.pathname)) candidates.add(url.href);
+    } catch { /* geçersiz bağlantı */ }
+  }
+
+  const ranked = [...candidates].sort((a, b) => {
+    const pathA = pathOf(a), pathB = pathOf(b);
+    const score = (path) => (/product-page/i.test(path) ? -2 : 0)
+      + (/kahveler|coffees?|shop|store|magaza|mağaza|products?|urunler|ürünler/i.test(path) ? 2 : 0);
+    return score(pathB) - score(pathA);
+  });
+  const byId = new Map();
+  for (const url of ranked.slice(0, 30)) {
+    try {
+      const found = extractWixProducts(url === origin ? homepage : await request(url, { type: 'html' }));
+      for (const product of found) {
+        byId.set(String(product.id), product);
+      }
+      // Kategori sayfasında birden fazla ürün bulunduysa bu sayfanın warmup
+      // modeli mevcut kataloğun tamamını taşır; eski sitemap sayfalarını
+      // dolaşmak hem yavaş hem de gereksizdir.
+      if (found.length > 1) break;
+    } catch { /* tek katalog sayfası hatası diğerlerini engellemez */ }
+  }
+  return wixRecordsFromProducts([...byId.values()], origin);
+}
+
 /* ------------------------------------------------------------- otomatik seçim */
 
 /** Siteyi yoklar, hangi platformda olduğunu tespit eder ve uygun toplayıcıyı çalıştırır. */
@@ -610,6 +745,7 @@ export async function collectSite(origin) {
     ['woocommerce', () => collectWoo(origin)],
     ['ikas', () => collectIkas(origin)],
     ['ticimax', () => collectTicimax(origin)],
+    ['wix', () => collectWix(origin)],
     ['jsonld', () => collectJsonLdSite(origin)],
     ['html-meta', () => collectHtmlMetaSite(origin)]
   ];

@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  collectWoo, extractTicimaxModel, productFromHtmlMeta,
-  rankCatalogUrls, ticimaxRecordsFromModel
+  collectWoo, extractTicimaxModel, extractWixProducts, productFromHtmlMeta,
+  rankCatalogUrls, ticimaxRecordsFromModel, wixRecordsFromProducts
 } from './collectors.mjs';
 
 test('sitemap URL sıralaması ürün sayfalarını ilk sıraya taşır', () => {
@@ -91,6 +91,30 @@ test('Ticimax varyantları gramaj/fiyata göre tekilleştirilir ve çekirdek ter
   assert.equal(records.find((r) => r.grams === 250).platformVariantId, '30');
   assert.equal(records.find((r) => r.grams === 1000).price, 2887.5);
   assert.equal(records.find((r) => r.grams === 1000).listPrice, 3208.7);
+});
+
+test('Wix warmup verisindeki gramaj varyantları ayrıştırılır ve öğütümler tekilleştirilir', () => {
+  const product = {
+    id: 'p1', name: 'Colombia Pink Bourbon', urlPart: 'colombia-pink-bourbon',
+    price: 1150, comparePrice: 0, currency: 'TRY', isInStock: true,
+    options: [
+      { title: 'Size', selections: [{ id: 1, value: '250GR' }, { id: 29, value: '1000GR' }] },
+      { title: 'ÖĞÜTME SEÇENEĞİ', selections: [{ id: 5, value: 'Çekirdek' }, { id: 16, value: 'V60' }] }
+    ],
+    productItems: [
+      { id: 'v60-250', price: 1150, comparePrice: 0, isVisible: true, inventory: { status: 'in_stock' }, optionsSelections: [1, 16] },
+      { id: 'bean-250', price: 1150, comparePrice: 0, isVisible: true, inventory: { status: 'in_stock' }, optionsSelections: [1, 5] },
+      { id: 'bean-1000', price: 3750, comparePrice: 4000, isVisible: true, inventory: { status: 'in_stock' }, optionsSelections: [29, 5] }
+    ]
+  };
+  const html = `<script id="wix-warmup-data" type="application/json">${JSON.stringify({ nested: { product } })}</script>`;
+  const extracted = extractWixProducts(html);
+  assert.equal(extracted.length, 1);
+  const records = wixRecordsFromProducts(extracted, 'https://example.com');
+  assert.equal(records.length, 2);
+  assert.equal(records.find((r) => r.grams === 250).platformVariantId, 'bean-250');
+  assert.equal(records.find((r) => r.grams === 1000).price, 3750);
+  assert.equal(records.find((r) => r.grams === 1000).listPrice, 4000);
 });
 
 // Bu sabitler baristocrat.com'un gerçek WooCommerce Store API yanıtından
