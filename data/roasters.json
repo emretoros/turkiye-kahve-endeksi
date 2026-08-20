@@ -229,13 +229,13 @@
     "name": "ICC Coffee Roastery / Istanbul Coffee Company",
     "city": "İstanbul",
     "status": "Kısmi doğrulama",
-    "website": null,
+    "website": "https://istanbulcoffeecompany.com",
     "instagram": null,
-    "platform": null,
+    "platform": "ikas",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_website",
-    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 18,
@@ -243,13 +243,13 @@
     "name": "Kahve Diyarı",
     "city": null,
     "status": "Kısmi doğrulama",
-    "website": null,
+    "website": "https://kahvediyari.com",
     "instagram": null,
-    "platform": null,
+    "platform": "ikas",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_website",
-    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 19,
@@ -1509,7 +1509,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
     "dataStatus": "blocked",
-    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | wix: 429 Too Many Requests"
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
   },
   {
     "id": 109,
@@ -2614,8 +2614,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "blocked",
-    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 429 Too Many Requests | woocommerce: 404 Not Found | ikas: 429 Too Many Requests | ticimax: Ticimax imzası bulunamadı"
   },
   {
     "id": 188,
