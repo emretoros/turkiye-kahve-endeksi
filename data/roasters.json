@@ -710,8 +710,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed"
   },
   {
     "id": 52,
@@ -766,8 +766,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed"
   },
   {
     "id": 56,
@@ -1004,8 +1004,8 @@
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "active",
-    "dataStatusNote": null
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed"
   },
   {
     "id": 73,
@@ -1102,8 +1102,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "unreachable",
-    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed"
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 80,
@@ -1323,11 +1323,11 @@
     "status": "Doğrulandı",
     "website": "https://noitecoffee.com",
     "instagram": null,
-    "platform": null,
+    "platform": "jsonld",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 96,
@@ -1365,11 +1365,11 @@
     "status": "Doğrulandı",
     "website": "https://depocoffeeroasting.com",
     "instagram": null,
-    "platform": null,
+    "platform": "jsonld",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 99,
@@ -1407,11 +1407,11 @@
     "status": "Doğrulandı",
     "website": "https://peopleofcoffee.com.tr",
     "instagram": null,
-    "platform": null,
+    "platform": "woocommerce",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 102,
@@ -1449,11 +1449,11 @@
     "status": "Kısmi doğrulama",
     "website": "https://punctumcoffee.com",
     "instagram": null,
-    "platform": null,
+    "platform": "woocommerce",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 105,
@@ -1477,11 +1477,11 @@
     "status": "Doğrulandı",
     "website": "https://roasterlab.com.tr",
     "instagram": null,
-    "platform": null,
+    "platform": "shopify",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "unreachable",
-    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 107,
@@ -1578,8 +1578,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: The operation was aborted due to timeout | woocommerce: The operation was aborted due to timeout | ikas: The operation was aborted due to timeout"
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found"
   },
   {
     "id": 114,
@@ -1631,11 +1631,11 @@
     "status": "Doğrulandı",
     "website": "https://tropikacoffee.com",
     "instagram": null,
-    "platform": null,
+    "platform": "jsonld",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 118,
@@ -1662,8 +1662,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "unreachable",
-    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed"
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 120,
@@ -2110,8 +2110,8 @@
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "unreachable",
-    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 152,
@@ -2289,11 +2289,11 @@
     "status": "Site doğrulandı",
     "website": "https://gordioncoffee.com",
     "instagram": null,
-    "platform": null,
+    "platform": "jsonld",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 165,
@@ -2303,11 +2303,11 @@
     "status": "Site doğrulandı",
     "website": "https://recoltecoffee.com",
     "instagram": null,
-    "platform": null,
+    "platform": "jsonld",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 166,
@@ -2317,11 +2317,11 @@
     "status": "Site doğrulandı",
     "website": "https://3coresroastery.com",
     "instagram": null,
-    "platform": null,
+    "platform": "jsonld",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 167,
@@ -2359,11 +2359,11 @@
     "status": "Site doğrulandı",
     "website": "https://kungpowcoffee.com",
     "instagram": null,
-    "platform": null,
+    "platform": "jsonld",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 170,
@@ -2415,11 +2415,11 @@
     "status": "Site doğrulandı",
     "website": "https://nijicoffeeco.net",
     "instagram": null,
-    "platform": null,
+    "platform": "jsonld",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 174,
@@ -2460,8 +2460,8 @@
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "unreachable",
-    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 177,
@@ -2499,11 +2499,11 @@
     "status": "Doğrulandı",
     "website": "https://mustco.com.tr",
     "instagram": null,
-    "platform": null,
+    "platform": "jsonld",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 180,
