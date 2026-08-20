@@ -710,8 +710,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "unreachable",
-    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed"
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 52,
@@ -766,8 +766,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "unreachable",
-    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed"
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
   },
   {
     "id": 56,
@@ -1004,8 +1004,8 @@
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "unreachable",
-    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 73,
@@ -1029,11 +1029,11 @@
     "status": "Doğrulandı",
     "website": "https://fugacoffee.co",
     "instagram": null,
-    "platform": null,
+    "platform": "html-meta",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 75,
@@ -1183,11 +1183,11 @@
     "status": "Doğrulandı",
     "website": "https://kahve.com",
     "instagram": null,
-    "platform": null,
+    "platform": "html-meta",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "blocked",
-    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 86,
@@ -1575,11 +1575,11 @@
     "status": "Doğrulandı",
     "website": "https://sanalbaharat.com",
     "instagram": null,
-    "platform": null,
+    "platform": "html-meta",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "blocked",
-    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 114,
@@ -1645,11 +1645,11 @@
     "status": "Doğrulandı",
     "website": "https://kronotrop.com.tr",
     "instagram": null,
-    "platform": null,
+    "platform": "jsonld",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "blocked",
-    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 404 Not Found"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 119,
@@ -2261,11 +2261,11 @@
     "status": "Site doğrulandı",
     "website": "https://espressoperfetto.com",
     "instagram": null,
-    "platform": null,
+    "platform": "html-meta",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "blocked",
-    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 163,
@@ -2275,11 +2275,11 @@
     "status": "Kısmi doğrulama",
     "website": "https://toproasters.com.tr",
     "instagram": null,
-    "platform": null,
+    "platform": "jsonld",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 400 Bad Request | woocommerce: 404 Not Found | ikas: 400 Bad Request"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 164,
@@ -2377,7 +2377,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
     "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found"
+    "dataStatusNote": "shopify: The operation was aborted due to timeout | woocommerce: The operation was aborted due to timeout | ikas: The operation was aborted due to timeout"
   },
   {
     "id": 171,
@@ -2541,11 +2541,11 @@
     "status": "Doğrulandı",
     "website": "https://online.erishelva.com.tr",
     "instagram": null,
-    "platform": null,
+    "platform": "html-meta",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "blocked",
-    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 183,
@@ -2614,8 +2614,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "blocked",
-    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: 404 Not Found"
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 429 Too Many Requests | woocommerce: 404 Not Found | ikas: 429 Too Many Requests"
   },
   {
     "id": 188,
