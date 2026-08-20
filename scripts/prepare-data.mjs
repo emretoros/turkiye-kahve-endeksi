@@ -110,12 +110,6 @@ const SOURCE_LABEL = {
 // koddan giderildi ama yapısal API kadar sağlam değil).
 const CONFIDENCE_BY_PLATFORM = { shopify: 'Yüksek', woocommerce: 'Yüksek', ikas: 'Yüksek', jsonld: 'Orta' };
 
-// Yayın anı güvenlik ağı: price-rules.mjs'teki UNGRAMMED_PRICE_MAX ile AYNI
-// eşik. collect-identity.mjs bu kural eklenmeden ÖNCE de veri toplamış
-// olabilir (ör. depoda halihazırda duran bir espresso makinesi fiyatı) —
-// burada tekrar uygulamak bir sonraki taramayı beklemeden temizler.
-const UNGRAMMED_PRICE_MAX = 15000;
-
 const DATA_STATUS_NOTE = {
   no_website: 'Kayıtlı web sitesi yok — sadece Instagram/takip kaydı.',
   no_structured_data: 'Sitede yapılandırılmış ürün verisi bulunamadı (Shopify/WooCommerce/ikas API\'si ya da JSON-LD yok).',
@@ -129,25 +123,29 @@ const excluded = [];
 const rows = [];
 const placeholderSeen = new Set();
 
+function pushPlaceholder(roaster, note) {
+  if (placeholderSeen.has(roaster.id)) return;
+  placeholderSeen.add(roaster.id);
+  rows.push({
+    business: roaster.name, city: roaster.city || null, businessStatus: roaster.status,
+    product: 'Ürün kataloğu — ayrıntılı ürün verisine erişilemedi',
+    origin: 'Erişilemedi', grams: null, price: null, previousPrice: null, pricePerKg: null,
+    stock: 'Erişilemedi', productType: 'Katalog/takip kaydı',
+    url: roaster.website || null,
+    sourceMethod: 'Otomatik tarama — yapısal veri yok',
+    confidence: 'Takip gerekli', catalogStatus: 'Katalog takip kaydı',
+    note, aliases: [], instagram: roaster.instagram || null, discoveryChannels: [], checkedAt: runDate
+  });
+}
+
 for (const roaster of roasters) {
   const isPlaceholder = roaster.dataStatus && roaster.dataStatus !== 'active';
   if (isPlaceholder) {
-    if (placeholderSeen.has(roaster.id)) continue;
-    placeholderSeen.add(roaster.id);
-    rows.push({
-      business: roaster.name, city: roaster.city || null, businessStatus: roaster.status,
-      product: 'Ürün kataloğu — ayrıntılı ürün verisine erişilemedi',
-      origin: 'Erişilemedi', grams: null, price: null, previousPrice: null, pricePerKg: null,
-      stock: 'Erişilemedi', productType: 'Katalog/takip kaydı',
-      url: roaster.website || null,
-      sourceMethod: 'Otomatik tarama — yapısal veri yok',
-      confidence: 'Takip gerekli', catalogStatus: 'Katalog takip kaydı',
-      note: DATA_STATUS_NOTE[roaster.dataStatus] || roaster.dataStatusNote || null,
-      aliases: [], instagram: roaster.instagram || null, discoveryChannels: [], checkedAt: runDate
-    });
+    pushPlaceholder(roaster, DATA_STATUS_NOTE[roaster.dataStatus] || roaster.dataStatusNote || null);
     continue;
   }
 
+  const rowsBefore = rows.length;
   const roasterProducts = productsByRoaster.get(roaster.id) || [];
   for (const product of roasterProducts) {
     const url = product.url
@@ -166,11 +164,25 @@ for (const roaster of roasters) {
     const productType = guessProductType(product.name, origin);
 
     for (const variant of productVariants) {
+      const grams = Number.isFinite(variant.grams) && variant.grams > 0 ? variant.grams : null;
+
+      // Site "sadece çekirdek/öğütülmüş kahve fiyatı" göstermeyi hedefliyor:
+      // paket gramajı bilinmeyen bir varyantın fiyatı hiçbir şekilde
+      // karşılaştırılabilir değildir. Pratikte bu satırların ezici
+      // çoğunluğu zaten kahve değil — ekipman (değirmen, makine), ev eşyası
+      // (fincan/tepsi/lokumluk), toptan koli/palet, eğitim/danışmanlık ya da
+      // kafe menü kalemi. Az sayıda gerçek numune paketi (ör. "5x50 g deneme
+      // seti") da bu filtreyle düşer; bilinçli bir tercih — yanlış/karşılaş-
+      // tırılamaz fiyat göstermektense hiç göstermemek bu projenin baştan
+      // beri izlediği ilke (bkz. price-rules.mjs).
+      if (grams === null) {
+        excluded.push({ business: roaster.name, product: product.name, exclusionReason: 'Gramaj bilgisi yok (paket fiyatı karşılaştırılamıyor)' });
+        continue;
+      }
+
       const label = variant.label && !isWeightOnlyLabel(variant.label)
         ? `${product.name} — ${variant.label}` : product.name;
-      const grams = Number.isFinite(variant.grams) && variant.grams > 0 ? variant.grams : null;
-      const rawPrice = Number.isFinite(variant.lastPrice) && variant.lastPrice > 0 ? variant.lastPrice : null;
-      const price = rawPrice !== null && grams === null && rawPrice > UNGRAMMED_PRICE_MAX ? null : rawPrice;
+      const price = Number.isFinite(variant.lastPrice) && variant.lastPrice > 0 ? variant.lastPrice : null;
       const previousPrice = previousPriceFor(variant.id);
 
       rows.push({
@@ -185,6 +197,13 @@ for (const roaster of roasters) {
         aliases: [], instagram: roaster.instagram || null, discoveryChannels: [], checkedAt: runDate
       });
     }
+  }
+
+  // Site aktif olarak tarandı ama gramaj/kahve filtrelerinden geçen HİÇBİR
+  // ürün kalmadıysa (ör. yalnızca kafe menüsü, ekipman ya da toptan koli
+  // satıyor) işletme sessizce kaybolmasın — dürüstçe takip kaydına düşsün.
+  if (rows.length === rowsBefore) {
+    pushPlaceholder(roaster, 'Sitede paket gramajıyla karşılaştırılabilir bir çekirdek/öğütülmüş kahve ürünü bulunamadı.');
   }
 }
 
