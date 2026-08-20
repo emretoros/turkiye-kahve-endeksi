@@ -19,13 +19,13 @@
     "name": "Backfield Roasting Co.",
     "city": null,
     "status": "Kısmi doğrulama",
-    "website": null,
+    "website": "https://shopier.com",
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_website",
-    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden"
   },
   {
     "id": 3,
@@ -187,13 +187,13 @@
     "name": "Coffy",
     "city": "İstanbul",
     "status": "Kısmi doğrulama",
-    "website": null,
+    "website": "https://coffy.com.tr",
     "instagram": null,
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
-    "dataStatus": "no_website",
-    "dataStatusNote": "Kayıtlı web sitesi yok — sadece Instagram/takip kaydı"
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
   },
   {
     "id": 15,
@@ -1509,7 +1509,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-20",
     "dataStatus": "blocked",
-    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | wix: 429 Too Many Requests"
   },
   {
     "id": 109,
