@@ -1,13 +1,11 @@
 name: Fiyat verisini güncelle
 
-# Haftalık koşuyor — günlük değil, çünkü JSON-LD sitemap fallback'i her koşuda
-# bazı işletmelerde onlarca ürün sayfasını tek tek çekiyor; her gün yapmak
-# küçük sitelerin sunucusuna gereksiz yük bindirir. Daha sık istersen cron'u
-# "0 5 * * *" yap (her gün 05:00 UTC = 08:00 TR).
+# Fiyat geçmişi biriktirme döneminde her gün bir kez koşar. Tek günlük koşu,
+# mağazalara aşırı istek göndermeden fiyat değişimlerini izlemek için yeterlidir.
 on:
   schedule:
-    - cron: '0 5 * * 1' # her Pazartesi 05:00 UTC = 08:00 TR
-  # Toplayıcı/ayrıştırma kodu iyileştirildiğinde haftalık günü bekleme:
+    - cron: '0 5 * * *' # her gün 05:00 UTC = 08:00 TR
+  # Toplayıcı/ayrıştırma kodu iyileştirildiğinde sıradaki günlük koşuyu bekleme:
   # main'e gelen ilgili kod değişikliği tam veri koşusunu otomatik başlatır.
   # Botun yalnızca data/ dosyalarına yaptığı push bu filtreye uymadığı için
   # yeniden tetiklenme döngüsü oluşmaz.
@@ -65,7 +63,7 @@ jobs:
             echo "Değişiklik yok, commit atlanıyor."
             echo "pushed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "veri: haftalık fiyat toplama koşusu ($(date -u +%Y-%m-%d))"
+            git commit -m "veri: günlük fiyat toplama koşusu ($(date -u +%Y-%m-%d))"
             git push
             echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
