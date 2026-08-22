@@ -4,7 +4,7 @@ const number = new Intl.NumberFormat('tr-TR');
 const date = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
 const shortDate = new Intl.DateTimeFormat('tr-TR');
 const els = Object.fromEntries(['search','origin','business','price-change','weight-range','sort','product-rows','result-summary','prev','next','page-label','clear','stat-last-control','price-update-summary','footer-update'].map(id => [id, document.getElementById(id)]));
-let all = [], filtered = [], page = 1, history = {};
+let all = [], filtered = [], page = 1, history = {}, historyThrough = null;
 const pageSize = 30;
 
 const esc = (value) => String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -31,10 +31,39 @@ function priceChange(row) {
 
 /* ------------------------------------------------------ fiyat geçmişi grafiği */
 
-// Tek serili, sade bir çizgi grafik — dış kütüphane yok, düz SVG. Geçmiş
-// data/price_observations.ndjson'dan geliyor ve yalnızca fiyat DEĞİŞTİĞİNDE
-// yeni nokta ekleniyor; bu yüzden en az 2 nokta olmadan grafik anlamsız,
-// tek noktalıyken bunun yerine bir bilgi notu gösteriliyor (bkz. openHistoryModal).
+// Ham geçmiş yalnızca fiyat değiştiğinde yeni kayıt içerir. Grafikte zaman
+// ekseninin gerçek takvim günlerini göstermesi için aradaki günleri son bilinen
+// fiyatla dolduruyoruz. Böylece değişiklik olmayan günler de yatay çizgi ve
+// ayrı birer günlük nokta olarak görünür.
+function expandDailyHistory(rawPoints, throughDate) {
+  if (!rawPoints.length) return [];
+
+  const priceByDate = new Map();
+  rawPoints.forEach(([dateValue, price]) => {
+    if (typeof dateValue === 'string' && Number.isFinite(price) && price > 0) {
+      priceByDate.set(dateValue.slice(0, 10), price);
+    }
+  });
+  const dates = [...priceByDate.keys()].sort();
+  if (!dates.length) return [];
+
+  const firstDate = dates[0];
+  const lastObservedDate = dates[dates.length - 1];
+  const endDate = throughDate && throughDate >= lastObservedDate ? throughDate : lastObservedDate;
+  const cursor = new Date(`${firstDate}T00:00:00Z`);
+  const end = new Date(`${endDate}T00:00:00Z`);
+  const points = [];
+  let lastPrice = priceByDate.get(firstDate);
+
+  while (cursor <= end) {
+    const day = cursor.toISOString().slice(0, 10);
+    if (priceByDate.has(day)) lastPrice = priceByDate.get(day);
+    points.push([day, lastPrice]);
+    cursor.setUTCDate(cursor.getUTCDate() + 1);
+  }
+  return points;
+}
+
 function buildHistoryChart(points) {
   const W = 560, H = 220;
   const pad = { top: 24, right: 16, bottom: 28, left: 68 };
@@ -148,7 +177,8 @@ function closeHistoryModal() {
 }
 
 function openHistoryModal(row, trigger) {
-  const points = row.variantId == null ? [] : (history[row.variantId] || []);
+  const rawPoints = row.variantId == null ? [] : (history[row.variantId] || []);
+  const points = expandDailyHistory(rawPoints, historyThrough);
   if (!historyOverlay) historyOverlay = createHistoryOverlay();
   lastHistoryTrigger = trigger || null;
 
@@ -243,7 +273,7 @@ function render() {
 }
 
 Promise.all([fetch(`${base}data/products.json`).then(r=>r.json()), fetch(`${base}data/metadata.json`).then(r=>r.json()), fetch(`${base}data/price_history.json`).then(r=>r.json()).catch(() => ({}))]).then(([products, meta, priceHistory]) => {
-  all = products; filtered = products; history = priceHistory;
+  all = products; filtered = products; history = priceHistory; historyThrough = meta.checkedAt;
   fillSelect(els.origin, [...new Set(all.map(r=>r.origin))]); fillSelect(els.business, [...new Set(all.map(r=>r.business))]);
   document.getElementById('stat-businesses').textContent = number.format(meta.businesses); document.getElementById('stat-products').textContent = number.format(meta.namedProducts); document.getElementById('stat-origins').textContent = number.format(meta.origins);
   document.getElementById('nav-count').textContent = `${number.format(meta.businesses)} kavurucu · ${number.format(meta.namedProducts)} ürün`;
