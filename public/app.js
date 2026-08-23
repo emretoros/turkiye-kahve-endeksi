@@ -3,22 +3,13 @@ const money = new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'TRY
 const number = new Intl.NumberFormat('tr-TR');
 const date = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
 const shortDate = new Intl.DateTimeFormat('tr-TR');
-const els = Object.fromEntries(['search','origin','business','stock-status','price-change','weight-range','sort','product-rows','result-summary','prev','next','page-label','clear','stat-last-control','price-update-summary','footer-update','origin-guide','origin-guide-title','origin-guide-copy','advisor-launch','advisor-panel','advisor-close','advisor-messages','advisor-actions'].map(id => [id, document.getElementById(id)]));
+const els = Object.fromEntries(['search','origin','business','stock-status','weight-range','sort','product-rows','result-summary','prev','next','page-label','clear','stat-last-control','price-update-summary','footer-update','origin-guide','origin-guide-title','origin-guide-copy','advisor-launch','advisor-panel','advisor-close','advisor-messages','advisor-actions'].map(id => [id, document.getElementById(id)]));
 let all = [], filtered = [], page = 1, history = {}, historyThrough = null, originGuides = {};
 const pageSize = 30;
 
 const esc = (value) => String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const available = (value, format = String) => value == null ? '<span class="missing">Erişilemedi</span>' : format(value);
 const asDate = value => new Date(`${value}T00:00:00`);
-
-function priceChangeStatus(row) {
-  if (row.price == null || row.previousPrice == null) {
-    return 'unknown';
-  }
-  if (row.price > row.previousPrice) return 'up';
-  if (row.price < row.previousPrice) return 'down';
-  return 'same';
-}
 
 function stockStatus(row) {
   if (row.stock === 'Stokta') return 'in';
@@ -398,11 +389,9 @@ function applyFilters() {
   const q = els.search.value.trim().toLocaleLowerCase('tr');
   filtered = all.filter(row => {
     const text = `${row.business} ${row.product} ${row.origin} ${(row.aliases || []).join(' ')} ${row.instagram || ''}`.toLocaleLowerCase('tr');
-    const change = els['price-change'].value;
     const weightRange = els['weight-range'].value;
     const stock = els['stock-status'].value;
     return (!q || text.includes(q)) && (!els.origin.value || row.origin === els.origin.value) && (!els.business.value || row.business === els.business.value)
-      && (!change || priceChangeStatus(row) === change)
       && (!stock || stockStatus(row) === stock)
       && weightMatches(row, weightRange);
   });
@@ -447,9 +436,9 @@ Promise.all([fetch(`${base}data/products.json`).then(r=>r.json()), fetch(`${base
   render();
 }).catch(() => { els['product-rows'].innerHTML = '<tr><td colspan="8" class="loading">Veri yüklenemedi.</td></tr>'; });
 
-['search','origin','business','stock-status','price-change','weight-range','sort'].forEach(id => els[id].addEventListener(id === 'search' ? 'input' : 'change', applyFilters));
+['search','origin','business','stock-status','weight-range','sort'].forEach(id => els[id].addEventListener(id === 'search' ? 'input' : 'change', applyFilters));
 els.prev.addEventListener('click', () => { page--; render(); }); els.next.addEventListener('click', () => { page++; render(); });
-els.clear.addEventListener('click', () => { ['search','origin','business','stock-status','price-change','weight-range'].forEach(id => els[id].value=''); els.sort.value='business'; applyFilters(); });
+els.clear.addEventListener('click', () => { ['search','origin','business','stock-status','weight-range'].forEach(id => els[id].value=''); els.sort.value='business'; applyFilters(); });
 els['product-rows'].addEventListener('click', (e) => {
   const btn = e.target.closest('.history-btn');
   if (!btn) return;
