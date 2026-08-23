@@ -264,7 +264,9 @@ function render() {
 }
 
 Promise.all([fetch(`${base}data/products.json`).then(r=>r.json()), fetch(`${base}data/metadata.json`).then(r=>r.json()), fetch(`${base}data/price_history.json`).then(r=>r.json()).catch(() => ({}))]).then(([products, meta, priceHistory]) => {
-  all = products; filtered = products; history = priceHistory; historyThrough = meta.checkedAt;
+  // Veri üretimindeki kaynak filtresine ek savunma: eski/önbelleklenmiş bir
+  // veri dosyası gelse bile bağlantısız satırı kullanıcıya gösterme.
+  all = products.filter((row) => row.url); filtered = all; history = priceHistory; historyThrough = meta.checkedAt;
   fillSelect(els.origin, [...new Set(all.map(r=>r.origin))]); fillSelect(els.business, [...new Set(all.map(r=>r.business))]);
   document.getElementById('stat-businesses').textContent = number.format(meta.businesses); document.getElementById('stat-products').textContent = number.format(meta.namedProducts); document.getElementById('stat-origins').textContent = number.format(meta.origins);
   document.getElementById('nav-count').textContent = `${number.format(meta.businesses)} kavurucu · ${number.format(meta.namedProducts)} ürün`;

@@ -215,7 +215,12 @@ for (const roaster of roasters) {
   }
 }
 
-const cleaned = rows.map((row, index) => ({ id: index + 1, ...row }));
+// Kaynak bağlantısı olmayan kayıtları yayına hiç alma. Bu satırlar tabloda
+// "Kaynak: Erişilemedi" olarak görünmek yerine bütünüyle gizlenir; sıra
+// numaraları ve özet sayaçları yalnızca gerçekten yayımlanan satırlardan oluşur.
+const cleaned = rows
+  .filter((row) => typeof row.url === 'string' && row.url.trim())
+  .map((row, index) => ({ id: index + 1, ...row }));
 
 /* ------------------------------------------------------------------ metadata */
 
