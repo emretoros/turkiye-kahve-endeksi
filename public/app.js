@@ -305,14 +305,15 @@ function askAdvisorOrigin() {
   guide.className = 'advisor-origin-guide';
   guide.setAttribute('aria-live', 'polite');
   guide.hidden = true;
-  guide.innerHTML = '<strong></strong><p></p>';
-  els['advisor-actions'].appendChild(guide);
+  guide.innerHTML = '<small>Menşe rehberi</small><strong></strong><p></p>';
+  els['advisor-messages'].appendChild(guide);
   select.addEventListener('change', () => {
     const origin = select.value;
     guide.hidden = origin === 'any';
     if (origin === 'any') return;
     guide.querySelector('strong').textContent = origin;
     guide.querySelector('p').textContent = originGuideCopy(origin);
+    els['advisor-messages'].scrollTop = els['advisor-messages'].scrollHeight;
   });
 }
 
