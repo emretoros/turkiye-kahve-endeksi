@@ -26120,7 +26120,7 @@
     "urlPath": "/urun/v60-seramik-kahve-damlaticisi-02",
     "name": "Hario V60 Seramik Kahve Damlatıcısı 02",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -26156,7 +26156,7 @@
     "urlPath": "/urun/espresso-barista-collection-kolombiya",
     "name": "Espresso Kahve / Kolombiya",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -61698,7 +61698,7 @@
     "platform": "jsonld",
     "platformProductId": "SKU-250GR-OGUTULMEMIS-CEKIRDEK",
     "urlPath": "/urun-detay/italian-blend",
-    "name": "House Blend",
+    "name": "Honduras Montecristo",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-23",
     "status": "active"
@@ -61712,7 +61712,7 @@
     "urlPath": "/urun-detay/black-goat-250-90-basket-kahve-filtresi-1000li",
     "name": "Black Goat 250/90 Basket Kahve Filtresi 1000'li",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -61964,7 +61964,7 @@
     "urlPath": "/urun-detay/kahvehanem-home-barista-mini-drip-kettle-kahve-demleme-ibrigi",
     "name": "Black Goat Mini Drip Kettle - 600ml - Kahve Demleme İbriği",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -62072,7 +62072,7 @@
     "urlPath": "/urun-detay/black-goat-6-cup-moka-pot-sari",
     "name": "Black Goat 6 Cup Moka Pot - Sarı",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -62240,7 +62240,7 @@
     "urlPath": "/urun-detay/black-goat-borosilikat-cam-chemex-kahve-demleme-surahi-karaf-800-ml-6-cup-coffee-pot",
     "name": "Black Goat Ahşap tutacaklı Chemex 800 ml",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -62444,7 +62444,7 @@
     "urlPath": "/urun-detay/caffeo-1x2-80-adet-filtre-kagidi",
     "name": "Caffeo 1x2 / 80 adet Filtre kağıdı",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -62456,7 +62456,7 @@
     "urlPath": "/urun-detay/kafiltro-chemex-uyumlu-filtre-kagidi",
     "name": "Kafiltro Chemex Uyumlu Filtre Kağıdı",
     "firstSeen": "2026-08-19",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -65996,7 +65996,7 @@
     "urlPath": "/urun/hario-soguk-demleme-filtreli-sise-mocca",
     "name": "Hario Soğuk Demleme Filtreli Şişe Mocca",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66008,7 +66008,7 @@
     "urlPath": "/urun/hario-mizudashi-soguk-kahve-demleme-surahisi-1000-ml",
     "name": "Hario Mizudashi Soğuk Kahve Demleme Sürahisi Kahverengi 1000 ml",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66068,7 +66068,7 @@
     "urlPath": "/urun/moliendo-ethiopia-sidamo-gr-4-kuru-isleme-yoresel-kahve",
     "name": "Moliendo Ethiopia Sidamo Gr 4 Kuru İşleme Yöresel Kahve",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66092,7 +66092,7 @@
     "urlPath": "/urun/moliendo-honduras-shb-honey-micro-lot-yoresel-kahve",
     "name": "Moliendo Honduras SHB Honey Micro-Lot Yöresel Kahve",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66116,7 +66116,7 @@
     "urlPath": "/urun/moliendo-jamaica-blue-mountain-yoresel-kahve",
     "name": "Moliendo Jamaica Blue Mountain Yöresel Kahve",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66128,7 +66128,7 @@
     "urlPath": "/urun/moliendo-kenya-aa-muranga-yoresel-kahve",
     "name": "Moliendo Kenya AA Muranga Yöresel Kahve",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66188,7 +66188,7 @@
     "urlPath": "/urun/moliendo-panama-shb-boquete-yoresel-kahve",
     "name": "Moliendo Panama SHB Boquete Yöresel Kahve",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66212,7 +66212,7 @@
     "urlPath": "/urun/moliendo-mexico-shg-finca-monte-azul-yoresel-kahve",
     "name": "Moliendo Mexico SHG Finca Monte Azul Yöresel Kahve",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66308,7 +66308,7 @@
     "urlPath": "/urun/moliendo-honduras-finca-cerro-azul-yoresel-kahve",
     "name": "Moliendo Honduras Finca Cerro Azul Yöresel Kahve",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66380,7 +66380,7 @@
     "urlPath": "/urun/neo-barista-espresso-makinesi-tablet-temizleyici-2-g",
     "name": "Neo Barista Espresso Makinesi Tablet Temizleyici (60 adet x 2 g)",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66452,7 +66452,7 @@
     "urlPath": "/urun/moliendo-blonde-coffee-blend",
     "name": "Moliendo Blonde Coffee Blend",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66524,7 +66524,7 @@
     "urlPath": "/urun/grosche-1-cup-moka-pot-icin-3-adet-silikon-conta-ve-filtre-seti",
     "name": "Grosche 1 Cup Moka Pot için 3 adet Silikon Conta ve Filtre Seti",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66536,7 +66536,7 @@
     "urlPath": "/urun/timemore-chestnut-slim-manuel-kahve-degirmeni-1",
     "name": "Timemore Chestnut SLIM Manuel Kahve Değirmeni",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66608,7 +66608,7 @@
     "urlPath": "/urun/timemore-chestnut-g1-plus-seffaf-hazne-manuel-kahve-degirmeni",
     "name": "Timemore Chestnut G1 Plus Şeffaf Hazne Manuel Kahve Değirmeni",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66632,7 +66632,7 @@
     "urlPath": "/urun/timemore-g1-s-titanyum-seffaf-hazne-manuel-kahve-degirmeni",
     "name": "Timemore G1 (S) Titanyum Şeffaf Hazne Manuel Kahve Değirmeni",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66692,7 +66692,7 @@
     "urlPath": "/urun/moliendo-kapsul-no-10-avantaj-paketi-10x10-nespresso-uyumlu-aluminyum-kapsul-100-adet",
     "name": "Moliendo Kapsül No:10 Avantaj Paketi 10x10 Nespresso Uyumlu Alüminyum Kapsül 100 Adet",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66716,7 +66716,7 @@
     "urlPath": "/urun/moliendo-kapsul-no-5-avantaj-paketi-10x10-nespresso-uyumlu-aluminyum-kapsul-100-adet",
     "name": "Moliendo Kapsül No:5 Avantaj Paketi 10x10 Nespresso Uyumlu Alüminyum Kapsül 100 Adet",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66728,7 +66728,7 @@
     "urlPath": "/urun/moliendo-kapsul-no-8-avantaj-paketi-10x10-nespresso-uyumlu-aluminyum-kapsul-100-adet",
     "name": "Moliendo Kapsül No:8 Avantaj Paketi 10x10 Nespresso Uyumlu Alüminyum Kapsül 100 Adet",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66740,7 +66740,7 @@
     "urlPath": "/urun/moliendo-honduras-san-marcos-pratik-filtre-kahve-avantaj-paketi-2-x-10-toplam-20-adet",
     "name": "Moliendo Honduras San Marcos SHG Pratik Filtre Kahve Avantaj Paketi 2 x 10 Toplam 20 Adet",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -66776,7 +66776,7 @@
     "urlPath": "/urun/moliendo-city-filter-coffee-blend",
     "name": "Moliendo City Blend Filtre Kahve",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -68024,7 +68024,7 @@
     "urlPath": "/urun/kahve-cekirdek-gurme-blend",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -68036,7 +68036,7 @@
     "urlPath": "/urun/kahve-etiyopya-djimmah",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -68048,7 +68048,7 @@
     "urlPath": "/urun/kuru-kahve-ogutulmus-arabica-turk-kahvesi",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -68084,7 +68084,7 @@
     "urlPath": "/urun/guatemala-antigua-15-kg-kav-kahve-cekirdegi",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -68144,7 +68144,7 @@
     "urlPath": "/urun/tarcin-toz-1-kg",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -68168,7 +68168,7 @@
     "urlPath": "/urun/tarcin-parmak-kesik",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -68228,7 +68228,7 @@
     "urlPath": "/urun/keten-tohumu-25-kg",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -68240,7 +68240,7 @@
     "urlPath": "/urun/karanfil-10-kg-koli",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -69764,7 +69764,7 @@
     "urlPath": "/urun/40gr-seker-ilavesiz-tahin-helva-5-li",
     "name": "40Gr Şeker İlavesiz Tahin Helva 5'li",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -69848,7 +69848,7 @@
     "urlPath": "/urun/350gr-seker-ilavesiz-tahin-helva",
     "name": "350 g Şeker İlavesiz Tahin Helvası",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -69908,7 +69908,7 @@
     "urlPath": "/urun/180-g-talkan-kurabiyesi",
     "name": "Talkan Kurabiyesi | Eriş Helva",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -69920,7 +69920,7 @@
     "urlPath": "/urun/260-g-met-helva-pr-27-html",
     "name": "Met Helva | Eriş Helva",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -70616,7 +70616,7 @@
     "urlPath": "/urun/moliendo-el-salvador-sgh-finca-la-joya-yoresel-kahve",
     "name": "Moliendo El Salvador SGH Finca La Joya Yöresel Kahve",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -70640,7 +70640,7 @@
     "urlPath": "/urun/moliendo-ethiopia-harrar-yoresel-kahve",
     "name": "Moliendo Ethiopia Harrar Yöresel Kahve",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -70652,7 +70652,7 @@
     "urlPath": "/urun/moliendo-ethiopia-sidamo-gr-2-yikanmis-yoresel-kahve",
     "name": "Moliendo Ethiopia Sidamo Gr 2 Yıkanmış Yöresel Kahve",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -70712,7 +70712,7 @@
     "urlPath": "/urun/neo-barista-espresso-makinesi-toz-temizleyici",
     "name": "Neo Barista Espresso Makinesi Toz Temizleyici 900 g",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -70724,7 +70724,7 @@
     "urlPath": "/urun/neo-barista-espresso-makinesi-sut-sistemi-temizleyici",
     "name": "Neo Barista Espresso Makinesi Süt Sistemi Temizleyici 1000 g",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -70736,7 +70736,7 @@
     "urlPath": "/urun/moliendo-house-blend-filtre-kahve",
     "name": "Moliendo House Blend Filtre Kahve",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -70748,7 +70748,7 @@
     "urlPath": "/urun/neo-barista-espresso-makinesi-tablet-temizleyici-1-5-g",
     "name": "Neo Barista Espresso Makinesi Tablet Temizleyici (60 adet x 1.5 g)",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -70796,7 +70796,7 @@
     "urlPath": "/urun/timemore-slim-plus-kahve-degirmeni",
     "name": "Timemore Chestnut Slim Plus Çelik Dişli Manuel Kahve Değirmeni",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -70808,7 +70808,7 @@
     "urlPath": "/urun/caffe-vergnano-decaffeinato-espresso-kafeinsiz-kahve-250-gr",
     "name": "Caffe Vergnano Decaffeinato Espresso Kafeinsiz Kahve (250 g)",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -70892,7 +70892,7 @@
     "urlPath": "/urun/moliendo-brasil-bossa-nova-pratik-filtre-kahve-10x10-g",
     "name": "Moliendo Brasil Bossa Nova Pratik Filtre Kahve 10x10 g",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -70964,7 +70964,7 @@
     "urlPath": "/urun/moliendo-kapsul-no-8-nespresso-uyumlu-aluminyum-kapsul-10-adet",
     "name": "Moliendo Kapsül No:8 Nespresso Uyumlu Alüminyum Kapsül 10 Adet",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74456,7 +74456,7 @@
     "urlPath": "/product-page/single-origin-2",
     "name": "Colombia Felice Medellin 250g",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74480,7 +74480,7 @@
     "urlPath": "/urun/kuru-kahve-ogutulmus-15-kg-arabica-turk-kahvesi",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74540,7 +74540,7 @@
     "urlPath": "/urun/kahve-kenya-arabica-aa-plus",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74588,7 +74588,7 @@
     "urlPath": "/urun/hario-mini-plus-seramik-kahve-degirmeni",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74600,7 +74600,7 @@
     "urlPath": "/urun/peru-ecoforest-arabica-kahve-1kg",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74612,7 +74612,7 @@
     "urlPath": "/urun/etiyopya-sidamo-gr4-kavrulmus-kahve",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74624,7 +74624,7 @@
     "urlPath": "/urun/hario-v60-02-drip-kahve-servis-surahisi-700-ml",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74636,7 +74636,7 @@
     "urlPath": "/urun/hario-v60-buzlu-kahve-demleyici",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74648,7 +74648,7 @@
     "urlPath": "/urun/hario-v60-elektrikli-kahve-degirmeni",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74660,7 +74660,7 @@
     "urlPath": "/urun/etiyopya-sidamo-gr2-kavrulmus-kahve-15-kg",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74672,7 +74672,7 @@
     "urlPath": "/urun/kahve-surahisi-ahsap-sap-600-ml-vcwn-60",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74684,7 +74684,7 @@
     "urlPath": "/urun/yellow-bourbon-natural-speciality-arabica-kahve",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74708,7 +74708,7 @@
     "urlPath": "/urun/kuru-kahve-robusta-cekirdek-15-kg",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74756,7 +74756,7 @@
     "urlPath": "/urun/etiyopya-yirgacheffe-gr1-kavrulmus-kahve-15-kg-1",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74768,7 +74768,7 @@
     "urlPath": "/urun/colombia-supremo-kahve-kavrulmus",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74840,7 +74840,7 @@
     "urlPath": "/urun/yeni-harman-15-kg",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74852,7 +74852,7 @@
     "urlPath": "/urun/atom-cayi-kis-cayi",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74864,7 +74864,7 @@
     "urlPath": "/urun/blend-harman",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74876,7 +74876,7 @@
     "urlPath": "/urun/zeytinyagli-defne-sabunu-4-lu",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74888,7 +74888,7 @@
     "urlPath": "/urun/himalaya-tuzu-1-kg",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74900,7 +74900,7 @@
     "urlPath": "/urun/karabugday-grecka",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74924,7 +74924,7 @@
     "urlPath": "/urun/atom-nane-limon-melisa-cayi",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74948,7 +74948,7 @@
     "urlPath": "/urun/nicaragua-shb-ep-arabica",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -74972,7 +74972,7 @@
     "urlPath": "/urun/santos-finecup-15kg",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -75020,7 +75020,7 @@
     "urlPath": "/urun/honduras-shg-ep-arabica",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -75080,7 +75080,7 @@
     "urlPath": "/urun/stanley-klasik-french-press-termos-1-4-lt",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -75116,7 +75116,7 @@
     "urlPath": "/urun/stanley-klasik-vakumlu-paslanmaz-celik-termos-1-9-lt",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -75140,7 +75140,7 @@
     "urlPath": "/urun/stanley-the-aerolight-iceflow-soguk-su-termosu-0-60-lt-1",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -76256,7 +76256,7 @@
     "urlPath": "/urun/aeropress-filtre-kagidi-micro-filters",
     "name": "Aeropress Filtre Kağıdı ( Micro Filters )",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -76436,7 +76436,7 @@
     "urlPath": "/urun/phin-filtre",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -76448,7 +76448,7 @@
     "urlPath": "/urun/kahve-tanzania-arabica-aa",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -76460,7 +76460,7 @@
     "urlPath": "/urun/sumatra-mandheling-kahve-cekirdegi-kavrulmus",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -76484,7 +76484,7 @@
     "urlPath": "/urun/stanley-klasik-brew-pour-over-paslanmaz-celik-kahve-demleyici-yesil",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -76508,7 +76508,7 @@
     "urlPath": "/urun/costarica-tarrazu-kahve-15kg",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -76580,7 +76580,7 @@
     "urlPath": "/urun/karanfil-1-kg",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -76688,7 +76688,7 @@
     "urlPath": "/urun/stanley-klasik-vakumlu-paslanmaz-celik-termos-1-9-lt-koyu-mavi",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -76712,7 +76712,7 @@
     "urlPath": "/urun/stanley-klasik-vakumlu-paslanmaz-celik-termos-1-lt-1",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -77372,7 +77372,7 @@
     "urlPath": "/urun/40gr-sade-tahin-helva-5-li",
     "name": "40Gr Sade Tahin Helva 5'li",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -77432,7 +77432,7 @@
     "urlPath": "/urun/350gr-seker-ilavesiz-tahin-helva-1",
     "name": "350 g Şeker İlavesiz Tahin Helvası",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -77492,7 +77492,7 @@
     "urlPath": "/urun/250-g-biskuvili-lokum",
     "name": "250 g Bisküvili Lokum",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -77720,7 +77720,7 @@
     "urlPath": "/urun/hario-mini-black-pro-celik-bicakli-kahve-degirmeni",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -77828,7 +77828,7 @@
     "urlPath": "/urun/hario-v60-02-dripper-filtresi-naturel-100-adet",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -77888,7 +77888,7 @@
     "urlPath": "/urun/el-salvador-divina-providencia-filter-1",
     "name": "El Salvador Divina Providencia - Filter",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -79352,7 +79352,7 @@
     "urlPath": "/product-page/specialty-coffee",
     "name": "Indonesia Mandheling 250g",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -79400,7 +79400,7 @@
     "urlPath": "/urun/kenya-aa-top-aroma-15-kg",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -79424,7 +79424,7 @@
     "urlPath": "/urun/arara-azul-speciality-arabica-kahve",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -79436,7 +79436,7 @@
     "urlPath": "/urun/karabiber-tane-1-kg",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -79460,7 +79460,7 @@
     "urlPath": "/urun/amarant-1kg",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -79472,7 +79472,7 @@
     "urlPath": "/urun/hario-v60-03-dripper-filtresi-100-adet-1",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -79508,7 +79508,7 @@
     "urlPath": "/urun/honduras-anaerobic-natural-el-jardin",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-21",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -80024,7 +80024,7 @@
     "urlPath": "/urun/moliendo-guatemala-antigua-yoresel-kahve",
     "name": "Moliendo Guatemala Antigua Yöresel Kahve",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-20",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -80480,7 +80480,7 @@
     "urlPath": "/urun/timemore-chestnut-slim-manuel-kahve-degirmeni",
     "name": "Timemore Chestnut Slim S Titanyum Dişli Manuel Kahve Değirmeni",
     "firstSeen": "2026-08-20",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -81728,7 +81728,7 @@
     "urlPath": "/urun/stanley-klasik-vakumlu-paslanmaz-celik-termos-0-75-lt-koyu-beyaz",
     "name": "Ürünlerimiz",
     "firstSeen": "2026-08-21",
-    "lastSeen": "2026-08-22",
+    "lastSeen": "2026-08-23",
     "status": "active"
   },
   {
@@ -82735,6 +82735,30 @@
     "platformProductId": "8946342494379",
     "urlPath": "/products/ethiopia-halo-beriti-g1-natural-filtre-kahve-250-gr",
     "name": "Colombia Capilla Del Rosario Castillo Yıkanmış Lokum 250 gr",
+    "firstSeen": "2026-08-23",
+    "lastSeen": "2026-08-23",
+    "status": "active"
+  },
+  {
+    "id": 6896,
+    "roasterId": 162,
+    "identityKey": "p2:espressoperfetto.com/urun/rocky-kapsul-3832",
+    "platform": "html-meta",
+    "platformProductId": null,
+    "urlPath": "/urun/rocky-kapsul-3832",
+    "name": "Rocky Mountains Blend Kapsül Kahve",
+    "firstSeen": "2026-08-23",
+    "lastSeen": "2026-08-23",
+    "status": "active"
+  },
+  {
+    "id": 6897,
+    "roasterId": 162,
+    "identityKey": "p2:espressoperfetto.com/urun/rocky-mountains-blend-5-kg",
+    "platform": "html-meta",
+    "platformProductId": null,
+    "urlPath": "/urun/rocky-mountains-blend-5-kg",
+    "name": "Rocky Mountains Blend 5 Kg Toplu Alım - Espresso",
     "firstSeen": "2026-08-23",
     "lastSeen": "2026-08-23",
     "status": "active"

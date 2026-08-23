@@ -472,8 +472,8 @@
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-23",
-    "dataStatus": "active",
-    "dataStatusNote": null
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
   },
   {
     "id": 35,
@@ -1340,8 +1340,8 @@
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-23",
-    "dataStatus": "active",
-    "dataStatusNote": null
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: fetch failed | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
   },
   {
     "id": 97,
@@ -1438,8 +1438,8 @@
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-23",
-    "dataStatus": "active",
-    "dataStatusNote": null
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
   },
   {
     "id": 104,
