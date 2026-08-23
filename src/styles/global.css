@@ -30,4 +30,12 @@ body.history-open{overflow:hidden}
 .history-list li{display:flex;justify-content:space-between;gap:12px;padding:9px 2px;border-bottom:1px solid rgba(255,255,255,.08);font-size:13px}
 .history-list li span{color:#aaa397}
 .history-list li strong{font-weight:700}
+.origin-guide{display:grid;grid-template-columns:auto 1fr;gap:18px;padding:22px 24px;background:#e7eee8;border-left:4px solid var(--green);color:var(--ink)}
+.origin-guide[hidden]{display:none}
+.origin-guide-mark{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--green);color:#fff;font-size:22px}
+.origin-guide-eyebrow{margin:0 0 4px;color:var(--green);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.origin-guide h3{margin:0 0 8px;font-size:20px}
+.origin-guide>div>p:not(.origin-guide-eyebrow){max-width:920px;margin:0;color:#504b44;line-height:1.65}
+.origin-guide small{display:block;margin-top:9px;color:#756e65;line-height:1.45}
 @media(max-width:560px){.history-stats{gap:8px}.history-card{padding:26px 20px}}
+@media(max-width:560px){.origin-guide{grid-template-columns:1fr;padding:20px}.origin-guide-mark{width:36px;height:36px;font-size:18px}}

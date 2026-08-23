@@ -3,8 +3,8 @@ const money = new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'TRY
 const number = new Intl.NumberFormat('tr-TR');
 const date = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
 const shortDate = new Intl.DateTimeFormat('tr-TR');
-const els = Object.fromEntries(['search','origin','business','price-change','weight-range','sort','product-rows','result-summary','prev','next','page-label','clear','stat-last-control','price-update-summary','footer-update'].map(id => [id, document.getElementById(id)]));
-let all = [], filtered = [], page = 1, history = {}, historyThrough = null;
+const els = Object.fromEntries(['search','origin','business','price-change','weight-range','sort','product-rows','result-summary','prev','next','page-label','clear','stat-last-control','price-update-summary','footer-update','origin-guide','origin-guide-title','origin-guide-copy'].map(id => [id, document.getElementById(id)]));
+let all = [], filtered = [], page = 1, history = {}, historyThrough = null, originGuides = {};
 const pageSize = 30;
 
 const esc = (value) => String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -231,6 +231,25 @@ function weightMatches(row, range) {
   return true;
 }
 
+function updateOriginGuide() {
+  const origin = els.origin.value;
+  if (!origin) {
+    els['origin-guide'].hidden = true;
+    return;
+  }
+
+  let copy = originGuides[origin];
+  if (!copy && origin.includes(' | ')) {
+    const countries = origin.split(' | ');
+    copy = `Bu kayıt ${countries.join(', ')} menşelerini bir araya getiriyor. Farklı ülkelerin çekirdekleri dengeli, katmanlı veya belirli bir tat hedefi için harmanlanmış olabilir. Son karakter kullanılan oranlara, işleme yöntemlerine ve kavurma profiline göre değişir.`;
+  }
+  if (!copy) copy = originGuides['Menşe belirtilmemiş'];
+
+  els['origin-guide-title'].textContent = origin;
+  els['origin-guide-copy'].textContent = copy;
+  els['origin-guide'].hidden = false;
+}
+
 function applyFilters() {
   const q = els.search.value.trim().toLocaleLowerCase('tr');
   filtered = all.filter(row => {
@@ -243,6 +262,7 @@ function applyFilters() {
   });
   const sort = els.sort.value;
   filtered.sort((a,b) => sort === 'price-asc' ? (a.price ?? Infinity) - (b.price ?? Infinity) : a.business.localeCompare(b.business, 'tr'));
+  updateOriginGuide();
   page = 1; render();
 }
 
@@ -263,10 +283,10 @@ function render() {
   els.prev.disabled = page === 1; els.next.disabled = page === pages;
 }
 
-Promise.all([fetch(`${base}data/products.json`).then(r=>r.json()), fetch(`${base}data/metadata.json`).then(r=>r.json()), fetch(`${base}data/price_history.json`).then(r=>r.json()).catch(() => ({}))]).then(([products, meta, priceHistory]) => {
+Promise.all([fetch(`${base}data/products.json`).then(r=>r.json()), fetch(`${base}data/metadata.json`).then(r=>r.json()), fetch(`${base}data/price_history.json`).then(r=>r.json()).catch(() => ({})), fetch(`${base}origin-guides.json`).then(r=>r.json())]).then(([products, meta, priceHistory, guides]) => {
   // Veri üretimindeki kaynak filtresine ek savunma: eski/önbelleklenmiş bir
   // veri dosyası gelse bile bağlantısız satırı kullanıcıya gösterme.
-  all = products.filter((row) => row.url); filtered = all; history = priceHistory; historyThrough = meta.checkedAt;
+  all = products.filter((row) => row.url); filtered = all; history = priceHistory; historyThrough = meta.checkedAt; originGuides = guides;
   fillSelect(els.origin, [...new Set(all.map(r=>r.origin))]); fillSelect(els.business, [...new Set(all.map(r=>r.business))]);
   document.getElementById('stat-businesses').textContent = number.format(meta.businesses); document.getElementById('stat-products').textContent = number.format(meta.namedProducts); document.getElementById('stat-origins').textContent = number.format(meta.origins);
   document.getElementById('nav-count').textContent = `${number.format(meta.businesses)} kavurucu · ${number.format(meta.namedProducts)} ürün`;

@@ -73,6 +73,15 @@ const checkedLong = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'l
           <label><span>Gramaj</span><select id="weight-range"><option value="">Tüm gramajlar</option><option value="lt250">250 g’dan küçük</option><option value="eq250">Tam 250 g</option><option value="gt250">250 g’dan büyük</option><option value="unknown">Gramaj bilgisi yok</option></select></label>
           <label><span>Sıralama</span><select id="sort"><option value="business">İşletme A–Z</option><option value="price-asc">Fiyat artan</option></select></label>
         </div>
+        <aside class="origin-guide" id="origin-guide" aria-live="polite" hidden>
+          <div class="origin-guide-mark" aria-hidden="true">◎</div>
+          <div>
+            <p class="origin-guide-eyebrow">Menşe rehberi</p>
+            <h3 id="origin-guide-title"></h3>
+            <p id="origin-guide-copy"></p>
+            <small>Bu bilgiler genel yönlendirmedir; gerçek tat profili bölgeye, çeşide, işleme ve kavurmaya göre değişebilir.</small>
+          </div>
+        </aside>
         <div class="active-bar"><button id="clear" type="button">Filtreleri temizle</button><span id="price-update-summary">Her fiyat, ilgili kaynakta görülen kontrol tarihli değerdir.</span></div>
         <div class="table-wrap">
           <table>
