@@ -93,7 +93,19 @@ const checkedLong = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'l
       </section>
 
     </main>
+    <button class="advisor-launch" id="advisor-launch" type="button" aria-haspopup="dialog" aria-controls="advisor-panel" hidden>
+      <span aria-hidden="true">☕</span> Kahve seçmeme yardım et
+    </button>
+    <section class="advisor-panel" id="advisor-panel" role="dialog" aria-modal="false" aria-labelledby="advisor-title" hidden>
+      <header class="advisor-header">
+        <div><small>Ücretsiz seçim asistanı</small><h2 id="advisor-title">Çekirdeğini birlikte bulalım</h2></div>
+        <button id="advisor-close" type="button" aria-label="Seçim asistanını kapat">×</button>
+      </header>
+      <div class="advisor-messages" id="advisor-messages" aria-live="polite"></div>
+      <div class="advisor-actions" id="advisor-actions"></div>
+    </section>
     <footer><div class="shell"><span>Çekirdek Bul</span><span id="footer-update">Son tam kontrol: {checkedLong}</span></div></footer>
+    <script src={`${base}recommender.js`} defer></script>
     <script src={`${base}access.js`} defer></script>
   </body>
 </html>

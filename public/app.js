@@ -3,7 +3,7 @@ const money = new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'TRY
 const number = new Intl.NumberFormat('tr-TR');
 const date = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
 const shortDate = new Intl.DateTimeFormat('tr-TR');
-const els = Object.fromEntries(['search','origin','business','price-change','weight-range','sort','product-rows','result-summary','prev','next','page-label','clear','stat-last-control','price-update-summary','footer-update','origin-guide','origin-guide-title','origin-guide-copy'].map(id => [id, document.getElementById(id)]));
+const els = Object.fromEntries(['search','origin','business','price-change','weight-range','sort','product-rows','result-summary','prev','next','page-label','clear','stat-last-control','price-update-summary','footer-update','origin-guide','origin-guide-title','origin-guide-copy','advisor-launch','advisor-panel','advisor-close','advisor-messages','advisor-actions'].map(id => [id, document.getElementById(id)]));
 let all = [], filtered = [], page = 1, history = {}, historyThrough = null, originGuides = {};
 const pageSize = 30;
 
@@ -250,6 +250,117 @@ function updateOriginGuide() {
   els['origin-guide'].hidden = false;
 }
 
+/* ----------------------------------------------------- seçim asistanı */
+
+const advisorState = { prefs: {}, started: false };
+const brewOptions = [
+  ['v60', 'V60 / filtre'], ['aeropress', 'AeroPress'], ['french', 'French Press'],
+  ['espresso', 'Espresso makinesi'], ['moka', 'Moka Pot'], ['turkish', 'Türk kahvesi'], ['any', 'Fark etmez']
+];
+
+function advisorBubble(text, role = 'bot') {
+  const bubble = document.createElement('div');
+  bubble.className = `advisor-bubble advisor-bubble--${role}`;
+  bubble.textContent = text;
+  els['advisor-messages'].appendChild(bubble);
+  els['advisor-messages'].scrollTop = els['advisor-messages'].scrollHeight;
+}
+
+function advisorButtons(options, onSelect) {
+  els['advisor-actions'].innerHTML = '';
+  options.forEach(([value, label]) => {
+    const button = document.createElement('button');
+    button.type = 'button'; button.textContent = label;
+    button.addEventListener('click', () => onSelect(value, label));
+    els['advisor-actions'].appendChild(button);
+  });
+}
+
+function advisorSelect(options, buttonLabel, onSelect) {
+  els['advisor-actions'].innerHTML = '';
+  const select = document.createElement('select');
+  select.setAttribute('aria-label', 'Seçiminiz');
+  options.forEach(([value, label]) => select.add(new Option(label, value)));
+  const button = document.createElement('button');
+  button.type = 'button'; button.textContent = buttonLabel;
+  button.addEventListener('click', () => onSelect(select.value, select.options[select.selectedIndex].text));
+  els['advisor-actions'].append(select, button);
+}
+
+function askAdvisorOrigin() {
+  advisorBubble('Hangi menşeyi tercih edersiniz? Emin değilseniz “Fark etmez” diyebilirsiniz.');
+  const origins = [...new Set(all.map((row) => row.origin))]
+    .filter((origin) => origin && origin !== 'Erişilemedi' && !origin.includes(' | '))
+    .sort((a, b) => a.localeCompare(b, 'tr'));
+  advisorSelect([['any', 'Fark etmez'], ...origins.map((origin) => [origin, origin])], 'Devam et', (value, label) => {
+    advisorState.prefs.origin = value; advisorBubble(label, 'user'); askAdvisorBudget();
+  });
+}
+
+function askAdvisorBudget() {
+  advisorBubble('Bir paket için azami bütçeniz nedir?');
+  advisorButtons([['500', '500 TL'], ['750', '750 TL'], ['1000', '1.000 TL'], ['1500', '1.500 TL'], ['2500', '2.500 TL'], ['any', 'Fark etmez']], (value, label) => {
+    advisorState.prefs.budget = value; advisorBubble(label, 'user'); askAdvisorGrams();
+  });
+}
+
+function askAdvisorGrams() {
+  advisorBubble('Hangi paket gramajını istersiniz?');
+  const counts = new Map();
+  all.forEach((row) => { if (row.grams) counts.set(row.grams, (counts.get(row.grams) || 0) + 1); });
+  const grams = [...counts.entries()].filter(([, count]) => count >= 5)
+    .sort((a, b) => b[1] - a[1]).slice(0, 7).map(([value]) => value).sort((a, b) => a - b);
+  advisorSelect([['any', 'Fark etmez'], ...grams.map((value) => [String(value), `${number.format(value)} g`])], 'Önerileri göster', (value, label) => {
+    advisorState.prefs.grams = value; advisorBubble(label, 'user'); showAdvisorResults();
+  });
+}
+
+function showAdvisorResults() {
+  const result = globalThis.CoffeeRecommender.recommend(all, advisorState.prefs);
+  els['advisor-actions'].innerHTML = '';
+  if (!result.recommendations.length) {
+    advisorBubble('Bu tercihlerin tamamına uyan ürün bulamadım. Bütçe veya gramajı esneterek yeniden deneyebilirsiniz.');
+    advisorButtons([['restart', 'Yeniden başla']], () => resetAdvisor());
+    return;
+  }
+  advisorBubble(result.recommendations.length >= 5
+    ? `${number.format(result.matches.length)} eşleşme arasından beş seçenek buldum. İlk kart en ucuz, son kart en pahalı eşleşmedir.`
+    : `Bu tercihlere uyan ${number.format(result.recommendations.length)} ürün buldum; mevcut eşleşmelerin tamamını gösteriyorum.`);
+
+  const list = document.createElement('div'); list.className = 'advisor-results';
+  result.recommendations.forEach((row, index) => {
+    const card = document.createElement('article'); card.className = 'advisor-result';
+    const badge = index === 0 ? 'En ucuz' : index === result.recommendations.length - 1 ? 'En pahalı' : 'Alternatif';
+    card.innerHTML = `<span>${badge}</span><h3>${esc(row.product)}</h3><p>${esc(row.business)} · ${esc(row.origin)} · ${number.format(row.grams)} g</p><strong>${money.format(row.price)}</strong><a href="${esc(row.url)}" target="_blank" rel="noopener">Ürüne git ↗</a>`;
+    list.appendChild(card);
+  });
+  els['advisor-messages'].appendChild(list);
+  els['advisor-messages'].scrollTop = els['advisor-messages'].scrollHeight;
+  advisorButtons([['restart', 'Yeniden başla'], ['close', 'Kapat']], (value) => value === 'close' ? closeAdvisor() : resetAdvisor());
+}
+
+function resetAdvisor() {
+  advisorState.prefs = {}; advisorState.started = true;
+  els['advisor-messages'].innerHTML = '';
+  advisorBubble('Merhaba! Birkaç kısa seçimle size uygun kahveleri bulacağım. Hangi ekipmanla demliyorsunuz?');
+  advisorButtons(brewOptions, (value, label) => {
+    advisorState.prefs.brew = value; advisorBubble(label, 'user'); askAdvisorOrigin();
+  });
+}
+
+function openAdvisor() {
+  els['advisor-panel'].hidden = false;
+  els['advisor-launch'].setAttribute('aria-expanded', 'true');
+  if (!advisorState.started) resetAdvisor();
+  els['advisor-close'].focus();
+}
+
+function closeAdvisor() {
+  els['advisor-panel'].hidden = true;
+  els['advisor-launch'].setAttribute('aria-expanded', 'false');
+  els['advisor-launch'].focus();
+}
+
 function applyFilters() {
   const q = els.search.value.trim().toLocaleLowerCase('tr');
   filtered = all.filter(row => {
@@ -297,6 +408,7 @@ Promise.all([fetch(`${base}data/products.json`).then(r=>r.json()), fetch(`${base
     els['price-update-summary'].textContent = `Fiyat karşılaştırması: ${comparisonDate} · ${number.format(meta.priceComparedBusinesses)} işletmede ${number.format(meta.priceComparedRows)} ürün`;
     els['footer-update'].textContent = `Son tam kontrol: ${date.format(asDate(meta.checkedAt))} · Fiyat karşılaştırması: ${comparisonDate}`;
   }
+  els['advisor-launch'].hidden = false;
   render();
 }).catch(() => { els['product-rows'].innerHTML = '<tr><td colspan="7" class="loading">Veri yüklenemedi.</td></tr>'; });
 
@@ -309,3 +421,6 @@ els['product-rows'].addEventListener('click', (e) => {
   const row = filtered.find((r) => String(r.variantId) === btn.dataset.variant);
   if (row) openHistoryModal(row, btn);
 });
+els['advisor-launch'].addEventListener('click', openAdvisor);
+els['advisor-close'].addEventListener('click', closeAdvisor);
+document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && !els['advisor-panel'].hidden) closeAdvisor(); });
