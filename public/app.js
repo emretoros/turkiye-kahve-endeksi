@@ -231,6 +231,15 @@ function weightMatches(row, range) {
   return true;
 }
 
+function originGuideCopy(origin) {
+  let copy = originGuides[origin];
+  if (!copy && origin.includes(' | ')) {
+    const countries = origin.split(' | ');
+    copy = `Bu kayıt ${countries.join(', ')} menşelerini bir araya getiriyor. Farklı ülkelerin çekirdekleri dengeli, katmanlı veya belirli bir tat hedefi için harmanlanmış olabilir. Son karakter kullanılan oranlara, işleme yöntemlerine ve kavurma profiline göre değişir.`;
+  }
+  return copy || originGuides['Menşe belirtilmemiş'] || '';
+}
+
 function updateOriginGuide() {
   const origin = els.origin.value;
   if (!origin) {
@@ -238,15 +247,8 @@ function updateOriginGuide() {
     return;
   }
 
-  let copy = originGuides[origin];
-  if (!copy && origin.includes(' | ')) {
-    const countries = origin.split(' | ');
-    copy = `Bu kayıt ${countries.join(', ')} menşelerini bir araya getiriyor. Farklı ülkelerin çekirdekleri dengeli, katmanlı veya belirli bir tat hedefi için harmanlanmış olabilir. Son karakter kullanılan oranlara, işleme yöntemlerine ve kavurma profiline göre değişir.`;
-  }
-  if (!copy) copy = originGuides['Menşe belirtilmemiş'];
-
   els['origin-guide-title'].textContent = origin;
-  els['origin-guide-copy'].textContent = copy;
+  els['origin-guide-copy'].textContent = originGuideCopy(origin);
   els['origin-guide'].hidden = false;
 }
 
@@ -285,6 +287,7 @@ function advisorSelect(options, buttonLabel, onSelect) {
   button.type = 'button'; button.textContent = buttonLabel;
   button.addEventListener('click', () => onSelect(select.value, select.options[select.selectedIndex].text));
   els['advisor-actions'].append(select, button);
+  return select;
 }
 
 function askAdvisorOrigin() {
@@ -292,8 +295,24 @@ function askAdvisorOrigin() {
   const origins = [...new Set(all.map((row) => row.origin))]
     .filter((origin) => origin && origin !== 'Erişilemedi' && !origin.includes(' | '))
     .sort((a, b) => a.localeCompare(b, 'tr'));
-  advisorSelect([['any', 'Fark etmez'], ...origins.map((origin) => [origin, origin])], 'Devam et', (value, label) => {
-    advisorState.prefs.origin = value; advisorBubble(label, 'user'); askAdvisorBudget();
+  const select = advisorSelect([['any', 'Fark etmez'], ...origins.map((origin) => [origin, origin])], 'Devam et', (value, label) => {
+    advisorState.prefs.origin = value;
+    advisorBubble(label, 'user');
+    if (value !== 'any') advisorBubble(`${label} hakkında: ${originGuideCopy(value)}`);
+    askAdvisorBudget();
+  });
+  const guide = document.createElement('aside');
+  guide.className = 'advisor-origin-guide';
+  guide.setAttribute('aria-live', 'polite');
+  guide.hidden = true;
+  guide.innerHTML = '<strong></strong><p></p>';
+  els['advisor-actions'].appendChild(guide);
+  select.addEventListener('change', () => {
+    const origin = select.value;
+    guide.hidden = origin === 'any';
+    if (origin === 'any') return;
+    guide.querySelector('strong').textContent = origin;
+    guide.querySelector('p').textContent = originGuideCopy(origin);
   });
 }
 
