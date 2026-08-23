@@ -69,6 +69,7 @@ const checkedLong = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'l
           <label class="search-field"><span>Arama</span><input id="search" type="search" placeholder="Ürün veya işletme ara…" /></label>
           <label><span>Menşe</span><select id="origin"><option value="">Tüm menşeler</option></select></label>
           <label><span>İşletme</span><select id="business"><option value="">Tüm işletmeler</option></select></label>
+          <label><span>Stok durumu</span><select id="stock-status"><option value="">Tüm stok durumları</option><option value="in">Stokta</option><option value="out">Tükendi</option><option value="unknown">Bilinmiyor</option></select></label>
           <label><span>Fiyat değişimi</span><select id="price-change"><option value="">Tüm değişimler</option><option value="up">😟 Fiyatı arttı</option><option value="same">😐 Aynı kaldı</option><option value="down">😊 Fiyatı düştü</option><option value="unknown">Önceki fiyat yok</option></select></label>
           <label><span>Gramaj</span><select id="weight-range"><option value="">Tüm gramajlar</option><option value="lt250">250 g’dan küçük</option><option value="eq250">Tam 250 g</option><option value="gt250">250 g’dan büyük</option><option value="unknown">Gramaj bilgisi yok</option></select></label>
           <label><span>Sıralama</span><select id="sort"><option value="business">İşletme A–Z</option><option value="price-asc">Fiyat artan</option></select></label>
@@ -85,8 +86,8 @@ const checkedLong = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'l
         <div class="active-bar"><button id="clear" type="button">Filtreleri temizle</button><span id="price-update-summary">Her fiyat, ilgili kaynakta görülen kontrol tarihli değerdir.</span></div>
         <div class="table-wrap">
           <table>
-            <thead><tr><th>İşletme</th><th>Ürün</th><th>Menşe</th><th>Gramaj</th><th>Güncel fiyat</th><th>Fiyat geçmişi</th><th>Kaynak</th></tr></thead>
-            <tbody id="product-rows"><tr><td colspan="7" class="loading">Veri yükleniyor…</td></tr></tbody>
+            <thead><tr><th>İşletme</th><th>Ürün</th><th>Menşe</th><th>Gramaj</th><th>Güncel fiyat</th><th>Stok</th><th>Fiyat geçmişi</th><th>Kaynak</th></tr></thead>
+            <tbody id="product-rows"><tr><td colspan="8" class="loading">Veri yükleniyor…</td></tr></tbody>
           </table>
         </div>
         <div class="pagination"><button id="prev" type="button">← Önceki</button><span id="page-label">1 / 1</span><button id="next" type="button">Sonraki →</button></div>

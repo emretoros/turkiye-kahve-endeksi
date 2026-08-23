@@ -7,7 +7,7 @@ const rows = Array.from({ length: 12 }, (_, index) => ({
   business: `Kavurucu ${index + 1}`,
   product: index % 2 ? `Etiyopya Filtre ${index + 1}` : `Etiyopya ${index + 1}`,
   productType: 'Tek köken', origin: 'Etiyopya', grams: 250,
-  price: 300 + index * 100, url: `https://example.com/${index + 1}`
+  price: 300 + index * 100, stock: 'Stokta', url: `https://example.com/${index + 1}`
 }));
 
 test('öneriler en ucuz ve en pahalı eşleşmeyi içerir', () => {
@@ -40,4 +40,17 @@ test('Türk kahvesi ekipmanı diğer ürün tiplerini dışarıda bırakır', ()
   });
   assert.equal(matches.length, 1);
   assert.equal(matches[0].productType, 'Türk kahvesi');
+});
+
+test('yalnızca stokta olduğu doğrulanan ürünler önerilir', () => {
+  const mixed = rows.concat([
+    { ...rows[0], id: 97, stock: 'Tükendi', price: 100, url: 'https://example.com/out' },
+    { ...rows[0], id: 98, stock: 'Belirsiz', price: 200, url: 'https://example.com/unknown' }
+  ]);
+  const matches = globalThis.CoffeeRecommender.matchingProducts(mixed, {
+    brew: 'any', origin: 'Etiyopya', grams: 250, budget: 'any'
+  });
+  assert.ok(matches.length > 0);
+  assert.ok(matches.every((row) => row.stock === 'Stokta'));
+  assert.equal(matches[0].price, 300);
 });

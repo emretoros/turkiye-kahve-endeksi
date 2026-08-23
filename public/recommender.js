@@ -15,6 +15,7 @@
 
   function matchingProducts(rows, prefs) {
     let matches = rows.filter((row) => row.url && Number.isFinite(row.price) && row.price > 0)
+      .filter((row) => row.stock === 'Stokta')
       .filter((row) => !/kapsül kahve/i.test(row.productType || ''))
       .filter((row) => !prefs.origin || prefs.origin === 'any' || row.origin === prefs.origin)
       .filter((row) => !prefs.grams || prefs.grams === 'any' || row.grams === Number(prefs.grams))
