@@ -24,7 +24,10 @@
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { exclusionReason, guessOrigin, guessProductType, isWeightOnlyLabel } from './lib/catalog.mjs';
+import {
+  chooseRepresentativeVariant, coffeeVariantChoiceKey, exclusionReason,
+  guessOrigin, guessProductType, isWeightOnlyLabel
+} from './lib/catalog.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const dataDir = path.join(root, 'data');
@@ -164,9 +167,25 @@ for (const roaster of roasters) {
       continue;
     }
 
-    const productVariants = (variantsByProduct.get(product.id) || [])
+    const activeVariants = (variantsByProduct.get(product.id) || [])
       .filter((v) => v.isActive && isFresh(v.lastSeen));
-    if (!productVariants.length) continue;
+    if (!activeVariants.length) continue;
+
+    // Mağazalar aynı kahveyi Çekirdek, V60, Kağıt Filtre, Metal Filtre vb.
+    // öğütme seçenekleriyle ayrı varyantlar halinde yayınlayabiliyor. Ürün ve
+    // gramaj aynıysa bu seçenekleri tek satıra indir; varsa Çekirdek varyantını
+    // kullan. Etikette gerçek bir kahve seçimi varsa (örn. Kenya / V60) seçim
+    // anahtarı korunur ve başka kahvelerle birleşmez.
+    const variantGroups = new Map();
+    for (const variant of activeVariants) {
+      const gramsKey = Number.isFinite(variant.grams) ? variant.grams : 'unknown';
+      const key = `${gramsKey}::${coffeeVariantChoiceKey(variant.label)}`;
+      if (!variantGroups.has(key)) variantGroups.set(key, []);
+      variantGroups.get(key).push(variant);
+    }
+    const productVariants = [...variantGroups.values()]
+      .map(chooseRepresentativeVariant)
+      .filter(Boolean);
 
     const origin = guessOrigin(product.name);
     const productType = guessProductType(product.name, origin);
@@ -188,7 +207,8 @@ for (const roaster of roasters) {
         continue;
       }
 
-      const label = variant.label && !isWeightOnlyLabel(variant.label)
+      const choiceKey = coffeeVariantChoiceKey(variant.label);
+      const label = choiceKey && variant.label && !isWeightOnlyLabel(variant.label)
         ? `${product.name} — ${variant.label}` : product.name;
       const price = Number.isFinite(variant.lastPrice) && variant.lastPrice > 0 ? variant.lastPrice : null;
       const previousPrice = previousPriceFor(variant.id);

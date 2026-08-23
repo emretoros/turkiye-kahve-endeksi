@@ -132,3 +132,34 @@ export function isWeightOnlyLabel(label) {
     .trim();
   return stripped.length === 0;
 }
+
+/* --------------------------------------------------------- varyant seçimi */
+
+const WEIGHT_SEGMENT = /^(?:gramaj\s*)?\d+(?:[.,]\d+)?\s*(?:kg|kilo|g|gr|gram)$/;
+const GRIND_SEGMENT = /^(?:(?:ogutme|ogutme derecesi|ogutum|demleme)\s*)?(?:cekirdek|cekirdek ogutulmemis|whole bean|v60|aeropress|french press|kagit filtre|metal filtre|moka pot|chemex|espresso ogutulmus|espresso|filtre kahve|manuel demleme|cold brew)$/;
+
+/**
+ * Varyant etiketinden gramaj ve öğütme/demleme seçeneğini çıkarıp gerçek ürün
+ * seçimini döndürür. Aynı kahvenin "Çekirdek / V60 / Kağıt Filtre" satırları
+ * böylece aynı gruba düşerken "Kenya / V60" ile "Etiyopya / V60" ayrık kalır.
+ */
+export function coffeeVariantChoiceKey(label) {
+  return normalize(label || '')
+    .split(/\s*(?:\/|\||,|;)\s*/)
+    .map((part) => part.replace(/:/g, ' ').replace(/\s+/g, ' ').trim())
+    .filter((part) => part && !WEIGHT_SEGMENT.test(part) && !GRIND_SEGMENT.test(part))
+    .join(' | ');
+}
+
+/** Aynı kahve/gramaj grubunda gösterilecek en kararlı varyantı seçer. */
+export function chooseRepresentativeVariant(variants) {
+  return variants.slice().sort((a, b) => {
+    const rank = (variant) => {
+      const label = normalize(variant.label || '');
+      if (/\b(cekirdek ogutulmemis|whole bean|cekirdek)\b/.test(label)) return 0;
+      if (!label || label === 'default title' || isWeightOnlyLabel(label)) return 1;
+      return 2;
+    };
+    return rank(a) - rank(b) || Number(a.id || 0) - Number(b.id || 0);
+  })[0] || null;
+}

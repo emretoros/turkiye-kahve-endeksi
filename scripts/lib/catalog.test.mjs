@@ -1,6 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { exclusionReason, guessOrigin, guessProductType, isWeightOnlyLabel } from './catalog.mjs';
+import {
+  chooseRepresentativeVariant, coffeeVariantChoiceKey, exclusionReason,
+  guessOrigin, guessProductType, isWeightOnlyLabel
+} from './catalog.mjs';
 
 test('ekipman ürünleri dışlanır', () => {
   assert.equal(exclusionReason('Hario V60 Dripper 02'), 'Ekipman/aksesuar');
@@ -37,4 +40,22 @@ test('salt gramaj etiketleri tespit edilir', () => {
   assert.equal(isWeightOnlyLabel('1 Kg'), true);
   assert.equal(isWeightOnlyLabel('250g / Çekirdek'), false);
   assert.equal(isWeightOnlyLabel('Filtre Kahve'), false);
+});
+
+test('öğütme seçenekleri aynı kahve varyant grubuna düşer', () => {
+  assert.equal(coffeeVariantChoiceKey('Çekirdek'), '');
+  assert.equal(coffeeVariantChoiceKey('250gr / Kağıt Filtre'), '');
+  assert.equal(coffeeVariantChoiceKey('Gramaj: 250 Gr, Öğütme Derecesi: Metal Filtre'), '');
+  assert.equal(coffeeVariantChoiceKey('Kenya / V60'), 'kenya');
+  assert.equal(coffeeVariantChoiceKey('Etiyopya / V60'), 'etiyopya');
+  assert.equal(coffeeVariantChoiceKey('Kavurma Profili: Espresso, Öğütme: V60'), 'kavurma profili espresso');
+});
+
+test('aynı kahvede çekirdek varyantı tercih edilir', () => {
+  const selected = chooseRepresentativeVariant([
+    { id: 3, label: 'V60' },
+    { id: 2, label: 'Çekirdek' },
+    { id: 1, label: 'Metal Filtre' }
+  ]);
+  assert.equal(selected.id, 2);
 });
