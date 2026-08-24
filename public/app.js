@@ -3,7 +3,7 @@ const money = new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'TRY
 const number = new Intl.NumberFormat('tr-TR');
 const date = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
 const shortDate = new Intl.DateTimeFormat('tr-TR');
-const els = Object.fromEntries(['search','origin','business','stock-status','weight-range','sort','product-rows','result-summary','prev','next','page-label','clear','stat-last-control','price-update-summary','footer-update','origin-guide','origin-guide-title','origin-guide-copy','advisor-launch','advisor-panel','advisor-close','advisor-messages','advisor-actions'].map(id => [id, document.getElementById(id)]));
+const els = Object.fromEntries(['search','origin','business','price-change','weight-range','sort','product-rows','result-summary','prev','next','page-label','clear','stat-last-control','price-update-summary','footer-update','origin-guide','origin-guide-title','origin-guide-copy','advisor-launch','advisor-panel','advisor-close','advisor-messages','advisor-actions'].map(id => [id, document.getElementById(id)]));
 let all = [], filtered = [], page = 1, history = {}, historyThrough = null, originGuides = {};
 const pageSize = 30;
 
@@ -11,17 +11,11 @@ const esc = (value) => String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;
 const available = (value, format = String) => value == null ? '<span class="missing">Erişilemedi</span>' : format(value);
 const asDate = value => new Date(`${value}T00:00:00`);
 
-function stockStatus(row) {
-  if (row.stock === 'Stokta') return 'in';
-  if (row.stock === 'Tükendi' || row.stock === 'Stokta yok') return 'out';
-  return 'unknown';
-}
-
-function stockCell(row) {
-  const status = stockStatus(row);
-  const label = status === 'in' ? 'Stokta' : status === 'out' ? 'Tükendi' : 'Bilinmiyor';
-  const checked = row.checkedAt ? `Son kontrol: ${shortDate.format(asDate(row.checkedAt))}` : 'Kontrol tarihi bilinmiyor';
-  return `<span class="stock-badge stock-badge--${status}" title="${esc(checked)}">${label}</span><small class="stock-checked">${esc(checked)}</small>`;
+function priceChangeStatus(row) {
+  if (row.price == null || row.previousPrice == null) return 'unknown';
+  if (row.price > row.previousPrice) return 'up';
+  if (row.price < row.previousPrice) return 'down';
+  return 'same';
 }
 
 /* ------------------------------------------------------ fiyat geçmişi grafiği */
@@ -390,9 +384,9 @@ function applyFilters() {
   filtered = all.filter(row => {
     const text = `${row.business} ${row.product} ${row.origin} ${(row.aliases || []).join(' ')} ${row.instagram || ''}`.toLocaleLowerCase('tr');
     const weightRange = els['weight-range'].value;
-    const stock = els['stock-status'].value;
+    const change = els['price-change'].value;
     return (!q || text.includes(q)) && (!els.origin.value || row.origin === els.origin.value) && (!els.business.value || row.business === els.business.value)
-      && (!stock || stockStatus(row) === stock)
+      && (!change || priceChangeStatus(row) === change)
       && weightMatches(row, weightRange);
   });
   const sort = els.sort.value;
@@ -410,7 +404,7 @@ function historyCell(row) {
 function render() {
   const pages = Math.max(1, Math.ceil(filtered.length / pageSize)); page = Math.min(page, pages);
   const rows = filtered.slice((page-1)*pageSize, page*pageSize);
-  els['product-rows'].innerHTML = rows.length ? rows.map(row => `<tr><td><strong>${esc(row.business)}</strong><small>${esc(row.businessStatus)}</small></td><td>${esc(row.product)}</td><td><span class="origin-pill">${esc(row.origin)}</span></td><td>${available(row.grams, v => `${number.format(v)} g`)}</td><td>${available(row.price, money.format)}</td><td>${stockCell(row)}</td><td class="history-cell">${historyCell(row)}</td><td>${row.url ? `<a class="source-link" href="${esc(row.url)}" target="_blank" rel="noopener">Sayfaya git ↗</a>` : ''}</td></tr>`).join('') : '<tr><td colspan="8" class="loading">Bu filtrelerle eşleşen kayıt bulunamadı.</td></tr>';
+  els['product-rows'].innerHTML = rows.length ? rows.map(row => `<tr><td><strong>${esc(row.business)}</strong><small>${esc(row.businessStatus)}</small></td><td>${esc(row.product)}</td><td><span class="origin-pill">${esc(row.origin)}</span></td><td>${available(row.grams, v => `${number.format(v)} g`)}</td><td>${available(row.price, money.format)}</td><td class="history-cell">${historyCell(row)}</td><td>${row.url ? `<a class="source-link" href="${esc(row.url)}" target="_blank" rel="noopener">Web sitesine git ↗</a>` : ''}</td></tr>`).join('') : '<tr><td colspan="7" class="loading">Bu filtrelerle eşleşen kayıt bulunamadı.</td></tr>';
   const products = filtered.filter(row => row.catalogStatus === 'Ürün kaydı').length;
   const tracking = filtered.length - products;
   els['result-summary'].textContent = `${number.format(filtered.length)} toplam kayıt: ${number.format(products)} ürün + ${number.format(tracking)} takip kaydı`;
@@ -434,11 +428,11 @@ Promise.all([fetch(`${base}data/products.json`).then(r=>r.json()), fetch(`${base
   }
   els['advisor-launch'].hidden = false;
   render();
-}).catch(() => { els['product-rows'].innerHTML = '<tr><td colspan="8" class="loading">Veri yüklenemedi.</td></tr>'; });
+}).catch(() => { els['product-rows'].innerHTML = '<tr><td colspan="7" class="loading">Veri yüklenemedi.</td></tr>'; });
 
-['search','origin','business','stock-status','weight-range','sort'].forEach(id => els[id].addEventListener(id === 'search' ? 'input' : 'change', applyFilters));
+['search','origin','business','price-change','weight-range','sort'].forEach(id => els[id].addEventListener(id === 'search' ? 'input' : 'change', applyFilters));
 els.prev.addEventListener('click', () => { page--; render(); }); els.next.addEventListener('click', () => { page++; render(); });
-els.clear.addEventListener('click', () => { ['search','origin','business','stock-status','weight-range'].forEach(id => els[id].value=''); els.sort.value='business'; applyFilters(); });
+els.clear.addEventListener('click', () => { ['search','origin','business','price-change','weight-range'].forEach(id => els[id].value=''); els.sort.value='business'; applyFilters(); });
 els['product-rows'].addEventListener('click', (e) => {
   const btn = e.target.closest('.history-btn');
   if (!btn) return;
