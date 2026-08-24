@@ -46,6 +46,10 @@ test('öğütme seçenekleri aynı kahve varyant grubuna düşer', () => {
   assert.equal(coffeeVariantChoiceKey('Çekirdek'), '');
   assert.equal(coffeeVariantChoiceKey('250gr / Kağıt Filtre'), '');
   assert.equal(coffeeVariantChoiceKey('Gramaj: 250 Gr, Öğütme Derecesi: Metal Filtre'), '');
+  assert.equal(coffeeVariantChoiceKey('Öğütülmemiş 250 G'), '');
+  assert.equal(coffeeVariantChoiceKey('250 gr / Hario'), '');
+  assert.equal(coffeeVariantChoiceKey('Miktar: 250g, Öğütme: Türk Kahvesi'), '');
+  assert.equal(coffeeVariantChoiceKey('Miktar: 250g, Öğütme: Coldbrew'), '');
   assert.equal(coffeeVariantChoiceKey('Kenya / V60'), 'kenya');
   assert.equal(coffeeVariantChoiceKey('Etiyopya / V60'), 'etiyopya');
   assert.equal(coffeeVariantChoiceKey('Kavurma Profili: Espresso, Öğütme: V60'), 'kavurma profili espresso');
@@ -56,6 +60,14 @@ test('aynı kahvede çekirdek varyantı tercih edilir', () => {
     { id: 3, label: 'V60' },
     { id: 2, label: 'Çekirdek' },
     { id: 1, label: 'Metal Filtre' }
+  ]);
+  assert.equal(selected.id, 2);
+});
+
+test('stok grubunda tükenmiş çekirdek yerine alınabilir öğütüm seçilir', () => {
+  const selected = chooseRepresentativeVariant([
+    { id: 1, label: 'Çekirdek', lastInStock: false },
+    { id: 2, label: 'V60', lastInStock: true }
   ]);
   assert.equal(selected.id, 2);
 });

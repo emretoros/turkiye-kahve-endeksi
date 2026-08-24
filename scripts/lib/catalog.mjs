@@ -136,7 +136,7 @@ export function isWeightOnlyLabel(label) {
 /* --------------------------------------------------------- varyant seçimi */
 
 const WEIGHT_SEGMENT = /^(?:gramaj\s*)?\d+(?:[.,]\d+)?\s*(?:kg|kilo|g|gr|gram)$/;
-const GRIND_SEGMENT = /^(?:(?:ogutme|ogutme derecesi|ogutum|demleme)\s*)?(?:cekirdek|cekirdek ogutulmemis|whole bean|v60|aeropress|french press|kagit filtre|metal filtre|moka pot|chemex|espresso ogutulmus|espresso|filtre kahve|manuel demleme|cold brew)$/;
+const GRIND_SEGMENT = /^(?:(?:ogutme|ogutme derecesi|ogutum|demleme)\s*)?(?:cekirdek|ogutulmemis|cekirdek ogutulmemis|whole bean|v60|hario|aeropress|french ?press|kagit filtre|metal filtre|moka ?pot|chemex|espresso ogutulmus|espresso|filtre(?: kahve(?: makinesi)?)?|manuel demleme|cold ?brew|turk kahvesi)$/;
 
 /**
  * Varyant etiketinden gramaj ve öğütme/demleme seçeneğini çıkarıp gerçek ürün
@@ -147,6 +147,13 @@ export function coffeeVariantChoiceKey(label) {
   return normalize(label || '')
     .split(/\s*(?:\/|\||,|;)\s*/)
     .map((part) => part.replace(/:/g, ' ').replace(/\s+/g, ' ').trim())
+    // Ağırlık bazen öğütümle aynı parçada gelir ("Öğütülmemiş 250 G").
+    // Önce ağırlığı temizlemek, bu etiketlerin sahte bir kahve seçimi olarak
+    // kalmasını engeller.
+    .map((part) => part
+      .replace(/\b\d+(?:[.,]\d+)?\s*(?:kg|kilo|g|gr|gram)\b/g, '')
+      .replace(/^(?:gramaj|miktar|weight|agirlik)\s*$/, '')
+      .trim())
     .filter((part) => part && !WEIGHT_SEGMENT.test(part) && !GRIND_SEGMENT.test(part))
     .join(' | ');
 }
@@ -156,9 +163,10 @@ export function chooseRepresentativeVariant(variants) {
   return variants.slice().sort((a, b) => {
     const rank = (variant) => {
       const label = normalize(variant.label || '');
-      if (/\b(cekirdek ogutulmemis|whole bean|cekirdek)\b/.test(label)) return 0;
-      if (!label || label === 'default title' || isWeightOnlyLabel(label)) return 1;
-      return 2;
+      const stockRank = variant.lastInStock === true ? 0 : variant.lastInStock == null ? 1 : 2;
+      const labelRank = /\b(cekirdek ogutulmemis|whole bean|cekirdek)\b/.test(label) ? 0
+        : (!label || label === 'default title' || isWeightOnlyLabel(label) ? 1 : 2);
+      return stockRank * 10 + labelRank;
     };
     return rank(a) - rank(b) || Number(a.id || 0) - Number(b.id || 0);
   })[0] || null;
