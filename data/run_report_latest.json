@@ -1,29 +1,19 @@
 {
   "summary": {
-    "runId": "run-2026-08-24T05-28-28-673Z",
+    "runId": "run-2026-08-24T10-18-41-605Z",
     "taranan": 160,
-    "toplamSatir": 18375,
-    "toplamDegisim": 191,
-    "toplamKarantina": 1889,
-    "hatali": 34,
+    "toplamSatir": 18458,
+    "toplamDegisim": 162,
+    "toplamKarantina": 1894,
+    "hatali": 33,
     "bayrakli": 34,
     "depo": {
       "roasters": 192,
-      "products": 6899,
-      "variants": 20516
+      "products": 6927,
+      "variants": 20544
     }
   },
   "results": [
-    {
-      "business": "Backfield Roasting Co.",
-      "website": "https://shopier.com",
-      "platform": null,
-      "rows": 0,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 1,
-      "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
-    },
     {
       "business": "A Roasting Lab",
       "website": "https://aroastinglab.com",
@@ -35,20 +25,30 @@
       "error": null
     },
     {
+      "business": "Backfield Roasting Co.",
+      "website": "https://shopier.com",
+      "platform": null,
+      "rows": 0,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 1,
+      "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
+    },
+    {
       "business": "Ben Coffee Co.",
       "website": "https://bencoffee.co",
       "platform": "shopify",
       "rows": 263,
       "changed": 0,
       "quarantined": 9,
-      "seconds": 1,
+      "seconds": 0,
       "error": null
     },
     {
       "business": "Boxx Coffee Roasters",
       "website": "https://boxxcoffee.com",
       "platform": "shopify",
-      "rows": 218,
+      "rows": 202,
       "changed": 0,
       "quarantined": 4,
       "seconds": 0,
@@ -71,7 +71,7 @@
       "rows": 15,
       "changed": 0,
       "quarantined": 1,
-      "seconds": 8,
+      "seconds": 9,
       "error": null
     },
     {
@@ -81,7 +81,7 @@
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 5,
+      "seconds": 6,
       "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
     },
     {
@@ -91,7 +91,7 @@
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 14,
+      "seconds": 16,
       "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
     },
     {
@@ -102,6 +102,16 @@
       "changed": 0,
       "quarantined": 118,
       "seconds": 1,
+      "error": null
+    },
+    {
+      "business": "1978 Coffee Roastery",
+      "website": "https://1978coffee.com",
+      "platform": "ikas",
+      "rows": 18,
+      "changed": 0,
+      "quarantined": 7,
+      "seconds": 19,
       "error": null
     },
     {
@@ -121,17 +131,7 @@
       "rows": 40,
       "changed": 0,
       "quarantined": 1,
-      "seconds": 5,
-      "error": null
-    },
-    {
-      "business": "1978 Coffee Roastery",
-      "website": "https://1978coffee.com",
-      "platform": "ikas",
-      "rows": 18,
-      "changed": 0,
-      "quarantined": 7,
-      "seconds": 25,
+      "seconds": 7,
       "error": null
     },
     {
@@ -141,18 +141,8 @@
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 22,
+      "seconds": 23,
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
-    },
-    {
-      "business": "Artukbey Kahve",
-      "website": "https://artukbey.com",
-      "platform": "ticimax",
-      "rows": 5,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 34,
-      "error": null
     },
     {
       "business": "Bravo Coffee Roastery",
@@ -161,8 +151,18 @@
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 37,
+      "seconds": 35,
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+    },
+    {
+      "business": "Artukbey Kahve",
+      "website": "https://artukbey.com",
+      "platform": "ticimax",
+      "rows": 5,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 40,
+      "error": null
     },
     {
       "business": "Coffee Sapiens",
@@ -171,7 +171,7 @@
       "rows": 214,
       "changed": 0,
       "quarantined": 20,
-      "seconds": 0,
+      "seconds": 1,
       "error": null
     },
     {
@@ -181,7 +181,7 @@
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 20,
+      "seconds": 24,
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
@@ -191,7 +191,7 @@
       "rows": 157,
       "changed": 0,
       "quarantined": 24,
-      "seconds": 14,
+      "seconds": 18,
       "error": null
     },
     {
@@ -201,18 +201,8 @@
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 0,
+      "seconds": 1,
       "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
-    },
-    {
-      "business": "Coffee Project",
-      "website": "https://coffeeproject.com.tr",
-      "platform": "ticimax",
-      "rows": 80,
-      "changed": 0,
-      "quarantined": 11,
-      "seconds": 21,
-      "error": null
     },
     {
       "business": "Coffy",
@@ -221,8 +211,18 @@
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 9,
+      "seconds": 10,
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+    },
+    {
+      "business": "Collective Coffee Roasters",
+      "website": "https://collectivecoffeeroasters.com.tr",
+      "platform": "woocommerce",
+      "rows": 15,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 6,
+      "error": null
     },
     {
       "business": "Deal Coffee Co.",
@@ -235,13 +235,23 @@
       "error": null
     },
     {
-      "business": "Collective Coffee Roasters",
-      "website": "https://collectivecoffeeroasters.com.tr",
-      "platform": "woocommerce",
-      "rows": 15,
+      "business": "Coffee Project",
+      "website": "https://coffeeproject.com.tr",
+      "platform": "ticimax",
+      "rows": 80,
       "changed": 0,
-      "quarantined": 0,
-      "seconds": 7,
+      "quarantined": 11,
+      "seconds": 33,
+      "error": null
+    },
+    {
+      "business": "Coffee Friendzone",
+      "website": "https://coffeefriendzone.com",
+      "platform": "woocommerce",
+      "rows": 205,
+      "changed": 0,
+      "quarantined": 73,
+      "seconds": 49,
       "error": null
     },
     {
@@ -265,23 +275,13 @@
       "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
     },
     {
-      "business": "Coffee Friendzone",
-      "website": "https://coffeefriendzone.com",
-      "platform": "woocommerce",
-      "rows": 205,
-      "changed": 0,
-      "quarantined": 73,
-      "seconds": 42,
-      "error": null
-    },
-    {
       "business": "Four Letter Word Coffee",
       "website": "https://4lwcoffee.com",
-      "platform": "jsonld",
-      "rows": 4,
-      "changed": 0,
-      "quarantined": 4,
-      "seconds": 4,
+      "platform": "html-meta",
+      "rows": 2,
+      "changed": 2,
+      "quarantined": 2,
+      "seconds": 5,
       "error": null
     },
     {
@@ -291,7 +291,7 @@
       "rows": 186,
       "changed": 0,
       "quarantined": 54,
-      "seconds": 31,
+      "seconds": 35,
       "error": null
     },
     {
@@ -308,20 +308,20 @@
       "business": "Espressolab",
       "website": "https://espressolab.com",
       "platform": "jsonld",
-      "rows": 7,
+      "rows": 4,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 17,
+      "seconds": 18,
       "error": null
     },
     {
       "business": "Depo Coffee Roasting",
       "website": "https://depocoffeeroasting.com",
       "platform": "jsonld",
-      "rows": 48,
+      "rows": 50,
       "changed": 0,
-      "quarantined": 7,
-      "seconds": 30,
+      "quarantined": 8,
+      "seconds": 25,
       "error": null
     },
     {
@@ -331,7 +331,7 @@
       "rows": 63,
       "changed": 0,
       "quarantined": 1,
-      "seconds": 20,
+      "seconds": 19,
       "error": null
     },
     {
@@ -351,7 +351,7 @@
       "rows": 56,
       "changed": 44,
       "quarantined": 44,
-      "seconds": 38,
+      "seconds": 39,
       "error": null
     },
     {
@@ -361,17 +361,7 @@
       "rows": 26,
       "changed": 0,
       "quarantined": 2,
-      "seconds": 12,
-      "error": null
-    },
-    {
-      "business": "Coffee Tropic",
-      "website": "https://coffeetropic.com",
-      "platform": "woocommerce",
-      "rows": 454,
-      "changed": 0,
-      "quarantined": 26,
-      "seconds": 85,
+      "seconds": 13,
       "error": null
     },
     {
@@ -381,17 +371,17 @@
       "rows": 11,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 20,
+      "seconds": 19,
       "error": null
     },
     {
       "business": "Guten Morgen Roastery",
       "website": "https://gutenmorgenroastery.com",
       "platform": "woocommerce",
-      "rows": 171,
+      "rows": 172,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 39,
+      "seconds": 41,
       "error": null
     },
     {
@@ -401,8 +391,18 @@
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 2,
+      "seconds": 3,
       "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
+    },
+    {
+      "business": "Coffee Tropic",
+      "website": "https://coffeetropic.com",
+      "platform": "woocommerce",
+      "rows": 454,
+      "changed": 0,
+      "quarantined": 26,
+      "seconds": 95,
+      "error": null
     },
     {
       "business": "Kaave Roastery",
@@ -411,7 +411,7 @@
       "rows": 50,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 11,
+      "seconds": 9,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "rows": 28,
       "changed": 0,
       "quarantined": 4,
-      "seconds": 20,
+      "seconds": 21,
       "error": null
     },
     {
@@ -431,7 +431,7 @@
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 28,
+      "seconds": 31,
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
@@ -451,7 +451,7 @@
       "rows": 132,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 2,
+      "seconds": 0,
       "error": null
     },
     {
@@ -461,7 +461,7 @@
       "rows": 29,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 26,
+      "seconds": 30,
       "error": null
     },
     {
@@ -471,27 +471,17 @@
       "rows": 11,
       "changed": 0,
       "quarantined": 1,
-      "seconds": 33,
+      "seconds": 30,
       "error": null
-    },
-    {
-      "business": "Kurukahveci Mehmet Efendi",
-      "website": "https://mehmetefendi.com",
-      "platform": null,
-      "rows": 0,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 26,
-      "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
       "business": "Kahve.com / Moliendo",
       "website": "https://kahve.com",
       "platform": "html-meta",
-      "rows": 60,
-      "changed": 15,
-      "quarantined": 15,
-      "seconds": 81,
+      "rows": 75,
+      "changed": 23,
+      "quarantined": 22,
+      "seconds": 105,
       "error": null
     },
     {
@@ -501,7 +491,17 @@
       "rows": 20,
       "changed": 0,
       "quarantined": 2,
-      "seconds": 5,
+      "seconds": 15,
+      "error": null
+    },
+    {
+      "business": "Lagetom Coffee",
+      "website": "https://lagetomcoffee.com",
+      "platform": "jsonld",
+      "rows": 25,
+      "changed": 0,
+      "quarantined": 5,
+      "seconds": 70,
       "error": null
     },
     {
@@ -511,18 +511,18 @@
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 86,
+      "seconds": 136,
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
-      "business": "Mona Coffee",
-      "website": "https://monacoffeeshop.com.tr",
-      "platform": null,
-      "rows": 0,
+      "business": "Molecule Coffee",
+      "website": "https://coffeemolecule.com",
+      "platform": "woocommerce",
+      "rows": 167,
       "changed": 0,
-      "quarantined": 0,
-      "seconds": 8,
-      "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
+      "quarantined": 51,
+      "seconds": 9,
+      "error": null
     },
     {
       "business": "Montag Coffee Roasters",
@@ -535,14 +535,14 @@
       "error": null
     },
     {
-      "business": "Molecule Coffee",
-      "website": "https://coffeemolecule.com",
-      "platform": "woocommerce",
-      "rows": 167,
+      "business": "Kurukahveci Mehmet Efendi",
+      "website": "https://mehmetefendi.com",
+      "platform": null,
+      "rows": 0,
       "changed": 0,
-      "quarantined": 51,
-      "seconds": 16,
-      "error": null
+      "quarantined": 0,
+      "seconds": 85,
+      "error": "shopify: The operation was aborted due to timeout | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
       "business": "Nok Coffee",
@@ -561,8 +561,18 @@
       "rows": 294,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 0,
+      "seconds": 1,
       "error": null
+    },
+    {
+      "business": "Mona Coffee",
+      "website": "https://monacoffeeshop.com.tr",
+      "platform": null,
+      "rows": 0,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 9,
+      "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
     },
     {
       "business": "Octagon Coffee",
@@ -575,23 +585,13 @@
       "error": "shopify: 404 Not Found | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
     },
     {
-      "business": "Lagetom Coffee",
-      "website": "https://lagetomcoffee.com",
-      "platform": "jsonld",
-      "rows": 26,
-      "changed": 0,
-      "quarantined": 5,
-      "seconds": 45,
-      "error": null
-    },
-    {
       "business": "Noite Coffee",
       "website": "https://noitecoffee.com",
       "platform": "wix",
       "rows": 1,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 25,
+      "seconds": 21,
       "error": null
     },
     {
@@ -601,7 +601,7 @@
       "rows": 161,
       "changed": 0,
       "quarantined": 7,
-      "seconds": 13,
+      "seconds": 14,
       "error": null
     },
     {
@@ -611,7 +611,7 @@
       "rows": 32,
       "changed": 0,
       "quarantined": 13,
-      "seconds": 45,
+      "seconds": 49,
       "error": null
     },
     {
@@ -621,7 +621,7 @@
       "rows": 92,
       "changed": 0,
       "quarantined": 2,
-      "seconds": 7,
+      "seconds": 10,
       "error": null
     },
     {
@@ -631,7 +631,7 @@
       "rows": 191,
       "changed": 0,
       "quarantined": 5,
-      "seconds": 24,
+      "seconds": 32,
       "error": null
     },
     {
@@ -641,17 +641,17 @@
       "rows": 1398,
       "changed": 0,
       "quarantined": 62,
-      "seconds": 213,
+      "seconds": 265,
       "error": null
     },
     {
-      "business": "Ordinarius Coffee Roastery",
-      "website": "https://ordinariuscoffee.com",
-      "platform": "woocommerce",
-      "rows": 74,
+      "business": "Parsa Coffee Roasters",
+      "website": "https://parsacoffeeroasters.com",
+      "platform": "jsonld",
+      "rows": 12,
       "changed": 0,
-      "quarantined": 10,
-      "seconds": 59,
+      "quarantined": 0,
+      "seconds": 8,
       "error": null
     },
     {
@@ -671,17 +671,17 @@
       "rows": 331,
       "changed": 0,
       "quarantined": 20,
-      "seconds": 1,
+      "seconds": 0,
       "error": null
     },
     {
-      "business": "Parsa Coffee Roasters",
-      "website": "https://parsacoffeeroasters.com",
-      "platform": "jsonld",
-      "rows": 12,
+      "business": "Ordinarius Coffee Roastery",
+      "website": "https://ordinariuscoffee.com",
+      "platform": "woocommerce",
+      "rows": 74,
       "changed": 0,
-      "quarantined": 0,
-      "seconds": 9,
+      "quarantined": 10,
+      "seconds": 67,
       "error": null
     },
     {
@@ -691,7 +691,7 @@
       "rows": 108,
       "changed": 0,
       "quarantined": 2,
-      "seconds": 0,
+      "seconds": 1,
       "error": null
     },
     {
@@ -701,17 +701,17 @@
       "rows": 37,
       "changed": 0,
       "quarantined": 3,
-      "seconds": 4,
+      "seconds": 6,
       "error": null
     },
     {
-      "business": "Probador Colectiva",
-      "website": "https://probadorcolectiva.com",
-      "platform": "enjekte",
-      "rows": 18,
-      "changed": 2,
-      "quarantined": 0,
-      "seconds": 6,
+      "business": "Paper Coffee & Chocolate",
+      "website": "https://paperroastingcoffee.com",
+      "platform": "ikas",
+      "rows": 295,
+      "changed": 0,
+      "quarantined": 56,
+      "seconds": 24,
       "error": null
     },
     {
@@ -725,13 +725,23 @@
       "error": null
     },
     {
+      "business": "Probador Colectiva",
+      "website": "https://probadorcolectiva.com",
+      "platform": "enjekte",
+      "rows": 18,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 10,
+      "error": null
+    },
+    {
       "business": "Roasterlab",
       "website": "https://roasterlab.com.tr",
       "platform": null,
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 2,
+      "seconds": 1,
       "error": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
     },
     {
@@ -755,16 +765,6 @@
       "error": null
     },
     {
-      "business": "Paper Coffee & Chocolate",
-      "website": "https://paperroastingcoffee.com",
-      "platform": "ikas",
-      "rows": 295,
-      "changed": 0,
-      "quarantined": 56,
-      "seconds": 23,
-      "error": null
-    },
-    {
       "business": "Sezy Coffee",
       "website": "https://sezycoffee.com",
       "platform": null,
@@ -780,8 +780,8 @@
       "platform": "woocommerce",
       "rows": 58,
       "changed": 0,
-      "quarantined": 0,
-      "seconds": 20,
+      "quarantined": 1,
+      "seconds": 23,
       "error": null
     },
     {
@@ -791,28 +791,8 @@
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 108,
+      "seconds": 127,
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
-    },
-    {
-      "business": "Spada Coffee",
-      "website": "https://spadacoffee.com",
-      "platform": "ikas",
-      "rows": 178,
-      "changed": 0,
-      "quarantined": 10,
-      "seconds": 13,
-      "error": null
-    },
-    {
-      "business": "Story Coffee Roasters",
-      "website": "https://storyroasters.com",
-      "platform": "ikas",
-      "rows": 213,
-      "changed": 0,
-      "quarantined": 6,
-      "seconds": 11,
-      "error": null
     },
     {
       "business": "Sedirkent Coffee",
@@ -825,11 +805,31 @@
       "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
+      "business": "Spada Coffee",
+      "website": "https://spadacoffee.com",
+      "platform": "ikas",
+      "rows": 178,
+      "changed": 1,
+      "quarantined": 10,
+      "seconds": 16,
+      "error": null
+    },
+    {
+      "business": "Story Coffee Roasters",
+      "website": "https://storyroasters.com",
+      "platform": "ikas",
+      "rows": 213,
+      "changed": 0,
+      "quarantined": 6,
+      "seconds": 14,
+      "error": null
+    },
+    {
       "business": "Walter’s Coffee Roastery",
       "website": "https://walterscoffee.com",
       "platform": "shopify",
       "rows": 62,
-      "changed": 1,
+      "changed": 0,
       "quarantined": 0,
       "seconds": 0,
       "error": null
@@ -839,16 +839,6 @@
       "website": "https://tahmis.com.tr",
       "platform": "jsonld",
       "rows": 88,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 14,
-      "error": null
-    },
-    {
-      "business": "Tropika Coffee Roastery",
-      "website": "https://tropikacoffee.com",
-      "platform": "jsonld",
-      "rows": 23,
       "changed": 0,
       "quarantined": 0,
       "seconds": 18,
@@ -861,17 +851,27 @@
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 21,
+      "seconds": 27,
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
     },
     {
-      "business": "Sanal Baharat",
-      "website": "https://sanalbaharat.com",
-      "platform": "html-meta",
-      "rows": 47,
+      "business": "Tropika Coffee Roastery",
+      "website": "https://tropikacoffee.com",
+      "platform": "jsonld",
+      "rows": 17,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 49,
+      "seconds": 32,
+      "error": null
+    },
+    {
+      "business": "Kronotrop",
+      "website": "https://kronotrop.com.tr",
+      "platform": "jsonld",
+      "rows": 10,
+      "changed": 0,
+      "quarantined": 6,
+      "seconds": 17,
       "error": null
     },
     {
@@ -881,7 +881,7 @@
       "rows": 11,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 35,
+      "seconds": 56,
       "error": null
     },
     {
@@ -895,14 +895,14 @@
       "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
     },
     {
-      "business": "Kronotrop",
-      "website": "https://kronotrop.com.tr",
-      "platform": "jsonld",
-      "rows": 10,
+      "business": "Baristas Roastery",
+      "website": "https://baristasroastery.com",
+      "platform": null,
+      "rows": 0,
       "changed": 0,
-      "quarantined": 6,
-      "seconds": 14,
-      "error": null
+      "quarantined": 0,
+      "seconds": 26,
+      "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
       "business": "Cup of Joy",
@@ -931,6 +931,26 @@
       "rows": 115,
       "changed": 0,
       "quarantined": 4,
+      "seconds": 0,
+      "error": null
+    },
+    {
+      "business": "Mocaco Coffee",
+      "website": "https://mocacocoffee.com",
+      "platform": "shopify",
+      "rows": 145,
+      "changed": 0,
+      "quarantined": 12,
+      "seconds": 0,
+      "error": null
+    },
+    {
+      "business": "Rumo Coffee",
+      "website": "https://rumo.com.tr",
+      "platform": "shopify",
+      "rows": 63,
+      "changed": 0,
+      "quarantined": 0,
       "seconds": 1,
       "error": null
     },
@@ -945,42 +965,22 @@
       "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: Ticimax imzası bulunamadı | enjekte: 403 Forbidden"
     },
     {
-      "business": "Mocaco Coffee",
-      "website": "https://mocacocoffee.com",
-      "platform": "shopify",
-      "rows": 145,
-      "changed": 0,
-      "quarantined": 12,
-      "seconds": 1,
-      "error": null
-    },
-    {
-      "business": "Williams Roastery",
-      "website": "https://williamsroastery.com",
-      "platform": "woocommerce",
-      "rows": 55,
-      "changed": 0,
-      "quarantined": 5,
-      "seconds": 35,
-      "error": null
-    },
-    {
-      "business": "Rumo Coffee",
-      "website": "https://rumo.com.tr",
-      "platform": "shopify",
-      "rows": 63,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 1,
-      "error": null
-    },
-    {
       "business": "Selamlique İstanbul",
       "website": "https://selamlique.com",
       "platform": "shopify",
       "rows": 244,
       "changed": 0,
       "quarantined": 20,
+      "seconds": 1,
+      "error": null
+    },
+    {
+      "business": "Shazel",
+      "website": "https://shazel.com.tr",
+      "platform": "shopify",
+      "rows": 326,
+      "changed": 0,
+      "quarantined": 99,
       "seconds": 1,
       "error": null
     },
@@ -995,13 +995,13 @@
       "error": null
     },
     {
-      "business": "Shazel",
-      "website": "https://shazel.com.tr",
-      "platform": "shopify",
-      "rows": 326,
-      "changed": 1,
-      "quarantined": 99,
-      "seconds": 1,
+      "business": "Sanal Baharat",
+      "website": "https://sanalbaharat.com",
+      "platform": "html-meta",
+      "rows": 67,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 87,
       "error": null
     },
     {
@@ -1011,7 +1011,7 @@
       "rows": 61,
       "changed": 0,
       "quarantined": 30,
-      "seconds": 7,
+      "seconds": 8,
       "error": null
     },
     {
@@ -1021,7 +1021,7 @@
       "rows": 57,
       "changed": 0,
       "quarantined": 17,
-      "seconds": 21,
+      "seconds": 24,
       "error": null
     },
     {
@@ -1031,17 +1031,7 @@
       "rows": 22,
       "changed": 0,
       "quarantined": 1,
-      "seconds": 17,
-      "error": null
-    },
-    {
-      "business": "Grano Coffee",
-      "website": "https://grano.com.tr",
-      "platform": "woocommerce",
-      "rows": 46,
-      "changed": 0,
-      "quarantined": 1,
-      "seconds": 18,
+      "seconds": 19,
       "error": null
     },
     {
@@ -1051,7 +1041,7 @@
       "rows": 27,
       "changed": 0,
       "quarantined": 2,
-      "seconds": 8,
+      "seconds": 10,
       "error": null
     },
     {
@@ -1061,7 +1051,27 @@
       "rows": 218,
       "changed": 0,
       "quarantined": 4,
-      "seconds": 15,
+      "seconds": 14,
+      "error": null
+    },
+    {
+      "business": "Grano Coffee",
+      "website": "https://grano.com.tr",
+      "platform": "woocommerce",
+      "rows": 46,
+      "changed": 0,
+      "quarantined": 1,
+      "seconds": 22,
+      "error": null
+    },
+    {
+      "business": "Williams Roastery",
+      "website": "https://williamsroastery.com",
+      "platform": "woocommerce",
+      "rows": 49,
+      "changed": 0,
+      "quarantined": 5,
+      "seconds": 77,
       "error": null
     },
     {
@@ -1071,7 +1081,7 @@
       "rows": 96,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 11,
+      "seconds": 6,
       "error": null
     },
     {
@@ -1081,27 +1091,17 @@
       "rows": 307,
       "changed": 0,
       "quarantined": 1,
-      "seconds": 13,
+      "seconds": 19,
       "error": null
     },
     {
-      "business": "Gourme Coffee",
-      "website": "https://gourmecoffee.com",
+      "business": "Calibre Coffee",
+      "website": "https://coffeecalibre.com",
       "platform": "ikas",
-      "rows": 333,
+      "rows": 95,
       "changed": 0,
-      "quarantined": 61,
-      "seconds": 24,
-      "error": null
-    },
-    {
-      "business": "MOC Coffee Roastery",
-      "website": "https://moc.com.tr",
-      "platform": "ikas",
-      "rows": 463,
-      "changed": 0,
-      "quarantined": 12,
-      "seconds": 26,
+      "quarantined": 21,
+      "seconds": 15,
       "error": null
     },
     {
@@ -1115,43 +1115,13 @@
       "error": null
     },
     {
-      "business": "Baristas Roastery",
-      "website": "https://baristasroastery.com",
-      "platform": null,
-      "rows": 0,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 68,
-      "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
-    },
-    {
       "business": "Hound Coffee",
       "website": "https://houndcoffee.com",
       "platform": "ikas",
       "rows": 184,
       "changed": 0,
       "quarantined": 6,
-      "seconds": 14,
-      "error": null
-    },
-    {
-      "business": "Calibre Coffee",
-      "website": "https://coffeecalibre.com",
-      "platform": "ikas",
-      "rows": 95,
-      "changed": 0,
-      "quarantined": 21,
-      "seconds": 19,
-      "error": null
-    },
-    {
-      "business": "Tone Coffee Roastery Co.",
-      "website": "https://tonecoffeeroastery.co",
-      "platform": "shopify",
-      "rows": 748,
-      "changed": 3,
-      "quarantined": 15,
-      "seconds": 1,
+      "seconds": 13,
       "error": null
     },
     {
@@ -1161,7 +1131,37 @@
       "rows": 18,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 11,
+      "seconds": 6,
+      "error": null
+    },
+    {
+      "business": "Shady Coffee Roastery",
+      "website": "https://shady.com.tr",
+      "platform": "woocommerce",
+      "rows": 40,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 5,
+      "error": null
+    },
+    {
+      "business": "Tone Coffee Roastery Co.",
+      "website": "https://tonecoffeeroastery.co",
+      "platform": "shopify",
+      "rows": 748,
+      "changed": 0,
+      "quarantined": 15,
+      "seconds": 1,
+      "error": null
+    },
+    {
+      "business": "Gourme Coffee",
+      "website": "https://gourmecoffee.com",
+      "platform": "ikas",
+      "rows": 333,
+      "changed": 0,
+      "quarantined": 61,
+      "seconds": 40,
       "error": null
     },
     {
@@ -1181,7 +1181,47 @@
       "rows": 61,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 5,
+      "seconds": 1,
+      "error": null
+    },
+    {
+      "business": "MOC Coffee Roastery",
+      "website": "https://moc.com.tr",
+      "platform": "ikas",
+      "rows": 463,
+      "changed": 0,
+      "quarantined": 12,
+      "seconds": 42,
+      "error": null
+    },
+    {
+      "business": "Trophy Coffee Roastery",
+      "website": "https://trophycoffee.com.tr",
+      "platform": "woocommerce",
+      "rows": 121,
+      "changed": 0,
+      "quarantined": 22,
+      "seconds": 7,
+      "error": null
+    },
+    {
+      "business": "Zümrüt Karaca Coffee Roastery",
+      "website": "https://zumrutkaraca.com",
+      "platform": "shopify",
+      "rows": 44,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 0,
+      "error": null
+    },
+    {
+      "business": "Fabriek Coffee",
+      "website": "https://fabriekcoffee.com",
+      "platform": "shopify",
+      "rows": 242,
+      "changed": 0,
+      "quarantined": 107,
+      "seconds": 1,
       "error": null
     },
     {
@@ -1205,46 +1245,6 @@
       "error": null
     },
     {
-      "business": "Zümrüt Karaca Coffee Roastery",
-      "website": "https://zumrutkaraca.com",
-      "platform": "shopify",
-      "rows": 44,
-      "changed": 1,
-      "quarantined": 0,
-      "seconds": 0,
-      "error": null
-    },
-    {
-      "business": "Fabriek Coffee",
-      "website": "https://fabriekcoffee.com",
-      "platform": "shopify",
-      "rows": 242,
-      "changed": 0,
-      "quarantined": 107,
-      "seconds": 1,
-      "error": null
-    },
-    {
-      "business": "Shady Coffee Roastery",
-      "website": "https://shady.com.tr",
-      "platform": "woocommerce",
-      "rows": 40,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 27,
-      "error": null
-    },
-    {
-      "business": "Trophy Coffee Roastery",
-      "website": "https://trophycoffee.com.tr",
-      "platform": "woocommerce",
-      "rows": 109,
-      "changed": 0,
-      "quarantined": 22,
-      "seconds": 6,
-      "error": null
-    },
-    {
       "business": "Specific Coffee",
       "website": "https://specific.coffee",
       "platform": "woocommerce",
@@ -1255,33 +1255,23 @@
       "error": null
     },
     {
+      "business": "Kafein Kültür",
+      "website": "https://kafeinkultur.com",
+      "platform": null,
+      "rows": 0,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 58,
+      "error": "shopify: 500 Internal Server Error | woocommerce: 500 Internal Server Error | ikas: 500 Internal Server Error | ticimax: Ticimax imzası bulunamadı | enjekte: 500 Internal Server Error"
+    },
+    {
       "business": "Niji Coffee Co.",
       "website": "https://nijicoffeeco.net",
       "platform": "wix",
       "rows": 4,
       "changed": 0,
       "quarantined": 2,
-      "seconds": 19,
-      "error": null
-    },
-    {
-      "business": "Gordion Coffee Roastery",
-      "website": "https://gordioncoffee.com",
-      "platform": "wix",
-      "rows": 9,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 17,
-      "error": null
-    },
-    {
-      "business": "Récolte Coffee Roastery",
-      "website": "https://recoltecoffee.com",
-      "platform": "jsonld",
-      "rows": 29,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 33,
+      "seconds": 30,
       "error": null
     },
     {
@@ -1295,23 +1285,13 @@
       "error": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
     },
     {
-      "business": "Kafein Kültür",
-      "website": "https://kafeinkultur.com",
-      "platform": null,
-      "rows": 0,
+      "business": "Gordion Coffee Roastery",
+      "website": "https://gordioncoffee.com",
+      "platform": "wix",
+      "rows": 9,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 81,
-      "error": "shopify: 500 Internal Server Error | woocommerce: 500 Internal Server Error | ikas: 500 Internal Server Error | ticimax: Ticimax imzası bulunamadı | enjekte: 500 Internal Server Error"
-    },
-    {
-      "business": "Wayta Coffee",
-      "website": "https://waytacoffee.com",
-      "platform": "woocommerce",
-      "rows": 349,
-      "changed": 3,
-      "quarantined": 0,
-      "seconds": 78,
+      "seconds": 12,
       "error": null
     },
     {
@@ -1321,17 +1301,7 @@
       "rows": 52,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 59,
-      "error": null
-    },
-    {
-      "business": "Lot Coffee Roastery",
-      "website": "https://lotcoffeeroastery.com",
-      "platform": "woocommerce",
-      "rows": 237,
-      "changed": 0,
-      "quarantined": 19,
-      "seconds": 16,
+      "seconds": 63,
       "error": null
     },
     {
@@ -1341,17 +1311,37 @@
       "rows": 120,
       "changed": 0,
       "quarantined": 13,
-      "seconds": 14,
+      "seconds": 23,
       "error": null
     },
     {
-      "business": "3 Cores Coffee & Roastery",
-      "website": "https://3coresroastery.com",
-      "platform": "jsonld",
-      "rows": 11,
+      "business": "Wayta Coffee",
+      "website": "https://waytacoffee.com",
+      "platform": "woocommerce",
+      "rows": 349,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 24,
+      "seconds": 110,
+      "error": null
+    },
+    {
+      "business": "Récolte Coffee Roastery",
+      "website": "https://recoltecoffee.com",
+      "platform": "jsonld",
+      "rows": 27,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 82,
+      "error": null
+    },
+    {
+      "business": "Grizzly Coffee Roasters",
+      "website": "https://espressoperfetto.com",
+      "platform": "html-meta",
+      "rows": 65,
+      "changed": 40,
+      "quarantined": 35,
+      "seconds": 58,
       "error": null
     },
     {
@@ -1361,18 +1351,8 @@
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 19,
+      "seconds": 21,
       "error": "shopify: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
-    },
-    {
-      "business": "Caffé Di Toeé",
-      "website": "https://caffeditoee.com",
-      "platform": "ikas",
-      "rows": 14,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 11,
-      "error": null
     },
     {
       "business": "Kungpow Coffee",
@@ -1381,7 +1361,27 @@
       "rows": 5,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 30,
+      "seconds": 19,
+      "error": null
+    },
+    {
+      "business": "3 Cores Coffee & Roastery",
+      "website": "https://3coresroastery.com",
+      "platform": "jsonld",
+      "rows": 11,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 23,
+      "error": null
+    },
+    {
+      "business": "Caffé Di Toeé",
+      "website": "https://caffeditoee.com",
+      "platform": "ikas",
+      "rows": 14,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 9,
       "error": null
     },
     {
@@ -1391,18 +1391,8 @@
       "rows": 0,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 30,
+      "seconds": 31,
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
-    },
-    {
-      "business": "Grizzly Coffee Roasters",
-      "website": "https://espressoperfetto.com",
-      "platform": "html-meta",
-      "rows": 57,
-      "changed": 44,
-      "quarantined": 33,
-      "seconds": 54,
-      "error": null
     },
     {
       "business": "C.R.E.A.M. Coffee Roastery",
@@ -1411,7 +1401,7 @@
       "rows": 32,
       "changed": 0,
       "quarantined": 2,
-      "seconds": 7,
+      "seconds": 6,
       "error": null
     },
     {
@@ -1421,18 +1411,8 @@
       "rows": 132,
       "changed": 0,
       "quarantined": 8,
-      "seconds": 29,
+      "seconds": 33,
       "error": null
-    },
-    {
-      "business": "FUA Coffee",
-      "website": "https://shopier.com",
-      "platform": null,
-      "rows": 0,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 0,
-      "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
     },
     {
       "business": "Olwen Coffee Company",
@@ -1441,7 +1421,7 @@
       "rows": 182,
       "changed": 0,
       "quarantined": 9,
-      "seconds": 21,
+      "seconds": 28,
       "error": null
     },
     {
@@ -1451,38 +1431,28 @@
       "rows": 151,
       "changed": 0,
       "quarantined": 18,
-      "seconds": 32,
+      "seconds": 38,
       "error": null
+    },
+    {
+      "business": "FUA Coffee",
+      "website": "https://shopier.com",
+      "platform": null,
+      "rows": 0,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 1,
+      "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
     },
     {
       "business": "Flores Roastery",
       "website": "https://floresroastery.com",
       "platform": "woocommerce",
       "rows": 59,
-      "changed": 5,
-      "quarantined": 11,
-      "seconds": 12,
-      "error": null
-    },
-    {
-      "business": "Coffee Haus",
-      "website": "https://coffeehaus.com.tr",
-      "platform": "shopify",
-      "rows": 265,
-      "changed": 63,
-      "quarantined": 0,
-      "seconds": 1,
-      "error": null
-    },
-    {
-      "business": "Pacamara Coffee",
-      "website": "https://online.erishelva.com.tr",
-      "platform": null,
-      "rows": 0,
       "changed": 0,
-      "quarantined": 0,
-      "seconds": 23,
-      "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+      "quarantined": 11,
+      "seconds": 6,
+      "error": null
     },
     {
       "business": "ARC CO",
@@ -1491,15 +1461,45 @@
       "rows": 26,
       "changed": 0,
       "quarantined": 2,
-      "seconds": 12,
+      "seconds": 16,
+      "error": null
+    },
+    {
+      "business": "Coffee Haus",
+      "website": "https://coffeehaus.com.tr",
+      "platform": "shopify",
+      "rows": 265,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 1,
+      "error": null
+    },
+    {
+      "business": "Lot Coffee Roastery",
+      "website": "https://lotcoffeeroastery.com",
+      "platform": "woocommerce",
+      "rows": 236,
+      "changed": 0,
+      "quarantined": 19,
+      "seconds": 137,
+      "error": null
+    },
+    {
+      "business": "Pacamara Coffee",
+      "website": "https://online.erishelva.com.tr",
+      "platform": "html-meta",
+      "rows": 70,
+      "changed": 25,
+      "quarantined": 0,
+      "seconds": 40,
       "error": null
     },
     {
       "business": "Anisah Coffee",
       "website": "https://anisahcoffee.com",
       "platform": "shopify",
-      "rows": 212,
-      "changed": 0,
+      "rows": 213,
+      "changed": 19,
       "quarantined": 44,
       "seconds": 1,
       "error": null
@@ -1511,87 +1511,7 @@
       "rows": 14,
       "changed": 0,
       "quarantined": 0,
-      "seconds": 38,
-      "error": null
-    },
-    {
-      "business": "Bentz Coffee & Roastery",
-      "website": "https://bentz.com.tr",
-      "platform": "ikas",
-      "rows": 399,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 27,
-      "error": null
-    },
-    {
-      "business": "Fluxus Coffee Roastery",
-      "website": "https://fluxuscoffee.com",
-      "platform": "shopify",
-      "rows": 245,
-      "changed": 1,
-      "quarantined": 98,
-      "seconds": 1,
-      "error": null
-    },
-    {
-      "business": "Atölye Kuban",
-      "website": "https://atolyekuban.com",
-      "platform": "ikas",
-      "rows": 313,
-      "changed": 0,
-      "quarantined": 14,
-      "seconds": 40,
-      "error": null
-    },
-    {
-      "business": "Tenebrew",
-      "website": "https://tenebrew.com",
-      "platform": "ikas",
-      "rows": 14,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 26,
-      "error": null
-    },
-    {
-      "business": "Tetra N Roastery",
-      "website": "https://tetranroastery.com",
-      "platform": "ikas",
-      "rows": 49,
-      "changed": 0,
-      "quarantined": 16,
-      "seconds": 18,
-      "error": null
-    },
-    {
-      "business": "Main Coffee",
-      "website": "https://instagram.com",
-      "platform": null,
-      "rows": 0,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 18,
-      "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
-    },
-    {
-      "business": "The Whirl Roastery",
-      "website": "https://shop.thewhirl.com.tr",
-      "platform": null,
-      "rows": 0,
-      "changed": 0,
-      "quarantined": 0,
-      "seconds": 28,
-      "error": "shopify: 403 Forbidden | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
-    },
-    {
-      "business": "The Flavour Coffee",
-      "website": "https://theflavour.com.tr",
-      "platform": "ikas",
-      "rows": 170,
-      "changed": 0,
-      "quarantined": 8,
-      "seconds": 61,
+      "seconds": 47,
       "error": null
     },
     {
@@ -1601,23 +1521,103 @@
       "rows": 823,
       "changed": 0,
       "quarantined": 2,
-      "seconds": 739,
+      "seconds": 696,
+      "error": null
+    },
+    {
+      "business": "Atölye Kuban",
+      "website": "https://atolyekuban.com",
+      "platform": "ikas",
+      "rows": 313,
+      "changed": 0,
+      "quarantined": 14,
+      "seconds": 24,
+      "error": null
+    },
+    {
+      "business": "Fluxus Coffee Roastery",
+      "website": "https://fluxuscoffee.com",
+      "platform": "shopify",
+      "rows": 245,
+      "changed": 0,
+      "quarantined": 98,
+      "seconds": 1,
+      "error": null
+    },
+    {
+      "business": "Tenebrew",
+      "website": "https://tenebrew.com",
+      "platform": "ikas",
+      "rows": 14,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 21,
+      "error": null
+    },
+    {
+      "business": "Bentz Coffee & Roastery",
+      "website": "https://bentz.com.tr",
+      "platform": "ikas",
+      "rows": 399,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 23,
+      "error": null
+    },
+    {
+      "business": "Tetra N Roastery",
+      "website": "https://tetranroastery.com",
+      "platform": "ikas",
+      "rows": 49,
+      "changed": 0,
+      "quarantined": 16,
+      "seconds": 24,
+      "error": null
+    },
+    {
+      "business": "Main Coffee",
+      "website": "https://instagram.com",
+      "platform": null,
+      "rows": 0,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 19,
+      "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
+    },
+    {
+      "business": "The Whirl Roastery",
+      "website": "https://shop.thewhirl.com.tr",
+      "platform": null,
+      "rows": 0,
+      "changed": 0,
+      "quarantined": 0,
+      "seconds": 34,
+      "error": "shopify: 403 Forbidden | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+    },
+    {
+      "business": "The Flavour Coffee",
+      "website": "https://theflavour.com.tr",
+      "platform": "ikas",
+      "rows": 170,
+      "changed": 0,
+      "quarantined": 8,
+      "seconds": 66,
       "error": null
     },
     {
       "business": "Savène Coffee Co.",
       "website": "https://savenecoffee.shop",
       "platform": "jsonld",
-      "rows": 50,
+      "rows": 41,
       "changed": 8,
-      "quarantined": 24,
-      "seconds": 237,
+      "quarantined": 20,
+      "seconds": 273,
       "error": null
     }
   ],
   "flagged": [
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Backfield Roasting Co.",
       "rows": 0,
       "deltaPct": null,
@@ -1625,7 +1625,7 @@
       "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Akademi Kahve",
       "rows": 0,
       "deltaPct": null,
@@ -1633,7 +1633,7 @@
       "error": "shopify: 404 Not Found | woocommerce: 503 Service Unavailable | ikas: 404 Not Found | ticimax: 503 Service Unavailable | wix: 503 Service Unavailable | enjekte: 503 Service Unavailable"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Bu Coffee Roastery",
       "rows": 0,
       "deltaPct": null,
@@ -1641,7 +1641,7 @@
       "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Arabica Coffee House",
       "rows": 0,
       "deltaPct": null,
@@ -1649,7 +1649,7 @@
       "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Cho Coffee Roastery",
       "rows": 0,
       "deltaPct": null,
@@ -1657,7 +1657,7 @@
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Bravo Coffee Roastery",
       "rows": 0,
       "deltaPct": null,
@@ -1665,7 +1665,7 @@
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Coffee Lab",
       "rows": 0,
       "deltaPct": null,
@@ -1673,7 +1673,7 @@
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Coffeerem Roastery",
       "rows": 0,
       "deltaPct": null,
@@ -1681,7 +1681,7 @@
       "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Coffy",
       "rows": 0,
       "deltaPct": null,
@@ -1689,7 +1689,7 @@
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "der Röster",
       "rows": 0,
       "deltaPct": null,
@@ -1697,7 +1697,7 @@
       "error": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Edition Coffee Roastery",
       "rows": 0,
       "deltaPct": null,
@@ -1705,7 +1705,15 @@
       "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
+      "roasterSlug": "Four Letter Word Coffee",
+      "rows": 2,
+      "deltaPct": -50,
+      "flagged": true,
+      "error": null
+    },
+    {
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Kafeingo",
       "rows": 0,
       "deltaPct": null,
@@ -1713,7 +1721,7 @@
       "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Kahve Dünyası",
       "rows": 0,
       "deltaPct": null,
@@ -1721,15 +1729,7 @@
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
-      "roasterSlug": "Kurukahveci Mehmet Efendi",
-      "rows": 0,
-      "deltaPct": null,
-      "flagged": true,
-      "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
-    },
-    {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Keobs Coffee Roastery",
       "rows": 0,
       "deltaPct": null,
@@ -1737,7 +1737,15 @@
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
+      "roasterSlug": "Kurukahveci Mehmet Efendi",
+      "rows": 0,
+      "deltaPct": null,
+      "flagged": true,
+      "error": "shopify: The operation was aborted due to timeout | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+    },
+    {
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Mona Coffee",
       "rows": 0,
       "deltaPct": null,
@@ -1745,7 +1753,7 @@
       "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Octagon Coffee",
       "rows": 0,
       "deltaPct": null,
@@ -1753,7 +1761,7 @@
       "error": "shopify: 404 Not Found | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Roasterlab",
       "rows": 0,
       "deltaPct": null,
@@ -1761,7 +1769,7 @@
       "error": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "RoasterLab",
       "rows": 0,
       "deltaPct": null,
@@ -1769,7 +1777,7 @@
       "error": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Sezy Coffee",
       "rows": 0,
       "deltaPct": null,
@@ -1777,7 +1785,7 @@
       "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Milestones Coffee",
       "rows": 0,
       "deltaPct": null,
@@ -1785,7 +1793,7 @@
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Sedirkent Coffee",
       "rows": 0,
       "deltaPct": null,
@@ -1793,7 +1801,7 @@
       "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Whiff Coffee Roastery",
       "rows": 0,
       "deltaPct": null,
@@ -1801,7 +1809,7 @@
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Coffeeizim Coffee Roastery",
       "rows": 0,
       "deltaPct": null,
@@ -1809,15 +1817,7 @@
       "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
-      "roasterSlug": "Gönül Kahvesi",
-      "rows": 0,
-      "deltaPct": null,
-      "flagged": true,
-      "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: Ticimax imzası bulunamadı | enjekte: 403 Forbidden"
-    },
-    {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Baristas Roastery",
       "rows": 0,
       "deltaPct": null,
@@ -1825,15 +1825,15 @@
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
-      "roasterSlug": "Ultra Coffee Roastery",
+      "runId": "run-2026-08-24T10-18-41-605Z",
+      "roasterSlug": "Gönül Kahvesi",
       "rows": 0,
       "deltaPct": null,
       "flagged": true,
-      "error": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
+      "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: Ticimax imzası bulunamadı | enjekte: 403 Forbidden"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Kafein Kültür",
       "rows": 0,
       "deltaPct": null,
@@ -1841,7 +1841,15 @@
       "error": "shopify: 500 Internal Server Error | woocommerce: 500 Internal Server Error | ikas: 500 Internal Server Error | ticimax: Ticimax imzası bulunamadı | enjekte: 500 Internal Server Error"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
+      "roasterSlug": "Ultra Coffee Roastery",
+      "rows": 0,
+      "deltaPct": null,
+      "flagged": true,
+      "error": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
+    },
+    {
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Terazi Coffee & Roastery",
       "rows": 0,
       "deltaPct": null,
@@ -1849,7 +1857,7 @@
       "error": "shopify: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Strong Coffee Beans",
       "rows": 0,
       "deltaPct": null,
@@ -1857,7 +1865,7 @@
       "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "FUA Coffee",
       "rows": 0,
       "deltaPct": null,
@@ -1865,15 +1873,7 @@
       "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
-      "roasterSlug": "Pacamara Coffee",
-      "rows": 0,
-      "deltaPct": -100,
-      "flagged": true,
-      "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
-    },
-    {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "Main Coffee",
       "rows": 0,
       "deltaPct": null,
@@ -1881,7 +1881,7 @@
       "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
     },
     {
-      "runId": "run-2026-08-24T05-28-28-673Z",
+      "runId": "run-2026-08-24T10-18-41-605Z",
       "roasterSlug": "The Whirl Roastery",
       "rows": 0,
       "deltaPct": null,

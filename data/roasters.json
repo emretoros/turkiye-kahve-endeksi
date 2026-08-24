@@ -1159,7 +1159,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-24",
     "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+    "dataStatusNote": "shopify: The operation was aborted due to timeout | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
   },
   {
     "id": 84,
@@ -2544,8 +2544,8 @@
     "platform": "html-meta",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-24",
-    "dataStatus": "blocked",
-    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 183,
