@@ -4,7 +4,7 @@ name: Fiyat verisini güncelle
 # mağazalara aşırı istek göndermeden fiyat değişimlerini izlemek için yeterlidir.
 on:
   schedule:
-    - cron: '0 5 * * *' # her gün 05:00 UTC = 08:00 TR
+    - cron: '17 5 * * *' # her gün 05:17 UTC = 08:17 TR; saat başı yoğunluğunu önler
   # Toplayıcı/ayrıştırma kodu iyileştirildiğinde sıradaki günlük koşuyu bekleme:
   # main'e gelen ilgili kod değişikliği tam veri koşusunu otomatik başlatır.
   # Botun yalnızca data/ dosyalarına yaptığı push bu filtreye uymadığı için
