@@ -4,7 +4,7 @@ name: Fiyat verisini güncelle
 # mağazalara aşırı istek göndermeden fiyat değişimlerini izlemek için yeterlidir.
 on:
   schedule:
-    - cron: '17 5 * * *' # her gün 05:17 UTC = 08:17 TR; saat başı yoğunluğunu önler
+    - cron: '17 5,6,7 * * *' # 08:17 ana koşu; 09:17 ve 10:17 TR yedek tetiklemeleri
   # Toplayıcı/ayrıştırma kodu iyileştirildiğinde sıradaki günlük koşuyu bekleme:
   # main'e gelen ilgili kod değişikliği tam veri koşusunu otomatik başlatır.
   # Botun yalnızca data/ dosyalarına yaptığı push bu filtreye uymadığı için
@@ -35,18 +35,47 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      # GitHub schedule olaylarını bazen geciktirebildiği veya düşürebildiği için
+      # aynı sabah üç tetikleme vardır. İlk başarılı koşudan sonraki yedekler
+      # Actions API üzerinden bugünün başarısını görür ve veri toplamadan çıkar.
+      # İlk deneme başarısız olursa sonraki yedek gerçek bir yeniden deneme olur.
+      - name: Günlük yedek koşuyu kontrol et
+        id: daily_guard
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$GITHUB_EVENT_NAME" != "schedule" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          TODAY="$(date -u +%Y-%m-%d)"
+          HAS_SUCCESS="$(
+            gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/update-prices.yml/runs?status=success&per_page=20" \
+              --jq "[.workflow_runs[] | select(.created_at | startswith(\"${TODAY}\"))] | length"
+          )"
+
+          if [ "$HAS_SUCCESS" -gt 0 ]; then
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "Bugünün başarılı veri koşusu zaten mevcut; yedek tetikleme atlandı." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-node@v4
+        if: steps.daily_guard.outputs.should_run == 'true'
         with:
           node-version: 22
 
       # Bu script'in npm bağımlılığı yok (yalnızca Node yerleşikleri), install gerekmiyor.
       - name: Kimlik + fiyat toplama koşusu
         id: collect
+        if: steps.daily_guard.outputs.should_run == 'true'
         run: node scripts/collect-identity.mjs
         continue-on-error: true # önce commit'i atalım, başarısızlığı ondan SONRA bildirelim
 
       - name: Koşu özetini iş özetine yaz
-        if: always()
+        if: always() && steps.daily_guard.outputs.should_run == 'true'
         run: |
           if [ -f data/run_report_latest.json ]; then
             echo '```json' >> "$GITHUB_STEP_SUMMARY"
@@ -56,6 +85,7 @@ jobs:
 
       - name: Değişiklikleri commit'le
         id: commit
+        if: steps.daily_guard.outputs.should_run == 'true'
         run: |
           git config user.name "kahve-endeksi-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -83,7 +113,7 @@ jobs:
         run: gh workflow run deploy.yml --ref main
 
       - name: Toplama başarısızsa iş'i başarısız işaretle
-        if: steps.collect.outcome == 'failure'
+        if: steps.daily_guard.outputs.should_run == 'true' && steps.collect.outcome == 'failure'
         run: |
           echo "collect-identity.mjs sıfırdan farklı çıkış koduyla bitti — sağlık kontrolü tetiklenmiş olabilir."
           exit 1
