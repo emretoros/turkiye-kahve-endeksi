@@ -1340,8 +1340,8 @@
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-31",
-    "dataStatus": "active",
-    "dataStatusNote": null
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: fetch failed | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
   },
   {
     "id": 97,
@@ -2209,7 +2209,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-31",
     "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: The operation was aborted due to timeout | woocommerce: The operation was aborted due to timeout | ikas: The operation was aborted due to timeout | ticimax: The operation was aborted due to timeout | wix: The operation was aborted due to timeout | enjekte: The operation was aborted due to timeout"
+    "dataStatusNote": "shopify: 500 Internal Server Error | woocommerce: 500 Internal Server Error | ikas: 500 Internal Server Error | ticimax: Ticimax imzası bulunamadı | enjekte: 500 Internal Server Error"
   },
   {
     "id": 159,
@@ -2614,8 +2614,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-08-31",
-    "dataStatus": "blocked",
-    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 429 Too Many Requests | woocommerce: 404 Not Found | ikas: 429 Too Many Requests | ticimax: Ticimax imzası bulunamadı | enjekte: 429 Too Many Requests"
   },
   {
     "id": 188,
