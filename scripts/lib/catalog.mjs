@@ -136,7 +136,7 @@ export function isWeightOnlyLabel(label) {
 /* --------------------------------------------------------- varyant seçimi */
 
 const WEIGHT_SEGMENT = /^(?:gramaj\s*)?\d+(?:[.,]\d+)?\s*(?:kg|kilo|g|gr|gram)$/;
-const GRIND_SEGMENT = /^(?:(?:ogutme|ogutme derecesi|ogutum|demleme)\s*)?(?:cekirdek|ogutulmemis|cekirdek ogutulmemis|whole bean|v60|hario|aeropress|french ?press|kagit filtre|metal filtre|moka ?pot|chemex|espresso ogutulmus|espresso|filtre(?: kahve(?: makinesi)?)?|manuel demleme|cold ?brew|turk kahvesi)$/;
+const GRIND_SEGMENT = /^(?:(?:ogutme|ogutme derecesi|ogutum|demleme)\s*)?(?:cekirdek|ogutulmemis|cekirdek ogutulmemis|whole bean|v60|hario|aeropress|delter coffee press|french ?press|kagit filtre|metal filtre|moka ?pot|chemex|espresso ogutulmus|espresso|filtre(?: kahve(?: makinesi)?)?|manuel demleme|cold ?brew|turk kahvesi)$/;
 
 /**
  * Varyant etiketinden gramaj ve öğütme/demleme seçeneğini çıkarıp gerçek ürün

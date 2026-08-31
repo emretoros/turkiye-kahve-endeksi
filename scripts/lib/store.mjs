@@ -98,7 +98,8 @@ export function openStore(dataDir) {
     if (!variant) {
       variant = {
         id: nextVariantId++, productId: product.id, identityKey: key,
-        platformVariantId: record.platformVariantId || null, grams: record.grams ?? null,
+        platformVariantId: record.platformVariantId || null, url: record.url || null,
+        grams: record.grams ?? null,
         optionSignature: record.optionSignature || '', label: record.variantTitle || '',
         firstSeen: today(), lastSeen: today(), isActive: true,
         lastPrice: null, lastListPrice: null, lastInStock: null
@@ -115,6 +116,10 @@ export function openStore(dataDir) {
       if (variant.grams == null && Number.isFinite(record.grams) && record.grams > 0) {
         variant.grams = record.grams;
       }
+      // Platformlar varyantı seçili açan bağlantılar döndürebilir (ör. ikas
+      // `?vid=...`, Shopify `?variant=...`). Ürün ana sayfasına düşüp yanlış
+      // fiyatı göstermemek için en son doğrulanan varyant URL'sini koru.
+      if (record.url) variant.url = record.url;
       if (!variant.optionSignature && record.optionSignature) variant.optionSignature = record.optionSignature;
       if (!variant.label && record.variantTitle) variant.label = record.variantTitle;
     }

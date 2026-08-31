@@ -66,6 +66,28 @@ test('sonraki koşu önceden boş kalan gramajı kimliği değiştirmeden doldur
   assert.equal(second.variant.grams, 250);
 });
 
+test('varyanta özgü bağlantı sonraki koşuda kaydedilir ve kalıcı olur', () => {
+  const dir = tmpDir();
+  const roasterInput = { business: 'Varyant Bağlantısı', website: 'https://varyant.com' };
+  const record = {
+    platform: 'ikas', host: 'varyant.com', platformProductId: 'urun-1', platformVariantId: 'varyant-2',
+    urlPath: '/kahve', productName: 'Etiyopya', variantTitle: '1000 gr Çekirdek',
+    grams: 1000, price: 2100, inStock: true
+  };
+
+  const store1 = openStore(dir);
+  ingest(store1, roasterInput, record, 'run-1');
+  store1.save();
+
+  const variantUrl = 'https://varyant.com/kahve?vid=varyant-2';
+  const store2 = openStore(dir);
+  const second = ingest(store2, roasterInput, { ...record, url: variantUrl }, 'run-2');
+  store2.save();
+
+  assert.equal(second.variant.url, variantUrl);
+  assert.equal(openStore(dir).variants[0].url, variantUrl);
+});
+
 test('fiyat değişmezse ikinci koşuda observation eklenmez', () => {
   const dir = tmpDir();
   const roasterInput = { business: 'Sabit Fiyat', website: 'https://sabit.com' };

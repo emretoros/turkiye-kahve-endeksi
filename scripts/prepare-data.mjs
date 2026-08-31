@@ -92,6 +92,22 @@ const staleCutoff = new Date(`${runDate}T00:00:00Z`);
 staleCutoff.setUTCDate(staleCutoff.getUTCDate() - STALE_DAYS);
 const isFresh = (dateStr) => !!dateStr && new Date(`${dateStr}T00:00:00Z`) >= staleCutoff;
 
+function publishedVariantUrl(productUrl, product, variant) {
+  if (typeof variant?.url === 'string' && variant.url.trim()) return variant.url;
+
+  // Eski data/variants.json kayıtlarında URL alanı yok. İkas varyant kimliği
+  // mevcutsa ilk yeni taramayı beklemeden seçili varyant bağlantısını üret.
+  if (product?.platform === 'ikas' && productUrl && variant?.platformVariantId) {
+    try {
+      const url = new URL(productUrl);
+      url.searchParams.set('vid', variant.platformVariantId);
+      return url.toString();
+    } catch { /* bozuk kaynak adresinde güvenli biçimde ürün URL'sine dön */ }
+  }
+
+  return productUrl;
+}
+
 /* ------------------------------------------------------------------ indeks */
 
 const productsByRoaster = new Map();
@@ -159,9 +175,9 @@ for (const roaster of roasters) {
   const rowsBefore = rows.length;
   const roasterProducts = productsByRoaster.get(roaster.id) || [];
   for (const product of roasterProducts) {
-    const url = product.url
+    const productUrl = product.url
       || (roaster.website && product.urlPath ? `${roaster.website}${product.urlPath}` : (roaster.website || null));
-    const reason = exclusionReason(`${product.name} ${url || ''}`);
+    const reason = exclusionReason(`${product.name} ${productUrl || ''}`);
     if (reason) {
       excluded.push({ business: roaster.name, product: product.name, exclusionReason: reason });
       continue;
@@ -192,6 +208,7 @@ for (const roaster of roasters) {
 
     for (const variant of productVariants) {
       const grams = Number.isFinite(variant.grams) && variant.grams > 0 ? variant.grams : null;
+      const url = publishedVariantUrl(productUrl, product, variant);
 
       // Site "sadece çekirdek/öğütülmüş kahve fiyatı" göstermeyi hedefliyor:
       // paket gramajı bilinmeyen bir varyantın fiyatı hiçbir şekilde

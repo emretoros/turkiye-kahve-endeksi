@@ -48,6 +48,7 @@ test('öğütme seçenekleri aynı kahve varyant grubuna düşer', () => {
   assert.equal(coffeeVariantChoiceKey('Gramaj: 250 Gr, Öğütme Derecesi: Metal Filtre'), '');
   assert.equal(coffeeVariantChoiceKey('Öğütülmemiş 250 G'), '');
   assert.equal(coffeeVariantChoiceKey('250 gr / Hario'), '');
+  assert.equal(coffeeVariantChoiceKey('250 gr Delter Coffee Press'), '');
   assert.equal(coffeeVariantChoiceKey('Miktar: 250g, Öğütme: Türk Kahvesi'), '');
   assert.equal(coffeeVariantChoiceKey('Miktar: 250g, Öğütme: Coldbrew'), '');
   assert.equal(coffeeVariantChoiceKey('Kenya / V60'), 'kenya');
