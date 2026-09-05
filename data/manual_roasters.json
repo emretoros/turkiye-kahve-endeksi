@@ -53,5 +53,113 @@
     "business": "Tahmis Kahvesi",
     "website": "https://www.tahmis.com.tr",
     "note": "Resmî mağaza doğrulandı; canlı JSON-LD testinde 45 karşılaştırılabilir ürün/varyant alındı — 2026-08-20."
+  },
+  {
+    "business": "Ahanda Coffee Roastery",
+    "website": "https://www.ahanda.com.tr",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza ve kendi kavurma faaliyeti doğrulandı; Shopify testinde 36 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "CAFT Coffee Roastery",
+    "website": "https://www.caftcoffee.com",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza ve kavurucu kimliği doğrulandı; JSON-LD testinde 67 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "Castor Coffee Roaster",
+    "website": "https://castorcoffee.com.tr",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza, Yalova'daki kavurma atölyesi ve haftalık taze kavrum faaliyeti doğrulandı — 2026-09-05."
+  },
+  {
+    "business": "Coffeebou",
+    "website": "https://www.coffeebou.com",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza ve kendi tesisinde haftalık kavurma faaliyeti doğrulandı; WooCommerce testinde 23 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "HAD Coffee Roaster",
+    "website": "https://www.hadcoffeeroaster.com",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza, marka sahibinin kavurma faaliyeti ve paketli kahve satışı doğrulandı — 2026-09-05."
+  },
+  {
+    "business": "İmesta Coffee",
+    "website": "https://www.imestacoffee.com",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza ve kendi kavurma tesisi doğrulandı; Shopify testinde 53 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "Kahveras Coffee Roastery",
+    "website": "https://www.kahveras.com",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza ve taze kavrulmuş paketli kahve satışı doğrulandı; HTML meta testinde 7 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "Kahverengi Roastery",
+    "website": "https://www.kahverengiroastery.com",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza ve kendi kavurma faaliyeti doğrulandı; WooCommerce testinde 45 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "Noir Pit Coffee / Everbean Roastery",
+    "website": "https://noirpit.com",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza, özel kavurma hizmeti ve paketli kahve satışı doğrulandı; ikas testinde 193 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "Pucl Coffee Roastery",
+    "website": "https://puclcoffee.com",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza ve kavurucu kimliği doğrulandı; ikas testinde 312 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "Rio Coffee Roastery",
+    "website": "https://riocoffeeroastery.business",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza ve sipariş sonrası kavurma faaliyeti doğrulandı; WooCommerce testinde 21 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "Sensei Coffee Roastery",
+    "website": "https://senseiroastery.com",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza ve kavurma faaliyeti doğrulandı; WooCommerce testinde 133 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "Silo Kahve",
+    "website": "https://silokahve.com",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza ve Konya'daki atölyede kavurma faaliyeti doğrulandı; JSON-LD testinde 13 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "Unlimited Coffea",
+    "website": "https://unlimitedcoffea.com",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza ve kendi roastery faaliyeti doğrulandı; Shopify testinde 61 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "V Coffee",
+    "website": "https://vcoffee.com.tr",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza ve paketli taze kahve satışı doğrulandı; WooCommerce testinde 81 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "Vasla Coffee & Roastery",
+    "website": "https://vasla.com.tr",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza, haftalık kavurma ve paketli kahve satışı doğrulandı; mevcut collector yapısal kayıt çıkaramadığı için manuel izlenecek — 2026-09-05."
+  },
+  {
+    "business": "Veranda Coffee Company",
+    "website": "https://verandacoffee.com.tr",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza ve Roastery Department faaliyeti doğrulandı; WooCommerce testinde 18 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "WO Coffee Roastery",
+    "website": "https://wocoffeeroastery.com",
+    "businessStatus": "Doğrulandı",
+    "note": "Resmî mağaza ve kendi kavurma profilleri doğrulandı; ikas testinde 170 ham katalog kaydı alındı — 2026-09-05."
   }
 ]
