@@ -710,8 +710,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-09-05",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
   },
   {
     "id": 52,
@@ -766,8 +766,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-09-05",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
   },
   {
     "id": 56,
@@ -1004,8 +1004,8 @@
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-09-05",
-    "dataStatus": "active",
-    "dataStatusNote": null
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
   },
   {
     "id": 73,
@@ -1299,7 +1299,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-09-05",
     "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | wix: The operation was aborted due to timeout | enjekte: The operation was aborted due to timeout"
   },
   {
     "id": 94,
@@ -2516,8 +2516,8 @@
     "platform": "jsonld",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-09-05",
-    "dataStatus": "active",
-    "dataStatusNote": null
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
   },
   {
     "id": 181,
@@ -2614,8 +2614,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-09-05",
-    "dataStatus": "no_structured_data",
-    "dataStatusNote": "shopify: 429 Too Many Requests | woocommerce: 404 Not Found | ikas: 429 Too Many Requests | ticimax: Ticimax imzası bulunamadı | enjekte: 429 Too Many Requests"
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
   },
   {
     "id": 188,
@@ -2686,5 +2686,257 @@
     "lastSeen": "2026-09-05",
     "dataStatus": "active",
     "dataStatusNote": null
+  },
+  {
+    "id": 193,
+    "slug": "ahanda-coffee-roastery",
+    "name": "Ahanda Coffee Roastery",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://ahanda.com.tr",
+    "instagram": null,
+    "platform": "shopify",
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "active",
+    "dataStatusNote": null
+  },
+  {
+    "id": 194,
+    "slug": "castor-coffee-roaster",
+    "name": "Castor Coffee Roaster",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://castorcoffee.com.tr",
+    "instagram": null,
+    "platform": null,
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "id": 195,
+    "slug": "imesta-coffee",
+    "name": "İmesta Coffee",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://imestacoffee.com",
+    "instagram": null,
+    "platform": "shopify",
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "active",
+    "dataStatusNote": null
+  },
+  {
+    "id": 196,
+    "slug": "coffeebou",
+    "name": "Coffeebou",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://coffeebou.com",
+    "instagram": null,
+    "platform": "woocommerce",
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "active",
+    "dataStatusNote": null
+  },
+  {
+    "id": 197,
+    "slug": "caft-coffee-roastery",
+    "name": "CAFT Coffee Roastery",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://caftcoffee.com",
+    "instagram": null,
+    "platform": "jsonld",
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "active",
+    "dataStatusNote": null
+  },
+  {
+    "id": 198,
+    "slug": "kahverengi-roastery",
+    "name": "Kahverengi Roastery",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://kahverengiroastery.com",
+    "instagram": null,
+    "platform": "woocommerce",
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "active",
+    "dataStatusNote": null
+  },
+  {
+    "id": 199,
+    "slug": "had-coffee-roaster",
+    "name": "HAD Coffee Roaster",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://hadcoffeeroaster.com",
+    "instagram": null,
+    "platform": "wix",
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "active",
+    "dataStatusNote": null
+  },
+  {
+    "id": 200,
+    "slug": "kahveras-coffee-roastery",
+    "name": "Kahveras Coffee Roastery",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://kahveras.com",
+    "instagram": null,
+    "platform": "html-meta",
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "active",
+    "dataStatusNote": null
+  },
+  {
+    "id": 201,
+    "slug": "sensei-coffee-roastery",
+    "name": "Sensei Coffee Roastery",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://senseiroastery.com",
+    "instagram": null,
+    "platform": null,
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ticimax: Ticimax imzası bulunamadı"
+  },
+  {
+    "id": 202,
+    "slug": "pucl-coffee-roastery",
+    "name": "Pucl Coffee Roastery",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://puclcoffee.com",
+    "instagram": null,
+    "platform": "ikas",
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "active",
+    "dataStatusNote": null
+  },
+  {
+    "id": 203,
+    "slug": "rio-coffee-roastery",
+    "name": "Rio Coffee Roastery",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://riocoffeeroastery.business",
+    "instagram": null,
+    "platform": "woocommerce",
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "active",
+    "dataStatusNote": null
+  },
+  {
+    "id": 204,
+    "slug": "unlimited-coffea",
+    "name": "Unlimited Coffea",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://unlimitedcoffea.com",
+    "instagram": null,
+    "platform": "shopify",
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "active",
+    "dataStatusNote": null
+  },
+  {
+    "id": 205,
+    "slug": "v-coffee",
+    "name": "V Coffee",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://vcoffee.com.tr",
+    "instagram": null,
+    "platform": null,
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ticimax: Ticimax imzası bulunamadı"
+  },
+  {
+    "id": 206,
+    "slug": "vasla-coffee-roastery",
+    "name": "Vasla Coffee & Roastery",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://vasla.com.tr",
+    "instagram": null,
+    "platform": null,
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "blocked",
+    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ticimax: Ticimax imzası bulunamadı"
+  },
+  {
+    "id": 207,
+    "slug": "silo-kahve",
+    "name": "Silo Kahve",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://silokahve.com",
+    "instagram": null,
+    "platform": null,
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "id": 208,
+    "slug": "noir-pit-coffee-everbean-roastery",
+    "name": "Noir Pit Coffee / Everbean Roastery",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://noirpit.com",
+    "instagram": null,
+    "platform": "ikas",
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "active",
+    "dataStatusNote": null
+  },
+  {
+    "id": 209,
+    "slug": "wo-coffee-roastery",
+    "name": "WO Coffee Roastery",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://wocoffeeroastery.com",
+    "instagram": null,
+    "platform": "ikas",
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "active",
+    "dataStatusNote": null
+  },
+  {
+    "id": 210,
+    "slug": "veranda-coffee-company",
+    "name": "Veranda Coffee Company",
+    "city": null,
+    "status": "Doğrulandı",
+    "website": "https://verandacoffee.com.tr",
+    "instagram": null,
+    "platform": null,
+    "firstSeen": "2026-09-05",
+    "lastSeen": "2026-09-05",
+    "dataStatus": "unreachable",
+    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
   }
 ]
