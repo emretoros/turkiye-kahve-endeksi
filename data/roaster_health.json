@@ -61570,5 +61570,1429 @@
     "deltaPct": 0,
     "flagged": false,
     "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "A Roasting Lab",
+    "rows": 486,
+    "deltaPct": 2,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Backfield Roasting Co.",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Ben Coffee Co.",
+    "rows": 283,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Boxx Coffee Roasters",
+    "rows": 207,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Akademi Kahve",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: 503 Service Unavailable | ikas: 404 Not Found | ticimax: 503 Service Unavailable | wix: 503 Service Unavailable | enjekte: 503 Service Unavailable"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Baristocrat",
+    "rows": 12,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Arabica Coffee House",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "cafeMU",
+    "rows": 30,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coach Coffee Company",
+    "rows": 387,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "1978 Coffee Roastery",
+    "rows": 17,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Bravo Coffee Roastery",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Artukbey Kahve",
+    "rows": 5,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coffee Department",
+    "rows": 37,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Cho Coffee Roastery",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Bu Coffee Roastery",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coffee Sapiens",
+    "rows": 213,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coffee Lab",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coffee Manifesto",
+    "rows": 57,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coffeerem Roastery",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coffee Code Roasters",
+    "rows": 823,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coffee Project",
+    "rows": 78,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Deal Coffee Co.",
+    "rows": 177,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Collective Coffee Roasters",
+    "rows": 15,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coffy",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "der Röster",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Edition Coffee Roastery",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Four Letter Word Coffee",
+    "rows": 1,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coffee Friendzone",
+    "rows": 205,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Good Coffee",
+    "rows": 74,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Depo Coffee Roasting",
+    "rows": 50,
+    "deltaPct": 2,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Espressolab",
+    "rows": 4,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coffeemamma",
+    "rows": 193,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Gramaj Coffee Roastery",
+    "rows": 98,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Harput Dibek",
+    "rows": 103,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "ICC Coffee Roastery / Istanbul Coffee Company",
+    "rows": 11,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Fuga Coffee",
+    "rows": 56,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kafeingo",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Just Coffee & Roastery",
+    "rows": 31,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kaave Roastery",
+    "rows": 50,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Guten Morgen Roastery",
+    "rows": 172,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kahve Diyarı",
+    "rows": 32,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kernel Coffee",
+    "rows": 187,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Khaldi Coffee",
+    "rows": 32,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kimma Coffee Roasters",
+    "rows": 132,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kahve Dünyası",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kocatepe Kahve Evi",
+    "rows": 10,
+    "deltaPct": -9,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kurukahveci Mehmet Efendi",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "MeetLab Coffee",
+    "rows": 18,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coffee Tropic",
+    "rows": 481,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Keobs Coffee Roastery",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kahve.com / Moliendo",
+    "rows": 86,
+    "deltaPct": 207,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Montag Coffee Roasters",
+    "rows": 287,
+    "deltaPct": 1267,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Molecule Coffee",
+    "rows": 187,
+    "deltaPct": 1,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Nok Coffee",
+    "rows": 69,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Null Coffee Roasters",
+    "rows": 278,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Lagetom Coffee",
+    "rows": 15,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Octagon Coffee",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Noite Coffee",
+    "rows": 3,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Orkun Üstel",
+    "rows": 168,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Greenwich Coffee",
+    "rows": 1202,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Pangea Coffee",
+    "rows": 92,
+    "deltaPct": 2,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Mona Coffee",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Old Java Coffee Roasters",
+    "rows": 32,
+    "deltaPct": 433,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Parsa Coffee Roasters",
+    "rows": 11,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Perkup Coffee",
+    "rows": 493,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Petra Coffee",
+    "rows": 351,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Oze Kahve",
+    "rows": 191,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Posa Coffee",
+    "rows": 108,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Poka Coffee Roasters",
+    "rows": 37,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Paper Coffee & Chocolate",
+    "rows": 339,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Roast Room",
+    "rows": 218,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Ordinarius Coffee Roastery",
+    "rows": 74,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Roasterlab",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Punctum Coffee",
+    "rows": 42,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "RoasterLab",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Probador Colectiva",
+    "rows": 18,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Sezy Coffee",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "People of Coffee",
+    "rows": 57,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Story Coffee Roasters",
+    "rows": 213,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Spada Coffee",
+    "rows": 210,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Tahmis Kahvesi",
+    "rows": 71,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Sedirkent Coffee",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Walter’s Coffee Roastery",
+    "rows": 62,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Milestones Coffee",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Tropika Coffee Roastery",
+    "rows": 23,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Whiff Coffee Roastery",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ticimax: Ticimax imzası bulunamadı"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kronotrop",
+    "rows": 10,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coffeeizim Coffee Roastery",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Williams Roastery",
+    "rows": 51,
+    "deltaPct": -6,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Cup of Joy",
+    "rows": 73,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Benesso Coffee",
+    "rows": 167,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Homestead Coffee",
+    "rows": 115,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Top Roasters",
+    "rows": 11,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Mocaco Coffee",
+    "rows": 145,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Gönül Kahvesi",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: Ticimax imzası bulunamadı | enjekte: 403 Forbidden"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Selamlique İstanbul",
+    "rows": 244,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Rumo Coffee",
+    "rows": 63,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Shazel",
+    "rows": 326,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Taft Coffee",
+    "rows": 263,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Sanal Baharat",
+    "rows": 29,
+    "deltaPct": 71,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Baristas Roastery",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kahve Fabrikası",
+    "rows": 57,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Federal Coffee",
+    "rows": 24,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Clean Cup Coffee",
+    "rows": 69,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Grano Coffee",
+    "rows": 46,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Fam Coffee",
+    "rows": 22,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "A4 Kahve",
+    "rows": 96,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Hound Coffee",
+    "rows": 184,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Gourme Coffee",
+    "rows": 254,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "CoffeeNutz",
+    "rows": 281,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Nitka Coffee",
+    "rows": 355,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Daphne Coffee Co.",
+    "rows": 15,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Calibre Coffee",
+    "rows": 105,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Tone Coffee Roastery Co.",
+    "rows": 798,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Rawtown Coffee Roastery",
+    "rows": 70,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kruen Roastery",
+    "rows": 72,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Shady Coffee Roastery",
+    "rows": 54,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kilin Coffee",
+    "rows": 217,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "MOC Coffee Roastery",
+    "rows": 463,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Zümrüt Karaca Coffee Roastery",
+    "rows": 44,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Fabriek Coffee",
+    "rows": 242,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Trophy Coffee Roastery",
+    "rows": 124,
+    "deltaPct": 2,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Con Tu Coffee Roastery",
+    "rows": 48,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Wayta Coffee",
+    "rows": 399,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Specific Coffee",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Gordion Coffee Roastery",
+    "rows": 7,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Ultra Coffee Roastery",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Niji Coffee Co.",
+    "rows": 4,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Fil Coffee Roaster",
+    "rows": 52,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kafein Kültür",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 500 Internal Server Error | woocommerce: 500 Internal Server Error | ikas: 500 Internal Server Error | ticimax: Ticimax imzası bulunamadı | enjekte: 500 Internal Server Error"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Lot Coffee Roastery",
+    "rows": 207,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Vitus Coffee & Roastery",
+    "rows": 120,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kungpow Coffee",
+    "rows": 4,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "3 Cores Coffee & Roastery",
+    "rows": 11,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Terazi Coffee & Roastery",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Caffé Di Toeé",
+    "rows": 14,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Récolte Coffee Roastery",
+    "rows": 28,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Grizzly Coffee Roasters",
+    "rows": 71,
+    "deltaPct": 58,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Strong Coffee Beans",
+    "rows": 41,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Troika Roasting Co.",
+    "rows": 151,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "C.R.E.A.M. Coffee Roastery",
+    "rows": 27,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "FUA Coffee",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Logra Coffee Roastery",
+    "rows": 133,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Olwen Coffee Company",
+    "rows": 146,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Flores Roastery",
+    "rows": 59,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coffee Haus",
+    "rows": 274,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "ARC CO",
+    "rows": 32,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Must Coffee & Roastery",
+    "rows": 14,
+    "deltaPct": 8,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Anisah Coffee",
+    "rows": 214,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Pacamara Coffee",
+    "rows": 11,
+    "deltaPct": -77,
+    "flagged": true,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Bentz Coffee & Roastery",
+    "rows": 399,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Fluxus Coffee Roastery",
+    "rows": 245,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Atölye Kuban",
+    "rows": 293,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Tenebrew",
+    "rows": 14,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Tetra N Roastery",
+    "rows": 67,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Ahanda Coffee Roastery",
+    "rows": 36,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Main Coffee",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 429 Too Many Requests | woocommerce: 404 Not Found | ikas: 429 Too Many Requests | ticimax: Ticimax imzası bulunamadı | enjekte: 429 Too Many Requests"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "The Whirl Roastery",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 403 Forbidden | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "The Flavour Coffee",
+    "rows": 170,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Castor Coffee Roaster",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "İmesta Coffee",
+    "rows": 53,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "HAD Coffee Roaster",
+    "rows": 4,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "CAFT Coffee Roastery",
+    "rows": 80,
+    "deltaPct": 3,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kahveras Coffee Roastery",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 423 Locked | woocommerce: 423 Locked | ikas: 423 Locked | ticimax: 423 Locked | wix: 429 Too Many Requests | enjekte: 423 Locked"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Coffeebou",
+    "rows": 24,
+    "deltaPct": 4,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Kahverengi Roastery",
+    "rows": 45,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Rio Coffee Roastery",
+    "rows": 21,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Silo Kahve",
+    "rows": 1,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Pucl Coffee Roastery",
+    "rows": 312,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Unlimited Coffea",
+    "rows": 61,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Savène Coffee Co.",
+    "rows": 86,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Veranda Coffee Company",
+    "rows": 18,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "V Coffee",
+    "rows": 81,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Noir Pit Coffee / Everbean Roastery",
+    "rows": 193,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Buegros Coffee Roastery",
+    "rows": 202,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "WO Coffee Roastery",
+    "rows": 170,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Vasla Coffee & Roastery",
+    "rows": 0,
+    "deltaPct": null,
+    "flagged": true,
+    "error": "shopify: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+  },
+  {
+    "runId": "run-2026-09-20T07-32-20-773Z",
+    "roasterSlug": "Sensei Coffee Roastery",
+    "rows": 133,
+    "deltaPct": 0,
+    "flagged": false,
+    "error": null
   }
 ]
