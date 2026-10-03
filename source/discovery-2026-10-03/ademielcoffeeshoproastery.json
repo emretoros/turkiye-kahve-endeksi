@@ -1,0 +1,50 @@
+{
+  "business": "Ade Miel Coffee Shop & Roastery",
+  "city": null,
+  "website": "https://www.ademielcoffee.com",
+  "checkedAt": "2026-10-03T08:24:00.270Z",
+  "existing": null,
+  "evidence": [
+    {
+      "url": "https://www.ademielcoffee.com/",
+      "links": [
+        "https://assets.zyrosite.com/",
+        "https://www.ademielcoffee.com/",
+        "https://cdn.zyrosite.com/u1/google-fonts/font-faces?family=DM+Sans:wght@400;500&family=Montserrat:wght@300;400&family=Barlow:wght@400;500;700&family=Poppins:wght@400;700&family=Roboto+Mono:wght@400;700&family=Inconsolata:wght@400;700&family=Bebas+Neue:wght@400&display=swap",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=16,h=16,fit=crop,f=png/m2WE5go6JJhnP7rV/logo_orijinal_altyaza--sa--z-YbNJM3n5G7IDZRK4.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=32,h=32,fit=crop,f=png/m2WE5go6JJhnP7rV/logo_orijinal_altyaza--sa--z-YbNJM3n5G7IDZRK4.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=192,h=192,fit=crop,f=png/m2WE5go6JJhnP7rV/logo_orijinal_altyaza--sa--z-YbNJM3n5G7IDZRK4.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=180,h=180,fit=crop,f=png/m2WE5go6JJhnP7rV/logo_orijinal_altyaza--sa--z-YbNJM3n5G7IDZRK4.png",
+        "https://assets.zyrosite.com/m2WE5go6JJhnP7rV/traffic.txt",
+        "https://www.ademielcoffee.com/_astro-1790182594147/_..ke0S411E.css",
+        "https://www.ademielcoffee.com/_astro-1790182594147/cookieconsent.p7tfYeZO.css",
+        "https://www.ademielcoffee.com/hakkimizda",
+        "https://www.ademielcoffee.com/magazine",
+        "https://www.ademielcoffee.com/ani-defteri",
+        "https://www.ademielcoffee.com/blog",
+        "https://www.ademielcoffee.com/bize-ulasin",
+        "https://www.ademielcoffee.com/bize-ulasin#rezervasyon",
+        "https://www.ademielcoffee.com/bize-ulasin#isbasvuru",
+        "https://www.ademielcoffee.com/yazar-ol",
+        "https://www.ademielcoffee.com/blog-yaz",
+        "https://www.ademielcoffee.com/bize-ulasin#iletisim",
+        "https://www.ademielcoffee.com/toptan-alim",
+        "https://www.ademielcoffee.com/gizlilik-ilkesi",
+        "https://www.ademielcoffee.com/iade-politikasi",
+        "https://www.ademielcoffee.com/uyelik-sozlesmesi"
+      ],
+      "text": "Ade Miel Coffee Shop &amp; Roastery - Anasayfa | Ade Miel Coffee Shop &amp; Roastery Anasayfa Hakkımızda Magazine Anı Defteri Blog İletişim Bize Ulaşın Rezervasyon İş Başvuruları Yazar Ol Anasayfa Hakkımızda Magazine Anı Defteri Blog İletişim Bize Ulaşın Rezervasyon İş Başvuruları Yazar Ol ATMOSFERİMİZDESİNİZ Ade Miel Magazine Çıktı! Sİz De Yazar Olmak İster Mİsİnİz? Başvurmak İçin Tıklayınız Bize Ulaşın Rezervasyon İş başvuruları Anı Defteri Blog Yazın Hakkımızda Magazine Hakkımızda Devamını Oku Kızılay'ın kalbinde, Hatay Sokak'ta sıcak bir kahve molası için sizi bekliyoruz! 2020'den bu yana, en özel kahve çekirdeklerini özenle kavurup, mahalle sıcaklığıyla sunuyoruz. Üçüncü nesil kahvecilik anlayışıyla, dünyanın seçkin bölgelerinden getirdiğimiz çekirdekleri kendi atölyemizde kavuruyor, her fincanda unutulmaz bir deneyim sunuyoruz. Baristalarımızın uzmanlığıyla hazırlanan özel demleme yöntemlerini keşfetmek, sıcak ve samimi atmosferimizde keyifli bir mola vermek için bekleriz! Ade Miel Anı Defteri Anı Defterini doldurmak için Basınız Hakkımızda Ade Miel Coffee Shop &amp; Roastery İş Başvuruları Rezervasyon Toptan Alım Anı Defteri Blog Yasal Gizlilik İlkeleri İade Politikası KVKK Hizmet Şartları Üyelik Sözleşmesi Tüketici Hakları Yeniliklerden haberdar olmak için abone olun. Gönder © 2025 Ade miel coffee shop &amp; roastery Her Gün | 09.00 - 00.00 Çalışma Saatlerimiz"
+    }
+  ],
+  "platform": null,
+  "records": [],
+  "error": "shopify: 404  | woocommerce: 404  | ikas: 404  | ticimax: Ticimax imzası bulunamadı | enjekte: 404 ",
+  "errors": [
+    "shopify: 404 ",
+    "woocommerce: 404 ",
+    "ikas: 404 ",
+    "ticimax: Ticimax imzası bulunamadı",
+    "enjekte: 404 "
+  ],
+  "seconds": 2
+}

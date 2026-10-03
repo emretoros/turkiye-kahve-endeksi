@@ -1,0 +1,20 @@
+{
+  "business": "Antares Coffee Roastery",
+  "city": null,
+  "website": "https://antarescoffee.com",
+  "checkedAt": "2026-10-03T08:24:01.522Z",
+  "existing": null,
+  "evidence": [],
+  "platform": null,
+  "records": [],
+  "error": "shopify: 500 Internal Server Error | woocommerce: 500 Internal Server Error | ikas: 500 Internal Server Error | ticimax: 500 Internal Server Error | wix: 500 Internal Server Error | enjekte: 500 Internal Server Error",
+  "errors": [
+    "shopify: 500 Internal Server Error",
+    "woocommerce: 500 Internal Server Error",
+    "ikas: 500 Internal Server Error",
+    "ticimax: 500 Internal Server Error",
+    "wix: 500 Internal Server Error",
+    "enjekte: 500 Internal Server Error"
+  ],
+  "seconds": 1
+}

@@ -81506,5 +81506,109 @@
     "deltaPct": 0,
     "flagged": false,
     "error": null
+  },
+  {
+    "runId": "discovery-2026-10-03-batch-01",
+    "roasterSlug": "Beanofme Specialty Coffee Roasting",
+    "rows": 131,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "discovery-2026-10-03-batch-01",
+    "roasterSlug": "Brew Gorillas Coffee Roastery",
+    "rows": 76,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "discovery-2026-10-03-batch-01",
+    "roasterSlug": "Crow Coffee Roastery",
+    "rows": 11,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "discovery-2026-10-03-batch-01",
+    "roasterSlug": "Doz Roastery",
+    "rows": 275,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "discovery-2026-10-03-batch-01",
+    "roasterSlug": "Dr. Roaster",
+    "rows": 105,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "discovery-2026-10-03-batch-01",
+    "roasterSlug": "Dunno Coffee",
+    "rows": 188,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "discovery-2026-10-03-batch-01",
+    "roasterSlug": "Fahrenheit Coffee Roastery",
+    "rows": 10,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "discovery-2026-10-03-batch-01",
+    "roasterSlug": "Hermod Coffee",
+    "rows": 100,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "discovery-2026-10-03-batch-01",
+    "roasterSlug": "Looffy's Coffee",
+    "rows": 104,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "discovery-2026-10-03-batch-01",
+    "roasterSlug": "Manguu Coffee Roastery",
+    "rows": 277,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "discovery-2026-10-03-batch-01",
+    "roasterSlug": "Petrus Coffee Roastery",
+    "rows": 553,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "discovery-2026-10-03-batch-01",
+    "roasterSlug": "Varona Coffee",
+    "rows": 77,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "discovery-2026-10-03-batch-01",
+    "roasterSlug": "Wemond Coffee",
+    "rows": 27,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
   }
 ]

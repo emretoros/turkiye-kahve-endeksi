@@ -161,5 +161,106 @@
     "website": "https://wocoffeeroastery.com",
     "businessStatus": "Doğrulandı",
     "note": "Resmî mağaza ve kendi kavurma profilleri doğrulandı; ikas testinde 170 ham katalog kaydı alındı — 2026-09-05."
+  },
+  {
+    "business": "Wemond Coffee",
+    "city": "İstanbul",
+    "website": "https://wemondcoffee.com",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-03 keşif turu: resmî mağaza, Türkiye faaliyeti ve paketli B2C kahve doğrulandı; shopify ile 27 gramaj/fiyat/stok bilgili kahve varyantı alındı. Kanıt: source/discovery_2026-10-03.json."
+  },
+  {
+    "business": "Brew Gorillas Coffee Roastery",
+    "city": "Samsun",
+    "website": "https://www.brewgorillas.com",
+    "instagram": "https://www.instagram.com/brewgorillas/",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-03 keşif turu: resmî mağaza, Türkiye faaliyeti ve paketli B2C kahve doğrulandı; shopify ile 72 gramaj/fiyat/stok bilgili kahve varyantı alındı. Kanıt: source/discovery_2026-10-03.json."
+  },
+  {
+    "business": "Crow Coffee Roastery",
+    "city": "Balıkesir",
+    "website": "https://www.crowcoffee.co",
+    "instagram": "https://www.instagram.com/crowayvalik/",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-03 keşif turu: resmî mağaza, Türkiye faaliyeti ve paketli B2C kahve doğrulandı; wix ile 11 gramaj/fiyat/stok bilgili kahve varyantı alındı. Kanıt: source/discovery_2026-10-03.json."
+  },
+  {
+    "business": "Fahrenheit Coffee Roastery",
+    "city": "Antalya",
+    "website": "https://www.fahrenheitcoffeeroastery.com",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-03 keşif turu: resmî mağaza, Türkiye faaliyeti ve paketli B2C kahve doğrulandı; wix ile 10 gramaj/fiyat/stok bilgili kahve varyantı alındı. Kanıt: source/discovery_2026-10-03.json."
+  },
+  {
+    "business": "Manguu Coffee Roastery",
+    "city": "Denizli",
+    "website": "https://manguu.com.tr",
+    "instagram": "https://www.instagram.com/manguucoffeetr/",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-03 keşif turu: resmî mağaza, Türkiye faaliyeti ve paketli B2C kahve doğrulandı; ikas ile 265 gramaj/fiyat/stok bilgili kahve varyantı alındı. Kanıt: source/discovery_2026-10-03.json."
+  },
+  {
+    "business": "Beanofme Specialty Coffee Roasting",
+    "city": "Muğla",
+    "website": "https://beanofme.com.tr",
+    "instagram": "https://instagram.com/beanofme",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-03 keşif turu: resmî mağaza, Türkiye faaliyeti ve paketli B2C kahve doğrulandı; woocommerce ile 68 gramaj/fiyat/stok bilgili kahve varyantı alındı. Kanıt: source/discovery_2026-10-03.json."
+  },
+  {
+    "business": "Varona Coffee",
+    "city": "Muğla",
+    "website": "https://varonacoffee.com",
+    "instagram": "https://www.instagram.com/varonacoffee",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-03 keşif turu: resmî mağaza, Türkiye faaliyeti ve paketli B2C kahve doğrulandı; woocommerce ile 70 gramaj/fiyat/stok bilgili kahve varyantı alındı. Kanıt: source/discovery_2026-10-03.json."
+  },
+  {
+    "business": "Dr. Roaster",
+    "city": "Manisa",
+    "website": "https://drroaster.com",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-03 keşif turu: resmî mağaza, Türkiye faaliyeti ve paketli B2C kahve doğrulandı; woocommerce ile 105 gramaj/fiyat/stok bilgili kahve varyantı alındı. Kanıt: source/discovery_2026-10-03.json."
+  },
+  {
+    "business": "Looffy's Coffee",
+    "city": "İzmir",
+    "website": "https://looffyscoffee.com",
+    "instagram": "https://www.instagram.com/looffyscoffee/",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-03 keşif turu: resmî mağaza, Türkiye faaliyeti ve paketli B2C kahve doğrulandı; ikas ile 101 gramaj/fiyat/stok bilgili kahve varyantı alındı. Kanıt: source/discovery_2026-10-03.json."
+  },
+  {
+    "business": "Petrus Coffee Roastery",
+    "city": "Isparta",
+    "website": "https://petrusroastery.com",
+    "instagram": "https://www.instagram.com/petruscoffee.roastery",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-03 keşif turu: resmî mağaza, Türkiye faaliyeti ve paketli B2C kahve doğrulandı; ikas ile 553 gramaj/fiyat/stok bilgili kahve varyantı alındı. Kanıt: source/discovery_2026-10-03.json."
+  },
+  {
+    "business": "Doz Roastery",
+    "city": "İstanbul",
+    "website": "https://doz.coffee",
+    "instagram": "https://www.instagram.com/dozroastery/",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-03 keşif turu: resmî mağaza, Türkiye faaliyeti ve paketli B2C kahve doğrulandı; shopify ile 268 gramaj/fiyat/stok bilgili kahve varyantı alındı. Kanıt: source/discovery_2026-10-03.json."
+  },
+  {
+    "business": "Hermod Coffee",
+    "city": "Kocaeli",
+    "website": "https://hermodcoffee.com",
+    "instagram": "https://www.instagram.com/hermodcoffee/",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-03 keşif turu: resmî mağaza, Türkiye faaliyeti ve paketli B2C kahve doğrulandı; ikas ile 96 gramaj/fiyat/stok bilgili kahve varyantı alındı. Kanıt: source/discovery_2026-10-03.json."
+  },
+  {
+    "business": "Dunno Coffee",
+    "city": null,
+    "website": "https://dunnocoffee.co",
+    "instagram": "https://www.instagram.com/dunnocoffeeco/",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-03 keşif turu: resmî mağaza, Türkiye faaliyeti ve paketli B2C kahve doğrulandı; ikas ile 166 gramaj/fiyat/stok bilgili kahve varyantı alındı. Kanıt: source/discovery_2026-10-03.json."
   }
 ]

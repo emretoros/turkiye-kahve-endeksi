@@ -556,5 +556,15 @@
     "totalRows": 19088,
     "totalChanged": 289,
     "errors": 33
+  },
+  {
+    "runId": "discovery-2026-10-03-batch-01",
+    "startedAt": "2026-10-03T08:22:39.201Z",
+    "finishedAt": "2026-10-03T08:32:53.181Z",
+    "businesses": 13,
+    "totalRows": 1934,
+    "totalChanged": 1915,
+    "errors": 0,
+    "scope": "verified discovery batch"
   }
 ]

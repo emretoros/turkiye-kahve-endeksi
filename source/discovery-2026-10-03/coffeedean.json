@@ -1,0 +1,54 @@
+{
+  "business": "COFFEEDEAN",
+  "city": "Antalya",
+  "website": "https://www.coffeedean.com.tr",
+  "checkedAt": "2026-10-03T08:22:45.049Z",
+  "existing": null,
+  "evidence": [
+    {
+      "url": "https://www.coffeedean.com.tr/",
+      "links": [
+        "https://www.coffeedean.com.tr/coffedean-logo.png",
+        "https://coffeedean.com.tr/",
+        "https://www.coffeedean.com.tr/assets/index-B8B-9fmb.css"
+      ],
+      "text": "Konsinye Kahve Makinesi Antalya | Coffedean &amp; Sabroso"
+    },
+    {
+      "url": "https://www.coffeedean.com.tr/iletisim",
+      "links": [
+        "https://www.coffeedean.com.tr/coffedean-logo.png",
+        "https://coffeedean.com.tr/",
+        "https://www.coffeedean.com.tr/assets/index-B8B-9fmb.css"
+      ],
+      "text": "Konsinye Kahve Makinesi Antalya | Coffedean &amp; Sabroso"
+    },
+    {
+      "url": "https://www.coffeedean.com.tr/iletisim",
+      "links": [
+        "https://www.coffeedean.com.tr/coffedean-logo.png",
+        "https://coffeedean.com.tr/",
+        "https://www.coffeedean.com.tr/assets/index-B8B-9fmb.css"
+      ],
+      "text": "Konsinye Kahve Makinesi Antalya | Coffedean &amp; Sabroso"
+    },
+    {
+      "url": "https://www.coffeedean.com.tr/pages/contact",
+      "links": [
+        "https://www.coffeedean.com.tr/coffedean-logo.png",
+        "https://coffeedean.com.tr/",
+        "https://www.coffeedean.com.tr/assets/index-B8B-9fmb.css"
+      ],
+      "text": "Konsinye Kahve Makinesi Antalya | Coffedean &amp; Sabroso"
+    }
+  ],
+  "platform": null,
+  "records": [],
+  "error": "shopify: 406  | woocommerce: 406  | ticimax: Ticimax imzası bulunamadı",
+  "errors": [
+    "shopify: 406 ",
+    "woocommerce: 406 ",
+    "ticimax: Ticimax imzası bulunamadı"
+  ],
+  "seconds": 0
+}
