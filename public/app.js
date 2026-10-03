@@ -6,6 +6,9 @@ const shortDate = new Intl.DateTimeFormat('tr-TR');
 const els = Object.fromEntries(['search','origin','business','price-change','weight-range','sort','product-rows','result-summary','prev','next','page-label','clear','stat-last-control','price-update-summary','footer-update','origin-guide','origin-guide-title','origin-guide-copy','advisor-launch','advisor-panel','advisor-close','advisor-messages','advisor-actions'].map(id => [id, document.getElementById(id)]));
 let all = [], filtered = [], page = 1, history = {}, historyThrough = null, originGuides = {};
 const pageSize = 30;
+const priceChangeCounts = new Map();
+const businessOrder = new Map();
+let priceChangeOrder = [];
 
 const esc = (value) => String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const available = (value, format = String) => value == null ? '<span class="missing">Erişilemedi</span>' : format(value);
@@ -16,6 +19,68 @@ function priceChangeStatus(row) {
   if (row.price > row.previousPrice) return 'up';
   if (row.price < row.previousPrice) return 'down';
   return 'same';
+}
+
+function countPriceChanges(row) {
+  const points = (history[row.variantId] || [])
+    .filter(point => Array.isArray(point) && typeof point[0] === 'string' && Number.isFinite(point[1]) && point[1] > 0)
+    .slice().sort((a, b) => a[0].localeCompare(b[0]));
+  let changes = 0;
+  let previous = null;
+  for (const [, price] of points) {
+    if (previous !== null && price !== previous) changes++;
+    previous = price;
+  }
+  // Güncel fiyat henüz geçmiş dosyasına girmemişse son hareketi de say.
+  if (previous !== null && Number.isFinite(row.price) && row.price > 0 && row.price !== previous) changes++;
+  return Math.max(changes, ['up', 'down'].includes(priceChangeStatus(row)) ? 1 : 0);
+}
+
+function shuffleRows(rows) {
+  const shuffled = rows.slice();
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function orderByPriceChanges(rows) {
+  const tiers = new Map();
+  for (const row of rows) {
+    const count = priceChangeCounts.get(row) ?? 0;
+    if (!tiers.has(count)) tiers.set(count, new Map());
+    const businesses = tiers.get(count);
+    if (!businesses.has(row.business)) businesses.set(row.business, { rows: [], index: 0 });
+    businesses.get(row.business).rows.push(row);
+  }
+  const ordered = [];
+  let previousBusiness = null;
+  for (const count of [...tiers.keys()].sort((a, b) => b - a)) {
+    let queues = [...tiers.get(count)].map(([business, queue]) => ({ business, ...queue }))
+      .sort((a, b) => businessOrder.get(a.business) - businessOrder.get(b.business));
+    let remaining = queues.reduce((sum, queue) => sum + queue.rows.length, 0);
+    while (remaining) {
+      // Dönüşümlü işletme sırası. Bir işletmenin çok ürünü varsa kalan
+      // ürünlerini aralara dağıt; başka işletme varken art arda gelmesin.
+      const eligible = queues.filter(queue => queue.business !== previousBusiness);
+      let next = eligible[0] || queues[0];
+      const largest = eligible.reduce((best, queue) =>
+        !best || queue.rows.length - queue.index > best.rows.length - best.index ? queue : best, null);
+      if (largest && largest.rows.length - largest.index >= remaining / 2) next = largest;
+      ordered.push(next.rows[next.index++]);
+      previousBusiness = next.business;
+      remaining--;
+      queues = queues.filter(queue => queue !== next && queue.index < queue.rows.length);
+      if (next.index < next.rows.length) queues.push(next);
+    }
+  }
+  return ordered;
+}
+
+function sortProducts(rows, sort) {
+  if (sort === 'changes-desc') return orderByPriceChanges(rows);
+  return rows.sort((a,b) => sort === 'price-asc' ? (a.price ?? Infinity) - (b.price ?? Infinity) : a.business.localeCompare(b.business, 'tr'));
 }
 
 /* ------------------------------------------------------ fiyat geçmişi grafiği */
@@ -381,7 +446,7 @@ function closeAdvisor() {
 
 function applyFilters() {
   const q = els.search.value.trim().toLocaleLowerCase('tr');
-  filtered = all.filter(row => {
+  filtered = (els.sort.value === 'changes-desc' ? priceChangeOrder : all).filter(row => {
     const text = `${row.business} ${row.product} ${row.origin} ${(row.aliases || []).join(' ')} ${row.instagram || ''}`.toLocaleLowerCase('tr');
     const weightRange = els['weight-range'].value;
     const change = els['price-change'].value;
@@ -389,8 +454,7 @@ function applyFilters() {
       && (!change || priceChangeStatus(row) === change)
       && weightMatches(row, weightRange);
   });
-  const sort = els.sort.value;
-  filtered.sort((a,b) => sort === 'price-asc' ? (a.price ?? Infinity) - (b.price ?? Infinity) : a.business.localeCompare(b.business, 'tr'));
+  filtered = sortProducts(filtered, els.sort.value);
   updateOriginGuide();
   page = 1; render();
 }
@@ -416,6 +480,10 @@ Promise.all([fetch(`${base}data/products.json`).then(r=>r.json()), fetch(`${base
   // Veri üretimindeki kaynak filtresine ek savunma: eski/önbelleklenmiş bir
   // veri dosyası gelse bile bağlantısız satırı kullanıcıya gösterme.
   all = products.filter((row) => row.url); filtered = all; history = priceHistory; historyThrough = meta.checkedAt; originGuides = guides;
+  all.forEach(row => priceChangeCounts.set(row, countPriceChanges(row)));
+  // Tek sefer karıştır: filtreleme ve sayfa geçişi ürünleri yeniden oynatmasın.
+  priceChangeOrder = shuffleRows(all);
+  shuffleRows([...new Set(all.map(row => row.business))]).forEach((business, index) => businessOrder.set(business, index));
   fillSelect(els.origin, [...new Set(all.map(r=>r.origin))]); fillSelect(els.business, [...new Set(all.map(r=>r.business))]);
   document.getElementById('stat-businesses').textContent = number.format(meta.businesses); document.getElementById('stat-products').textContent = number.format(meta.namedProducts); document.getElementById('stat-origins').textContent = number.format(meta.origins);
   document.getElementById('nav-count').textContent = `${number.format(meta.businesses)} kavurucu · ${number.format(meta.namedProducts)} ürün`;
@@ -427,10 +495,16 @@ Promise.all([fetch(`${base}data/products.json`).then(r=>r.json()), fetch(`${base
     els['footer-update'].textContent = `Son tam kontrol: ${date.format(asDate(meta.checkedAt))} · Fiyat karşılaştırması: ${comparisonDate}`;
   }
   els['advisor-launch'].hidden = false;
-  render();
+  applyFilters();
 }).catch(() => { els['product-rows'].innerHTML = '<tr><td colspan="7" class="loading">Veri yüklenemedi.</td></tr>'; });
 
-['search','origin','business','price-change','weight-range','sort'].forEach(id => els[id].addEventListener(id === 'search' ? 'input' : 'change', applyFilters));
+['search','origin','business','price-change','weight-range','sort'].forEach(id => els[id].addEventListener(id === 'search' ? 'input' : 'change', () => {
+  if (id === 'price-change') {
+    if (['up', 'down'].includes(els[id].value)) els.sort.value = 'changes-desc';
+    else if (els.sort.value === 'changes-desc') els.sort.value = 'business';
+  }
+  applyFilters();
+}));
 els.prev.addEventListener('click', () => { page--; render(); }); els.next.addEventListener('click', () => { page++; render(); });
 els.clear.addEventListener('click', () => { ['search','origin','business','price-change','weight-range'].forEach(id => els[id].value=''); els.sort.value='business'; applyFilters(); });
 els['product-rows'].addEventListener('click', (e) => {

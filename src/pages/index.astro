@@ -71,7 +71,7 @@ const checkedLong = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'l
           <label><span>İşletme</span><select id="business"><option value="">Tüm işletmeler</option></select></label>
           <label><span>Fiyat değişimi</span><select id="price-change"><option value="">Tüm değişimler</option><option value="up">😟 Fiyatı arttı</option><option value="same">😐 Aynı kaldı</option><option value="down">😊 Fiyatı düştü</option><option value="unknown">Önceki fiyat yok</option></select></label>
           <label><span>Gramaj</span><select id="weight-range"><option value="">Tüm gramajlar</option><option value="lt250">250 g’dan küçük</option><option value="eq250">Tam 250 g</option><option value="gt250">250 g’dan büyük</option><option value="unknown">Gramaj bilgisi yok</option></select></label>
-          <label><span>Sıralama</span><select id="sort"><option value="business">İşletme A–Z</option><option value="price-asc">Fiyat artan</option></select></label>
+          <label><span>Sıralama</span><select id="sort"><option value="business">İşletme A–Z</option><option value="price-asc">Fiyat artan</option><option value="changes-desc">En çok fiyat değişikliği · karma işletme</option></select></label>
         </div>
         <aside class="origin-guide" id="origin-guide" aria-live="polite" hidden>
           <div class="origin-guide-mark" aria-hidden="true">◎</div>
@@ -106,6 +106,6 @@ const checkedLong = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'l
     </section>
     <footer><div class="shell"><span>Çekirdek Bul</span><span id="footer-update">Son tam kontrol: {checkedLong}</span></div></footer>
     <script src={`${base}recommender.js?v=20260824-2`} defer></script>
-    <script src={`${base}access.js?v=20260824-2`} defer></script>
+    <script src={`${base}access.js?v=20261003-1`} defer></script>
   </body>
 </html>

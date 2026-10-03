@@ -12,7 +12,7 @@ function loadApplication() {
   if (document.getElementById('coffee-index-app')) return;
   const script = document.createElement('script');
   script.id = 'coffee-index-app';
-  script.src = `${base}app.js?v=20260824-2`;
+  script.src = `${base}app.js?v=20261003-1`;
   script.async = false;
   document.body.appendChild(script);
 }
