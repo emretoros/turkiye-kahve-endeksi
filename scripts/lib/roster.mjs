@@ -56,6 +56,7 @@ export function buildBusinessList(rows, manualEntries = []) {
     if (manual.instagram && !entry.instagram) entry.instagram = manual.instagram;
     if (manual.city && !entry.city) entry.city = manual.city;
     if (manual.businessStatus && !entry.businessStatus) entry.businessStatus = manual.businessStatus;
+    if (manual.catalogUrl) entry.catalogUrl = manual.catalogUrl;
   }
 
   return [...byBusiness.values()].map((entry) => {
@@ -65,6 +66,7 @@ export function buildBusinessList(rows, manualEntries = []) {
       city: entry.city,
       businessStatus: entry.businessStatus,
       instagram: entry.instagram,
+      ...(entry.catalogUrl ? {catalogUrl: entry.catalogUrl} : {}),
       website: topHost ? `https://${topHost}` : null
     };
   });

@@ -1,23 +1,23 @@
 {
-  "checkedAt": "2026-10-03",
-  "priceComparisonCheckedAt": "2026-10-03",
-  "priceComparedRows": 2268,
-  "priceComparedBusinesses": 69,
+  "checkedAt": "2026-10-12",
+  "priceComparisonCheckedAt": "2026-10-12",
+  "priceComparedRows": 2328,
+  "priceComparedBusinesses": 72,
   "priceChanges": {
-    "up": 1306,
-    "same": 622,
-    "down": 340
+    "up": 1367,
+    "same": 644,
+    "down": 317
   },
   "duplicateRowsRemoved": 0,
-  "totalRows": 8111,
-  "excludedRows": 6053,
+  "totalRows": 8022,
+  "excludedRows": 6130,
   "exclusions": {
-    "Gramaj bilgisi yok (paket fiyatı karşılaştırılamıyor)": 3441,
-    "Ekipman/aksesuar": 1653,
+    "Gramaj bilgisi yok (paket fiyatı karşılaştırılamıyor)": 3505,
+    "Ekipman/aksesuar": 1647,
     "Gıda dışı ürün": 49,
-    "Çikolata/şekerleme": 243,
+    "Çikolata/şekerleme": 248,
     "Sos/püre": 37,
-    "Çay ve içecek tozu": 311,
+    "Çay ve içecek tozu": 325,
     "Eğitim/hizmet": 37,
     "Abonelik": 6,
     "Şurup": 147,
@@ -25,8 +25,8 @@
     "Diğer gıda": 34,
     "Kavrulmamış kahve": 44
   },
-  "businesses": 190,
-  "namedProducts": 8068,
-  "trackingRecords": 43,
+  "businesses": 201,
+  "namedProducts": 7970,
+  "trackingRecords": 52,
   "origins": 31
 }

@@ -1,0 +1,1189 @@
+{
+  "business": "Julius Meinl",
+  "catalogUrl": "https://kahhve.com/julius-meinl",
+  "checkedAt": "2026-10-12T10:41:42.816Z",
+  "records": [
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "940",
+      "platformVariantId": "default",
+      "urlPath": "/julius-meinl-president-ogutulmus-kahve--kahveler",
+      "url": "https://kahhve.com/julius-meinl-president-ogutulmus-kahve--kahveler",
+      "productName": "President Öğütülmüş Kahve",
+      "variantTitle": "220 g",
+      "grams": 220,
+      "optionSignature": "",
+      "price": 599.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Çekirdek : Arabica&Robusta Harman Kavrulma Seviyesi (1-6) : 2 Asidite (1- 10) : 4 Aroma : Ferah & Çikolata Lezzet : Asitlik ve Tatlının mükemmel dengesi Öğütüm Derecesi (1-4) : 2",
+      "brand": "Julius Meinl",
+      "brandSlug": "julius-meinl",
+      "catalogUrl": "https://kahhve.com/julius-meinl"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1057",
+      "platformVariantId": "default",
+      "urlPath": "/julius-meinl-jubilaeum-ogutulmus-kahve-kahveler",
+      "url": "https://kahhve.com/julius-meinl-jubilaeum-ogutulmus-kahve-kahveler",
+      "productName": "Jubilaeum Öğütülmüş Kahve",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 599.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Çekirdek : Arabica&Robusta Harman Kavrulma Seviyesi (1-6) : 2 Asidite (1- 10) : 6 Aroma : Zengin narenciye aroması ve çiçek nüansları Lezzet : Yumuşak ve tatlı, zengin bırakan asitlik taze ağızda kalan tat Öğütüm Derecesi (1-4) : 3",
+      "brand": "Julius Meinl",
+      "brandSlug": "julius-meinl",
+      "catalogUrl": "https://kahhve.com/julius-meinl"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1059",
+      "platformVariantId": "default",
+      "urlPath": "/julius-meinl-jubilaeum-cekirdek-kahve-500-gram-kahveler",
+      "url": "https://kahhve.com/julius-meinl-jubilaeum-cekirdek-kahve-500-gram-kahveler",
+      "productName": "Jubilaeum Çekirdek Kahve 500 gram",
+      "variantTitle": "500 g",
+      "grams": 500,
+      "optionSignature": "",
+      "price": 1099.99,
+      "listPrice": null,
+      "inStock": false,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Çekirdek : Arabica&Robusta Harman Kavrulma Seviyesi (1-6) : 2 Asidite (1- 10) : 6 Aroma : Zengin narenciye aroması ve çiçek nüansları Lezzet : Yumuşak ve tatlı, zengin bırakan asitlik taze ağızda kalan tat",
+      "brand": "Julius Meinl",
+      "brandSlug": "julius-meinl",
+      "catalogUrl": "https://kahhve.com/julius-meinl"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1058",
+      "platformVariantId": "default",
+      "urlPath": "/julius-meinl-praesident-cekirdek-kahve-500-gram-kahveler",
+      "url": "https://kahhve.com/julius-meinl-praesident-cekirdek-kahve-500-gram-kahveler",
+      "productName": "President Çekirdek Kahve 500 gram",
+      "variantTitle": "500 g",
+      "grams": 500,
+      "optionSignature": "",
+      "price": 1099.99,
+      "listPrice": null,
+      "inStock": false,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Çekirdek : Arabica&Robusta Harman Kavrulma Seviyesi (1-6) : 2 Asidite (1- 10) : 4 Aroma : Ferah & Çikolata Lezzet : Asitlik ve Tatlının mükemmel dengesi",
+      "brand": "Julius Meinl",
+      "brandSlug": "julius-meinl",
+      "catalogUrl": "https://kahhve.com/julius-meinl"
+    }
+  ],
+  "sampleVerification": {
+    "url": "https://kahhve.com/julius-meinl-president-ogutulmus-kahve--kahveler",
+    "status": 200,
+    "price": 599.99,
+    "brand": "Julius Meinl",
+    "grams": 220
+  },
+  "payloads": [
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=julius-meinl",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "940",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "julius-meinl"
+              ],
+              "urun": {
+                "id": 940,
+                "isim": "Julius Meinl President Öğütülmüş Kahve",
+                "urun_ismi": "President Öğütülmüş Kahve",
+                "urun_ismi_ID": "julius-meinl-president-ogutulmus-kahve--kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/940_1659438999_OZh.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=626b71d55bfd70d7820a0321a83210d3",
+                "link": "/julius-meinl-president-ogutulmus-kahve--kahveler",
+                "marka": "Julius Meinl",
+                "marka_linki": "/julius-meinl",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 599.99,
+                "aciklama": "Çekirdek                            : Arabica&Robusta Harman        \r\n\r\nKavrulma Seviyesi (1-6)    : 2 \r\n\r\nAsidite (1- 10)                    : 4 \r\n\r\nAroma                               :  Ferah & Çikolata\r\n\r\nLezzet                               :  Asitlik ve Tatlının mükemmel dengesi\r\n\r\nÖğütüm Derecesi (1-4)      : 2",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100090,
+                "puan": "4.4091",
+                "puan_siralama": 4409,
+                "yorum_sayisi": 23,
+                "stoksuz_siralama": 2,
+                "vitrin_urun": true,
+                "birim_fiyat": 2727.227272727273,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                220
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "220"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100090
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1057",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "zb25"
+              ],
+              "marka": [
+                "julius-meinl"
+              ],
+              "urun": {
+                "id": 1057,
+                "isim": "Julius Meinl Jubilaeum Öğütülmüş Kahve",
+                "urun_ismi": "Jubilaeum Öğütülmüş Kahve",
+                "urun_ismi_ID": "julius-meinl-jubilaeum-ogutulmus-kahve-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1057_1659439081_Pwu.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=30f691f86a5bcf992cc50a7ba7045ca4",
+                "link": "/julius-meinl-jubilaeum-ogutulmus-kahve-kahveler",
+                "marka": "Julius Meinl",
+                "marka_linki": "/julius-meinl",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 599.99,
+                "aciklama": "Çekirdek : Arabica&Robusta Harman\r\n\r\nKavrulma Seviyesi (1-6) : 2\r\n\r\nAsidite (1- 10) : 6\r\n\r\nAroma :  Zengin narenciye aroması ve çiçek nüansları\r\n\r\nLezzet : Yumuşak ve tatlı, zengin bırakan asitlik taze ağızda kalan tat\r\n\r\nÖğütüm Derecesi (1-4) : 3",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100058,
+                "puan": "4.6923",
+                "puan_siralama": 4692,
+                "yorum_sayisi": 13,
+                "stoksuz_siralama": 2,
+                "vitrin_urun": true,
+                "birim_fiyat": 2399.96,
+                "Origin": "Blend",
+                "Tat": "Meyvemsi / Az Kavrulmuş",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "meyvemsi-/-az-kavrulmuş"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100058
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1059",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "julius-meinl"
+              ],
+              "urun": {
+                "id": 1059,
+                "isim": "Julius Meinl Jubilaeum Çekirdek Kahve 500 gram",
+                "urun_ismi": "Jubilaeum Çekirdek Kahve 500 gram",
+                "urun_ismi_ID": "julius-meinl-jubilaeum-cekirdek-kahve-500-gram-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1059_1613139887_uYU.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=892307a9887830e3a7feeedd0c1f685e",
+                "link": "/julius-meinl-jubilaeum-cekirdek-kahve-500-gram-kahveler",
+                "marka": "Julius Meinl",
+                "marka_linki": "/julius-meinl",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 1099.99,
+                "aciklama": "Çekirdek : Arabica&Robusta Harman\r\n\r\nKavrulma Seviyesi (1-6) : 2\r\n\r\nAsidite (1- 10) : 6\r\n\r\nAroma :  Zengin narenciye aroması ve çiçek nüansları\r\n\r\nLezzet : Yumuşak ve tatlı, zengin bırakan asitlik taze ağızda kalan tat\r\n\r\n",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 36,
+                "puan": "3.9524",
+                "puan_siralama": 3952,
+                "yorum_sayisi": 21,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 2199.98,
+                "ucretsiz_kargo": 1,
+                "Origin": "Blend",
+                "Tat": "Meyvemsi / Az Kavrulmuş",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                500
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "500"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "meyvemsi-/-az-kavrulmuş"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              36
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1058",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "julius-meinl"
+              ],
+              "urun": {
+                "id": 1058,
+                "isim": "Julius Meinl President Çekirdek Kahve 500 gram",
+                "urun_ismi": "President Çekirdek Kahve 500 gram",
+                "urun_ismi_ID": "julius-meinl-praesident-cekirdek-kahve-500-gram-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1058_1613139585_lTo.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=c3655994679f8b9eb12cee7457b55ccf",
+                "link": "/julius-meinl-praesident-cekirdek-kahve-500-gram-kahveler",
+                "marka": "Julius Meinl",
+                "marka_linki": "/julius-meinl",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 1099.99,
+                "aciklama": "Çekirdek : Arabica&Robusta Harman\r\n\r\nKavrulma Seviyesi (1-6) : 2\r\n\r\nAsidite (1- 10) : 4\r\n\r\nAroma : Ferah & Çikolata\r\n\r\nLezzet : Asitlik ve Tatlının mükemmel dengesi\r\n\r\n",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 28,
+                "puan": "4.6154",
+                "puan_siralama": 4615,
+                "yorum_sayisi": 26,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 2199.98,
+                "ucretsiz_kargo": 1,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                500
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "500"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              28
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1060",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kapsul-kahveler",
+                "kahveler"
+              ],
+              "marka": [
+                "julius-meinl"
+              ],
+              "urun": {
+                "id": 1060,
+                "isim": "Julius Meinl Espresso Crema No:8 Kapsül Kahve 10 Adet",
+                "urun_ismi": "Espresso Crema No:8 Kapsül Kahve 10 Adet",
+                "urun_ismi_ID": "julius-meinl-espresso-crema-no8-kapsul-kahve-10-adet-kapsul-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1060_1710015333_zIo.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=9fc1817b861087389d15b083c4e3cc5b",
+                "link": "/julius-meinl-espresso-crema-no8-kapsul-kahve-10-adet-kapsul-kahveler",
+                "marka": "Julius Meinl",
+                "marka_linki": "/julius-meinl",
+                "ana_kategori": "Kapsül Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 349.99,
+                "aciklama": "Çekirdek : Arabica&Robusta Harman\r\n\r\nKavrulma Seviyesi (1-6) : 3\r\n\r\nAsidite (1- 10) : 6\r\n\r\nAroma : Narin\r\n\r\nLezzet : Yuvarlak, dengeli, kalıcı tat\r\n\r\n10 adet X 5.6 gram tek kullanımlık kapsül içermektedir.\r\n\r\n",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 23,
+                "puan": "3.6000",
+                "puan_siralama": 3600,
+                "yorum_sayisi": 10,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "Ekipman": [
+                  "Kapsül Kahve"
+                ]
+              },
+              "Filtre": [
+                {
+                  "isim": "Ekipman",
+                  "deger": "kapsül-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              23
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1062",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kapsul-kahveler",
+                "kahveler"
+              ],
+              "marka": [
+                "julius-meinl"
+              ],
+              "urun": {
+                "id": 1062,
+                "isim": "Julius Meinl Lungo Classico No:6 Kapsül Kahve 10 Adet",
+                "urun_ismi": "Lungo Classico No:6 Kapsül Kahve 10 Adet",
+                "urun_ismi_ID": "julius-meinl-lungo-classico-no4-kapsul-kahve-10-adet-kapsul-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1062_1710015420_ckj.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=991e39c3749e9aae6859596b6f2a3dca",
+                "link": "/julius-meinl-lungo-classico-no4-kapsul-kahve-10-adet-kapsul-kahveler",
+                "marka": "Julius Meinl",
+                "marka_linki": "/julius-meinl",
+                "ana_kategori": "Kapsül Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 349.99,
+                "aciklama": "Çekirdek : Arabica&Robusta Harman\r\n\r\nKavrulma Seviyesi (1-6) : 6\r\n\r\nAsidite (1- 10) : 8\r\n\r\nAroma : Taze meyve tatları\r\n\r\nLezzet : Tatlar ile ekşilik arasında muazzam dengeli\r\n\r\n10 adet X 5.6 gram tek kullanımlık kapsül içermektedir.",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 16,
+                "puan": "4.1538",
+                "puan_siralama": 4153,
+                "yorum_sayisi": 13,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "Ekipman": [
+                  "Kapsül Kahve"
+                ]
+              },
+              "Filtre": [
+                {
+                  "isim": "Ekipman",
+                  "deger": "kapsül-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              16
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1061",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kapsul-kahveler",
+                "kahveler",
+                "zb25"
+              ],
+              "marka": [
+                "julius-meinl"
+              ],
+              "urun": {
+                "id": 1061,
+                "isim": "Julius Meinl Ristretto Intenso No:10 Kapsül Kahve 10 Adet",
+                "urun_ismi": "Ristretto Intenso No:10 Kapsül Kahve 10 Adet",
+                "urun_ismi_ID": "julius-meinl-ristretto-intenso-no10-kapsul-kahve-10-adet-kapsul-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1061_1710015392_LtV.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=e4d82435e2067cb863ca761b0cd5abcc",
+                "link": "/julius-meinl-ristretto-intenso-no10-kapsul-kahve-10-adet-kapsul-kahveler",
+                "marka": "Julius Meinl",
+                "marka_linki": "/julius-meinl",
+                "ana_kategori": "Kapsül Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 349.99,
+                "aciklama": "Çekirdek : Arabica&Robusta Harman\r\n\r\nKavrulma Seviyesi (1-6) : 6\r\n\r\nAsidite (1- 10) : 8\r\n\r\nAroma : Israrcı tatlar\r\n\r\nLezzet : Ağızda kalan Tatlı ve kremalı tatlar\r\n\r\n10 adet X 5.6 gram tek kullanımlık kapsül içermektedir.",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 15,
+                "puan": "3.6667",
+                "puan_siralama": 3666,
+                "yorum_sayisi": 4,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "Ekipman": [
+                  "Kapsül Kahve"
+                ]
+              },
+              "Filtre": [
+                {
+                  "isim": "Ekipman",
+                  "deger": "kapsül-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              15
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1063",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kapsul-kahveler",
+                "kahveler",
+                "kafeinsiz-kahveler"
+              ],
+              "marka": [
+                "julius-meinl"
+              ],
+              "urun": {
+                "id": 1063,
+                "isim": "Julius Meinl Espresso Decaf No:8 Kapsül Kahve 10 Adet",
+                "urun_ismi": "Espresso Decaf No:8 Kapsül Kahve 10 Adet",
+                "urun_ismi_ID": "julius-meinl-espresso-decaf-no8-kapsul-kahve-10-adet-kapsul-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1063_1710015442_5Ii.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=fbbd52ba1d428451a19012aeab032633",
+                "link": "/julius-meinl-espresso-decaf-no8-kapsul-kahve-10-adet-kapsul-kahveler",
+                "marka": "Julius Meinl",
+                "marka_linki": "/julius-meinl",
+                "ana_kategori": "Kapsül Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 349.99,
+                "aciklama": "Çekirdek : Arabica&Robusta Harman\r\n\r\nKavrulma Seviyesi (1-6) : 6\r\n\r\nAsidite (1- 10) : 4\r\n\r\nGövde : 8\r\n\r\nAroma : Yumuşak ve tahılımsı tatlar\r\n\r\nLezzet : Tatlı ve dolu ile lezzet kremsi ağızda kalan tat\r\n\r\n10 adet X 5.6 gram tek kullanımlık kapsül içermektedir.\r\n",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 13,
+                "puan": "4.2500",
+                "puan_siralama": 4250,
+                "yorum_sayisi": 4,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "Ekipman": [
+                  "Kapsül Kahve",
+                  "Decaf Kahve"
+                ]
+              },
+              "Filtre": [
+                {
+                  "isim": "Ekipman",
+                  "deger": "kapsül-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "decaf-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              13
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 29,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ekipman",
+                  "doc_count": 9,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "decaf-kahve",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 4
+                      },
+                      {
+                        "key": "kapsül-kahve",
+                        "doc_count": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 8,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "300TL — 400TL",
+                        "doc_count": 4
+                      },
+                      {
+                        "key": "500TL üzerinde",
+                        "doc_count": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "220",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "250",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "500",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Origin",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "blend",
+                        "doc_count": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Tat",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "meyvemsi-/-az-kavrulmuş",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "orta-yumuşak-/-dengeli",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "julius-meinl",
+                "doc_count": 8
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=julius-meinl&filtreler%5BA%C4%9F%C4%B1rl%C4%B1k%5D=220%2C250%2C500",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "940",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "julius-meinl"
+              ],
+              "urun": {
+                "id": 940,
+                "isim": "Julius Meinl President Öğütülmüş Kahve",
+                "urun_ismi": "President Öğütülmüş Kahve",
+                "urun_ismi_ID": "julius-meinl-president-ogutulmus-kahve--kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/940_1659438999_OZh.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=626b71d55bfd70d7820a0321a83210d3",
+                "link": "/julius-meinl-president-ogutulmus-kahve--kahveler",
+                "marka": "Julius Meinl",
+                "marka_linki": "/julius-meinl",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 599.99,
+                "aciklama": "Çekirdek                            : Arabica&Robusta Harman        \r\n\r\nKavrulma Seviyesi (1-6)    : 2 \r\n\r\nAsidite (1- 10)                    : 4 \r\n\r\nAroma                               :  Ferah & Çikolata\r\n\r\nLezzet                               :  Asitlik ve Tatlının mükemmel dengesi\r\n\r\nÖğütüm Derecesi (1-4)      : 2",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100090,
+                "puan": "4.4091",
+                "puan_siralama": 4409,
+                "yorum_sayisi": 23,
+                "stoksuz_siralama": 2,
+                "vitrin_urun": true,
+                "birim_fiyat": 2727.227272727273,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                220
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "220"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100090
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1057",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "zb25"
+              ],
+              "marka": [
+                "julius-meinl"
+              ],
+              "urun": {
+                "id": 1057,
+                "isim": "Julius Meinl Jubilaeum Öğütülmüş Kahve",
+                "urun_ismi": "Jubilaeum Öğütülmüş Kahve",
+                "urun_ismi_ID": "julius-meinl-jubilaeum-ogutulmus-kahve-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1057_1659439081_Pwu.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=30f691f86a5bcf992cc50a7ba7045ca4",
+                "link": "/julius-meinl-jubilaeum-ogutulmus-kahve-kahveler",
+                "marka": "Julius Meinl",
+                "marka_linki": "/julius-meinl",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 599.99,
+                "aciklama": "Çekirdek : Arabica&Robusta Harman\r\n\r\nKavrulma Seviyesi (1-6) : 2\r\n\r\nAsidite (1- 10) : 6\r\n\r\nAroma :  Zengin narenciye aroması ve çiçek nüansları\r\n\r\nLezzet : Yumuşak ve tatlı, zengin bırakan asitlik taze ağızda kalan tat\r\n\r\nÖğütüm Derecesi (1-4) : 3",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100058,
+                "puan": "4.6923",
+                "puan_siralama": 4692,
+                "yorum_sayisi": 13,
+                "stoksuz_siralama": 2,
+                "vitrin_urun": true,
+                "birim_fiyat": 2399.96,
+                "Origin": "Blend",
+                "Tat": "Meyvemsi / Az Kavrulmuş",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "meyvemsi-/-az-kavrulmuş"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100058
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1059",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "julius-meinl"
+              ],
+              "urun": {
+                "id": 1059,
+                "isim": "Julius Meinl Jubilaeum Çekirdek Kahve 500 gram",
+                "urun_ismi": "Jubilaeum Çekirdek Kahve 500 gram",
+                "urun_ismi_ID": "julius-meinl-jubilaeum-cekirdek-kahve-500-gram-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1059_1613139887_uYU.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=892307a9887830e3a7feeedd0c1f685e",
+                "link": "/julius-meinl-jubilaeum-cekirdek-kahve-500-gram-kahveler",
+                "marka": "Julius Meinl",
+                "marka_linki": "/julius-meinl",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 1099.99,
+                "aciklama": "Çekirdek : Arabica&Robusta Harman\r\n\r\nKavrulma Seviyesi (1-6) : 2\r\n\r\nAsidite (1- 10) : 6\r\n\r\nAroma :  Zengin narenciye aroması ve çiçek nüansları\r\n\r\nLezzet : Yumuşak ve tatlı, zengin bırakan asitlik taze ağızda kalan tat\r\n\r\n",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 36,
+                "puan": "3.9524",
+                "puan_siralama": 3952,
+                "yorum_sayisi": 21,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 2199.98,
+                "ucretsiz_kargo": 1,
+                "Origin": "Blend",
+                "Tat": "Meyvemsi / Az Kavrulmuş",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                500
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "500"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "meyvemsi-/-az-kavrulmuş"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              36
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1058",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "julius-meinl"
+              ],
+              "urun": {
+                "id": 1058,
+                "isim": "Julius Meinl President Çekirdek Kahve 500 gram",
+                "urun_ismi": "President Çekirdek Kahve 500 gram",
+                "urun_ismi_ID": "julius-meinl-praesident-cekirdek-kahve-500-gram-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1058_1613139585_lTo.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=c3655994679f8b9eb12cee7457b55ccf",
+                "link": "/julius-meinl-praesident-cekirdek-kahve-500-gram-kahveler",
+                "marka": "Julius Meinl",
+                "marka_linki": "/julius-meinl",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 1099.99,
+                "aciklama": "Çekirdek : Arabica&Robusta Harman\r\n\r\nKavrulma Seviyesi (1-6) : 2\r\n\r\nAsidite (1- 10) : 4\r\n\r\nAroma : Ferah & Çikolata\r\n\r\nLezzet : Asitlik ve Tatlının mükemmel dengesi\r\n\r\n",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 28,
+                "puan": "4.6154",
+                "puan_siralama": 4615,
+                "yorum_sayisi": 26,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 2199.98,
+                "ucretsiz_kargo": 1,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                500
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "500"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              28
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 29,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ekipman",
+                  "doc_count": 9,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "decaf-kahve",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 4
+                      },
+                      {
+                        "key": "kapsül-kahve",
+                        "doc_count": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 8,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "300TL — 400TL",
+                        "doc_count": 4
+                      },
+                      {
+                        "key": "500TL üzerinde",
+                        "doc_count": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "220",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "250",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "500",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Origin",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "blend",
+                        "doc_count": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Tat",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "meyvemsi-/-az-kavrulmuş",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "orta-yumuşak-/-dengeli",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "julius-meinl",
+                "doc_count": 8
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,912 @@
+{
+  "business": "Cool Beans",
+  "catalogUrl": "https://kahhve.com/cool-beans",
+  "checkedAt": "2026-10-12T10:41:42.816Z",
+  "records": [
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1187",
+      "platformVariantId": "default",
+      "urlPath": "/cool-beans-french-vanilla-1-kg-kahveler",
+      "url": "https://kahhve.com/cool-beans-french-vanilla-1-kg-kahveler",
+      "productName": "French Vanilla 1 KG",
+      "variantTitle": "1000 g",
+      "grams": 1000,
+      "optionSignature": "",
+      "price": 1312.49,
+      "listPrice": 1749.99,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Cool Beans Baristaları tarafından her hafta özenle kavrulan çekirdekler, siparişinizle aynı gün öğütülür ve tazeliğini kaybetmeden size ulaşır. *Ülke : Etiyopya",
+      "brand": "Cool Beans",
+      "brandSlug": "cool-beans",
+      "catalogUrl": "https://kahhve.com/cool-beans"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "72",
+      "platformVariantId": "default",
+      "urlPath": "/cool-beans-french-vanilla-kahveler",
+      "url": "https://kahhve.com/cool-beans-french-vanilla-kahveler",
+      "productName": "French Vanilla",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 356.24,
+      "listPrice": 474.99,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Filtre Kahve",
+      "descriptionText": "*Cool Beans Baristaları tarafından her hafta özenle kavrulan çekirdekler, siparişinizle aynı gün öğütülür ve tazeliğini kaybetmeden size ulaşır. 250 gr dır. *Ülke : Etiyopya",
+      "brand": "Cool Beans",
+      "brandSlug": "cool-beans",
+      "catalogUrl": "https://kahhve.com/cool-beans"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "78",
+      "platformVariantId": "default",
+      "urlPath": "/cool-beans-irish-cream-kahveler",
+      "url": "https://kahhve.com/cool-beans-irish-cream-kahveler",
+      "productName": "Irish Cream",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 356.24,
+      "listPrice": 474.99,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Filtre Kahve",
+      "descriptionText": "*Cool Beans Baristaları tarafından her hafta özenle kavrulan çekirdekler, siparişinizle aynı gün öğütülür ve tazeliğini kaybetmeden size ulaşır. 250 gr dır. *Ülke : Etiyopya",
+      "brand": "Cool Beans",
+      "brandSlug": "cool-beans",
+      "catalogUrl": "https://kahhve.com/cool-beans"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1189",
+      "platformVariantId": "default",
+      "urlPath": "/cool-beans-irish-cream-1-kg-kahveler",
+      "url": "https://kahhve.com/cool-beans-irish-cream-1-kg-kahveler",
+      "productName": "Irish Cream 1 KG",
+      "variantTitle": "1000 g",
+      "grams": 1000,
+      "optionSignature": "",
+      "price": 1312.49,
+      "listPrice": 1749.99,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Cool Beans Baristaları tarafından her hafta özenle kavrulan çekirdekler, siparişinizle aynı gün öğütülür ve tazeliğini kaybetmeden size ulaşır. *Ülke : Etiyopya",
+      "brand": "Cool Beans",
+      "brandSlug": "cool-beans",
+      "catalogUrl": "https://kahhve.com/cool-beans"
+    }
+  ],
+  "sampleVerification": {
+    "url": "https://kahhve.com/cool-beans-french-vanilla-1-kg-kahveler",
+    "status": 200,
+    "price": 1312.49,
+    "brand": "Cool Beans",
+    "grams": 1000
+  },
+  "payloads": [
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=cool-beans",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1187",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "aromali-kahveler",
+                "cekirdek-kahveler",
+                "zb25",
+                "kampanyali-urunler",
+                "haftanin-kahvesi"
+              ],
+              "marka": [
+                "cool-beans"
+              ],
+              "urun": {
+                "id": 1187,
+                "isim": "Cool Beans French Vanilla 1 KG",
+                "urun_ismi": "French Vanilla 1 KG",
+                "urun_ismi_ID": "cool-beans-french-vanilla-1-kg-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1187_1636398682_vnx.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=b91f8c0cc78aff3106e63dfaa502cb99",
+                "link": "/cool-beans-french-vanilla-1-kg-kahveler",
+                "marka": "Cool Beans",
+                "marka_linki": "/cool-beans",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 1312.49,
+                "aciklama": "*Cool Beans Baristaları tarafından her hafta özenle kavrulan çekirdekler, siparişinizle aynı gün öğütülür ve tazeliğini kaybetmeden size ulaşır.\r\n*Ülke : Etiyopya",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 200000,
+                "puan": "4.6250",
+                "puan_siralama": 4625,
+                "yorum_sayisi": 208,
+                "stoksuz_siralama": 10,
+                "vitrin_urun": true,
+                "birim_fiyat": 1312.49,
+                "eski_fiyat": 1749.99,
+                "ucretsiz_kargo": 1,
+                "haftanin_kahvesi": 25,
+                "ana_sayfa_haftanin_kahvesi": 1,
+                "Tat": "Aromalı Kahve",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                1000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "1000"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "aromalı-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              200000
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "72",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "filtre-kahve",
+                "kahveler",
+                "aromali-kahveler",
+                "kampanyali-urunler",
+                "haftanin-kahvesi"
+              ],
+              "marka": [
+                "cool-beans"
+              ],
+              "urun": {
+                "id": 72,
+                "isim": "Cool Beans French Vanilla",
+                "urun_ismi": "French Vanilla",
+                "urun_ismi_ID": "cool-beans-french-vanilla-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/72_1616414612_xnk.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=379e2a718dc3e87b83370c66e2201fd9",
+                "link": "/cool-beans-french-vanilla-kahveler",
+                "marka": "Cool Beans",
+                "marka_linki": "/cool-beans",
+                "ana_kategori": "Filtre Kahve",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 356.24,
+                "aciklama": "*Cool Beans Baristaları tarafından her hafta özenle kavrulan çekirdekler, siparişinizle aynı gün öğütülür ve tazeliğini kaybetmeden size ulaşır.\r\n250 gr dır.\r\n*Ülke : Etiyopya",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 200000,
+                "puan": "4.3571",
+                "puan_siralama": 4357,
+                "yorum_sayisi": 217,
+                "stoksuz_siralama": 16,
+                "vitrin_urun": true,
+                "birim_fiyat": 1424.96,
+                "eski_fiyat": 474.99,
+                "haftanin_kahvesi": 25,
+                "ana_sayfa_haftanin_kahvesi": 1,
+                "Tat": "Aromalı Kahve",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "aromalı-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              200000
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "78",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "filtre-kahve",
+                "kahveler",
+                "aromali-kahveler",
+                "cekirdek-kahveler",
+                "populer-kahveler",
+                "haftanin-kahvesi",
+                "kampanyali-urunler"
+              ],
+              "marka": [
+                "cool-beans"
+              ],
+              "urun": {
+                "id": 78,
+                "isim": "Cool Beans Irish Cream",
+                "urun_ismi": "Irish Cream",
+                "urun_ismi_ID": "cool-beans-irish-cream-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/78_1615887436_hq1.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=bfe7453ad5b32289862b457fac6a46ff",
+                "link": "/cool-beans-irish-cream-kahveler",
+                "marka": "Cool Beans",
+                "marka_linki": "/cool-beans",
+                "ana_kategori": "Filtre Kahve",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 356.24,
+                "aciklama": "*Cool Beans Baristaları tarafından her hafta özenle kavrulan çekirdekler, siparişinizle aynı gün öğütülür ve tazeliğini kaybetmeden size ulaşır.\r\n250 gr dır.\r\n*Ülke : Etiyopya",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 8,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 200000,
+                "puan": "4.3081",
+                "puan_siralama": 4308,
+                "yorum_sayisi": 406,
+                "stoksuz_siralama": 29,
+                "vitrin_urun": true,
+                "ana_sayfa_kahve": 1,
+                "birim_fiyat": 1424.96,
+                "eski_fiyat": 474.99,
+                "haftanin_kahvesi": 25,
+                "ana_sayfa_haftanin_kahvesi": 1,
+                "Tat": "Aromalı Kahve",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "aromalı-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              200000
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1189",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "aromali-kahveler",
+                "filtre-kahve",
+                "cekirdek-kahveler",
+                "zb25",
+                "populer-kahveler",
+                "haftanin-kahvesi",
+                "kampanyali-urunler"
+              ],
+              "marka": [
+                "cool-beans"
+              ],
+              "urun": {
+                "id": 1189,
+                "isim": "Cool Beans Irish Cream 1 KG",
+                "urun_ismi": "Irish Cream 1 KG",
+                "urun_ismi_ID": "cool-beans-irish-cream-1-kg-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1189_1636398903_ogu.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=e600b99b26aece0f7416cfa56a391fa8",
+                "link": "/cool-beans-irish-cream-1-kg-kahveler",
+                "marka": "Cool Beans",
+                "marka_linki": "/cool-beans",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 1312.49,
+                "aciklama": "*Cool Beans Baristaları tarafından her hafta özenle kavrulan çekirdekler, siparişinizle aynı gün öğütülür ve tazeliğini kaybetmeden size ulaşır.\r\n*Ülke : Etiyopya\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 8,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 200000,
+                "puan": "4.7381",
+                "puan_siralama": 4738,
+                "yorum_sayisi": 406,
+                "stoksuz_siralama": 28,
+                "vitrin_urun": true,
+                "birim_fiyat": 1312.49,
+                "eski_fiyat": 1749.99,
+                "ucretsiz_kargo": 1,
+                "haftanin_kahvesi": 25,
+                "ana_sayfa_haftanin_kahvesi": 1,
+                "Tat": "Aromalı Kahve",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                1000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "1000"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "aromalı-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              200000
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 16,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "1000",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "250",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ekipman",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "300TL — 400TL",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "500TL üzerinde",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Tat",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "aromalı-kahve",
+                        "doc_count": 4
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "cool-beans",
+                "doc_count": 4
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=cool-beans&filtreler%5BA%C4%9F%C4%B1rl%C4%B1k%5D=1000%2C250",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1187",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "aromali-kahveler",
+                "cekirdek-kahveler",
+                "zb25",
+                "kampanyali-urunler",
+                "haftanin-kahvesi"
+              ],
+              "marka": [
+                "cool-beans"
+              ],
+              "urun": {
+                "id": 1187,
+                "isim": "Cool Beans French Vanilla 1 KG",
+                "urun_ismi": "French Vanilla 1 KG",
+                "urun_ismi_ID": "cool-beans-french-vanilla-1-kg-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1187_1636398682_vnx.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=b91f8c0cc78aff3106e63dfaa502cb99",
+                "link": "/cool-beans-french-vanilla-1-kg-kahveler",
+                "marka": "Cool Beans",
+                "marka_linki": "/cool-beans",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 1312.49,
+                "aciklama": "*Cool Beans Baristaları tarafından her hafta özenle kavrulan çekirdekler, siparişinizle aynı gün öğütülür ve tazeliğini kaybetmeden size ulaşır.\r\n*Ülke : Etiyopya",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 200000,
+                "puan": "4.6250",
+                "puan_siralama": 4625,
+                "yorum_sayisi": 208,
+                "stoksuz_siralama": 10,
+                "vitrin_urun": true,
+                "birim_fiyat": 1312.49,
+                "eski_fiyat": 1749.99,
+                "ucretsiz_kargo": 1,
+                "haftanin_kahvesi": 25,
+                "ana_sayfa_haftanin_kahvesi": 1,
+                "Tat": "Aromalı Kahve",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                1000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "1000"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "aromalı-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              200000
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "72",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "filtre-kahve",
+                "kahveler",
+                "aromali-kahveler",
+                "kampanyali-urunler",
+                "haftanin-kahvesi"
+              ],
+              "marka": [
+                "cool-beans"
+              ],
+              "urun": {
+                "id": 72,
+                "isim": "Cool Beans French Vanilla",
+                "urun_ismi": "French Vanilla",
+                "urun_ismi_ID": "cool-beans-french-vanilla-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/72_1616414612_xnk.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=379e2a718dc3e87b83370c66e2201fd9",
+                "link": "/cool-beans-french-vanilla-kahveler",
+                "marka": "Cool Beans",
+                "marka_linki": "/cool-beans",
+                "ana_kategori": "Filtre Kahve",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 356.24,
+                "aciklama": "*Cool Beans Baristaları tarafından her hafta özenle kavrulan çekirdekler, siparişinizle aynı gün öğütülür ve tazeliğini kaybetmeden size ulaşır.\r\n250 gr dır.\r\n*Ülke : Etiyopya",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 200000,
+                "puan": "4.3571",
+                "puan_siralama": 4357,
+                "yorum_sayisi": 217,
+                "stoksuz_siralama": 16,
+                "vitrin_urun": true,
+                "birim_fiyat": 1424.96,
+                "eski_fiyat": 474.99,
+                "haftanin_kahvesi": 25,
+                "ana_sayfa_haftanin_kahvesi": 1,
+                "Tat": "Aromalı Kahve",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "aromalı-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              200000
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "78",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "filtre-kahve",
+                "kahveler",
+                "aromali-kahveler",
+                "cekirdek-kahveler",
+                "populer-kahveler",
+                "haftanin-kahvesi",
+                "kampanyali-urunler"
+              ],
+              "marka": [
+                "cool-beans"
+              ],
+              "urun": {
+                "id": 78,
+                "isim": "Cool Beans Irish Cream",
+                "urun_ismi": "Irish Cream",
+                "urun_ismi_ID": "cool-beans-irish-cream-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/78_1615887436_hq1.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=bfe7453ad5b32289862b457fac6a46ff",
+                "link": "/cool-beans-irish-cream-kahveler",
+                "marka": "Cool Beans",
+                "marka_linki": "/cool-beans",
+                "ana_kategori": "Filtre Kahve",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 356.24,
+                "aciklama": "*Cool Beans Baristaları tarafından her hafta özenle kavrulan çekirdekler, siparişinizle aynı gün öğütülür ve tazeliğini kaybetmeden size ulaşır.\r\n250 gr dır.\r\n*Ülke : Etiyopya",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 8,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 200000,
+                "puan": "4.3081",
+                "puan_siralama": 4308,
+                "yorum_sayisi": 406,
+                "stoksuz_siralama": 29,
+                "vitrin_urun": true,
+                "ana_sayfa_kahve": 1,
+                "birim_fiyat": 1424.96,
+                "eski_fiyat": 474.99,
+                "haftanin_kahvesi": 25,
+                "ana_sayfa_haftanin_kahvesi": 1,
+                "Tat": "Aromalı Kahve",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "aromalı-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              200000
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1189",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "aromali-kahveler",
+                "filtre-kahve",
+                "cekirdek-kahveler",
+                "zb25",
+                "populer-kahveler",
+                "haftanin-kahvesi",
+                "kampanyali-urunler"
+              ],
+              "marka": [
+                "cool-beans"
+              ],
+              "urun": {
+                "id": 1189,
+                "isim": "Cool Beans Irish Cream 1 KG",
+                "urun_ismi": "Irish Cream 1 KG",
+                "urun_ismi_ID": "cool-beans-irish-cream-1-kg-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1189_1636398903_ogu.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=e600b99b26aece0f7416cfa56a391fa8",
+                "link": "/cool-beans-irish-cream-1-kg-kahveler",
+                "marka": "Cool Beans",
+                "marka_linki": "/cool-beans",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 1312.49,
+                "aciklama": "*Cool Beans Baristaları tarafından her hafta özenle kavrulan çekirdekler, siparişinizle aynı gün öğütülür ve tazeliğini kaybetmeden size ulaşır.\r\n*Ülke : Etiyopya\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 8,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 200000,
+                "puan": "4.7381",
+                "puan_siralama": 4738,
+                "yorum_sayisi": 406,
+                "stoksuz_siralama": 28,
+                "vitrin_urun": true,
+                "birim_fiyat": 1312.49,
+                "eski_fiyat": 1749.99,
+                "ucretsiz_kargo": 1,
+                "haftanin_kahvesi": 25,
+                "ana_sayfa_haftanin_kahvesi": 1,
+                "Tat": "Aromalı Kahve",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                1000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "1000"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "aromalı-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              200000
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 16,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "1000",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "250",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ekipman",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "300TL — 400TL",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "500TL üzerinde",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Tat",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "aromalı-kahve",
+                        "doc_count": 4
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "cool-beans",
+                "doc_count": 4
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

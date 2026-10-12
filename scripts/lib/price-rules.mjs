@@ -130,7 +130,9 @@ export function applyPriceRules(rows) {
     }
 
     // R8 — kahve dışı ürün elemesinden sızan ekipman.
-    if (EQUIPMENT.test(haystack)) {
+    // Urban Grind sells actual beans named "Moka Pot Coffee". Preserve that
+    // coffee name while retaining equipment signals elsewhere in the title.
+    if (EQUIPMENT.test(haystack.replace(/\bmoka pot coffee\b/g, 'coffee'))) {
       flags.push({ rule: 'NON_COFFEE_LEAK', severity: 'quarantine', detail: 'ekipman/aksesuar kalıbı eşleşti' });
     }
 

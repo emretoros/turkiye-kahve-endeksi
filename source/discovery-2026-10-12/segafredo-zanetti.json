@@ -1,0 +1,590 @@
+{
+  "business": "Segafredo Zanetti",
+  "catalogUrl": "https://kahhve.com/segafredo-zanetti",
+  "checkedAt": "2026-10-12T10:41:42.816Z",
+  "records": [
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1492",
+      "platformVariantId": "default",
+      "urlPath": "/segafredo-zanetti-espresso-casa-cekirdek-kahve-500-gr-kahveler",
+      "url": "https://kahhve.com/segafredo-zanetti-espresso-casa-cekirdek-kahve-500-gr-kahveler",
+      "productName": "ESPRESSO CASA ÇEKİRDEK KAHVE 500 GR",
+      "variantTitle": "500 g",
+      "grams": 500,
+      "optionSignature": "",
+      "price": 949.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "",
+      "brand": "Segafredo Zanetti",
+      "brandSlug": "segafredo-zanetti",
+      "catalogUrl": "https://kahhve.com/segafredo-zanetti"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1491",
+      "platformVariantId": "default",
+      "urlPath": "/segafredo-zanetti-zanetti-intermezzo-cekirdek-kahve-500-gr-kahveler",
+      "url": "https://kahhve.com/segafredo-zanetti-zanetti-intermezzo-cekirdek-kahve-500-gr-kahveler",
+      "productName": "INTERMEZZO ÇEKİRDEK KAHVE 500 GR",
+      "variantTitle": "500 g",
+      "grams": 500,
+      "optionSignature": "",
+      "price": 799.99,
+      "listPrice": null,
+      "inStock": false,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Kavrulmuş kahve çekirdeklerinin karışımı Moka kahve makineleri ve espresso makineleri için uygundur Yoğunluk 12 Koyu kızartma Güçlü ve dolgun tat",
+      "brand": "Segafredo Zanetti",
+      "brandSlug": "segafredo-zanetti",
+      "catalogUrl": "https://kahhve.com/segafredo-zanetti"
+    }
+  ],
+  "sampleVerification": {
+    "url": "https://kahhve.com/segafredo-zanetti-espresso-casa-cekirdek-kahve-500-gr-kahveler",
+    "status": 200,
+    "price": 949.99,
+    "brand": "Segafredo Zanetti",
+    "grams": 500
+  },
+  "payloads": [
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=segafredo-zanetti",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1492",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "espresso",
+                "cekirdek-kahveler"
+              ],
+              "marka": [
+                "segafredo-zanetti"
+              ],
+              "urun": {
+                "id": 1492,
+                "isim": "Segafredo Zanetti ESPRESSO CASA ÇEKİRDEK KAHVE 500 GR",
+                "urun_ismi": "ESPRESSO CASA ÇEKİRDEK KAHVE 500 GR",
+                "urun_ismi_ID": "segafredo-zanetti-espresso-casa-cekirdek-kahve-500-gr-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1492_1745853308_TrC.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=d25f5ba4a1022b8ab3a14f9c218e6371",
+                "link": "/segafredo-zanetti-espresso-casa-cekirdek-kahve-500-gr-kahveler",
+                "marka": "Segafredo Zanetti",
+                "marka_linki": "/segafredo-zanetti",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 949.99,
+                "aciklama": "",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100142,
+                "puan": "3.8750",
+                "puan_siralama": 3875,
+                "yorum_sayisi": 8,
+                "stoksuz_siralama": 7,
+                "vitrin_urun": true,
+                "birim_fiyat": 1899.98,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve",
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                500
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "500"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100142
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1491",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso",
+                "filtre-kahve",
+                "cekirdek-kahveler"
+              ],
+              "marka": [
+                "segafredo-zanetti"
+              ],
+              "urun": {
+                "id": 1491,
+                "isim": "Segafredo Zanetti INTERMEZZO ÇEKİRDEK KAHVE 500 GR",
+                "urun_ismi": "INTERMEZZO ÇEKİRDEK KAHVE 500 GR",
+                "urun_ismi_ID": "segafredo-zanetti-zanetti-intermezzo-cekirdek-kahve-500-gr-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1491_1745852725_Vgb.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=53a799f328f4798c31f81ec39b3c0967",
+                "link": "/segafredo-zanetti-zanetti-intermezzo-cekirdek-kahve-500-gr-kahveler",
+                "marka": "Segafredo Zanetti",
+                "marka_linki": "/segafredo-zanetti",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 799.99,
+                "aciklama": "Kavrulmuş kahve çekirdeklerinin karışımı\r\nMoka kahve makineleri ve espresso makineleri için uygundur\r\nYoğunluk 12\r\nKoyu kızartma\r\nGüçlü ve dolgun tat",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 73,
+                "puan": "3.2000",
+                "puan_siralama": 3200,
+                "yorum_sayisi": 10,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 1599.98,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve",
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                500
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "500"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              73
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 12,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ekipman",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "espresso-kahve",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 2,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "500",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 2,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "500TL üzerinde",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Origin",
+                  "doc_count": 2,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "blend",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Tat",
+                  "doc_count": 2,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "orta-yumuşak-/-dengeli",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "segafredo-zanetti",
+                "doc_count": 2
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=segafredo-zanetti&filtreler%5BA%C4%9F%C4%B1rl%C4%B1k%5D=500",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1492",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "espresso",
+                "cekirdek-kahveler"
+              ],
+              "marka": [
+                "segafredo-zanetti"
+              ],
+              "urun": {
+                "id": 1492,
+                "isim": "Segafredo Zanetti ESPRESSO CASA ÇEKİRDEK KAHVE 500 GR",
+                "urun_ismi": "ESPRESSO CASA ÇEKİRDEK KAHVE 500 GR",
+                "urun_ismi_ID": "segafredo-zanetti-espresso-casa-cekirdek-kahve-500-gr-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1492_1745853308_TrC.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=d25f5ba4a1022b8ab3a14f9c218e6371",
+                "link": "/segafredo-zanetti-espresso-casa-cekirdek-kahve-500-gr-kahveler",
+                "marka": "Segafredo Zanetti",
+                "marka_linki": "/segafredo-zanetti",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 949.99,
+                "aciklama": "",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100142,
+                "puan": "3.8750",
+                "puan_siralama": 3875,
+                "yorum_sayisi": 8,
+                "stoksuz_siralama": 7,
+                "vitrin_urun": true,
+                "birim_fiyat": 1899.98,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve",
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                500
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "500"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100142
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1491",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso",
+                "filtre-kahve",
+                "cekirdek-kahveler"
+              ],
+              "marka": [
+                "segafredo-zanetti"
+              ],
+              "urun": {
+                "id": 1491,
+                "isim": "Segafredo Zanetti INTERMEZZO ÇEKİRDEK KAHVE 500 GR",
+                "urun_ismi": "INTERMEZZO ÇEKİRDEK KAHVE 500 GR",
+                "urun_ismi_ID": "segafredo-zanetti-zanetti-intermezzo-cekirdek-kahve-500-gr-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1491_1745852725_Vgb.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=53a799f328f4798c31f81ec39b3c0967",
+                "link": "/segafredo-zanetti-zanetti-intermezzo-cekirdek-kahve-500-gr-kahveler",
+                "marka": "Segafredo Zanetti",
+                "marka_linki": "/segafredo-zanetti",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 799.99,
+                "aciklama": "Kavrulmuş kahve çekirdeklerinin karışımı\r\nMoka kahve makineleri ve espresso makineleri için uygundur\r\nYoğunluk 12\r\nKoyu kızartma\r\nGüçlü ve dolgun tat",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 73,
+                "puan": "3.2000",
+                "puan_siralama": 3200,
+                "yorum_sayisi": 10,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 1599.98,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve",
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                500
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "500"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              73
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 12,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ekipman",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "espresso-kahve",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 2,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "500",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 2,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "500TL üzerinde",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Origin",
+                  "doc_count": 2,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "blend",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Tat",
+                  "doc_count": 2,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "orta-yumuşak-/-dengeli",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "segafredo-zanetti",
+                "doc_count": 2
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

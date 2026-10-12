@@ -1,0 +1,3260 @@
+{
+  "business": "Caffe Fresco",
+  "catalogUrl": "https://kahhve.com/caffe-fresco",
+  "checkedAt": "2026-10-12T10:41:42.816Z",
+  "records": [
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "795",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-breakfast-blend-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-breakfast-blend-kahveler",
+      "productName": "Breakfast Blend",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 383.99,
+      "listPrice": 479.99,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür. 250 gr dır.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "794",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-espresso-blend-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-espresso-blend-kahveler",
+      "productName": "Espresso Blend",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 343.99,
+      "listPrice": 429.99,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür. 250 gr dır.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "961",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-dark-roast-1-kg-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-dark-roast-1-kg-kahveler",
+      "productName": "Dark Roast 500 gram 2'li Paket",
+      "variantTitle": "1000 g",
+      "grams": 1000,
+      "optionSignature": "",
+      "price": 1127.09,
+      "listPrice": 1325.99,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Kıta: Güney Amerika Ülke: Brezilya Sınıflandırma: Santos Sc 17/18 Bölge: Sul de Minas Yükseklik: 800-1000m Hasat Zamanı: Nisan-Eylül Tat: Yoğun Çikolata, Kahverengi Baharatlar, Yumuşak İçim, Dengeli *Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "796",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-all-day-blend-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-all-day-blend-kahveler",
+      "productName": "All Day Blend",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 479.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Soğuk demleme için uygundur. *Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür. 250 gr dır.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1079",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-chill-blend-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-chill-blend-kahveler",
+      "productName": "Chill Weekend",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 489.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür. 250 gr dır.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "797",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-dark-roast-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-dark-roast-kahveler",
+      "productName": "Dark Roast",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 389.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür. 250 gr dır.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "923",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-breakfast-blend-1-kg-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-breakfast-blend-1-kg-kahveler",
+      "productName": "Breakfast Blend 500 gram 2'li Paket",
+      "variantTitle": "1000 g",
+      "grams": 1000,
+      "optionSignature": "",
+      "price": 1631.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Kıta: Güney Amerika Ülke: Peru Sınıflandırma: Grade 1 Yükseklik: 1300-1500m Hasat Zamanı: Mart-Eylül Tat: Vanilya, Karamel, Acıbadem notaları, Yumuşak İçim *Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1139",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-breakfast-blend-500-gram-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-breakfast-blend-500-gram-kahveler",
+      "productName": "Breakfast Blend 500 gram",
+      "variantTitle": "500 g",
+      "grams": 500,
+      "optionSignature": "",
+      "price": 863.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Kıta: Güney Amerika Ülke: Peru Sınıflandırma: Grade 1 Yükseklik: 1300-1500m Hasat Zamanı: Mart-Eylül Tat: Vanilya, Karamel, Acıbadem notaları, Yumuşak İçim *Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1138",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-espresso-blend-500-gram-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-espresso-blend-500-gram-kahveler",
+      "productName": "Espresso Blend 500 gram",
+      "variantTitle": "500 g",
+      "grams": 500,
+      "optionSignature": "",
+      "price": 773.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "811",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-espresso-blend-1-kg-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-espresso-blend-1-kg-kahveler",
+      "productName": "Espresso Blend 500 gram 2'li Paket",
+      "variantTitle": "1000 g",
+      "grams": 1000,
+      "optionSignature": "",
+      "price": 1461.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Caffé Fresco Espresso Blend muhteşem kremayı hedefleyen espresso tutkunları için özel olarak kavrulmuştur. Altın rengi krema ve doygun aroma için gerekli 100% Arabica çekirdekler özenle seçilmiştir. Hem sade espresso hem de sütlü kahveler için ideal bir kahvedir. Otomatik makinelerde kullanımı özellikle tavsiye edilir. Caffé Fresco Espresso Harmanı ile Moka Pot ve Aeropress kullanarak da güzel sonuçlar alabilirsiniz.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1140",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-all-day-blend-500-gram-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-all-day-blend-500-gram-kahveler",
+      "productName": "All Day Blend 500 gram",
+      "variantTitle": "500 g",
+      "grams": 500,
+      "optionSignature": "",
+      "price": 863.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Kıta: Güney Amerika Ülke: Kolombiya Sınıflandırma: Supremo Bölge: Çeşitli Bölgeler Yükseklik: 1600-1800m Hasat Zamanı: Ekim-Aralık Tat: Çikolata, Kavrulmuş Fındık, Baharatsı, Karabiber, Sitrik Asit Profili *Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1142",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-chill-weekend-500-gram-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-chill-weekend-500-gram-kahveler",
+      "productName": "Chill Weekend 500 gram",
+      "variantTitle": "500 g",
+      "grams": 500,
+      "optionSignature": "",
+      "price": 881.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Kıta: Afrika Ülke: Etiyopya Sınıflandırma: Grade 2 Yükseklik: 1400-1650m Hasat Zamanı: Kasım-Ocak Tat: Meyvemsi, tatlı mandalina *Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "812",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-all-day-blend-1-kg-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-all-day-blend-1-kg-kahveler",
+      "productName": "All Day Blend 500 gram 2'li Paket",
+      "variantTitle": "1000 g",
+      "grams": 1000,
+      "optionSignature": "",
+      "price": 1631.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Soğuk demleme için uygundur *Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1144",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-breakfast-blend-mini-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-breakfast-blend-mini-kahveler",
+      "productName": "Breakfast Blend Mini",
+      "variantTitle": "50 g",
+      "grams": 50,
+      "optionSignature": "",
+      "price": 134.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Kıta: Güney Amerika Ülke: Peru Sınıflandırma: Grade 1 Yükseklik: 1300-1500m Hasat Zamanı: Mart-Eylül Tat: Vanilya, Karamel, Acıbadem notaları, Yumuşak İçim *Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1262",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-espresso-blend-5000-gram-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-espresso-blend-5000-gram-kahveler",
+      "productName": "Espresso Blend 5000 Gram",
+      "variantTitle": "5000 g",
+      "grams": 5000,
+      "optionSignature": "",
+      "price": 6879.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Caffé Fresco Espresso Blend muhteşem kremayı hedefleyen espresso tutkunları için özel olarak kavrulmuştur. Altın rengi krema ve doygun aroma için gerekli 100% Arabica çekirdekler özenle seçilmiştir. Hem sade espresso hem de sütlü kahveler için ideal bir kahvedir. Otomatik makinelerde kullanımı özellikle tavsiye edilir. Caffé Fresco Espresso Harmanı ile Moka Pot ve Aeropress kullanarak da güzel sonuçlar alabilirsiniz.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1143",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-espresso-blend-mini-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-espresso-blend-mini-kahveler",
+      "productName": "Espresso Blend Mini",
+      "variantTitle": "50 g",
+      "grams": 50,
+      "optionSignature": "",
+      "price": 119.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1150",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-chill-weekend-500-gram-2li-paket-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-chill-weekend-500-gram-2li-paket-kahveler",
+      "productName": "Chill Weekend 500 gram 2'li Paket",
+      "variantTitle": "1000 g",
+      "grams": 1000,
+      "optionSignature": "",
+      "price": 1665.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Kıta: Afrika Ülke: Etiyopya Sınıflandırma: Grade 2 Yükseklik: 1400-1650m Hasat Zamanı: Kasım-Ocak Tat: Meyvemsi, tatlı mandalina *Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1141",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-dark-roast-500-gram-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-dark-roast-500-gram-kahveler",
+      "productName": "Dark Roast 500 gram",
+      "variantTitle": "500 g",
+      "grams": 500,
+      "optionSignature": "",
+      "price": 701.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Kıta: Güney Amerika Ülke: Brezilya Sınıflandırma: Santos Sc 17/18 Bölge: Sul de Minas Yükseklik: 800-1000m Hasat Zamanı: Nisan-Eylül Tat: Yoğun Çikolata, Kahverengi Baharatlar, Yumuşak İçim, Dengeli *Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1263",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-breakfast-blend-5000-gram-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-breakfast-blend-5000-gram-kahveler",
+      "productName": "Breakfast Blend 5000 Gram",
+      "variantTitle": "5000 g",
+      "grams": 5000,
+      "optionSignature": "",
+      "price": 7679.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Kıta: Güney Amerika Ülke: Peru Sınıflandırma: Grade 1 Yükseklik: 1300-1500m Hasat Zamanı: Mart-Eylül Tat: Vanilya, Karamel, Acıbadem notaları, Yumuşak İçim *Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1396",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-dark-roast-mini-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-dark-roast-mini-kahveler",
+      "productName": "Dark Roast Mini",
+      "variantTitle": "50 g",
+      "grams": 50,
+      "optionSignature": "",
+      "price": 109.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1395",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-all-day-mini-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-all-day-mini-kahveler",
+      "productName": "All Day Blend Mini",
+      "variantTitle": "50 g",
+      "grams": 50,
+      "optionSignature": "",
+      "price": 134.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1391",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-chill-weekend-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-chill-weekend-kahveler",
+      "productName": "Chill Weekend Mini",
+      "variantTitle": "50 g",
+      "grams": 50,
+      "optionSignature": "",
+      "price": 139.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1264",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-dark-roast-5000-gram-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-dark-roast-5000-gram-kahveler",
+      "productName": "Dark Roast 5000 Gram",
+      "variantTitle": "5000 g",
+      "grams": 5000,
+      "optionSignature": "",
+      "price": 6239.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Kıta: Güney Amerika Ülke: Brezilya Sınıflandırma: Santos Sc 17/18 Bölge: Sul de Minas Yükseklik: 800-1000m Hasat Zamanı: Nisan-Eylül Tat: Yoğun Çikolata, Kahverengi Baharatlar, Yumuşak İçim, Dengeli *Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1261",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-all-day-blend-5000-gram-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-all-day-blend-5000-gram-kahveler",
+      "productName": "All Day Blend 5000 Gram",
+      "variantTitle": "5000 g",
+      "grams": 5000,
+      "optionSignature": "",
+      "price": 7679.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1483",
+      "platformVariantId": "default",
+      "urlPath": "/caffe-fresco-chill-weekend-5000-gram-kahveler",
+      "url": "https://kahhve.com/caffe-fresco-chill-weekend-5000-gram-kahveler",
+      "productName": "Chill Weekend 5000 Gram",
+      "variantTitle": "5000 g",
+      "grams": 5000,
+      "optionSignature": "",
+      "price": 7839.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+      "brand": "Caffe Fresco",
+      "brandSlug": "caffe-fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco"
+    }
+  ],
+  "sampleVerification": {
+    "url": "https://kahhve.com/caffe-fresco-breakfast-blend-kahveler",
+    "status": 200,
+    "price": 383.99,
+    "brand": "Caffe Fresco",
+    "grams": 250
+  },
+  "payloads": [
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=caffe-fresco",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "795",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler",
+                "cekirdek-kahveler",
+                "kampanyali-urunler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 795,
+                "isim": "Caffe Fresco Breakfast Blend",
+                "urun_ismi": "Breakfast Blend",
+                "urun_ismi_ID": "caffe-fresco-breakfast-blend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/795_1642231485_8LV.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=1ae921131ba48a9a9c005e5dab710710",
+                "link": "/caffe-fresco-breakfast-blend-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 383.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n250 gr dır.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 1,
+                "ana_sayfa_firsat_urunleri": 1,
+                "siralama": 101717,
+                "puan": "4.3887",
+                "puan_siralama": 4388,
+                "yorum_sayisi": 999,
+                "stoksuz_siralama": 110,
+                "vitrin_urun": true,
+                "ana_sayfa_kahve": 1,
+                "birim_fiyat": 1535.96,
+                "eski_fiyat": 479.99,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              101717
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "794",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso",
+                "cekirdek-kahveler",
+                "zb25",
+                "populer-kahveler",
+                "kampanyali-urunler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 794,
+                "isim": "Caffe Fresco Espresso Blend",
+                "urun_ismi": "Espresso Blend",
+                "urun_ismi_ID": "caffe-fresco-espresso-blend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/794_1642231465_ZYC.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=1c9355a1ba39c269179b5975d0b53936",
+                "link": "/caffe-fresco-espresso-blend-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 343.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n250 gr dır.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 3,
+                "ana_sayfa_firsat_urunleri": 1,
+                "siralama": 101330,
+                "puan": "4.2300",
+                "puan_siralama": 4230,
+                "yorum_sayisi": 532,
+                "stoksuz_siralama": 82,
+                "vitrin_urun": true,
+                "ana_sayfa_kahve": 1,
+                "birim_fiyat": 1375.96,
+                "eski_fiyat": 429.99,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              101330
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "961",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "espresso",
+                "zb25",
+                "populer-kahveler",
+                "kampanyali-urunler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 961,
+                "isim": "Caffe Fresco Dark Roast 500 gram 2'li Paket",
+                "urun_ismi": "Dark Roast 500 gram 2'li Paket",
+                "urun_ismi_ID": "caffe-fresco-dark-roast-1-kg-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/961_1642147534_Yqx.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=2b48a2bbc2ba90404bdc38a897d19f84",
+                "link": "/caffe-fresco-dark-roast-1-kg-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 1127.09,
+                "aciklama": "Kıta: Güney Amerika\r\nÜlke: Brezilya\r\nSınıflandırma: Santos Sc 17/18\r\nBölge: Sul de Minas\r\nYükseklik: 800-1000m\r\nHasat Zamanı: Nisan-Eylül\r\nTat: Yoğun Çikolata, Kahverengi Baharatlar, Yumuşak İçim, Dengeli\r\n\r\n*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 7,
+                "ana_sayfa_firsat_urunleri": 1,
+                "siralama": 100383,
+                "puan": "4.3281",
+                "puan_siralama": 4328,
+                "yorum_sayisi": 428,
+                "stoksuz_siralama": 22,
+                "vitrin_urun": true,
+                "birim_fiyat": 1127.09,
+                "eski_fiyat": 1325.99,
+                "ucretsiz_kargo": 1,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                1000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "1000"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100383
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "796",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 796,
+                "isim": "Caffe Fresco All Day Blend",
+                "urun_ismi": "All Day Blend",
+                "urun_ismi_ID": "caffe-fresco-all-day-blend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/796_1642231503_apc.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=92901cf47af2e79d739815dcb351cfae",
+                "link": "/caffe-fresco-all-day-blend-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 479.99,
+                "aciklama": "*Soğuk demleme için uygundur. \r\n*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n250 gr dır.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 6,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100338,
+                "puan": "4.3221",
+                "puan_siralama": 4322,
+                "yorum_sayisi": 530,
+                "stoksuz_siralama": 16,
+                "vitrin_urun": true,
+                "ana_sayfa_kahve": 1,
+                "birim_fiyat": 1919.96,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve",
+                  "Soğuk Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "soğuk-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100338
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1079",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1079,
+                "isim": "Caffe Fresco Chill Weekend",
+                "urun_ismi": "Chill Weekend",
+                "urun_ismi_ID": "caffe-fresco-chill-blend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1079_1642231540_3MZ.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=d71017c3278809c4e23acd30f4ffffe4",
+                "link": "/caffe-fresco-chill-blend-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 489.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n250 gr dır.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 9,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100199,
+                "puan": "4.5496",
+                "puan_siralama": 4549,
+                "yorum_sayisi": 219,
+                "stoksuz_siralama": 10,
+                "vitrin_urun": true,
+                "birim_fiyat": 1959.96,
+                "Origin": "Blend",
+                "Tat": "Meyvemsi / Az Kavrulmuş",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "meyvemsi-/-az-kavrulmuş"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100199
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "797",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 797,
+                "isim": "Caffe Fresco Dark Roast",
+                "urun_ismi": "Dark Roast",
+                "urun_ismi_ID": "caffe-fresco-dark-roast-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/797_1642231522_QvY.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=582c1a7f0203bb497674dd22aa38092d",
+                "link": "/caffe-fresco-dark-roast-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 389.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n250 gr dır.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 7,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100141,
+                "puan": "4.2191",
+                "puan_siralama": 4219,
+                "yorum_sayisi": 428,
+                "stoksuz_siralama": 7,
+                "vitrin_urun": true,
+                "birim_fiyat": 1559.96,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              100141
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 122,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ekipman",
+                  "doc_count": 28,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "espresso-kahve",
+                        "doc_count": 5
+                      },
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 20
+                      },
+                      {
+                        "key": "soğuk-kahve",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 25,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "1000",
+                        "doc_count": 5
+                      },
+                      {
+                        "key": "250",
+                        "doc_count": 5
+                      },
+                      {
+                        "key": "50",
+                        "doc_count": 5
+                      },
+                      {
+                        "key": "500",
+                        "doc_count": 5
+                      },
+                      {
+                        "key": "5000",
+                        "doc_count": 5
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 25,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "100TL — 200TL",
+                        "doc_count": 5
+                      },
+                      {
+                        "key": "300TL — 400TL",
+                        "doc_count": 3
+                      },
+                      {
+                        "key": "400TL — 500TL",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "500TL üzerinde",
+                        "doc_count": 15
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Origin",
+                  "doc_count": 22,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "blend",
+                        "doc_count": 22
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Tat",
+                  "doc_count": 22,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "meyvemsi-/-az-kavrulmuş",
+                        "doc_count": 3
+                      },
+                      {
+                        "key": "orta-yumuşak-/-dengeli",
+                        "doc_count": 10
+                      },
+                      {
+                        "key": "yoğun-/-sert",
+                        "doc_count": 9
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "caffe-fresco",
+                "doc_count": 25
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=caffe-fresco&filtreler%5BA%C4%9F%C4%B1rl%C4%B1k%5D=1000%2C250%2C50%2C500%2C5000",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "795",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler",
+                "cekirdek-kahveler",
+                "kampanyali-urunler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 795,
+                "isim": "Caffe Fresco Breakfast Blend",
+                "urun_ismi": "Breakfast Blend",
+                "urun_ismi_ID": "caffe-fresco-breakfast-blend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/795_1642231485_8LV.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=1ae921131ba48a9a9c005e5dab710710",
+                "link": "/caffe-fresco-breakfast-blend-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 383.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n250 gr dır.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 1,
+                "ana_sayfa_firsat_urunleri": 1,
+                "siralama": 101717,
+                "puan": "4.3887",
+                "puan_siralama": 4388,
+                "yorum_sayisi": 999,
+                "stoksuz_siralama": 110,
+                "vitrin_urun": true,
+                "ana_sayfa_kahve": 1,
+                "birim_fiyat": 1535.96,
+                "eski_fiyat": 479.99,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              101717
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "794",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso",
+                "cekirdek-kahveler",
+                "zb25",
+                "populer-kahveler",
+                "kampanyali-urunler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 794,
+                "isim": "Caffe Fresco Espresso Blend",
+                "urun_ismi": "Espresso Blend",
+                "urun_ismi_ID": "caffe-fresco-espresso-blend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/794_1642231465_ZYC.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=1c9355a1ba39c269179b5975d0b53936",
+                "link": "/caffe-fresco-espresso-blend-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 343.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n250 gr dır.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 3,
+                "ana_sayfa_firsat_urunleri": 1,
+                "siralama": 101330,
+                "puan": "4.2300",
+                "puan_siralama": 4230,
+                "yorum_sayisi": 532,
+                "stoksuz_siralama": 82,
+                "vitrin_urun": true,
+                "ana_sayfa_kahve": 1,
+                "birim_fiyat": 1375.96,
+                "eski_fiyat": 429.99,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              101330
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "923",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 923,
+                "isim": "Caffe Fresco Breakfast Blend 500 gram 2'li Paket",
+                "urun_ismi": "Breakfast Blend 500 gram 2'li Paket",
+                "urun_ismi_ID": "caffe-fresco-breakfast-blend-1-kg-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/923_1642147401_IiC.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=ff0714eb6e492a1fc093896c465eabbe",
+                "link": "/caffe-fresco-breakfast-blend-1-kg-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 1631.99,
+                "aciklama": "Kıta: Güney Amerika\r\nÜlke: Peru\r\nSınıflandırma: Grade 1\r\nYükseklik: 1300-1500m\r\nHasat Zamanı: Mart-Eylül\r\nTat: Vanilya, Karamel, Acıbadem notaları, Yumuşak İçim\r\n\r\n*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 1,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100394,
+                "puan": "4.6111",
+                "puan_siralama": 4611,
+                "yorum_sayisi": 999,
+                "stoksuz_siralama": 24,
+                "vitrin_urun": false,
+                "birim_fiyat": 1631.99,
+                "ucretsiz_kargo": 1,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                1000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "1000"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100394
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1139",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1139,
+                "isim": "Caffe Fresco Breakfast Blend 500 gram",
+                "urun_ismi": "Breakfast Blend 500 gram",
+                "urun_ismi_ID": "caffe-fresco-breakfast-blend-500-gram-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1139_1640858091_XNn.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=b566cc01948ca114fec0d2cd5508328b",
+                "link": "/caffe-fresco-breakfast-blend-500-gram-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 863.99,
+                "aciklama": "Kıta: Güney Amerika\r\nÜlke: Peru\r\nSınıflandırma: Grade 1\r\nYükseklik: 1300-1500m\r\nHasat Zamanı: Mart-Eylül\r\nTat: Vanilya, Karamel, Acıbadem notaları, Yumuşak İçim\r\n\r\n*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 1,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100389,
+                "puan": "4.6859",
+                "puan_siralama": 4685,
+                "yorum_sayisi": 999,
+                "stoksuz_siralama": 25,
+                "vitrin_urun": false,
+                "birim_fiyat": 1727.98,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                500
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "500"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100389
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "961",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "espresso",
+                "zb25",
+                "populer-kahveler",
+                "kampanyali-urunler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 961,
+                "isim": "Caffe Fresco Dark Roast 500 gram 2'li Paket",
+                "urun_ismi": "Dark Roast 500 gram 2'li Paket",
+                "urun_ismi_ID": "caffe-fresco-dark-roast-1-kg-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/961_1642147534_Yqx.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=2b48a2bbc2ba90404bdc38a897d19f84",
+                "link": "/caffe-fresco-dark-roast-1-kg-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 1127.09,
+                "aciklama": "Kıta: Güney Amerika\r\nÜlke: Brezilya\r\nSınıflandırma: Santos Sc 17/18\r\nBölge: Sul de Minas\r\nYükseklik: 800-1000m\r\nHasat Zamanı: Nisan-Eylül\r\nTat: Yoğun Çikolata, Kahverengi Baharatlar, Yumuşak İçim, Dengeli\r\n\r\n*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 7,
+                "ana_sayfa_firsat_urunleri": 1,
+                "siralama": 100383,
+                "puan": "4.3281",
+                "puan_siralama": 4328,
+                "yorum_sayisi": 428,
+                "stoksuz_siralama": 22,
+                "vitrin_urun": true,
+                "birim_fiyat": 1127.09,
+                "eski_fiyat": 1325.99,
+                "ucretsiz_kargo": 1,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                1000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "1000"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100383
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "796",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 796,
+                "isim": "Caffe Fresco All Day Blend",
+                "urun_ismi": "All Day Blend",
+                "urun_ismi_ID": "caffe-fresco-all-day-blend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/796_1642231503_apc.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=92901cf47af2e79d739815dcb351cfae",
+                "link": "/caffe-fresco-all-day-blend-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 479.99,
+                "aciklama": "*Soğuk demleme için uygundur. \r\n*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n250 gr dır.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 6,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100338,
+                "puan": "4.3221",
+                "puan_siralama": 4322,
+                "yorum_sayisi": 530,
+                "stoksuz_siralama": 16,
+                "vitrin_urun": true,
+                "ana_sayfa_kahve": 1,
+                "birim_fiyat": 1919.96,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve",
+                  "Soğuk Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "soğuk-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100338
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1138",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso",
+                "cekirdek-kahveler",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1138,
+                "isim": "Caffe Fresco Espresso Blend 500 gram",
+                "urun_ismi": "Espresso Blend 500 gram",
+                "urun_ismi_ID": "caffe-fresco-espresso-blend-500-gram-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1138_1640858314_UxS.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=d3e0a89c6b09a10716dd643cddb821f9",
+                "link": "/caffe-fresco-espresso-blend-500-gram-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 773.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 3,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100331,
+                "puan": "4.4308",
+                "puan_siralama": 4430,
+                "yorum_sayisi": 532,
+                "stoksuz_siralama": 17,
+                "vitrin_urun": false,
+                "birim_fiyat": 1547.98,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                500
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "500"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100331
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "811",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "espresso",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 811,
+                "isim": "Caffe Fresco Espresso Blend 500 gram 2'li Paket",
+                "urun_ismi": "Espresso Blend 500 gram 2'li Paket",
+                "urun_ismi_ID": "caffe-fresco-espresso-blend-1-kg-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/811_1642146910_ahF.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=b9db60cffa6ad718082779f444f39943",
+                "link": "/caffe-fresco-espresso-blend-1-kg-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 1461.99,
+                "aciklama": "Caffé Fresco Espresso Blend muhteşem kremayı hedefleyen espresso tutkunları için özel olarak kavrulmuştur. Altın rengi krema ve doygun aroma için gerekli 100% Arabica çekirdekler özenle seçilmiştir. Hem sade espresso hem de sütlü kahveler için ideal bir kahvedir. Otomatik makinelerde kullanımı özellikle tavsiye edilir. Caffé Fresco Espresso Harmanı ile Moka Pot ve Aeropress kullanarak da güzel sonuçlar alabilirsiniz. \r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 3,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100271,
+                "puan": "4.4240",
+                "puan_siralama": 4424,
+                "yorum_sayisi": 532,
+                "stoksuz_siralama": 17,
+                "vitrin_urun": false,
+                "birim_fiyat": 1461.99,
+                "ucretsiz_kargo": 1,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                1000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "1000"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100271
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1079",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1079,
+                "isim": "Caffe Fresco Chill Weekend",
+                "urun_ismi": "Chill Weekend",
+                "urun_ismi_ID": "caffe-fresco-chill-blend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1079_1642231540_3MZ.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=d71017c3278809c4e23acd30f4ffffe4",
+                "link": "/caffe-fresco-chill-blend-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 489.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n250 gr dır.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 9,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100199,
+                "puan": "4.5496",
+                "puan_siralama": 4549,
+                "yorum_sayisi": 219,
+                "stoksuz_siralama": 10,
+                "vitrin_urun": true,
+                "birim_fiyat": 1959.96,
+                "Origin": "Blend",
+                "Tat": "Meyvemsi / Az Kavrulmuş",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "meyvemsi-/-az-kavrulmuş"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100199
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1140",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1140,
+                "isim": "Caffe Fresco All Day Blend 500 gram",
+                "urun_ismi": "All Day Blend 500 gram",
+                "urun_ismi_ID": "caffe-fresco-all-day-blend-500-gram-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1140_1640857935_TeR.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=b13d8f109bc17f732566101117253ab7",
+                "link": "/caffe-fresco-all-day-blend-500-gram-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 863.99,
+                "aciklama": "Kıta: Güney Amerika\r\nÜlke: Kolombiya\r\nSınıflandırma: Supremo\r\nBölge: Çeşitli Bölgeler\r\nYükseklik: 1600-1800m\r\nHasat Zamanı: Ekim-Aralık\r\nTat: Çikolata, Kavrulmuş Fındık, Baharatsı, Karabiber, Sitrik Asit Profili\r\n\r\n*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 6,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100179,
+                "puan": "4.7111",
+                "puan_siralama": 4711,
+                "yorum_sayisi": 530,
+                "stoksuz_siralama": 15,
+                "vitrin_urun": false,
+                "ana_sayfa_kahve": 1,
+                "birim_fiyat": 1727.98,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve",
+                  "Soğuk Kahve"
+                ]
+              },
+              "agirlik": [
+                500
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "500"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "soğuk-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100179
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "797",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 797,
+                "isim": "Caffe Fresco Dark Roast",
+                "urun_ismi": "Dark Roast",
+                "urun_ismi_ID": "caffe-fresco-dark-roast-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/797_1642231522_QvY.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=582c1a7f0203bb497674dd22aa38092d",
+                "link": "/caffe-fresco-dark-roast-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 389.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n250 gr dır.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 7,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100141,
+                "puan": "4.2191",
+                "puan_siralama": 4219,
+                "yorum_sayisi": 428,
+                "stoksuz_siralama": 7,
+                "vitrin_urun": true,
+                "birim_fiyat": 1559.96,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              100141
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1142",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1142,
+                "isim": "Caffe Fresco Chill Weekend 500 gram",
+                "urun_ismi": "Chill Weekend 500 gram",
+                "urun_ismi_ID": "caffe-fresco-chill-weekend-500-gram-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1142_1642148278_0bL.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=0a91bbda761d9653bd2b5e9a6c57afe6",
+                "link": "/caffe-fresco-chill-weekend-500-gram-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 881.99,
+                "aciklama": "Kıta: Afrika\r\nÜlke: Etiyopya\r\nSınıflandırma: Grade 2\r\nYükseklik: 1400-1650m\r\nHasat Zamanı: Kasım-Ocak\r\nTat: Meyvemsi, tatlı mandalina\r\n\r\n*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 9,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100101,
+                "puan": "4.3721",
+                "puan_siralama": 4372,
+                "yorum_sayisi": 219,
+                "stoksuz_siralama": 7,
+                "vitrin_urun": false,
+                "birim_fiyat": 1763.98,
+                "Origin": "Blend",
+                "Tat": "Meyvemsi / Az Kavrulmuş",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                500
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "500"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "meyvemsi-/-az-kavrulmuş"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100101
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "812",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 812,
+                "isim": "Caffe Fresco All Day Blend 500 gram 2'li Paket",
+                "urun_ismi": "All Day Blend 500 gram 2'li Paket",
+                "urun_ismi_ID": "caffe-fresco-all-day-blend-1-kg-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/812_1642147061_kMU.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=e9b4e3210d966d00a95d49032a872c2d",
+                "link": "/caffe-fresco-all-day-blend-1-kg-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 1631.99,
+                "aciklama": "*Soğuk demleme için uygundur\r\n*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 6,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100088,
+                "puan": "4.4298",
+                "puan_siralama": 4429,
+                "yorum_sayisi": 530,
+                "stoksuz_siralama": 5,
+                "vitrin_urun": false,
+                "birim_fiyat": 1631.99,
+                "ucretsiz_kargo": 1,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve",
+                  "Soğuk Kahve"
+                ]
+              },
+              "agirlik": [
+                1000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "1000"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "soğuk-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100088
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1144",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1144,
+                "isim": "Caffe Fresco Breakfast Blend Mini",
+                "urun_ismi": "Breakfast Blend Mini",
+                "urun_ismi_ID": "caffe-fresco-breakfast-blend-mini-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1144_1766402067_e69.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=f554ab4504349322881ed6cb529f78e9",
+                "link": "/caffe-fresco-breakfast-blend-mini-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 134.99,
+                "aciklama": "Kıta: Güney Amerika\r\nÜlke: Peru\r\nSınıflandırma: Grade 1\r\nYükseklik: 1300-1500m\r\nHasat Zamanı: Mart-Eylül\r\nTat: Vanilya, Karamel, Acıbadem notaları, Yumuşak İçim\r\n\r\n*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 1,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100087,
+                "puan": "4.0388",
+                "puan_siralama": 4038,
+                "yorum_sayisi": 1001,
+                "stoksuz_siralama": 4,
+                "vitrin_urun": false,
+                "birim_fiyat": 2699.8,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                50
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "50"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "100TL — 200TL"
+                }
+              ]
+            },
+            "sort": [
+              100087
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1262",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso",
+                "cekirdek-kahveler",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1262,
+                "isim": "Caffe Fresco Espresso Blend 5000 Gram",
+                "urun_ismi": "Espresso Blend 5000 Gram",
+                "urun_ismi_ID": "caffe-fresco-espresso-blend-5000-gram-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1262_1659534238_xo1.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=94a5b9753f25584fcf621a489b50de47",
+                "link": "/caffe-fresco-espresso-blend-5000-gram-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 6879.99,
+                "aciklama": "Caffé Fresco Espresso Blend muhteşem kremayı hedefleyen espresso tutkunları için özel olarak kavrulmuştur. Altın rengi krema ve doygun aroma için gerekli 100% Arabica çekirdekler özenle seçilmiştir. Hem sade espresso hem de sütlü kahveler için ideal bir kahvedir. Otomatik makinelerde kullanımı özellikle tavsiye edilir. Caffé Fresco Espresso Harmanı ile Moka Pot ve Aeropress kullanarak da güzel sonuçlar alabilirsiniz. \r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 3,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100058,
+                "puan": "4.3333",
+                "puan_siralama": 4333,
+                "yorum_sayisi": 532,
+                "stoksuz_siralama": 4,
+                "vitrin_urun": false,
+                "birim_fiyat": 1375.998,
+                "ucretsiz_kargo": 1,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                5000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "5000"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100058
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1143",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso",
+                "cekirdek-kahveler",
+                "berrak",
+                "zb25"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1143,
+                "isim": "Caffe Fresco Espresso Blend Mini",
+                "urun_ismi": "Espresso Blend Mini",
+                "urun_ismi_ID": "caffe-fresco-espresso-blend-mini-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1143_1766402049_Him.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=ed305674a01050b221e11f11e448b865",
+                "link": "/caffe-fresco-espresso-blend-mini-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 119.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 3,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100047,
+                "puan": "4.1220",
+                "puan_siralama": 4122,
+                "yorum_sayisi": 532,
+                "stoksuz_siralama": 2,
+                "vitrin_urun": false,
+                "birim_fiyat": 2399.7999999999997,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                50
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "50"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "100TL — 200TL"
+                }
+              ]
+            },
+            "sort": [
+              100047
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1150",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1150,
+                "isim": "Caffe Fresco Chill Weekend 500 gram 2'li Paket",
+                "urun_ismi": "Chill Weekend 500 gram 2'li Paket",
+                "urun_ismi_ID": "caffe-fresco-chill-weekend-500-gram-2li-paket-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1150_1642148603_ohI.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=c66fcff156a4c18bc21091239435fb58",
+                "link": "/caffe-fresco-chill-weekend-500-gram-2li-paket-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 1665.99,
+                "aciklama": "Kıta: Afrika\r\nÜlke: Etiyopya\r\nSınıflandırma: Grade 2\r\nYükseklik: 1400-1650m\r\nHasat Zamanı: Kasım-Ocak\r\nTat: Meyvemsi, tatlı mandalina\r\n\r\n*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 9,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100044,
+                "puan": "4.6129",
+                "puan_siralama": 4612,
+                "yorum_sayisi": 219,
+                "stoksuz_siralama": 3,
+                "vitrin_urun": false,
+                "birim_fiyat": 1665.99,
+                "ucretsiz_kargo": 1,
+                "Origin": "Blend",
+                "Tat": "Meyvemsi / Az Kavrulmuş",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                1000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "1000"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "meyvemsi-/-az-kavrulmuş"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100044
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1141",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1141,
+                "isim": "Caffe Fresco Dark Roast 500 gram",
+                "urun_ismi": "Dark Roast 500 gram",
+                "urun_ismi_ID": "caffe-fresco-dark-roast-500-gram-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1141_1640858209_2yM.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=5e38ddb6e30347d2fa5f5fbb949ecbe2",
+                "link": "/caffe-fresco-dark-roast-500-gram-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 701.99,
+                "aciklama": "Kıta: Güney Amerika\r\nÜlke: Brezilya\r\nSınıflandırma: Santos Sc 17/18\r\nBölge: Sul de Minas\r\nYükseklik: 800-1000m\r\nHasat Zamanı: Nisan-Eylül\r\nTat: Yoğun Çikolata, Kahverengi Baharatlar, Yumuşak İçim, Dengeli\r\n\r\n*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 7,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100035,
+                "puan": "4.3200",
+                "puan_siralama": 4320,
+                "yorum_sayisi": 428,
+                "stoksuz_siralama": 2,
+                "vitrin_urun": false,
+                "birim_fiyat": 1403.98,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                500
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "500"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100035
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1263",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "cekirdek-kahveler",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1263,
+                "isim": "Caffe Fresco Breakfast Blend 5000 Gram",
+                "urun_ismi": "Breakfast Blend 5000 Gram",
+                "urun_ismi_ID": "caffe-fresco-breakfast-blend-5000-gram-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1263_1659534258_rt9.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=d1e6f4bb701b428b68fe8c9e58163bb1",
+                "link": "/caffe-fresco-breakfast-blend-5000-gram-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 7679.99,
+                "aciklama": "Kıta: Güney Amerika\r\nÜlke: Peru\r\nSınıflandırma: Grade 1\r\nYükseklik: 1300-1500m\r\nHasat Zamanı: Mart-Eylül\r\nTat: Vanilya, Karamel, Acıbadem notaları, Yumuşak İçim\r\n\r\n*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 1,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100033,
+                "puan": "4.6667",
+                "puan_siralama": 4666,
+                "yorum_sayisi": 999,
+                "stoksuz_siralama": 2,
+                "vitrin_urun": false,
+                "birim_fiyat": 1535.998,
+                "ucretsiz_kargo": 1,
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                5000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "5000"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100033
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1396",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "cekirdek-kahveler",
+                "zb25"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1396,
+                "isim": "Caffe Fresco Dark Roast Mini",
+                "urun_ismi": "Dark Roast Mini",
+                "urun_ismi_ID": "caffe-fresco-dark-roast-mini-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1396_1766402026_aM4.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=80cddf285681350791134b27eba2fe0b",
+                "link": "/caffe-fresco-dark-roast-mini-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 109.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 7,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100031,
+                "puan": "3.4000",
+                "puan_siralama": 3400,
+                "yorum_sayisi": 428,
+                "stoksuz_siralama": 2,
+                "vitrin_urun": false,
+                "birim_fiyat": 2199.7999999999997,
+                "Origin": "Blend",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                50
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "50"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "100TL — 200TL"
+                }
+              ]
+            },
+            "sort": [
+              100031
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1395",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "cekirdek-kahveler",
+                "zb25"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1395,
+                "isim": "Caffe Fresco All Day Blend Mini",
+                "urun_ismi": "All Day Blend Mini",
+                "urun_ismi_ID": "caffe-fresco-all-day-mini-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1395_1766402002_VbL.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=9cb570016c595374040e4db85d72d1fc",
+                "link": "/caffe-fresco-all-day-mini-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 134.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 6,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100024,
+                "puan": "3.8667",
+                "puan_siralama": 3866,
+                "yorum_sayisi": 530,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": false,
+                "birim_fiyat": 2699.8,
+                "Origin": "Blend",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                50
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "50"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "100TL — 200TL"
+                }
+              ]
+            },
+            "sort": [
+              100024
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1391",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "cekirdek-kahveler",
+                "zb25"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1391,
+                "isim": "Caffe Fresco Chill Weekend Mini",
+                "urun_ismi": "Chill Weekend Mini",
+                "urun_ismi_ID": "caffe-fresco-chill-weekend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1391_1766401974_G6U.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=027d66bb659f197423db0704e98c3b9e",
+                "link": "/caffe-fresco-chill-weekend-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 139.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 9,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100022,
+                "puan": "4.2143",
+                "puan_siralama": 4214,
+                "yorum_sayisi": 219,
+                "stoksuz_siralama": 2,
+                "vitrin_urun": false,
+                "birim_fiyat": 2799.8,
+                "Origin": "Blend",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                50
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "50"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "100TL — 200TL"
+                }
+              ]
+            },
+            "sort": [
+              100022
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1264",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "cekirdek-kahveler",
+                "espresso",
+                "zb25",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1264,
+                "isim": "Caffe Fresco Dark Roast 5000 Gram",
+                "urun_ismi": "Dark Roast 5000 Gram",
+                "urun_ismi_ID": "caffe-fresco-dark-roast-5000-gram-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1264_1659534274_h0J.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=748f57b035e0f0438cfd1fee50b3d283",
+                "link": "/caffe-fresco-dark-roast-5000-gram-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 6239.99,
+                "aciklama": "Kıta: Güney Amerika\r\nÜlke: Brezilya\r\nSınıflandırma: Santos Sc 17/18\r\nBölge: Sul de Minas\r\nYükseklik: 800-1000m\r\nHasat Zamanı: Nisan-Eylül\r\nTat: Yoğun Çikolata, Kahverengi Baharatlar, Yumuşak İçim, Dengeli\r\n\r\n*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 7,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100018,
+                "puan": null,
+                "puan_siralama": 0,
+                "yorum_sayisi": 428,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": false,
+                "birim_fiyat": 1247.998,
+                "ucretsiz_kargo": 1,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                5000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "5000"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100018
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1261",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "cekirdek-kahveler",
+                "zb25"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1261,
+                "isim": "Caffe Fresco All Day Blend 5000 Gram",
+                "urun_ismi": "All Day Blend 5000 Gram",
+                "urun_ismi_ID": "caffe-fresco-all-day-blend-5000-gram-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1261_1659534222_FxV.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=a2a1bf9eeed2be6c4365a4f5a12bc27f",
+                "link": "/caffe-fresco-all-day-blend-5000-gram-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 7679.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 6,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100017,
+                "puan": null,
+                "puan_siralama": 0,
+                "yorum_sayisi": 530,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": false,
+                "birim_fiyat": 1535.998,
+                "ucretsiz_kargo": 1,
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                5000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "5000"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100017
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1483",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "cekirdek-kahveler",
+                "populer-kahveler"
+              ],
+              "marka": [
+                "caffe-fresco"
+              ],
+              "urun": {
+                "id": 1483,
+                "isim": "Caffe Fresco Chill Weekend 5000 Gram",
+                "urun_ismi": "Chill Weekend 5000 Gram",
+                "urun_ismi_ID": "caffe-fresco-chill-weekend-5000-gram-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1483_1740033429_Rtw.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=80170245752963b8fdd1c575d206d4fa",
+                "link": "/caffe-fresco-chill-weekend-5000-gram-kahveler",
+                "marka": "Caffe Fresco",
+                "marka_linki": "/caffe-fresco",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 7839.99,
+                "aciklama": "*Öğütülmüş olarak verdiğiniz siparişleriniz Mahlkönig EK43 marka öğütücümüz ile siparişinize istinaden öğütülür.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100011,
+                "puan": null,
+                "puan_siralama": 0,
+                "yorum_sayisi": 219,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": false,
+                "birim_fiyat": 1567.998,
+                "ucretsiz_kargo": 1,
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                5000
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "5000"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100011
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 122,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ekipman",
+                  "doc_count": 28,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "espresso-kahve",
+                        "doc_count": 5
+                      },
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 20
+                      },
+                      {
+                        "key": "soğuk-kahve",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 25,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "1000",
+                        "doc_count": 5
+                      },
+                      {
+                        "key": "250",
+                        "doc_count": 5
+                      },
+                      {
+                        "key": "50",
+                        "doc_count": 5
+                      },
+                      {
+                        "key": "500",
+                        "doc_count": 5
+                      },
+                      {
+                        "key": "5000",
+                        "doc_count": 5
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 25,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "100TL — 200TL",
+                        "doc_count": 5
+                      },
+                      {
+                        "key": "300TL — 400TL",
+                        "doc_count": 3
+                      },
+                      {
+                        "key": "400TL — 500TL",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "500TL üzerinde",
+                        "doc_count": 15
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Origin",
+                  "doc_count": 22,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "blend",
+                        "doc_count": 22
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Tat",
+                  "doc_count": 22,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "meyvemsi-/-az-kavrulmuş",
+                        "doc_count": 3
+                      },
+                      {
+                        "key": "orta-yumuşak-/-dengeli",
+                        "doc_count": 10
+                      },
+                      {
+                        "key": "yoğun-/-sert",
+                        "doc_count": 9
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "caffe-fresco",
+                "doc_count": 25
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

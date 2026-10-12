@@ -1,0 +1,759 @@
+{
+  "business": "Illy",
+  "catalogUrl": "https://kahhve.com/illy",
+  "checkedAt": "2026-10-12T10:41:42.816Z",
+  "records": [
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "330",
+      "platformVariantId": "default",
+      "urlPath": "/illy-medium-roast-tam-cekirdek-kahveler",
+      "url": "https://kahhve.com/illy-medium-roast-tam-cekirdek-kahveler",
+      "productName": "Medium Roast Tam Çekirdek",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 699.99,
+      "listPrice": null,
+      "inStock": false,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Orta derece kavrulmuş özel bir harmandır.",
+      "brand": "Illy",
+      "brandSlug": "illy",
+      "catalogUrl": "https://kahhve.com/illy"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "333",
+      "platformVariantId": "default",
+      "urlPath": "/illy-dark-roast-ogutulmus-kahve-kahveler",
+      "url": "https://kahhve.com/illy-dark-roast-ogutulmus-kahve-kahveler",
+      "productName": "Bold Roast Öğütülmüş Filtre Kahve",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 699.99,
+      "listPrice": null,
+      "inStock": false,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "illy koyu kavrulmuş filtre kahve, sıcak kakao ve kurutulmuş meyve notaları ile hoş, yoğun ve güçlü bir lezzet sunar. illy Kahve kalitesinin altında kahveyi taze tuttuğu tescillenmiş basınçlı paketleme uygulaması yatmaktadır. Koyu Kavrulmuş Filtre Kahve (250 g) paketi açılıp hava ile temas ettikten sonra buzdolabında muhafaza edilerek 1 haftaya kadar taze kalabilir.",
+      "brand": "Illy",
+      "brandSlug": "illy",
+      "catalogUrl": "https://kahhve.com/illy"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "331",
+      "platformVariantId": "default",
+      "urlPath": "/illy-medium-roast-ogutulmus-kahve-kahveler",
+      "url": "https://kahhve.com/illy-medium-roast-ogutulmus-kahve-kahveler",
+      "productName": "Medium Roast Öğütülmüş Kahve",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 699.99,
+      "listPrice": null,
+      "inStock": false,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Orta kavrulmuş özel bir harmandır.",
+      "brand": "Illy",
+      "brandSlug": "illy",
+      "catalogUrl": "https://kahhve.com/illy"
+    }
+  ],
+  "sampleVerification": {
+    "url": "https://kahhve.com/illy-medium-roast-tam-cekirdek-kahveler",
+    "status": 200,
+    "price": 699.99,
+    "brand": "Illy",
+    "grams": 250
+  },
+  "payloads": [
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=illy",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "330",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso",
+                "filtre-kahve",
+                "cekirdek-kahveler"
+              ],
+              "marka": [
+                "illy"
+              ],
+              "urun": {
+                "id": 330,
+                "isim": "Illy Medium Roast Tam Çekirdek",
+                "urun_ismi": "Medium Roast Tam Çekirdek",
+                "urun_ismi_ID": "illy-medium-roast-tam-cekirdek-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/330_1583318062_4Fh.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=a097ac5aa27132f1f6639df82aeba199",
+                "link": "/illy-medium-roast-tam-cekirdek-kahveler",
+                "marka": "Illy",
+                "marka_linki": "/illy",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 699.99,
+                "aciklama": "Orta derece kavrulmuş özel bir harmandır. ",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 68,
+                "puan": "4.6324",
+                "puan_siralama": 4632,
+                "yorum_sayisi": 69,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 2799.96,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve",
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              68
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "333",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "illy"
+              ],
+              "urun": {
+                "id": 333,
+                "isim": "Illy Bold Roast Öğütülmüş Filtre Kahve",
+                "urun_ismi": "Bold Roast Öğütülmüş Filtre Kahve",
+                "urun_ismi_ID": "illy-dark-roast-ogutulmus-kahve-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/333_1669193153_FDJ.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=860fa11f9cc3ebf0d14aa749f9ac09a3",
+                "link": "/illy-dark-roast-ogutulmus-kahve-kahveler",
+                "marka": "Illy",
+                "marka_linki": "/illy",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 699.99,
+                "aciklama": "illy koyu kavrulmuş filtre kahve, sıcak kakao ve kurutulmuş meyve notaları ile hoş, yoğun ve güçlü bir lezzet sunar. illy Kahve kalitesinin altında kahveyi taze tuttuğu tescillenmiş basınçlı paketleme uygulaması yatmaktadır. Koyu Kavrulmuş Filtre Kahve (250 g) paketi açılıp hava ile temas ettikten sonra buzdolabında muhafaza edilerek 1 haftaya kadar taze kalabilir.",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 52,
+                "puan": "4.9375",
+                "puan_siralama": 4937,
+                "yorum_sayisi": 17,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 2799.96,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              52
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "331",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "illy"
+              ],
+              "urun": {
+                "id": 331,
+                "isim": "Illy Medium Roast Öğütülmüş Kahve",
+                "urun_ismi": "Medium Roast Öğütülmüş Kahve",
+                "urun_ismi_ID": "illy-medium-roast-ogutulmus-kahve-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/331_1583317794_rOe.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=19e541fa53a8e35abb24e19f935b2b98",
+                "link": "/illy-medium-roast-ogutulmus-kahve-kahveler",
+                "marka": "Illy",
+                "marka_linki": "/illy",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 699.99,
+                "aciklama": "Orta kavrulmuş özel bir harmandır.\r\n",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 32,
+                "puan": "4.5417",
+                "puan_siralama": 4541,
+                "yorum_sayisi": 50,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 2799.96,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              32
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 16,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ekipman",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "espresso-kahve",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "250",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "500TL üzerinde",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Origin",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "blend",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Tat",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "orta-yumuşak-/-dengeli",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "yoğun-/-sert",
+                        "doc_count": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "illy",
+                "doc_count": 3
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=illy&filtreler%5BA%C4%9F%C4%B1rl%C4%B1k%5D=250",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "330",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso",
+                "filtre-kahve",
+                "cekirdek-kahveler"
+              ],
+              "marka": [
+                "illy"
+              ],
+              "urun": {
+                "id": 330,
+                "isim": "Illy Medium Roast Tam Çekirdek",
+                "urun_ismi": "Medium Roast Tam Çekirdek",
+                "urun_ismi_ID": "illy-medium-roast-tam-cekirdek-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/330_1583318062_4Fh.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=a097ac5aa27132f1f6639df82aeba199",
+                "link": "/illy-medium-roast-tam-cekirdek-kahveler",
+                "marka": "Illy",
+                "marka_linki": "/illy",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 699.99,
+                "aciklama": "Orta derece kavrulmuş özel bir harmandır. ",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 68,
+                "puan": "4.6324",
+                "puan_siralama": 4632,
+                "yorum_sayisi": 69,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 2799.96,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve",
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              68
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "333",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "illy"
+              ],
+              "urun": {
+                "id": 333,
+                "isim": "Illy Bold Roast Öğütülmüş Filtre Kahve",
+                "urun_ismi": "Bold Roast Öğütülmüş Filtre Kahve",
+                "urun_ismi_ID": "illy-dark-roast-ogutulmus-kahve-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/333_1669193153_FDJ.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=860fa11f9cc3ebf0d14aa749f9ac09a3",
+                "link": "/illy-dark-roast-ogutulmus-kahve-kahveler",
+                "marka": "Illy",
+                "marka_linki": "/illy",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 699.99,
+                "aciklama": "illy koyu kavrulmuş filtre kahve, sıcak kakao ve kurutulmuş meyve notaları ile hoş, yoğun ve güçlü bir lezzet sunar. illy Kahve kalitesinin altında kahveyi taze tuttuğu tescillenmiş basınçlı paketleme uygulaması yatmaktadır. Koyu Kavrulmuş Filtre Kahve (250 g) paketi açılıp hava ile temas ettikten sonra buzdolabında muhafaza edilerek 1 haftaya kadar taze kalabilir.",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 52,
+                "puan": "4.9375",
+                "puan_siralama": 4937,
+                "yorum_sayisi": 17,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 2799.96,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              52
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "331",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "illy"
+              ],
+              "urun": {
+                "id": 331,
+                "isim": "Illy Medium Roast Öğütülmüş Kahve",
+                "urun_ismi": "Medium Roast Öğütülmüş Kahve",
+                "urun_ismi_ID": "illy-medium-roast-ogutulmus-kahve-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/331_1583317794_rOe.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=19e541fa53a8e35abb24e19f935b2b98",
+                "link": "/illy-medium-roast-ogutulmus-kahve-kahveler",
+                "marka": "Illy",
+                "marka_linki": "/illy",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 699.99,
+                "aciklama": "Orta kavrulmuş özel bir harmandır.\r\n",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 32,
+                "puan": "4.5417",
+                "puan_siralama": 4541,
+                "yorum_sayisi": 50,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 2799.96,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              32
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 16,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ekipman",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "espresso-kahve",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "250",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "500TL üzerinde",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Origin",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "blend",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Tat",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "orta-yumuşak-/-dengeli",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "yoğun-/-sert",
+                        "doc_count": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "illy",
+                "doc_count": 3
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

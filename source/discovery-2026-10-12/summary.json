@@ -1,0 +1,173 @@
+{
+  "checkedAt": "2026-10-12T10:41:42.816Z",
+  "added": 11,
+  "totalRows": 99,
+  "quarantined": 0,
+  "before": {
+    "roasters": 223,
+    "products": 8973,
+    "variants": 27170
+  },
+  "after": {
+    "roasters": 234,
+    "products": 9072,
+    "variants": 27269
+  },
+  "excludedBusiness": "KahhveCom",
+  "businesses": [
+    {
+      "business": "Addis Ababa",
+      "catalogUrl": "https://kahhve.com/addis-ababa",
+      "products": 5,
+      "inStock": 5,
+      "outOfStock": 0,
+      "sampleVerification": {
+        "url": "https://kahhve.com/addis-ababa-etiyopya-yirgacheffe-kahveler",
+        "status": 200,
+        "price": 244.99,
+        "brand": "Addis Ababa",
+        "grams": 250
+      }
+    },
+    {
+      "business": "Caffe Fresco",
+      "catalogUrl": "https://kahhve.com/caffe-fresco",
+      "products": 25,
+      "inStock": 25,
+      "outOfStock": 0,
+      "sampleVerification": {
+        "url": "https://kahhve.com/caffe-fresco-breakfast-blend-kahveler",
+        "status": 200,
+        "price": 383.99,
+        "brand": "Caffe Fresco",
+        "grams": 250
+      }
+    },
+    {
+      "business": "Caffe Vergnano",
+      "catalogUrl": "https://kahhve.com/caffe-vergnano",
+      "products": 5,
+      "inStock": 5,
+      "outOfStock": 0,
+      "sampleVerification": {
+        "url": "https://kahhve.com/vergnano-arabica-cekirdek-kahvesi-kahveler",
+        "status": 200,
+        "price": 669.99,
+        "brand": "Caffe Vergnano",
+        "grams": 250
+      }
+    },
+    {
+      "business": "Cool Beans",
+      "catalogUrl": "https://kahhve.com/cool-beans",
+      "products": 4,
+      "inStock": 4,
+      "outOfStock": 0,
+      "sampleVerification": {
+        "url": "https://kahhve.com/cool-beans-french-vanilla-1-kg-kahveler",
+        "status": 200,
+        "price": 1312.49,
+        "brand": "Cool Beans",
+        "grams": 1000
+      }
+    },
+    {
+      "business": "Illy",
+      "catalogUrl": "https://kahhve.com/illy",
+      "products": 3,
+      "inStock": 0,
+      "outOfStock": 3,
+      "sampleVerification": {
+        "url": "https://kahhve.com/illy-medium-roast-tam-cekirdek-kahveler",
+        "status": 200,
+        "price": 699.99,
+        "brand": "Illy",
+        "grams": 250
+      }
+    },
+    {
+      "business": "Julius Meinl",
+      "catalogUrl": "https://kahhve.com/julius-meinl",
+      "products": 4,
+      "inStock": 2,
+      "outOfStock": 2,
+      "sampleVerification": {
+        "url": "https://kahhve.com/julius-meinl-president-ogutulmus-kahve--kahveler",
+        "status": 200,
+        "price": 599.99,
+        "brand": "Julius Meinl",
+        "grams": 220
+      }
+    },
+    {
+      "business": "Mandabatmaz",
+      "catalogUrl": "https://kahhve.com/mandabatmaz",
+      "products": 3,
+      "inStock": 3,
+      "outOfStock": 0,
+      "sampleVerification": {
+        "url": "https://kahhve.com/mandabatmaz-mandabatmaz-turk-kahvesi-100g-kahveler",
+        "status": 200,
+        "price": 149.99,
+        "brand": "Mandabatmaz",
+        "grams": 100
+      }
+    },
+    {
+      "business": "Morn Coffee",
+      "catalogUrl": "https://kahhve.com/morn-coffee",
+      "products": 6,
+      "inStock": 6,
+      "outOfStock": 0,
+      "sampleVerification": {
+        "url": "https://kahhve.com/morn-coffee-ethiopia-yirgacheffe-kahveler",
+        "status": 200,
+        "price": 599.99,
+        "brand": "Morn Coffee",
+        "grams": 250
+      }
+    },
+    {
+      "business": "Segafredo Zanetti",
+      "catalogUrl": "https://kahhve.com/segafredo-zanetti",
+      "products": 2,
+      "inStock": 1,
+      "outOfStock": 1,
+      "sampleVerification": {
+        "url": "https://kahhve.com/segafredo-zanetti-espresso-casa-cekirdek-kahve-500-gr-kahveler",
+        "status": 200,
+        "price": 949.99,
+        "brand": "Segafredo Zanetti",
+        "grams": 500
+      }
+    },
+    {
+      "business": "Toom",
+      "catalogUrl": "https://kahhve.com/toom",
+      "products": 3,
+      "inStock": 3,
+      "outOfStock": 0,
+      "sampleVerification": {
+        "url": "https://kahhve.com/toom-glow-blend-kahveler",
+        "status": 200,
+        "price": 249.99,
+        "brand": "Toom",
+        "grams": 226.8
+      }
+    },
+    {
+      "business": "Urban Grind",
+      "catalogUrl": "https://kahhve.com/urban-grind",
+      "products": 39,
+      "inStock": 37,
+      "outOfStock": 2,
+      "sampleVerification": {
+        "url": "https://kahhve.com/urban-grind-french-vanilla-kahveler",
+        "status": 200,
+        "price": 374.99,
+        "brand": "Urban Grind",
+        "grams": 250
+      }
+    }
+  ]
+}

@@ -262,5 +262,93 @@
     "instagram": "https://www.instagram.com/dunnocoffeeco/",
     "businessStatus": "Doğrulandı",
     "note": "2026-10-03 keşif turu: resmî mağaza, Türkiye faaliyeti ve paketli B2C kahve doğrulandı; ikas ile 166 gramaj/fiyat/stok bilgili kahve varyantı alındı. Kanıt: source/discovery_2026-10-03.json."
+  },
+  {
+    "business": "Addis Ababa",
+    "city": null,
+    "website": "https://kahhve.com/addis-ababa",
+    "catalogUrl": "https://kahhve.com/addis-ababa",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-12: kullanıcı listesinden eklendi. Türkiye perakende satışı, ürün fiyatı/gramajı/stoku marka bazında doğrulandı. Satış kaynağı KahhveCom; bu satıcı ayrı işletme olarak eklenmedi. Kanıt: source/discovery-2026-10-12/addis-ababa.json."
+  },
+  {
+    "business": "Caffe Fresco",
+    "city": null,
+    "website": "https://kahhve.com/caffe-fresco",
+    "catalogUrl": "https://kahhve.com/caffe-fresco",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-12: kullanıcı listesinden eklendi. Türkiye perakende satışı, ürün fiyatı/gramajı/stoku marka bazında doğrulandı. Satış kaynağı KahhveCom; bu satıcı ayrı işletme olarak eklenmedi. Kanıt: source/discovery-2026-10-12/caffe-fresco.json."
+  },
+  {
+    "business": "Caffe Vergnano",
+    "city": null,
+    "website": "https://kahhve.com/caffe-vergnano",
+    "catalogUrl": "https://kahhve.com/caffe-vergnano",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-12: kullanıcı listesinden eklendi. Türkiye perakende satışı, ürün fiyatı/gramajı/stoku marka bazında doğrulandı. Satış kaynağı KahhveCom; bu satıcı ayrı işletme olarak eklenmedi. Kanıt: source/discovery-2026-10-12/caffe-vergnano.json."
+  },
+  {
+    "business": "Cool Beans",
+    "city": null,
+    "website": "https://kahhve.com/cool-beans",
+    "catalogUrl": "https://kahhve.com/cool-beans",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-12: kullanıcı listesinden eklendi. Türkiye perakende satışı, ürün fiyatı/gramajı/stoku marka bazında doğrulandı. Satış kaynağı KahhveCom; bu satıcı ayrı işletme olarak eklenmedi. Kanıt: source/discovery-2026-10-12/cool-beans.json."
+  },
+  {
+    "business": "Illy",
+    "city": null,
+    "website": "https://kahhve.com/illy",
+    "catalogUrl": "https://kahhve.com/illy",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-12: kullanıcı listesinden eklendi. Türkiye perakende satışı, ürün fiyatı/gramajı/stoku marka bazında doğrulandı. Satış kaynağı KahhveCom; bu satıcı ayrı işletme olarak eklenmedi. Kanıt: source/discovery-2026-10-12/illy.json."
+  },
+  {
+    "business": "Julius Meinl",
+    "city": null,
+    "website": "https://kahhve.com/julius-meinl",
+    "catalogUrl": "https://kahhve.com/julius-meinl",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-12: kullanıcı listesinden eklendi. Türkiye perakende satışı, ürün fiyatı/gramajı/stoku marka bazında doğrulandı. Satış kaynağı KahhveCom; bu satıcı ayrı işletme olarak eklenmedi. Kanıt: source/discovery-2026-10-12/julius-meinl.json."
+  },
+  {
+    "business": "Mandabatmaz",
+    "city": null,
+    "website": "https://kahhve.com/mandabatmaz",
+    "catalogUrl": "https://kahhve.com/mandabatmaz",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-12: kullanıcı listesinden eklendi. Türkiye perakende satışı, ürün fiyatı/gramajı/stoku marka bazında doğrulandı. Satış kaynağı KahhveCom; bu satıcı ayrı işletme olarak eklenmedi. Kanıt: source/discovery-2026-10-12/mandabatmaz.json."
+  },
+  {
+    "business": "Morn Coffee",
+    "city": null,
+    "website": "https://kahhve.com/morn-coffee",
+    "catalogUrl": "https://kahhve.com/morn-coffee",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-12: kullanıcı listesinden eklendi. Türkiye perakende satışı, ürün fiyatı/gramajı/stoku marka bazında doğrulandı. Satış kaynağı KahhveCom; bu satıcı ayrı işletme olarak eklenmedi. Kanıt: source/discovery-2026-10-12/morn-coffee.json."
+  },
+  {
+    "business": "Segafredo Zanetti",
+    "city": null,
+    "website": "https://kahhve.com/segafredo-zanetti",
+    "catalogUrl": "https://kahhve.com/segafredo-zanetti",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-12: kullanıcı listesinden eklendi. Türkiye perakende satışı, ürün fiyatı/gramajı/stoku marka bazında doğrulandı. Satış kaynağı KahhveCom; bu satıcı ayrı işletme olarak eklenmedi. Kanıt: source/discovery-2026-10-12/segafredo-zanetti.json."
+  },
+  {
+    "business": "Toom",
+    "city": null,
+    "website": "https://kahhve.com/toom",
+    "catalogUrl": "https://kahhve.com/toom",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-12: kullanıcı listesinden eklendi. Türkiye perakende satışı, ürün fiyatı/gramajı/stoku marka bazında doğrulandı. Satış kaynağı KahhveCom; bu satıcı ayrı işletme olarak eklenmedi. Kanıt: source/discovery-2026-10-12/toom.json."
+  },
+  {
+    "business": "Urban Grind",
+    "city": null,
+    "website": "https://kahhve.com/urban-grind",
+    "catalogUrl": "https://kahhve.com/urban-grind",
+    "businessStatus": "Doğrulandı",
+    "note": "2026-10-12: kullanıcı listesinden eklendi. Türkiye perakende satışı, ürün fiyatı/gramajı/stoku marka bazında doğrulandı. Satış kaynağı KahhveCom; bu satıcı ayrı işletme olarak eklenmedi. Kanıt: source/discovery-2026-10-12/urban-grind.json."
   }
 ]

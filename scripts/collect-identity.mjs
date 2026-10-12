@@ -93,7 +93,7 @@ async function worker() {
     const business = withWebsite[index];
     const started = Date.now();
     try {
-      const { platform, records, error } = await collectSite(business.website.replace(/\/+$/, ''));
+      const { platform, records, error } = await collectSite((business.catalogUrl || business.website).replace(/\/+$/, ''));
       const roaster = store.upsertRoaster({
         business: business.business, city: business.city, businessStatus: business.businessStatus,
         website: business.website, instagram: business.instagram, platform

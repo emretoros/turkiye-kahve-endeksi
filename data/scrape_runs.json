@@ -665,5 +665,15 @@
     "totalRows": 19813,
     "totalChanged": 135,
     "errors": 40
+  },
+  {
+    "runId": "kahhve-listed-brands-2026-10-12",
+    "startedAt": "2026-10-12T10:41:42.816Z",
+    "finishedAt": "2026-10-12T10:42:01.201Z",
+    "businesses": 11,
+    "totalRows": 99,
+    "totalChanged": 99,
+    "errors": 0,
+    "scope": "11 kullanıcı onaylı kahve markası; satıcı ayrı işletme olarak eklenmedi"
   }
 ]

@@ -1,0 +1,821 @@
+{
+  "business": "Addis Ababa",
+  "catalogUrl": "https://kahhve.com/addis-ababa",
+  "checkedAt": "2026-10-12T10:41:42.816Z",
+  "records": [
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1546",
+      "platformVariantId": "default",
+      "urlPath": "/addis-ababa-etiyopya-yirgacheffe-kahveler",
+      "url": "https://kahhve.com/addis-ababa-etiyopya-yirgacheffe-kahveler",
+      "productName": "Etiyopya Yirgacheffe",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 244.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Özenle kavrulan Yirgacheffe çekirdekleri, 250 gramlık özel ambalajlarda, gıda güvenliğine uygun materyallerle el değmeden paketlenmiştir. Her pakette tazelik ve özgün Etiyopya lezzeti korunur. Demleme tercihine göre farklı öğütme seviyelerinde hazırlanabilir. En yüksek aroma ve lezzet için, kahvenizi güneş ışığından uzak, serin, kuru ve karanlık bir ortamda saklamanızı öneririz.",
+      "brand": "Addis Ababa",
+      "brandSlug": "addis-ababa",
+      "catalogUrl": "https://kahhve.com/addis-ababa"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1549",
+      "platformVariantId": "default",
+      "urlPath": "/addis-ababa-etiyopya-sidamo-kahveler",
+      "url": "https://kahhve.com/addis-ababa-etiyopya-sidamo-kahveler",
+      "productName": "Etiyopya Sidamo",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 244.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Genellikle filtre kahve olarak tercih edilse de, espresso bazlı içeceklerde de farklı bir derinlik kazandırır. Her fincanda taze, aromatik ve zarif bir içim sunan Sidamo, yeni tatlar keşfetmek isteyen kahve severler için mükemmel bir seçenektir. 250 gramlık özel kağıt ambalajlarda, gıda güvenliğine uygun koşullarda özenle paketlenmiştir. Etiyopya’nın en özgün tatlarından biri olan Sidamo, doğallığı ve karakteriyle fark yaratır.",
+      "brand": "Addis Ababa",
+      "brandSlug": "addis-ababa",
+      "catalogUrl": "https://kahhve.com/addis-ababa"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1547",
+      "platformVariantId": "default",
+      "urlPath": "/addis-ababa-brazil-santos-kahveler",
+      "url": "https://kahhve.com/addis-ababa-brazil-santos-kahveler",
+      "productName": "Brazil Santos",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 459.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "250 gramlık özel torba ambalajı sayesinde kahve hava ve ısıdan korunarak tazeliğini uzun süre muhafaza eder. İçeriğinde trans yağ veya katkı maddesi bulunmaz; tamamen doğal aromasıyla saf bir kahve deneyimi yaşatır. En iyi sonuç için demleme sırasında French press veya kendi tercih ettiğiniz yöntemleri kullanabilirsiniz. Ürünün lezzetini korumak için serin, kuru ve nemsiz bir ortamda saklamanızı öneririz.",
+      "brand": "Addis Ababa",
+      "brandSlug": "addis-ababa",
+      "catalogUrl": "https://kahhve.com/addis-ababa"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1548",
+      "platformVariantId": "default",
+      "urlPath": "/addis-ababa-mexico-kahveler",
+      "url": "https://kahhve.com/addis-ababa-mexico-kahveler",
+      "productName": "Mexico",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 459.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Lezzet profilinde fındık, meyvemsi tonlar ve hafif çikolata notaları hissedilir. Bu eşsiz aroma, Meksika’nın geleneksel üretim anlayışını modern işleme teknikleriyle buluşturan özel bir süreç sayesinde elde edilir. Kalitesini ve orijinalliğini korumak için geleneksel yöntemlerle yetiştirilen çekirdekler, her yudumda doğallığın ve emeğin izini taşır. Mexico Çekirdek Kahve, sade ama karakterli lezzetiyle kahve tutkunlarının yeni gözdesi olmaya aday.",
+      "brand": "Addis Ababa",
+      "brandSlug": "addis-ababa",
+      "catalogUrl": "https://kahhve.com/addis-ababa"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1550",
+      "platformVariantId": "default",
+      "urlPath": "/addis-ababa-guatemala-kahveler",
+      "url": "https://kahhve.com/addis-ababa-guatemala-kahveler",
+      "productName": "Guatemala",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 459.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Kahvenin karakteristik aromasını tam anlamıyla hissedebilmek için filtre kahve veya French press yöntemiyle demleme önerilir. Özenli bir hazırlıkla, Guatemala kahvesinin derin ve zengin tadı fincanda tüm canlılığıyla ortaya çıkar. Her biri 250 gramlık özel ambalajlarda sunulan Guatemala Çekirdek Kahve, yüksek kalite standartlarında paketlenerek tazeliğini uzun süre korur. Her yudumda, Guatemala’nın dağlık bölgelerinden gelen doğal bir zarafeti hissedeceksiniz.",
+      "brand": "Addis Ababa",
+      "brandSlug": "addis-ababa",
+      "catalogUrl": "https://kahhve.com/addis-ababa"
+    }
+  ],
+  "sampleVerification": {
+    "url": "https://kahhve.com/addis-ababa-etiyopya-yirgacheffe-kahveler",
+    "status": 200,
+    "price": 244.99,
+    "brand": "Addis Ababa",
+    "grams": 250
+  },
+  "payloads": [
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=addis-ababa",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1546",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "addis-ababa"
+              ],
+              "urun": {
+                "id": 1546,
+                "isim": "Addis Ababa Etiyopya Yirgacheffe",
+                "urun_ismi": "Etiyopya Yirgacheffe",
+                "urun_ismi_ID": "addis-ababa-etiyopya-yirgacheffe-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1546_1760601815_5oL.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=6d84ecc3e18a6adb1a64fe230fecfd02",
+                "link": "/addis-ababa-etiyopya-yirgacheffe-kahveler",
+                "marka": "Addis Ababa",
+                "marka_linki": "/addis-ababa",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 244.99,
+                "aciklama": "Özenle kavrulan Yirgacheffe çekirdekleri, 250 gramlık özel ambalajlarda, gıda güvenliğine uygun materyallerle el değmeden paketlenmiştir. Her pakette tazelik ve özgün Etiyopya lezzeti korunur.\r\nDemleme tercihine göre farklı öğütme seviyelerinde hazırlanabilir. En yüksek aroma ve lezzet için, kahvenizi güneş ışığından uzak, serin, kuru ve karanlık bir ortamda saklamanızı öneririz.\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100085,
+                "puan": "3.7143",
+                "puan_siralama": 3714,
+                "yorum_sayisi": 7,
+                "stoksuz_siralama": 6,
+                "vitrin_urun": true,
+                "birim_fiyat": 979.96
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              100085
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1549",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "addis-ababa"
+              ],
+              "urun": {
+                "id": 1549,
+                "isim": "Addis Ababa Etiyopya Sidamo",
+                "urun_ismi": "Etiyopya Sidamo",
+                "urun_ismi_ID": "addis-ababa-etiyopya-sidamo-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1549_1760602314_Isi.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=f34d3b591ed2836ea7d4cbf4d51598d3",
+                "link": "/addis-ababa-etiyopya-sidamo-kahveler",
+                "marka": "Addis Ababa",
+                "marka_linki": "/addis-ababa",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 244.99,
+                "aciklama": "Genellikle filtre kahve olarak tercih edilse de, espresso bazlı içeceklerde de farklı bir derinlik kazandırır. Her fincanda taze, aromatik ve zarif bir içim sunan Sidamo, yeni tatlar keşfetmek isteyen kahve severler için mükemmel bir seçenektir.\r\n250 gramlık özel kağıt ambalajlarda, gıda güvenliğine uygun koşullarda özenle paketlenmiştir. Etiyopya’nın en özgün tatlarından biri olan Sidamo, doğallığı ve karakteriyle fark yaratır.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100052,
+                "puan": "3.3333",
+                "puan_siralama": 3333,
+                "yorum_sayisi": 6,
+                "stoksuz_siralama": 3,
+                "vitrin_urun": true,
+                "birim_fiyat": 979.96
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              100052
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1547",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "addis-ababa"
+              ],
+              "urun": {
+                "id": 1547,
+                "isim": "Addis Ababa Brazil Santos",
+                "urun_ismi": "Brazil Santos",
+                "urun_ismi_ID": "addis-ababa-brazil-santos-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1547_1760601883_Gx5.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=ac2ca8b889ae20f3caaae7094d55daab",
+                "link": "/addis-ababa-brazil-santos-kahveler",
+                "marka": "Addis Ababa",
+                "marka_linki": "/addis-ababa",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 459.99,
+                "aciklama": "250 gramlık özel torba ambalajı sayesinde kahve hava ve ısıdan korunarak tazeliğini uzun süre muhafaza eder. İçeriğinde trans yağ veya katkı maddesi bulunmaz; tamamen doğal aromasıyla saf bir kahve deneyimi yaşatır.\r\nEn iyi sonuç için demleme sırasında French press veya kendi tercih ettiğiniz yöntemleri kullanabilirsiniz. Ürünün lezzetini korumak için serin, kuru ve nemsiz bir ortamda saklamanızı öneririz.\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100030,
+                "puan": "3.0000",
+                "puan_siralama": 3000,
+                "yorum_sayisi": 6,
+                "stoksuz_siralama": 2,
+                "vitrin_urun": true,
+                "birim_fiyat": 1839.96
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100030
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1548",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "addis-ababa"
+              ],
+              "urun": {
+                "id": 1548,
+                "isim": "Addis Ababa Mexico",
+                "urun_ismi": "Mexico",
+                "urun_ismi_ID": "addis-ababa-mexico-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1548_1760602259_Eh7.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=c7038d317a411bbb6cea77856e95dbc7",
+                "link": "/addis-ababa-mexico-kahveler",
+                "marka": "Addis Ababa",
+                "marka_linki": "/addis-ababa",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 459.99,
+                "aciklama": "Lezzet profilinde fındık, meyvemsi tonlar ve hafif çikolata notaları hissedilir. Bu eşsiz aroma, Meksika’nın geleneksel üretim anlayışını modern işleme teknikleriyle buluşturan özel bir süreç sayesinde elde edilir.\r\nKalitesini ve orijinalliğini korumak için geleneksel yöntemlerle yetiştirilen çekirdekler, her yudumda doğallığın ve emeğin izini taşır. Mexico Çekirdek Kahve, sade ama karakterli lezzetiyle kahve tutkunlarının yeni gözdesi olmaya aday.\r\n\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100025,
+                "puan": "3.2000",
+                "puan_siralama": 3200,
+                "yorum_sayisi": 5,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 1839.96
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100025
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1550",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "addis-ababa"
+              ],
+              "urun": {
+                "id": 1550,
+                "isim": "Addis Ababa Guatemala",
+                "urun_ismi": "Guatemala",
+                "urun_ismi_ID": "addis-ababa-guatemala-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1550_1760602452_TZF.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=029ef1de045f291f2b8fd5696d4efa3d",
+                "link": "/addis-ababa-guatemala-kahveler",
+                "marka": "Addis Ababa",
+                "marka_linki": "/addis-ababa",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 459.99,
+                "aciklama": "Kahvenin karakteristik aromasını tam anlamıyla hissedebilmek için filtre kahve veya French press yöntemiyle demleme önerilir. Özenli bir hazırlıkla, Guatemala kahvesinin derin ve zengin tadı fincanda tüm canlılığıyla ortaya çıkar.\r\nHer biri 250 gramlık özel ambalajlarda sunulan Guatemala Çekirdek Kahve, yüksek kalite standartlarında paketlenerek tazeliğini uzun süre korur. Her yudumda, Guatemala’nın dağlık bölgelerinden gelen doğal bir zarafeti hissedeceksiniz.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100018,
+                "puan": "3.0000",
+                "puan_siralama": 3000,
+                "yorum_sayisi": 4,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 1839.96
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100018
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 10,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 5,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "250",
+                        "doc_count": 5
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 5,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "200TL — 300TL",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "400TL — 500TL",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "addis-ababa",
+                "doc_count": 5
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=addis-ababa&filtreler%5BA%C4%9F%C4%B1rl%C4%B1k%5D=250",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1546",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "addis-ababa"
+              ],
+              "urun": {
+                "id": 1546,
+                "isim": "Addis Ababa Etiyopya Yirgacheffe",
+                "urun_ismi": "Etiyopya Yirgacheffe",
+                "urun_ismi_ID": "addis-ababa-etiyopya-yirgacheffe-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1546_1760601815_5oL.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=6d84ecc3e18a6adb1a64fe230fecfd02",
+                "link": "/addis-ababa-etiyopya-yirgacheffe-kahveler",
+                "marka": "Addis Ababa",
+                "marka_linki": "/addis-ababa",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 244.99,
+                "aciklama": "Özenle kavrulan Yirgacheffe çekirdekleri, 250 gramlık özel ambalajlarda, gıda güvenliğine uygun materyallerle el değmeden paketlenmiştir. Her pakette tazelik ve özgün Etiyopya lezzeti korunur.\r\nDemleme tercihine göre farklı öğütme seviyelerinde hazırlanabilir. En yüksek aroma ve lezzet için, kahvenizi güneş ışığından uzak, serin, kuru ve karanlık bir ortamda saklamanızı öneririz.\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100085,
+                "puan": "3.7143",
+                "puan_siralama": 3714,
+                "yorum_sayisi": 7,
+                "stoksuz_siralama": 6,
+                "vitrin_urun": true,
+                "birim_fiyat": 979.96
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              100085
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1549",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "addis-ababa"
+              ],
+              "urun": {
+                "id": 1549,
+                "isim": "Addis Ababa Etiyopya Sidamo",
+                "urun_ismi": "Etiyopya Sidamo",
+                "urun_ismi_ID": "addis-ababa-etiyopya-sidamo-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1549_1760602314_Isi.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=f34d3b591ed2836ea7d4cbf4d51598d3",
+                "link": "/addis-ababa-etiyopya-sidamo-kahveler",
+                "marka": "Addis Ababa",
+                "marka_linki": "/addis-ababa",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 244.99,
+                "aciklama": "Genellikle filtre kahve olarak tercih edilse de, espresso bazlı içeceklerde de farklı bir derinlik kazandırır. Her fincanda taze, aromatik ve zarif bir içim sunan Sidamo, yeni tatlar keşfetmek isteyen kahve severler için mükemmel bir seçenektir.\r\n250 gramlık özel kağıt ambalajlarda, gıda güvenliğine uygun koşullarda özenle paketlenmiştir. Etiyopya’nın en özgün tatlarından biri olan Sidamo, doğallığı ve karakteriyle fark yaratır.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100052,
+                "puan": "3.3333",
+                "puan_siralama": 3333,
+                "yorum_sayisi": 6,
+                "stoksuz_siralama": 3,
+                "vitrin_urun": true,
+                "birim_fiyat": 979.96
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              100052
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1547",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "addis-ababa"
+              ],
+              "urun": {
+                "id": 1547,
+                "isim": "Addis Ababa Brazil Santos",
+                "urun_ismi": "Brazil Santos",
+                "urun_ismi_ID": "addis-ababa-brazil-santos-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1547_1760601883_Gx5.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=ac2ca8b889ae20f3caaae7094d55daab",
+                "link": "/addis-ababa-brazil-santos-kahveler",
+                "marka": "Addis Ababa",
+                "marka_linki": "/addis-ababa",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 459.99,
+                "aciklama": "250 gramlık özel torba ambalajı sayesinde kahve hava ve ısıdan korunarak tazeliğini uzun süre muhafaza eder. İçeriğinde trans yağ veya katkı maddesi bulunmaz; tamamen doğal aromasıyla saf bir kahve deneyimi yaşatır.\r\nEn iyi sonuç için demleme sırasında French press veya kendi tercih ettiğiniz yöntemleri kullanabilirsiniz. Ürünün lezzetini korumak için serin, kuru ve nemsiz bir ortamda saklamanızı öneririz.\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100030,
+                "puan": "3.0000",
+                "puan_siralama": 3000,
+                "yorum_sayisi": 6,
+                "stoksuz_siralama": 2,
+                "vitrin_urun": true,
+                "birim_fiyat": 1839.96
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100030
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1548",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "addis-ababa"
+              ],
+              "urun": {
+                "id": 1548,
+                "isim": "Addis Ababa Mexico",
+                "urun_ismi": "Mexico",
+                "urun_ismi_ID": "addis-ababa-mexico-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1548_1760602259_Eh7.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=c7038d317a411bbb6cea77856e95dbc7",
+                "link": "/addis-ababa-mexico-kahveler",
+                "marka": "Addis Ababa",
+                "marka_linki": "/addis-ababa",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 459.99,
+                "aciklama": "Lezzet profilinde fındık, meyvemsi tonlar ve hafif çikolata notaları hissedilir. Bu eşsiz aroma, Meksika’nın geleneksel üretim anlayışını modern işleme teknikleriyle buluşturan özel bir süreç sayesinde elde edilir.\r\nKalitesini ve orijinalliğini korumak için geleneksel yöntemlerle yetiştirilen çekirdekler, her yudumda doğallığın ve emeğin izini taşır. Mexico Çekirdek Kahve, sade ama karakterli lezzetiyle kahve tutkunlarının yeni gözdesi olmaya aday.\r\n\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100025,
+                "puan": "3.2000",
+                "puan_siralama": 3200,
+                "yorum_sayisi": 5,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 1839.96
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100025
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1550",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "addis-ababa"
+              ],
+              "urun": {
+                "id": 1550,
+                "isim": "Addis Ababa Guatemala",
+                "urun_ismi": "Guatemala",
+                "urun_ismi_ID": "addis-ababa-guatemala-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1550_1760602452_TZF.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=029ef1de045f291f2b8fd5696d4efa3d",
+                "link": "/addis-ababa-guatemala-kahveler",
+                "marka": "Addis Ababa",
+                "marka_linki": "/addis-ababa",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 459.99,
+                "aciklama": "Kahvenin karakteristik aromasını tam anlamıyla hissedebilmek için filtre kahve veya French press yöntemiyle demleme önerilir. Özenli bir hazırlıkla, Guatemala kahvesinin derin ve zengin tadı fincanda tüm canlılığıyla ortaya çıkar.\r\nHer biri 250 gramlık özel ambalajlarda sunulan Guatemala Çekirdek Kahve, yüksek kalite standartlarında paketlenerek tazeliğini uzun süre korur. Her yudumda, Guatemala’nın dağlık bölgelerinden gelen doğal bir zarafeti hissedeceksiniz.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100018,
+                "puan": "3.0000",
+                "puan_siralama": 3000,
+                "yorum_sayisi": 4,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 1839.96
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100018
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 10,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 5,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "250",
+                        "doc_count": 5
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 5,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "200TL — 300TL",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "400TL — 500TL",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "addis-ababa",
+                "doc_count": 5
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

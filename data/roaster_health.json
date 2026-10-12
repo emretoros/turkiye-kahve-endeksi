@@ -98418,5 +98418,93 @@
     "deltaPct": -100,
     "flagged": true,
     "error": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
+  },
+  {
+    "runId": "kahhve-listed-brands-2026-10-12",
+    "roasterSlug": "Addis Ababa",
+    "rows": 5,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "kahhve-listed-brands-2026-10-12",
+    "roasterSlug": "Caffe Fresco",
+    "rows": 25,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "kahhve-listed-brands-2026-10-12",
+    "roasterSlug": "Caffe Vergnano",
+    "rows": 5,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "kahhve-listed-brands-2026-10-12",
+    "roasterSlug": "Cool Beans",
+    "rows": 4,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "kahhve-listed-brands-2026-10-12",
+    "roasterSlug": "Illy",
+    "rows": 3,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "kahhve-listed-brands-2026-10-12",
+    "roasterSlug": "Julius Meinl",
+    "rows": 4,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "kahhve-listed-brands-2026-10-12",
+    "roasterSlug": "Mandabatmaz",
+    "rows": 3,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "kahhve-listed-brands-2026-10-12",
+    "roasterSlug": "Morn Coffee",
+    "rows": 6,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "kahhve-listed-brands-2026-10-12",
+    "roasterSlug": "Segafredo Zanetti",
+    "rows": 2,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "kahhve-listed-brands-2026-10-12",
+    "roasterSlug": "Toom",
+    "rows": 3,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
+  },
+  {
+    "runId": "kahhve-listed-brands-2026-10-12",
+    "roasterSlug": "Urban Grind",
+    "rows": 39,
+    "deltaPct": null,
+    "flagged": false,
+    "error": null
   }
 ]

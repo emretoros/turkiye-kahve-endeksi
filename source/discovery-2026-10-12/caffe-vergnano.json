@@ -1,0 +1,1536 @@
+{
+  "business": "Caffe Vergnano",
+  "catalogUrl": "https://kahhve.com/caffe-vergnano",
+  "checkedAt": "2026-10-12T10:41:42.816Z",
+  "records": [
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "122",
+      "platformVariantId": "default",
+      "urlPath": "/vergnano-arabica-cekirdek-kahvesi-kahveler",
+      "url": "https://kahhve.com/vergnano-arabica-cekirdek-kahvesi-kahveler",
+      "productName": "Arabica Çekirdek Kahvesi",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 669.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Filtre Kahve",
+      "descriptionText": "Orta Amerika ve Afrika originli kahve çekirdeklerinden oluşur. 250 gramdır.",
+      "brand": "Caffe Vergnano",
+      "brandSlug": "caffe-vergnano",
+      "catalogUrl": "https://kahhve.com/caffe-vergnano"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "120",
+      "platformVariantId": "default",
+      "urlPath": "/vergnano-arabica-moka-kahveler",
+      "url": "https://kahhve.com/vergnano-arabica-moka-kahveler",
+      "productName": "Arabica Moka",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 602.99,
+      "listPrice": 669.99,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Özenle seçilmiş Arabaika çekirdeklerinden yavaş kavurma yöntemiyle üretilmiştir.",
+      "brand": "Caffe Vergnano",
+      "brandSlug": "caffe-vergnano",
+      "catalogUrl": "https://kahhve.com/caffe-vergnano"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "119",
+      "platformVariantId": "default",
+      "urlPath": "/vergnano-espresso-1882-kahveler",
+      "url": "https://kahhve.com/vergnano-espresso-1882-kahveler",
+      "productName": "Espresso 1882",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 669.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Firmanın İtalyadaki fabrikasında kahvenizin aromasını, tadını ve kokusunu muhafaza eden ortamda paketlenmiştir.",
+      "brand": "Caffe Vergnano",
+      "brandSlug": "caffe-vergnano",
+      "catalogUrl": "https://kahhve.com/caffe-vergnano"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "582",
+      "platformVariantId": "default",
+      "urlPath": "/vergnano-decaffeinato-kahveler",
+      "url": "https://kahhve.com/vergnano-decaffeinato-kahveler",
+      "productName": "Decaffeinato",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 669.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Ayrıca ince öğütülmüş olmasının problem olmayacağı AeroPress kahve aparatında da mükemmel kahveler hazırlayabilirsiniz. Akşam saatlerindeki kahve ihtiyaçları için idealdir. Paketleme şartlarına azami özen gösterildiğinden, kahvenin tadı ve tazeliği korunarak paketlenmiştir.Böylelikle daha uzun süre saklanabilir.",
+      "brand": "Caffe Vergnano",
+      "brandSlug": "caffe-vergnano",
+      "catalogUrl": "https://kahhve.com/caffe-vergnano"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "121",
+      "platformVariantId": "default",
+      "urlPath": "/vergnano-arabica-espresso",
+      "url": "https://kahhve.com/vergnano-arabica-espresso",
+      "productName": "Arabica Espresso",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 669.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Orta Amerika ve Afrika originli kahvelerden oluşturulmuş bir harmandır.",
+      "brand": "Caffe Vergnano",
+      "brandSlug": "caffe-vergnano",
+      "catalogUrl": "https://kahhve.com/caffe-vergnano"
+    }
+  ],
+  "sampleVerification": {
+    "url": "https://kahhve.com/vergnano-arabica-cekirdek-kahvesi-kahveler",
+    "status": 200,
+    "price": 669.99,
+    "brand": "Caffe Vergnano",
+    "grams": 250
+  },
+  "payloads": [
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=caffe-vergnano",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "122",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "filtre-kahve",
+                "espresso",
+                "cekirdek-kahveler",
+                "kahveler"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 122,
+                "isim": "Caffe Vergnano Arabica Çekirdek Kahvesi",
+                "urun_ismi": "Arabica Çekirdek Kahvesi",
+                "urun_ismi_ID": "vergnano-arabica-cekirdek-kahvesi-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/122_1628069709_ASC.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=0ccd62b9453f6ecf393f6e7c7e282789",
+                "link": "/vergnano-arabica-cekirdek-kahvesi-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Filtre Kahve",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 669.99,
+                "aciklama": "Orta Amerika ve Afrika originli kahve çekirdeklerinden oluşur. \r\n250 gramdır.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100342,
+                "puan": "4.4054",
+                "puan_siralama": 4405,
+                "yorum_sayisi": 39,
+                "stoksuz_siralama": 19,
+                "vitrin_urun": true,
+                "birim_fiyat": 2679.96,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100342
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "120",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "kampanyali-urunler"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 120,
+                "isim": "Caffe Vergnano Arabica Moka",
+                "urun_ismi": "Arabica Moka",
+                "urun_ismi_ID": "vergnano-arabica-moka-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/120_1674204695_9IL.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=f1ec8c304f9a7c6024e88592edb7acd7",
+                "link": "/vergnano-arabica-moka-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 602.99,
+                "aciklama": "Özenle seçilmiş Arabaika çekirdeklerinden yavaş kavurma yöntemiyle üretilmiştir.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 1,
+                "siralama": 100185,
+                "puan": "4.6970",
+                "puan_siralama": 4697,
+                "yorum_sayisi": 35,
+                "stoksuz_siralama": 7,
+                "vitrin_urun": true,
+                "ana_sayfa_kahve": 1,
+                "birim_fiyat": 2411.96,
+                "eski_fiyat": 669.99,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100185
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "117",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kapsul-kahveler",
+                "kahveler"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 117,
+                "isim": "Caffe Vergnano Cremoso 10lu Kapsül",
+                "urun_ismi": "Cremoso 10lu Kapsül",
+                "urun_ismi_ID": "vergnano-cremoso-10lu-kapsul-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/117_1510135723_cjK.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=21e17a6090c7ea5d7a3b0eb3f760cdc2",
+                "link": "/vergnano-cremoso-10lu-kapsul-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kapsül Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 298.99,
+                "aciklama": "* 10 adet Nespresso uyumlu kapsül kahve içerir. \r\n* Sadece Nespresso makineleri ile çalışır. \r\n* Bu kapsül kullanıldıktan sonra organik çöpler ile atılıp toprak ile karıştığında gübre haline gelmektedir. ",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100100,
+                "puan": "4.6250",
+                "puan_siralama": 4625,
+                "yorum_sayisi": 8,
+                "stoksuz_siralama": 8,
+                "vitrin_urun": true,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Kapsül Kahve"
+                ]
+              },
+              "Filtre": [
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "kapsül-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              100100
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "115",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kapsul-kahveler",
+                "kahveler"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 115,
+                "isim": "Caffe Vergnano Arabica 10lu kapsül",
+                "urun_ismi": "Arabica 10lu kapsül",
+                "urun_ismi_ID": "vergnano-arabica-10lu-kapsul-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/115_1510135554_FPi.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=32a2a334922ad04b2901fc97839234d4",
+                "link": "/vergnano-arabica-10lu-kapsul-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kapsül Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 298.99,
+                "aciklama": "Tescilli bir blend.\r\nNarenciye ve çiçeksi aromalar. ",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100095,
+                "puan": "4.9231",
+                "puan_siralama": 4923,
+                "yorum_sayisi": 14,
+                "stoksuz_siralama": 7,
+                "vitrin_urun": true,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Kapsül Kahve"
+                ]
+              },
+              "Filtre": [
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "kapsül-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              100095
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "119",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 119,
+                "isim": "Caffe Vergnano Espresso 1882",
+                "urun_ismi": "Espresso 1882",
+                "urun_ismi_ID": "vergnano-espresso-1882-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/119_1632990759_Ip0.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=77da6f7e26343ed7260e861f5eef3bb8",
+                "link": "/vergnano-espresso-1882-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 669.99,
+                "aciklama": "Firmanın İtalyadaki fabrikasında kahvenizin aromasını, tadını ve kokusunu muhafaza eden ortamda paketlenmiştir.  ",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100079,
+                "puan": "4.1250",
+                "puan_siralama": 4125,
+                "yorum_sayisi": 16,
+                "stoksuz_siralama": 5,
+                "vitrin_urun": true,
+                "birim_fiyat": 2679.96,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100079
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "116",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kapsul-kahveler",
+                "kahveler"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 116,
+                "isim": "Caffe Vergnano İntenso 10lu Kapsül",
+                "urun_ismi": "İntenso 10lu Kapsül",
+                "urun_ismi_ID": "vergnano-intenso-10lu-kapsul-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/116_1510135610_lBb.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=838e763cdfa03b5aa3875ec1ed6952ac",
+                "link": "/vergnano-intenso-10lu-kapsul-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kapsül Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 298.99,
+                "aciklama": "Baharatsı notalar, güçlü gövde ve dengeli aromasıyla gerçek bir espresso keyfi. ",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100075,
+                "puan": "4.3750",
+                "puan_siralama": 4375,
+                "yorum_sayisi": 8,
+                "stoksuz_siralama": 6,
+                "vitrin_urun": true,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Kapsül Kahve"
+                ]
+              },
+              "Filtre": [
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "kapsül-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              100075
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "582",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "kafeinsiz-kahveler"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 582,
+                "isim": "Caffe Vergnano Decaffeinato",
+                "urun_ismi": "Decaffeinato",
+                "urun_ismi_ID": "vergnano-decaffeinato-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/582_1510135258_YA8.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=a88356f92b082850cf04467274622bd3",
+                "link": "/vergnano-decaffeinato-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 669.99,
+                "aciklama": "Ayrıca ince öğütülmüş olmasının problem olmayacağı AeroPress kahve aparatında da mükemmel kahveler hazırlayabilirsiniz.\r\nAkşam saatlerindeki kahve ihtiyaçları için idealdir.\r\nPaketleme şartlarına azami özen gösterildiğinden, kahvenin tadı ve tazeliği korunarak paketlenmiştir.Böylelikle daha uzun süre saklanabilir.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100046,
+                "puan": "4.4167",
+                "puan_siralama": 4416,
+                "yorum_sayisi": 13,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 2679.96,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Decaf Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "decaf-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100046
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "121",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 121,
+                "isim": "Caffe Vergnano Arabica Espresso",
+                "urun_ismi": "Arabica Espresso",
+                "urun_ismi_ID": "vergnano-arabica-espresso",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/121_1443548403_g5G.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=1e21ae6e46d4cd38d108b9606b3efd03",
+                "link": "/vergnano-arabica-espresso",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 669.99,
+                "aciklama": "Orta Amerika ve Afrika originli kahvelerden oluşturulmuş bir harmandır. ",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100044,
+                "puan": "4.6429",
+                "puan_siralama": 4642,
+                "yorum_sayisi": 15,
+                "stoksuz_siralama": 3,
+                "vitrin_urun": true,
+                "birim_fiyat": 2679.96,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100044
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "584",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "kapsul-kahveler",
+                "kafeinsiz-kahveler",
+                "zb25"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 584,
+                "isim": "Caffe Vergnano Dec 10lu kapsül",
+                "urun_ismi": "Dec 10lu kapsül",
+                "urun_ismi_ID": "vergnano-dec-10lu-kapsul-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/584_1510136208_GtP.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=ee58ba9a39047d87e8a7328be39528c9",
+                "link": "/vergnano-dec-10lu-kapsul-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 298.99,
+                "aciklama": "Teknik Özellikler:\r\n\r\nKutu net ağırlığı:\t50 gr\t\r\nBir kutudaki kapsül adedi:\t10 adet\r\n1 kapsül:   5 gr kahve\r\nKutu boyutu:  340 X 270 X 260 mm\r\n\r\n\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100044,
+                "puan": "4.2857",
+                "puan_siralama": 4285,
+                "yorum_sayisi": 7,
+                "stoksuz_siralama": 3,
+                "vitrin_urun": true,
+                "Origin": "Blend",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Kapsül Kahve"
+                ]
+              },
+              "Filtre": [
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "kapsül-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              100044
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1609",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kapsul-kahveler"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 1609,
+                "isim": "Caffe Vergnano Riserva Torino Cremoso Kapsül",
+                "urun_ismi": "Riserva Torino Cremoso Kapsül",
+                "urun_ismi_ID": "caffe-vergnano-riserva-torino-cremoso-kapsul-kapsul-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1609_1791621609_3cY.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=bc5067938fea9fd0d15e19e25e9b6537",
+                "link": "/caffe-vergnano-riserva-torino-cremoso-kapsul-kapsul-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kapsül Kahveler",
+                "is_kahve": 0,
+                "indirimli_urun": 0,
+                "fiyat": 298.99,
+                "aciklama": "Nespresso® Original uyumlu alüminyum kapsül; 10/10 yoğunluk, bitter çikolata bitişi.",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 10,
+                "puan": null,
+                "puan_siralama": 0,
+                "yorum_sayisi": 0,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true
+              },
+              "Filtre": [
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              10
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1610",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kapsul-kahveler"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 1610,
+                "isim": "Caffe Vergnano Riserva Torino Nobile Kapsül",
+                "urun_ismi": "Riserva Torino Nobile Kapsül",
+                "urun_ismi_ID": "caffe-vergnano-riserva-torino-nobile-kapsul-kapsul-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1610_1791621729_hqf.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=a02903a849d6ce416c8e0c084295c160",
+                "link": "/caffe-vergnano-riserva-torino-nobile-kapsul-kapsul-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kapsül Kahveler",
+                "is_kahve": 0,
+                "indirimli_urun": 0,
+                "fiyat": 298.99,
+                "aciklama": "",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 10,
+                "puan": null,
+                "puan_siralama": 0,
+                "yorum_sayisi": 0,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true
+              },
+              "Filtre": [
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              10
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1611",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kapsul-kahveler"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 1611,
+                "isim": "Caffe Vergnano Riserva Torino %100 Arabica Kapsül",
+                "urun_ismi": "Riserva Torino %100 Arabica Kapsül",
+                "urun_ismi_ID": "caffe-vergnano-riserva-torino-100-arabica-kapsul-kapsul-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1611_1791621827_vom.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=b786158cbe5e01d00c3a3cb9bcfbe8f8",
+                "link": "/caffe-vergnano-riserva-torino-100-arabica-kapsul-kapsul-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kapsül Kahveler",
+                "is_kahve": 0,
+                "indirimli_urun": 0,
+                "fiyat": 298.99,
+                "aciklama": "",
+                "durum": 1,
+                "stok": 0,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 10,
+                "puan": null,
+                "puan_siralama": 0,
+                "yorum_sayisi": 0,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true
+              },
+              "Filtre": [
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              10
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 44,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 12,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "200TL — 300TL",
+                        "doc_count": 7
+                      },
+                      {
+                        "key": "500TL üzerinde",
+                        "doc_count": 5
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ekipman",
+                  "doc_count": 9,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "decaf-kahve",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "espresso-kahve",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "kapsül-kahve",
+                        "doc_count": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Origin",
+                  "doc_count": 9,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "blend",
+                        "doc_count": 9
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Tat",
+                  "doc_count": 9,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "orta-yumuşak-/-dengeli",
+                        "doc_count": 3
+                      },
+                      {
+                        "key": "yoğun-/-sert",
+                        "doc_count": 6
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 5,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "250",
+                        "doc_count": 5
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "caffe-vergnano",
+                "doc_count": 12
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=caffe-vergnano&filtreler%5BA%C4%9F%C4%B1rl%C4%B1k%5D=250",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "122",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "filtre-kahve",
+                "espresso",
+                "cekirdek-kahveler",
+                "kahveler"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 122,
+                "isim": "Caffe Vergnano Arabica Çekirdek Kahvesi",
+                "urun_ismi": "Arabica Çekirdek Kahvesi",
+                "urun_ismi_ID": "vergnano-arabica-cekirdek-kahvesi-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/122_1628069709_ASC.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=0ccd62b9453f6ecf393f6e7c7e282789",
+                "link": "/vergnano-arabica-cekirdek-kahvesi-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Filtre Kahve",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 669.99,
+                "aciklama": "Orta Amerika ve Afrika originli kahve çekirdeklerinden oluşur. \r\n250 gramdır.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100342,
+                "puan": "4.4054",
+                "puan_siralama": 4405,
+                "yorum_sayisi": 39,
+                "stoksuz_siralama": 19,
+                "vitrin_urun": true,
+                "birim_fiyat": 2679.96,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100342
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "120",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "kampanyali-urunler"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 120,
+                "isim": "Caffe Vergnano Arabica Moka",
+                "urun_ismi": "Arabica Moka",
+                "urun_ismi_ID": "vergnano-arabica-moka-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/120_1674204695_9IL.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=f1ec8c304f9a7c6024e88592edb7acd7",
+                "link": "/vergnano-arabica-moka-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 1,
+                "fiyat": 602.99,
+                "aciklama": "Özenle seçilmiş Arabaika çekirdeklerinden yavaş kavurma yöntemiyle üretilmiştir.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 1,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 1,
+                "siralama": 100185,
+                "puan": "4.6970",
+                "puan_siralama": 4697,
+                "yorum_sayisi": 35,
+                "stoksuz_siralama": 7,
+                "vitrin_urun": true,
+                "ana_sayfa_kahve": 1,
+                "birim_fiyat": 2411.96,
+                "eski_fiyat": 669.99,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100185
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "119",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 119,
+                "isim": "Caffe Vergnano Espresso 1882",
+                "urun_ismi": "Espresso 1882",
+                "urun_ismi_ID": "vergnano-espresso-1882-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/119_1632990759_Ip0.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=77da6f7e26343ed7260e861f5eef3bb8",
+                "link": "/vergnano-espresso-1882-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 669.99,
+                "aciklama": "Firmanın İtalyadaki fabrikasında kahvenizin aromasını, tadını ve kokusunu muhafaza eden ortamda paketlenmiştir.  ",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100079,
+                "puan": "4.1250",
+                "puan_siralama": 4125,
+                "yorum_sayisi": 16,
+                "stoksuz_siralama": 5,
+                "vitrin_urun": true,
+                "birim_fiyat": 2679.96,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100079
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "582",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "kafeinsiz-kahveler"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 582,
+                "isim": "Caffe Vergnano Decaffeinato",
+                "urun_ismi": "Decaffeinato",
+                "urun_ismi_ID": "vergnano-decaffeinato-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/582_1510135258_YA8.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=a88356f92b082850cf04467274622bd3",
+                "link": "/vergnano-decaffeinato-kahveler",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 669.99,
+                "aciklama": "Ayrıca ince öğütülmüş olmasının problem olmayacağı AeroPress kahve aparatında da mükemmel kahveler hazırlayabilirsiniz.\r\nAkşam saatlerindeki kahve ihtiyaçları için idealdir.\r\nPaketleme şartlarına azami özen gösterildiğinden, kahvenin tadı ve tazeliği korunarak paketlenmiştir.Böylelikle daha uzun süre saklanabilir.",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100046,
+                "puan": "4.4167",
+                "puan_siralama": 4416,
+                "yorum_sayisi": 13,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 2679.96,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Decaf Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "decaf-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100046
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "121",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "espresso"
+              ],
+              "marka": [
+                "caffe-vergnano"
+              ],
+              "urun": {
+                "id": 121,
+                "isim": "Caffe Vergnano Arabica Espresso",
+                "urun_ismi": "Arabica Espresso",
+                "urun_ismi_ID": "vergnano-arabica-espresso",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/121_1443548403_g5G.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=1e21ae6e46d4cd38d108b9606b3efd03",
+                "link": "/vergnano-arabica-espresso",
+                "marka": "Caffe Vergnano",
+                "marka_linki": "/caffe-vergnano",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 669.99,
+                "aciklama": "Orta Amerika ve Afrika originli kahvelerden oluşturulmuş bir harmandır. ",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100044,
+                "puan": "4.6429",
+                "puan_siralama": 4642,
+                "yorum_sayisi": 15,
+                "stoksuz_siralama": 3,
+                "vitrin_urun": true,
+                "birim_fiyat": 2679.96,
+                "Origin": "Blend",
+                "Tat": "Yoğun / Sert",
+                "Ekipman": [
+                  "Espresso Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "blend"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "yoğun-/-sert"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "espresso-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100044
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 44,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 12,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "200TL — 300TL",
+                        "doc_count": 7
+                      },
+                      {
+                        "key": "500TL üzerinde",
+                        "doc_count": 5
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ekipman",
+                  "doc_count": 9,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "decaf-kahve",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "espresso-kahve",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "kapsül-kahve",
+                        "doc_count": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Origin",
+                  "doc_count": 9,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "blend",
+                        "doc_count": 9
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Tat",
+                  "doc_count": 9,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "orta-yumuşak-/-dengeli",
+                        "doc_count": 3
+                      },
+                      {
+                        "key": "yoğun-/-sert",
+                        "doc_count": 6
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 5,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "250",
+                        "doc_count": 5
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "caffe-vergnano",
+                "doc_count": 12
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

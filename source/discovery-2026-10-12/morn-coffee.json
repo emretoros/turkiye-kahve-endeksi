@@ -1,0 +1,1254 @@
+{
+  "business": "Morn Coffee",
+  "catalogUrl": "https://kahhve.com/morn-coffee",
+  "checkedAt": "2026-10-12T10:41:42.816Z",
+  "records": [
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1211",
+      "platformVariantId": "default",
+      "urlPath": "/morn-coffee-ethiopia-yirgacheffe-kahveler",
+      "url": "https://kahhve.com/morn-coffee-ethiopia-yirgacheffe-kahveler",
+      "productName": "Ethiopia Yirgacheffe",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 599.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Ülke: Etiyopya Bölge: Yırgacheffe Yükseklik: 2200 m Çekirdek Türü: Heirloom İşlem: Yıkanmış, Güneşte Kurutulmuş Tadım Notları: Earl Grey ve Çiçek esintileri, Çikolatamsı bitiş",
+      "brand": "Morn Coffee",
+      "brandSlug": "morn-coffee",
+      "catalogUrl": "https://kahhve.com/morn-coffee"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1213",
+      "platformVariantId": "default",
+      "urlPath": "/morn-coffee-guatemala-kahveler",
+      "url": "https://kahhve.com/morn-coffee-guatemala-kahveler",
+      "productName": "Guatemala",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 499.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Ülke: Guatemala Bölge: Huehuetenago Yükseklik: 1500 m Çekirdek Türü: Bourbon, Caturra İşlem: Yıkanmış, Güneşte Kurutulmuş Tadım Notları: Çikolata, Karamel, Vişne Tatlılığı",
+      "brand": "Morn Coffee",
+      "brandSlug": "morn-coffee",
+      "catalogUrl": "https://kahhve.com/morn-coffee"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1570",
+      "platformVariantId": "default",
+      "urlPath": "/morn-coffee-brownie-crush-kahveler",
+      "url": "https://kahhve.com/morn-coffee-brownie-crush-kahveler",
+      "productName": "Brownie Crush",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 499.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Orta ve Güney Amerika’nın seçkin çekirdeklerinden hazırlanan Brownie Crush Omni Roast Blend, yoğun kakao, bitter çikolata karakteri ve brownieyi andıran notalarıyla öne çıkan, dengeli ve dolgun bir kahve deneyimi sunar. Filtre, espresso veya pour-over gibi farklı demleme yöntemlerine uyum sağlayan bu blend, her fincanda derin ve katmanlı bir yapı sunmak üzere tasarlanmıştır. Kuru üzümün doğal tatlılığı kakao yoğunluğunu dengelerken, kavrulmuş badem notaları gövdeyi tamamlar ve temiz, uzun bir bitiş sağlar. Güçlü ama rafine, tatlıya yakın ama net bir profil arayanlar için ideal bir tercihtir.",
+      "brand": "Morn Coffee",
+      "brandSlug": "morn-coffee",
+      "catalogUrl": "https://kahhve.com/morn-coffee"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1214",
+      "platformVariantId": "default",
+      "urlPath": "/morn-coffee-colombia-kahveler",
+      "url": "https://kahhve.com/morn-coffee-colombia-kahveler",
+      "productName": "Colombia",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 474.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Ülke: Kolombiya Bölge: Risaralda Yükseklik: 1500 m Çekirdek Türü: Castillo - Supremo İşlem: Yıkanmış, Güneşte Kurutulmuş Tadım Notları: Bal, Sütlü Çikolata, Çilek ve Portakal Asiditesi",
+      "brand": "Morn Coffee",
+      "brandSlug": "morn-coffee",
+      "catalogUrl": "https://kahhve.com/morn-coffee"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1212",
+      "platformVariantId": "default",
+      "urlPath": "/morn-coffee-el-salvador-kahveler",
+      "url": "https://kahhve.com/morn-coffee-el-salvador-kahveler",
+      "productName": "El Salvador",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 449.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Ülke: El Salvador Bölge: Santa Ana Yükseklik: 1350 m Çekirdek Türü: Caturra, Bourbon İşlem: Yıkanmış, Güneşte Kurutulmuş Tadım Notları: Bitter Çikolata, Meyve Notaları, Tatlı",
+      "brand": "Morn Coffee",
+      "brandSlug": "morn-coffee",
+      "catalogUrl": "https://kahhve.com/morn-coffee"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1571",
+      "platformVariantId": "default",
+      "urlPath": "/morn-coffee-sweet-dream-kahveler",
+      "url": "https://kahhve.com/morn-coffee-sweet-dream-kahveler",
+      "productName": "Sweet Dream",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 499.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "",
+      "brand": "Morn Coffee",
+      "brandSlug": "morn-coffee",
+      "catalogUrl": "https://kahhve.com/morn-coffee"
+    }
+  ],
+  "sampleVerification": {
+    "url": "https://kahhve.com/morn-coffee-ethiopia-yirgacheffe-kahveler",
+    "status": 200,
+    "price": 599.99,
+    "brand": "Morn Coffee",
+    "grams": 250
+  },
+  "payloads": [
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=morn-coffee",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1211",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "yoresel-kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "morn-coffee"
+              ],
+              "urun": {
+                "id": 1211,
+                "isim": "Morn Coffee Ethiopia Yirgacheffe",
+                "urun_ismi": "Ethiopia Yirgacheffe",
+                "urun_ismi_ID": "morn-coffee-ethiopia-yirgacheffe-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1211_1724667375_dFV.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=630b8e8739acec58ae019ae2b43f90f2",
+                "link": "/morn-coffee-ethiopia-yirgacheffe-kahveler",
+                "marka": "Morn Coffee",
+                "marka_linki": "/morn-coffee",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 599.99,
+                "aciklama": "Ülke: Etiyopya\r\n\r\nBölge: Yırgacheffe\r\n\r\nYükseklik: 2200 m\r\n\r\nÇekirdek Türü: Heirloom\r\n\r\nİşlem: Yıkanmış, Güneşte Kurutulmuş\r\n\r\nTadım Notları: Earl Grey ve Çiçek esintileri, Çikolatamsı bitiş",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100146,
+                "puan": "4.2090",
+                "puan_siralama": 4209,
+                "yorum_sayisi": 67,
+                "stoksuz_siralama": 6,
+                "vitrin_urun": true,
+                "birim_fiyat": 2399.96,
+                "Origin": "Ethiopia",
+                "Tat": "Meyvemsi / Az Kavrulmuş",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "ethiopia"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "meyvemsi-/-az-kavrulmuş"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100146
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1213",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "yoresel-kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25"
+              ],
+              "marka": [
+                "morn-coffee"
+              ],
+              "urun": {
+                "id": 1213,
+                "isim": "Morn Coffee Guatemala",
+                "urun_ismi": "Guatemala",
+                "urun_ismi_ID": "morn-coffee-guatemala-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1213_1724667571_GWu.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=d000069e51985ffbf7e71385d91a19b9",
+                "link": "/morn-coffee-guatemala-kahveler",
+                "marka": "Morn Coffee",
+                "marka_linki": "/morn-coffee",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 499.99,
+                "aciklama": "Ülke: Guatemala\r\n\r\nBölge: Huehuetenago \r\n\r\nYükseklik: 1500 m \r\n\r\nÇekirdek Türü: Bourbon, Caturra \r\n\r\nİşlem: Yıkanmış, Güneşte Kurutulmuş \r\n\r\nTadım Notları: Çikolata, Karamel, Vişne Tatlılığı",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100082,
+                "puan": "4.4118",
+                "puan_siralama": 4411,
+                "yorum_sayisi": 51,
+                "stoksuz_siralama": 6,
+                "vitrin_urun": true,
+                "birim_fiyat": 1999.96,
+                "Origin": "Guatemala",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "guatemala"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100082
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1570",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "yoresel-kahveler",
+                "cekirdek-kahveler"
+              ],
+              "marka": [
+                "morn-coffee"
+              ],
+              "urun": {
+                "id": 1570,
+                "isim": "Morn Coffee Brownie Crush",
+                "urun_ismi": "Brownie Crush",
+                "urun_ismi_ID": "morn-coffee-brownie-crush-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1570_1773052814_squ.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=2c4e8f3deba5d992decf5d1df6c4b735",
+                "link": "/morn-coffee-brownie-crush-kahveler",
+                "marka": "Morn Coffee",
+                "marka_linki": "/morn-coffee",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 499.99,
+                "aciklama": "Orta ve Güney Amerika’nın seçkin çekirdeklerinden hazırlanan Brownie Crush Omni Roast Blend, yoğun kakao, bitter çikolata karakteri ve brownieyi andıran notalarıyla öne çıkan, dengeli ve dolgun bir kahve deneyimi sunar. Filtre, espresso veya pour-over gibi farklı demleme yöntemlerine uyum sağlayan bu blend, her fincanda derin ve katmanlı bir yapı sunmak üzere tasarlanmıştır.\r\n\r\n\r\nKuru üzümün doğal tatlılığı kakao yoğunluğunu dengelerken, kavrulmuş badem notaları gövdeyi tamamlar ve temiz, uzun bir bitiş sağlar. Güçlü ama rafine, tatlıya yakın ama net bir profil arayanlar için ideal bir tercihtir.\r\n\r\n\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100068,
+                "puan": "5.0000",
+                "puan_siralama": 0,
+                "yorum_sayisi": 1,
+                "stoksuz_siralama": 4,
+                "vitrin_urun": true,
+                "birim_fiyat": 1999.96,
+                "Tat": "Kakao, bitter çikolata, kuru üzüm, kavrulmuş badem"
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "kakao,-bitter-çikolata,-kuru-üzüm,-kavrulmuş-badem"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100068
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1214",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "yoresel-kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "morn-coffee"
+              ],
+              "urun": {
+                "id": 1214,
+                "isim": "Morn Coffee Colombia",
+                "urun_ismi": "Colombia",
+                "urun_ismi_ID": "morn-coffee-colombia-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1214_1724667666_l5K.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=2cbdb0306476053caee6af67a25494b3",
+                "link": "/morn-coffee-colombia-kahveler",
+                "marka": "Morn Coffee",
+                "marka_linki": "/morn-coffee",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 474.99,
+                "aciklama": "Ülke: Kolombiya\r\n\r\nBölge: Risaralda\r\n\r\nYükseklik: 1500 m \r\n\r\nÇekirdek Türü: Castillo - Supremo \r\n\r\nİşlem: Yıkanmış, Güneşte Kurutulmuş \r\n\r\nTadım Notları: Bal, Sütlü Çikolata, Çilek ve Portakal Asiditesi",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100043,
+                "puan": "4.1563",
+                "puan_siralama": 4156,
+                "yorum_sayisi": 32,
+                "stoksuz_siralama": 2,
+                "vitrin_urun": true,
+                "birim_fiyat": 1899.96,
+                "Origin": "Colombia",
+                "Tat": "Meyvemsi / Az Kavrulmuş",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "colombia"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "meyvemsi-/-az-kavrulmuş"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100043
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1212",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "yoresel-kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "morn-coffee"
+              ],
+              "urun": {
+                "id": 1212,
+                "isim": "Morn Coffee El Salvador",
+                "urun_ismi": "El Salvador",
+                "urun_ismi_ID": "morn-coffee-el-salvador-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1212_1724667513_Q0K.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=1c3c57d4c9674d2790ba204bdb986764",
+                "link": "/morn-coffee-el-salvador-kahveler",
+                "marka": "Morn Coffee",
+                "marka_linki": "/morn-coffee",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 449.99,
+                "aciklama": "Ülke: El Salvador\r\n\r\nBölge: Santa Ana \r\n\r\nYükseklik: 1350 m \r\n\r\nÇekirdek Türü: Caturra, Bourbon \r\n\r\nİşlem: Yıkanmış, Güneşte Kurutulmuş \r\n\r\nTadım Notları: Bitter Çikolata, Meyve Notaları, Tatlı",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100026,
+                "puan": "4.0750",
+                "puan_siralama": 4075,
+                "yorum_sayisi": 40,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 1799.96,
+                "Origin": "El Salvador",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "el-salvador"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100026
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1571",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "yoresel-kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "morn-coffee"
+              ],
+              "urun": {
+                "id": 1571,
+                "isim": "Morn Coffee Sweet Dream",
+                "urun_ismi": "Sweet Dream",
+                "urun_ismi_ID": "morn-coffee-sweet-dream-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1571_1773053208_bDo.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=2e1d280356ddb39832af85c82cdd9719",
+                "link": "/morn-coffee-sweet-dream-kahveler",
+                "marka": "Morn Coffee",
+                "marka_linki": "/morn-coffee",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 499.99,
+                "aciklama": "",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100021,
+                "puan": "5.0000",
+                "puan_siralama": 0,
+                "yorum_sayisi": 1,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 1999.96
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100021
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 25,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 6,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "250",
+                        "doc_count": 6
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 6,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "400TL — 500TL",
+                        "doc_count": 5
+                      },
+                      {
+                        "key": "500TL üzerinde",
+                        "doc_count": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Tat",
+                  "doc_count": 5,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "kakao,-bitter-çikolata,-kuru-üzüm,-kavrulmuş-badem",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "meyvemsi-/-az-kavrulmuş",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "orta-yumuşak-/-dengeli",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ekipman",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Origin",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "colombia",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "el-salvador",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "ethiopia",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "guatemala",
+                        "doc_count": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "morn-coffee",
+                "doc_count": 6
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=morn-coffee&filtreler%5BA%C4%9F%C4%B1rl%C4%B1k%5D=250",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1211",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "yoresel-kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "morn-coffee"
+              ],
+              "urun": {
+                "id": 1211,
+                "isim": "Morn Coffee Ethiopia Yirgacheffe",
+                "urun_ismi": "Ethiopia Yirgacheffe",
+                "urun_ismi_ID": "morn-coffee-ethiopia-yirgacheffe-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1211_1724667375_dFV.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=630b8e8739acec58ae019ae2b43f90f2",
+                "link": "/morn-coffee-ethiopia-yirgacheffe-kahveler",
+                "marka": "Morn Coffee",
+                "marka_linki": "/morn-coffee",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 599.99,
+                "aciklama": "Ülke: Etiyopya\r\n\r\nBölge: Yırgacheffe\r\n\r\nYükseklik: 2200 m\r\n\r\nÇekirdek Türü: Heirloom\r\n\r\nİşlem: Yıkanmış, Güneşte Kurutulmuş\r\n\r\nTadım Notları: Earl Grey ve Çiçek esintileri, Çikolatamsı bitiş",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100146,
+                "puan": "4.2090",
+                "puan_siralama": 4209,
+                "yorum_sayisi": 67,
+                "stoksuz_siralama": 6,
+                "vitrin_urun": true,
+                "birim_fiyat": 2399.96,
+                "Origin": "Ethiopia",
+                "Tat": "Meyvemsi / Az Kavrulmuş",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "ethiopia"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "meyvemsi-/-az-kavrulmuş"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "500TL üzerinde"
+                }
+              ]
+            },
+            "sort": [
+              100146
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1213",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "yoresel-kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve",
+                "zb25"
+              ],
+              "marka": [
+                "morn-coffee"
+              ],
+              "urun": {
+                "id": 1213,
+                "isim": "Morn Coffee Guatemala",
+                "urun_ismi": "Guatemala",
+                "urun_ismi_ID": "morn-coffee-guatemala-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1213_1724667571_GWu.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=d000069e51985ffbf7e71385d91a19b9",
+                "link": "/morn-coffee-guatemala-kahveler",
+                "marka": "Morn Coffee",
+                "marka_linki": "/morn-coffee",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 499.99,
+                "aciklama": "Ülke: Guatemala\r\n\r\nBölge: Huehuetenago \r\n\r\nYükseklik: 1500 m \r\n\r\nÇekirdek Türü: Bourbon, Caturra \r\n\r\nİşlem: Yıkanmış, Güneşte Kurutulmuş \r\n\r\nTadım Notları: Çikolata, Karamel, Vişne Tatlılığı",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100082,
+                "puan": "4.4118",
+                "puan_siralama": 4411,
+                "yorum_sayisi": 51,
+                "stoksuz_siralama": 6,
+                "vitrin_urun": true,
+                "birim_fiyat": 1999.96,
+                "Origin": "Guatemala",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "guatemala"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100082
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1570",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "yoresel-kahveler",
+                "cekirdek-kahveler"
+              ],
+              "marka": [
+                "morn-coffee"
+              ],
+              "urun": {
+                "id": 1570,
+                "isim": "Morn Coffee Brownie Crush",
+                "urun_ismi": "Brownie Crush",
+                "urun_ismi_ID": "morn-coffee-brownie-crush-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1570_1773052814_squ.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=2c4e8f3deba5d992decf5d1df6c4b735",
+                "link": "/morn-coffee-brownie-crush-kahveler",
+                "marka": "Morn Coffee",
+                "marka_linki": "/morn-coffee",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 499.99,
+                "aciklama": "Orta ve Güney Amerika’nın seçkin çekirdeklerinden hazırlanan Brownie Crush Omni Roast Blend, yoğun kakao, bitter çikolata karakteri ve brownieyi andıran notalarıyla öne çıkan, dengeli ve dolgun bir kahve deneyimi sunar. Filtre, espresso veya pour-over gibi farklı demleme yöntemlerine uyum sağlayan bu blend, her fincanda derin ve katmanlı bir yapı sunmak üzere tasarlanmıştır.\r\n\r\n\r\nKuru üzümün doğal tatlılığı kakao yoğunluğunu dengelerken, kavrulmuş badem notaları gövdeyi tamamlar ve temiz, uzun bir bitiş sağlar. Güçlü ama rafine, tatlıya yakın ama net bir profil arayanlar için ideal bir tercihtir.\r\n\r\n\r\n",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100068,
+                "puan": "5.0000",
+                "puan_siralama": 0,
+                "yorum_sayisi": 1,
+                "stoksuz_siralama": 4,
+                "vitrin_urun": true,
+                "birim_fiyat": 1999.96,
+                "Tat": "Kakao, bitter çikolata, kuru üzüm, kavrulmuş badem"
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "kakao,-bitter-çikolata,-kuru-üzüm,-kavrulmuş-badem"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100068
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1214",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "yoresel-kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "morn-coffee"
+              ],
+              "urun": {
+                "id": 1214,
+                "isim": "Morn Coffee Colombia",
+                "urun_ismi": "Colombia",
+                "urun_ismi_ID": "morn-coffee-colombia-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1214_1724667666_l5K.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=2cbdb0306476053caee6af67a25494b3",
+                "link": "/morn-coffee-colombia-kahveler",
+                "marka": "Morn Coffee",
+                "marka_linki": "/morn-coffee",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 474.99,
+                "aciklama": "Ülke: Kolombiya\r\n\r\nBölge: Risaralda\r\n\r\nYükseklik: 1500 m \r\n\r\nÇekirdek Türü: Castillo - Supremo \r\n\r\nİşlem: Yıkanmış, Güneşte Kurutulmuş \r\n\r\nTadım Notları: Bal, Sütlü Çikolata, Çilek ve Portakal Asiditesi",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100043,
+                "puan": "4.1563",
+                "puan_siralama": 4156,
+                "yorum_sayisi": 32,
+                "stoksuz_siralama": 2,
+                "vitrin_urun": true,
+                "birim_fiyat": 1899.96,
+                "Origin": "Colombia",
+                "Tat": "Meyvemsi / Az Kavrulmuş",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "colombia"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "meyvemsi-/-az-kavrulmuş"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100043
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1212",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "yoresel-kahveler",
+                "cekirdek-kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "morn-coffee"
+              ],
+              "urun": {
+                "id": 1212,
+                "isim": "Morn Coffee El Salvador",
+                "urun_ismi": "El Salvador",
+                "urun_ismi_ID": "morn-coffee-el-salvador-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1212_1724667513_Q0K.jpeg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=1c3c57d4c9674d2790ba204bdb986764",
+                "link": "/morn-coffee-el-salvador-kahveler",
+                "marka": "Morn Coffee",
+                "marka_linki": "/morn-coffee",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 449.99,
+                "aciklama": "Ülke: El Salvador\r\n\r\nBölge: Santa Ana \r\n\r\nYükseklik: 1350 m \r\n\r\nÇekirdek Türü: Caturra, Bourbon \r\n\r\nİşlem: Yıkanmış, Güneşte Kurutulmuş \r\n\r\nTadım Notları: Bitter Çikolata, Meyve Notaları, Tatlı",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100026,
+                "puan": "4.0750",
+                "puan_siralama": 4075,
+                "yorum_sayisi": 40,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 1799.96,
+                "Origin": "El Salvador",
+                "Tat": "Orta Yumuşak / Dengeli",
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Origin",
+                  "deger": "el-salvador"
+                },
+                {
+                  "isim": "Tat",
+                  "deger": "orta-yumuşak-/-dengeli"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100026
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1571",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "cekirdek-kahveler",
+                "yoresel-kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "morn-coffee"
+              ],
+              "urun": {
+                "id": 1571,
+                "isim": "Morn Coffee Sweet Dream",
+                "urun_ismi": "Sweet Dream",
+                "urun_ismi_ID": "morn-coffee-sweet-dream-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1571_1773053208_bDo.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=2e1d280356ddb39832af85c82cdd9719",
+                "link": "/morn-coffee-sweet-dream-kahveler",
+                "marka": "Morn Coffee",
+                "marka_linki": "/morn-coffee",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 499.99,
+                "aciklama": "",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100021,
+                "puan": "5.0000",
+                "puan_siralama": 0,
+                "yorum_sayisi": 1,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 1999.96
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100021
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 25,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 6,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "250",
+                        "doc_count": 6
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 6,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "400TL — 500TL",
+                        "doc_count": 5
+                      },
+                      {
+                        "key": "500TL üzerinde",
+                        "doc_count": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Tat",
+                  "doc_count": 5,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "kakao,-bitter-çikolata,-kuru-üzüm,-kavrulmuş-badem",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "meyvemsi-/-az-kavrulmuş",
+                        "doc_count": 2
+                      },
+                      {
+                        "key": "orta-yumuşak-/-dengeli",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ekipman",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Origin",
+                  "doc_count": 4,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "colombia",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "el-salvador",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "ethiopia",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "guatemala",
+                        "doc_count": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "morn-coffee",
+                "doc_count": 6
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "business": "Mandabatmaz",
+  "catalogUrl": "https://kahhve.com/mandabatmaz",
+  "checkedAt": "2026-10-12T10:41:42.816Z",
+  "records": [
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1352",
+      "platformVariantId": "default",
+      "urlPath": "/mandabatmaz-mandabatmaz-turk-kahvesi-100g-kahveler",
+      "url": "https://kahhve.com/mandabatmaz-mandabatmaz-turk-kahvesi-100g-kahveler",
+      "productName": "Mandabatmaz Türk Kahvesi 100g",
+      "variantTitle": "100 g",
+      "grams": 100,
+      "optionSignature": "",
+      "price": 149.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "",
+      "brand": "Mandabatmaz",
+      "brandSlug": "mandabatmaz",
+      "catalogUrl": "https://kahhve.com/mandabatmaz"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1259",
+      "platformVariantId": "default",
+      "urlPath": "/mandabatmaz-mandabatmaz-turk-kahvesi-250g-kahveler",
+      "url": "https://kahhve.com/mandabatmaz-mandabatmaz-turk-kahvesi-250g-kahveler",
+      "productName": "Mandabatmaz Türk Kahvesi 250g",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 349.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "",
+      "brand": "Mandabatmaz",
+      "brandSlug": "mandabatmaz",
+      "catalogUrl": "https://kahhve.com/mandabatmaz"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1595",
+      "platformVariantId": "default",
+      "urlPath": "/mandabatmaz-special-blend-filter-coffee-250g--kahveler",
+      "url": "https://kahhve.com/mandabatmaz-special-blend-filter-coffee-250g--kahveler",
+      "productName": "Special Blend Filter Coffee 250gr",
+      "variantTitle": "250 g",
+      "grams": 250,
+      "optionSignature": "",
+      "price": 448.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "",
+      "brand": "Mandabatmaz",
+      "brandSlug": "mandabatmaz",
+      "catalogUrl": "https://kahhve.com/mandabatmaz"
+    }
+  ],
+  "sampleVerification": {
+    "url": "https://kahhve.com/mandabatmaz-mandabatmaz-turk-kahvesi-100g-kahveler",
+    "status": 200,
+    "price": 149.99,
+    "brand": "Mandabatmaz",
+    "grams": 100
+  },
+  "payloads": [
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=mandabatmaz",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1352",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "yoresel-kahveler",
+                "turk-kahvesi",
+                "yeni-urunler"
+              ],
+              "marka": [
+                "mandabatmaz"
+              ],
+              "urun": {
+                "id": 1352,
+                "isim": "Mandabatmaz Mandabatmaz Türk Kahvesi 100g",
+                "urun_ismi": "Mandabatmaz Türk Kahvesi 100g",
+                "urun_ismi_ID": "mandabatmaz-mandabatmaz-turk-kahvesi-100g-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1352_1672139922_z5B.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=ef30db6070b3b10ad3eaa4a485ddfbeb",
+                "link": "/mandabatmaz-mandabatmaz-turk-kahvesi-100g-kahveler",
+                "marka": "Mandabatmaz",
+                "marka_linki": "/mandabatmaz",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 149.99,
+                "aciklama": "",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100114,
+                "puan": "4.5455",
+                "puan_siralama": 4545,
+                "yorum_sayisi": 71,
+                "stoksuz_siralama": 8,
+                "vitrin_urun": true,
+                "birim_fiyat": 1499.9,
+                "Ekipman": [
+                  "Türk Kahvesi"
+                ]
+              },
+              "agirlik": [
+                100
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "100"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "türk-kahvesi"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "100TL — 200TL"
+                }
+              ]
+            },
+            "sort": [
+              100114
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1259",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "turk-kahvesi"
+              ],
+              "marka": [
+                "mandabatmaz"
+              ],
+              "urun": {
+                "id": 1259,
+                "isim": "Mandabatmaz Mandabatmaz Türk Kahvesi 250g",
+                "urun_ismi": "Mandabatmaz Türk Kahvesi 250g",
+                "urun_ismi_ID": "mandabatmaz-mandabatmaz-turk-kahvesi-250g-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1259_1659526467_ZaQ.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=c285ea070e38b07b835907fad95b4782",
+                "link": "/mandabatmaz-mandabatmaz-turk-kahvesi-250g-kahveler",
+                "marka": "Mandabatmaz",
+                "marka_linki": "/mandabatmaz",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 349.99,
+                "aciklama": "",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100076,
+                "puan": "4.5263",
+                "puan_siralama": 4526,
+                "yorum_sayisi": 38,
+                "stoksuz_siralama": 3,
+                "vitrin_urun": true,
+                "birim_fiyat": 1399.96,
+                "Ekipman": [
+                  "Türk Kahvesi"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "türk-kahvesi"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              100076
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1595",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "cekirdek-kahveler"
+              ],
+              "marka": [
+                "mandabatmaz"
+              ],
+              "urun": {
+                "id": 1595,
+                "isim": "Mandabatmaz Special Blend Filter Coffee 250gr",
+                "urun_ismi": "Special Blend Filter Coffee 250gr",
+                "urun_ismi_ID": "mandabatmaz-special-blend-filter-coffee-250g--kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1595_1784639464_3Pf.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=14c004e8bb25140bc4682d7f7489a91a",
+                "link": "/mandabatmaz-special-blend-filter-coffee-250g--kahveler",
+                "marka": "Mandabatmaz",
+                "marka_linki": "/mandabatmaz",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 448.99,
+                "aciklama": "",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100021,
+                "puan": null,
+                "puan_siralama": 0,
+                "yorum_sayisi": 0,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "ana_sayfa_kahve": 1,
+                "birim_fiyat": 1795.96,
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100021
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 9,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "100",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "250",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ekipman",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "türk-kahvesi",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "100TL — 200TL",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "300TL — 400TL",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "400TL — 500TL",
+                        "doc_count": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "mandabatmaz",
+                "doc_count": 3
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=mandabatmaz&filtreler%5BA%C4%9F%C4%B1rl%C4%B1k%5D=100%2C250",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1352",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "yoresel-kahveler",
+                "turk-kahvesi",
+                "yeni-urunler"
+              ],
+              "marka": [
+                "mandabatmaz"
+              ],
+              "urun": {
+                "id": 1352,
+                "isim": "Mandabatmaz Mandabatmaz Türk Kahvesi 100g",
+                "urun_ismi": "Mandabatmaz Türk Kahvesi 100g",
+                "urun_ismi_ID": "mandabatmaz-mandabatmaz-turk-kahvesi-100g-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1352_1672139922_z5B.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=ef30db6070b3b10ad3eaa4a485ddfbeb",
+                "link": "/mandabatmaz-mandabatmaz-turk-kahvesi-100g-kahveler",
+                "marka": "Mandabatmaz",
+                "marka_linki": "/mandabatmaz",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 149.99,
+                "aciklama": "",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100114,
+                "puan": "4.5455",
+                "puan_siralama": 4545,
+                "yorum_sayisi": 71,
+                "stoksuz_siralama": 8,
+                "vitrin_urun": true,
+                "birim_fiyat": 1499.9,
+                "Ekipman": [
+                  "Türk Kahvesi"
+                ]
+              },
+              "agirlik": [
+                100
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "100"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "türk-kahvesi"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "100TL — 200TL"
+                }
+              ]
+            },
+            "sort": [
+              100114
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1259",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "turk-kahvesi"
+              ],
+              "marka": [
+                "mandabatmaz"
+              ],
+              "urun": {
+                "id": 1259,
+                "isim": "Mandabatmaz Mandabatmaz Türk Kahvesi 250g",
+                "urun_ismi": "Mandabatmaz Türk Kahvesi 250g",
+                "urun_ismi_ID": "mandabatmaz-mandabatmaz-turk-kahvesi-250g-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1259_1659526467_ZaQ.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=c285ea070e38b07b835907fad95b4782",
+                "link": "/mandabatmaz-mandabatmaz-turk-kahvesi-250g-kahveler",
+                "marka": "Mandabatmaz",
+                "marka_linki": "/mandabatmaz",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 349.99,
+                "aciklama": "",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100076,
+                "puan": "4.5263",
+                "puan_siralama": 4526,
+                "yorum_sayisi": 38,
+                "stoksuz_siralama": 3,
+                "vitrin_urun": true,
+                "birim_fiyat": 1399.96,
+                "Ekipman": [
+                  "Türk Kahvesi"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "türk-kahvesi"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "300TL — 400TL"
+                }
+              ]
+            },
+            "sort": [
+              100076
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1595",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve",
+                "cekirdek-kahveler"
+              ],
+              "marka": [
+                "mandabatmaz"
+              ],
+              "urun": {
+                "id": 1595,
+                "isim": "Mandabatmaz Special Blend Filter Coffee 250gr",
+                "urun_ismi": "Special Blend Filter Coffee 250gr",
+                "urun_ismi_ID": "mandabatmaz-special-blend-filter-coffee-250g--kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1595_1784639464_3Pf.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=14c004e8bb25140bc4682d7f7489a91a",
+                "link": "/mandabatmaz-special-blend-filter-coffee-250g--kahveler",
+                "marka": "Mandabatmaz",
+                "marka_linki": "/mandabatmaz",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 448.99,
+                "aciklama": "",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100021,
+                "puan": null,
+                "puan_siralama": 0,
+                "yorum_sayisi": 0,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "ana_sayfa_kahve": 1,
+                "birim_fiyat": 1795.96,
+                "Ekipman": [
+                  "Filtre Kahve"
+                ]
+              },
+              "agirlik": [
+                250
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "250"
+                },
+                {
+                  "isim": "Ekipman",
+                  "deger": "filtre-kahve"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "400TL — 500TL"
+                }
+              ]
+            },
+            "sort": [
+              100021
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 9,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "100",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "250",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Ekipman",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "filtre-kahve",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "türk-kahvesi",
+                        "doc_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "100TL — 200TL",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "300TL — 400TL",
+                        "doc_count": 1
+                      },
+                      {
+                        "key": "400TL — 500TL",
+                        "doc_count": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "mandabatmaz",
+                "doc_count": 3
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

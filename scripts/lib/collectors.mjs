@@ -10,6 +10,7 @@
  */
 import { hostOf, pathOf, parseGrams, optionSignature, gramsFromWeightAttribute } from './identity.mjs';
 import { extractJsonLdNodes, productNodesFrom, offersOf, toNumber, availabilityToBool, NON_PRODUCT_PATH, NON_PAGE_EXT } from './jsonld.mjs';
+import { collectKahhveBrand } from './kahhve.mjs';
 
 const USER_AGENT = process.env.SCRAPER_UA
   || 'CekirdekBulBot/1.0 (+https://cekirdekbul.com/bot; fiyat endeksi)';
@@ -800,6 +801,13 @@ export async function collectEnjekte(origin) {
 
 /** Siteyi yoklar, hangi platformda olduğunu tespit eder ve uygun toplayıcıyı çalıştırır. */
 export async function collectSite(origin) {
+  if (hostOf(origin) === 'kahhve.com') {
+    try {
+      return {platform: 'kahhve', records: await collectKahhveBrand(origin), error: null, errors: []};
+    } catch (error) {
+      return {platform: 'kahhve', records: [], error: error.message, errors: [error.message]};
+    }
+  }
   const attempts = [
     ['shopify', () => collectShopify(origin)],
     ['woocommerce', () => collectWoo(origin)],

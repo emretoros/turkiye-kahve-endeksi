@@ -1,0 +1,539 @@
+{
+  "business": "Toom",
+  "catalogUrl": "https://kahhve.com/toom",
+  "checkedAt": "2026-10-12T10:41:42.816Z",
+  "records": [
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1542",
+      "platformVariantId": "default",
+      "urlPath": "/toom-glow-blend-kahveler",
+      "url": "https://kahhve.com/toom-glow-blend-kahveler",
+      "productName": "Glow Blend",
+      "variantTitle": "226.8 g",
+      "grams": 226.8,
+      "optionSignature": "",
+      "price": 249.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Tadım Notları: Bergamot, çilek, limon otu Kavrulma: Orta (Medium) Gövde (Vody): Tam (Full) Aroma Yoğunluğu: Doygun (All Over) AĞIRLIK: 226.80 GRAM (8 OZ)",
+      "brand": "Toom",
+      "brandSlug": "toom",
+      "catalogUrl": "https://kahhve.com/toom"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1541",
+      "platformVariantId": "default",
+      "urlPath": "/toom-blaze-blend-kahveler",
+      "url": "https://kahhve.com/toom-blaze-blend-kahveler",
+      "productName": "Blaze Blend",
+      "variantTitle": "226.8 g",
+      "grams": 226.8,
+      "optionSignature": "",
+      "price": 249.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Tadım Notları: Elma, bal, çikolata ve kiraz aromaları Kavrulma: Orta (Medium) Gövde (Vody): Orta (Medium) Aroma Yoğunluğu: Doygun (All Over) AĞIRLIK: 226.80 GRAM (8 OZ)",
+      "brand": "Toom",
+      "brandSlug": "toom",
+      "catalogUrl": "https://kahhve.com/toom"
+    },
+    {
+      "platform": "kahhve",
+      "host": "kahhve.com",
+      "platformProductId": "1540",
+      "platformVariantId": "default",
+      "urlPath": "/toom-flare-blend-kahveler",
+      "url": "https://kahhve.com/toom-flare-blend-kahveler",
+      "productName": "Flare Blend",
+      "variantTitle": "226.8 g",
+      "grams": 226.8,
+      "optionSignature": "",
+      "price": 249.99,
+      "listPrice": null,
+      "inStock": true,
+      "currency": "TRY",
+      "productType": "Kahveler",
+      "descriptionText": "Tadım Notları: Kahverengi şeker, yeşil elma, vanilya ve kakao notaları Kavrulma: Orta (Medium) Gövde (Body): Orta (Medium) AĞIRLIK: 226.80 gram (8 OZ)",
+      "brand": "Toom",
+      "brandSlug": "toom",
+      "catalogUrl": "https://kahhve.com/toom"
+    }
+  ],
+  "sampleVerification": {
+    "url": "https://kahhve.com/toom-glow-blend-kahveler",
+    "status": 200,
+    "price": 249.99,
+    "brand": "Toom",
+    "grams": 226.8
+  },
+  "payloads": [
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=toom",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1542",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "toom"
+              ],
+              "urun": {
+                "id": 1542,
+                "isim": "Toom Glow Blend",
+                "urun_ismi": "Glow Blend",
+                "urun_ismi_ID": "toom-glow-blend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1542_1756109459_bMw.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=4b9337f82d9bd32b66cf3bca3429b07d",
+                "link": "/toom-glow-blend-kahveler",
+                "marka": "Toom",
+                "marka_linki": "/toom",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 249.99,
+                "aciklama": "Tadım Notları: Bergamot, çilek, limon otu\r\nKavrulma: Orta (Medium)\r\nGövde (Vody): Tam (Full)\r\nAroma Yoğunluğu: Doygun (All Over)\r\n\r\nAĞIRLIK: 226.80 GRAM (8 OZ)",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100043,
+                "puan": "4.4118",
+                "puan_siralama": 4411,
+                "yorum_sayisi": 37,
+                "stoksuz_siralama": 3,
+                "vitrin_urun": true,
+                "birim_fiyat": 1106.1504424778761
+              },
+              "agirlik": [
+                226
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "226"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              100043
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1541",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "toom"
+              ],
+              "urun": {
+                "id": 1541,
+                "isim": "Toom Blaze Blend",
+                "urun_ismi": "Blaze Blend",
+                "urun_ismi_ID": "toom-blaze-blend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1541_1756109229_eEG.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=4a77bc2959f6f494b935fc08182c5fdb",
+                "link": "/toom-blaze-blend-kahveler",
+                "marka": "Toom",
+                "marka_linki": "/toom",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 249.99,
+                "aciklama": "Tadım Notları: Elma, bal, çikolata ve kiraz aromaları\r\nKavrulma: Orta (Medium)\r\nGövde (Vody): Orta (Medium)\r\nAroma Yoğunluğu: Doygun (All Over)\r\n\r\nAĞIRLIK: 226.80 GRAM (8 OZ)",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100042,
+                "puan": "3.7778",
+                "puan_siralama": 3777,
+                "yorum_sayisi": 37,
+                "stoksuz_siralama": 3,
+                "vitrin_urun": true,
+                "birim_fiyat": 1106.1504424778761
+              },
+              "agirlik": [
+                226
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "226"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              100042
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1540",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "toom"
+              ],
+              "urun": {
+                "id": 1540,
+                "isim": "Toom Flare Blend",
+                "urun_ismi": "Flare Blend",
+                "urun_ismi_ID": "toom-flare-blend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1540_1756108355_4mK.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=81953a29f50d4770536f7552e39a1fdf",
+                "link": "/toom-flare-blend-kahveler",
+                "marka": "Toom",
+                "marka_linki": "/toom",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 249.99,
+                "aciklama": "Tadım Notları: Kahverengi şeker, yeşil elma, vanilya ve kakao notaları\r\nKavrulma: Orta (Medium)\r\nGövde (Body): Orta (Medium) \r\n\r\nAĞIRLIK: 226.80 gram (8 OZ) ",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100019,
+                "puan": "3.5455",
+                "puan_siralama": 3545,
+                "yorum_sayisi": 37,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 1106.1504424778761
+              },
+              "agirlik": [
+                226
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "226"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              100019
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 6,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "226",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "200TL — 300TL",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "toom",
+                "doc_count": 3
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://kahhve.com/urun/geturunler?marka=toom&filtreler%5BA%C4%9F%C4%B1rl%C4%B1k%5D=226",
+      "payload": {
+        "urunler": [
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1542",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "toom"
+              ],
+              "urun": {
+                "id": 1542,
+                "isim": "Toom Glow Blend",
+                "urun_ismi": "Glow Blend",
+                "urun_ismi_ID": "toom-glow-blend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1542_1756109459_bMw.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=4b9337f82d9bd32b66cf3bca3429b07d",
+                "link": "/toom-glow-blend-kahveler",
+                "marka": "Toom",
+                "marka_linki": "/toom",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 249.99,
+                "aciklama": "Tadım Notları: Bergamot, çilek, limon otu\r\nKavrulma: Orta (Medium)\r\nGövde (Vody): Tam (Full)\r\nAroma Yoğunluğu: Doygun (All Over)\r\n\r\nAĞIRLIK: 226.80 GRAM (8 OZ)",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100043,
+                "puan": "4.4118",
+                "puan_siralama": 4411,
+                "yorum_sayisi": 37,
+                "stoksuz_siralama": 3,
+                "vitrin_urun": true,
+                "birim_fiyat": 1106.1504424778761
+              },
+              "agirlik": [
+                226
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "226"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              100043
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1541",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "toom"
+              ],
+              "urun": {
+                "id": 1541,
+                "isim": "Toom Blaze Blend",
+                "urun_ismi": "Blaze Blend",
+                "urun_ismi_ID": "toom-blaze-blend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1541_1756109229_eEG.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=4a77bc2959f6f494b935fc08182c5fdb",
+                "link": "/toom-blaze-blend-kahveler",
+                "marka": "Toom",
+                "marka_linki": "/toom",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 249.99,
+                "aciklama": "Tadım Notları: Elma, bal, çikolata ve kiraz aromaları\r\nKavrulma: Orta (Medium)\r\nGövde (Vody): Orta (Medium)\r\nAroma Yoğunluğu: Doygun (All Over)\r\n\r\nAĞIRLIK: 226.80 GRAM (8 OZ)",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100042,
+                "puan": "3.7778",
+                "puan_siralama": 3777,
+                "yorum_sayisi": 37,
+                "stoksuz_siralama": 3,
+                "vitrin_urun": true,
+                "birim_fiyat": 1106.1504424778761
+              },
+              "agirlik": [
+                226
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "226"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              100042
+            ]
+          },
+          {
+            "_index": "kahhvecom",
+            "_type": "_doc",
+            "_id": "1540",
+            "_score": null,
+            "_source": {
+              "kategoriler": [
+                "kahveler",
+                "filtre-kahve"
+              ],
+              "marka": [
+                "toom"
+              ],
+              "urun": {
+                "id": 1540,
+                "isim": "Toom Flare Blend",
+                "urun_ismi": "Flare Blend",
+                "urun_ismi_ID": "toom-flare-blend-kahveler",
+                "urun_resmi": "https://kahhvecom.imgix.net/urunler/1540_1756108355_4mK.jpg?h=300&ixlib=php-1.0.6&lossless=1&w=300&s=81953a29f50d4770536f7552e39a1fdf",
+                "link": "/toom-flare-blend-kahveler",
+                "marka": "Toom",
+                "marka_linki": "/toom",
+                "ana_kategori": "Kahveler",
+                "is_kahve": 1,
+                "indirimli_urun": 0,
+                "fiyat": 249.99,
+                "aciklama": "Tadım Notları: Kahverengi şeker, yeşil elma, vanilya ve kakao notaları\r\nKavrulma: Orta (Medium)\r\nGövde (Body): Orta (Medium) \r\n\r\nAĞIRLIK: 226.80 gram (8 OZ) ",
+                "durum": 1,
+                "stok": 1,
+                "kampanya": 0,
+                "en_cok_satanlar": 0,
+                "ana_sayfa_firsat_urunleri": 0,
+                "siralama": 100019,
+                "puan": "3.5455",
+                "puan_siralama": 3545,
+                "yorum_sayisi": 37,
+                "stoksuz_siralama": 1,
+                "vitrin_urun": true,
+                "birim_fiyat": 1106.1504424778761
+              },
+              "agirlik": [
+                226
+              ],
+              "Filtre": [
+                {
+                  "isim": "Ağırlık",
+                  "deger": "226"
+                },
+                {
+                  "isim": "Fiyat Aralığı",
+                  "deger": "200TL — 300TL"
+                }
+              ]
+            },
+            "sort": [
+              100019
+            ]
+          }
+        ],
+        "filtreListesi": {
+          "filtreler": {
+            "doc_count": 6,
+            "filtre_ismi": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ağırlık",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "226",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": "Fiyat Aralığı",
+                  "doc_count": 3,
+                  "filtre_degeri": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                      {
+                        "key": "200TL — 300TL",
+                        "doc_count": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "markalar": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "toom",
+                "doc_count": 3
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
