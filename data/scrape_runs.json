@@ -675,5 +675,14 @@
     "totalChanged": 99,
     "errors": 0,
     "scope": "11 kullanıcı onaylı kahve markası; satıcı ayrı işletme olarak eklenmedi"
+  },
+  {
+    "runId": "run-2026-10-12T10-47-47-860Z",
+    "startedAt": "2026-10-12T10:48:14.608Z",
+    "finishedAt": "2026-10-12T11:00:36.608Z",
+    "businesses": 202,
+    "totalRows": 20773,
+    "totalChanged": 375,
+    "errors": 34
   }
 ]

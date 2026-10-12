@@ -95,7 +95,7 @@
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-10-12",
     "dataStatus": "blocked",
-    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı"
+    "dataStatusNote": "shopify: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | woocommerce: JSON yerine HTML döndü (muhtemelen bot koruması/yönlendirme) | ticimax: Ticimax imzası bulunamadı | enjekte: The operation was aborted due to timeout"
   },
   {
     "id": 8,
@@ -1662,8 +1662,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-10-12",
-    "dataStatus": "blocked",
-    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | woocommerce: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
   },
   {
     "id": 120,
@@ -1844,8 +1844,8 @@
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-10-12",
-    "dataStatus": "blocked",
-    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 133,
@@ -2110,8 +2110,8 @@
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-10-12",
-    "dataStatus": "unreachable",
-    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 152,
@@ -2334,8 +2334,8 @@
     "platform": null,
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-10-12",
-    "dataStatus": "unreachable",
-    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
+    "dataStatus": "no_structured_data",
+    "dataStatusNote": "shopify: 404 Not Found | ikas: 404 Not Found | ticimax: Ticimax imzası bulunamadı | enjekte: 404 Not Found"
   },
   {
     "id": 168,
@@ -2460,8 +2460,8 @@
     "platform": "woocommerce",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-10-12",
-    "dataStatus": "blocked",
-    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 177,
@@ -2516,8 +2516,8 @@
     "platform": "jsonld",
     "firstSeen": "2026-08-19",
     "lastSeen": "2026-10-12",
-    "dataStatus": "blocked",
-    "dataStatusNote": "shopify: 403 Forbidden | woocommerce: 403 Forbidden | ikas: 403 Forbidden | ticimax: 403 Forbidden | wix: 403 Forbidden | enjekte: 403 Forbidden"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 181,
@@ -2866,8 +2866,8 @@
     "platform": "woocommerce",
     "firstSeen": "2026-09-05",
     "lastSeen": "2026-10-12",
-    "dataStatus": "unreachable",
-    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 206,
@@ -3104,8 +3104,8 @@
     "platform": "woocommerce",
     "firstSeen": "2026-10-03",
     "lastSeen": "2026-10-12",
-    "dataStatus": "unreachable",
-    "dataStatusNote": "shopify: fetch failed | woocommerce: fetch failed | ikas: fetch failed | ticimax: fetch failed | wix: fetch failed | enjekte: fetch failed"
+    "dataStatus": "active",
+    "dataStatusNote": null
   },
   {
     "id": 223,
