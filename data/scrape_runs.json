@@ -1026,5 +1026,14 @@
     "totalRows": 20629,
     "totalChanged": 356,
     "errors": 38
+  },
+  {
+    "runId": "run-2026-11-20T07-35-04-442Z",
+    "startedAt": "2026-11-20T07:36:22.177Z",
+    "finishedAt": "2026-11-20T07:48:14.844Z",
+    "businesses": 202,
+    "totalRows": 20469,
+    "totalChanged": 313,
+    "errors": 38
   }
 ]
